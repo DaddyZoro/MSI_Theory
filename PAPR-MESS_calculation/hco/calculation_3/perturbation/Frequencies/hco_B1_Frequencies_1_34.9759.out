@@ -1,0 +1,685 @@
+Wells (G - ground energy, D - dissociation limit, kcal/mol):
+      Name        G        D
+        W1    -14.6      4.0
+
+Bimolecular Products (G - ground energy, kcal/mol):
+      Name        G
+        P0      0.0
+
+Well-to-Bimolecular Barriers (H/G - barrier height/well depth, kcal/mol)
+      Name        H     Well        G  Product
+        B1      4.0       W1    -14.6       P0
+
+________________________________________________________________________________________
+
+Unimolecular Rate Units: 1/sec;  Bimolecular Rate Units: cm^3/sec
+
+______________________________________________________________________________________
+
+Species-Species Rate Tables:
+
+Temperature = 200 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  1.03087e-07
+P0        5.32558e-15          ***
+
+Temperature = 200 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        4.54757e-09  4.54757e-09
+P0        2.32174e-16  2.32174e-16
+
+Temperature = 200 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        9.20212e-09  9.20212e-09
+P0        4.73122e-16  4.73122e-16
+
+Temperature = 200 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        1.22205e-08  1.22205e-08
+P0        6.29345e-16  6.29345e-16
+
+Temperature = 200 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1        1.60252e-08  1.60252e-08
+P0        8.26212e-16  8.26212e-16
+
+Temperature = 200 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        2.07396e-08  2.07396e-08
+P0        1.07007e-15  1.07007e-15
+
+Temperature = 210 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  8.68533e-07
+P0        7.42325e-15          ***
+
+Temperature = 210 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        2.90596e-08  2.90596e-08
+P0        2.45928e-16  2.45928e-16
+
+Temperature = 210 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        6.14899e-08  6.14899e-08
+P0         5.2337e-16   5.2337e-16
+
+Temperature = 210 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        8.32185e-08  8.32185e-08
+P0        7.09292e-16  7.09292e-16
+
+Temperature = 210 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1         1.1121e-07   1.1121e-07
+P0        9.48775e-16  9.48775e-16
+
+Temperature = 210 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1         1.4668e-07   1.4668e-07
+P0         1.2522e-15   1.2522e-15
+
+Temperature = 220 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  6.09273e-06
+P0        1.01247e-14          ***
+
+Temperature = 220 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        1.57317e-07  1.57317e-07
+P0        2.59159e-16  2.59159e-16
+
+Temperature = 220 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        3.46239e-07  3.46239e-07
+P0        5.73192e-16  5.73192e-16
+
+Temperature = 220 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        4.76637e-07  4.76637e-07
+P0        7.90026e-16  7.90026e-16
+
+Temperature = 220 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1           6.48e-07     6.48e-07
+P0        1.07498e-15  1.07498e-15
+
+Temperature = 220 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        8.69661e-07  8.69661e-07
+P0        1.44356e-15  1.44356e-15
+
+Temperature = 230 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  3.63948e-05
+P0         1.3533e-14          ***
+
+Temperature = 230 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        7.33265e-07  7.33265e-07
+P0        2.70632e-16  2.70632e-16
+
+Temperature = 230 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        1.67417e-06  1.67417e-06
+P0        6.20434e-16  6.20434e-16
+
+Temperature = 230 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        2.34172e-06  2.34172e-06
+P0        8.68729e-16  8.68729e-16
+
+Temperature = 230 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1        3.23532e-06  3.23532e-06
+P0        1.20113e-15  1.20113e-15
+
+Temperature = 230 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1         4.4134e-06   4.4134e-06
+P0        1.63936e-15  1.63936e-15
+
+Temperature = 240 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  0.000188674
+P0        1.77534e-14          ***
+
+Temperature = 240 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1         3.0039e-06   3.0039e-06
+P0        2.80853e-16  2.80853e-16
+
+Temperature = 240 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        7.09285e-06  7.09285e-06
+P0        6.65427e-16  6.65427e-16
+
+Temperature = 240 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        1.00682e-05  1.00682e-05
+P0        9.45409e-16  9.45409e-16
+
+Temperature = 240 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1        1.41197e-05  1.41197e-05
+P0         1.3267e-15   1.3267e-15
+
+Temperature = 240 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        1.95555e-05  1.95555e-05
+P0        1.83831e-15  1.83831e-15
+
+Temperature = 250 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  0.000862661
+P0        2.28921e-14          ***
+
+Temperature = 250 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        1.10083e-05  1.10083e-05
+P0        2.90429e-16  2.90429e-16
+
+Temperature = 250 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        2.67899e-05  2.67899e-05
+P0        7.08935e-16  7.08935e-16
+
+Temperature = 250 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1         3.8542e-05   3.8542e-05
+P0        1.02075e-15  1.02075e-15
+
+Temperature = 250 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1         5.4797e-05   5.4797e-05
+P0        1.45212e-15  1.45212e-15
+
+Temperature = 250 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        7.69621e-05  7.69621e-05
+P0        2.04038e-15  2.04038e-15
+
+Temperature = 260 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***   0.00352707
+P0        2.90535e-14          ***
+
+Temperature = 260 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        3.63864e-05  3.63864e-05
+P0        2.98216e-16  2.98216e-16
+
+Temperature = 260 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        9.11216e-05  9.11216e-05
+P0        7.48734e-16  7.48734e-16
+
+Temperature = 260 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1         0.00013277   0.00013277
+P0        1.09172e-15  1.09172e-15
+
+Temperature = 260 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1        0.000191228  0.000191228
+P0        1.57321e-15  1.57321e-15
+
+Temperature = 260 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        0.000272151  0.000272151
+P0        2.23982e-15  2.23982e-15
+
+Temperature = 270 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***    0.0130495
+P0        3.63399e-14          ***
+
+Temperature = 270 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        0.000109933  0.000109933
+P0        3.04806e-16  3.04806e-16
+
+Temperature = 270 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        0.000282724  0.000282724
+P0        7.85593e-16  7.85593e-16
+
+Temperature = 270 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1        0.000416859  0.000416859
+P0          1.159e-15    1.159e-15
+
+Temperature = 270 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1        0.000607714  0.000607714
+P0         1.6904e-15   1.6904e-15
+
+Temperature = 270 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1        0.000875659  0.000875659
+P0        2.43653e-15  2.43653e-15
+
+Temperature = 280 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***    0.0441393
+P0         4.4848e-14          ***
+
+Temperature = 280 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        0.000307496  0.000307496
+P0        3.11129e-16  3.11129e-16
+
+Temperature = 280 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1        0.000809845  0.000809845
+P0        8.21068e-16  8.21068e-16
+
+Temperature = 280 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1         0.00120698   0.00120698
+P0        1.22441e-15  1.22441e-15
+
+Temperature = 280 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1         0.00177918   0.00177918
+P0        1.80566e-15  1.80566e-15
+
+Temperature = 280 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1         0.00259298   0.00259298
+P0        2.63243e-15  2.63243e-15
+
+Temperature = 290 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***     0.137716
+P0        5.46702e-14          ***
+
+Temperature = 290 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1        0.000798057  0.000798057
+P0        3.15652e-16  3.15652e-16
+
+Temperature = 290 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1         0.00215088   0.00215088
+P0        8.52197e-16  8.52197e-16
+
+Temperature = 290 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1         0.00323903   0.00323903
+P0        1.28397e-15  1.28397e-15
+
+Temperature = 290 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1         0.00482556   0.00482556
+P0        1.91361e-15  1.91361e-15
+
+Temperature = 290 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1         0.00710973   0.00710973
+P0        2.82025e-15  2.82025e-15
+
+Temperature = 300 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***     0.399427
+P0        6.58912e-14          ***
+
+Temperature = 300 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1         0.00194336   0.00194336
+P0        3.19496e-16  3.19496e-16
+
+Temperature = 300 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1         0.00534977   0.00534977
+P0          8.809e-16    8.809e-16
+
+Temperature = 300 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1         0.00813388   0.00813388
+P0        1.33995e-15  1.33995e-15
+
+Temperature = 300 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1          0.0122381    0.0122381
+P0        2.01678e-15  2.01678e-15
+
+Temperature = 300 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1          0.0182148    0.0182148
+P0        3.00254e-15  3.00254e-15
+
+Temperature = 310 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      1.08429
+P0        7.85892e-14          ***
+
+Temperature = 310 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1         0.00446711   0.00446711
+P0        3.22696e-16  3.22696e-16
+
+Temperature = 310 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1          0.0125397    0.0125397
+P0        9.07201e-16  9.07201e-16
+
+Temperature = 310 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1           0.019236     0.019236
+P0        1.39227e-15  1.39227e-15
+
+Temperature = 310 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1          0.0292093    0.0292093
+P0        2.11487e-15  2.11487e-15
+
+Temperature = 310 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1          0.0438882    0.0438882
+P0        3.17854e-15  3.17854e-15
+
+Temperature = 320 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      2.77146
+P0        9.28342e-14          ***
+
+Temperature = 320 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1         0.00972868   0.00972868
+P0        3.24894e-16  3.24894e-16
+
+Temperature = 320 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1          0.0278303    0.0278303
+P0        9.30636e-16  9.30636e-16
+
+Temperature = 320 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1          0.0430587    0.0430587
+P0        1.44044e-15  1.44044e-15
+
+Temperature = 320 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1          0.0659618    0.0659618
+P0        2.20732e-15  2.20732e-15
+
+Temperature = 320 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1           0.100011     0.100011
+P0        3.34757e-15  3.34757e-15
+
+Temperature = 330 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      6.70536
+P0        1.08688e-13          ***
+
+Temperature = 330 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1          0.0202018    0.0202018
+P0        3.26481e-16  3.26481e-16
+
+Temperature = 330 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1          0.0588015    0.0588015
+P0        9.51496e-16  9.51496e-16
+
+Temperature = 330 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1          0.0917004    0.0917004
+P0        1.48443e-15  1.48443e-15
+
+Temperature = 330 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1           0.141631     0.141631
+P0        2.29341e-15  2.29341e-15
+
+Temperature = 330 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1           0.216565     0.216565
+P0        3.50767e-15  3.50767e-15
+
+Temperature = 340 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      15.4285
+P0        1.26205e-13          ***
+
+Temperature = 340 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1          0.0401036    0.0401036
+P0        3.27127e-16  3.27127e-16
+
+Temperature = 340 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1           0.118691     0.118691
+P0        9.69301e-16  9.69301e-16
+
+Temperature = 340 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1           0.186507     0.186507
+P0        1.52368e-15  1.52368e-15
+
+Temperature = 340 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1           0.290325     0.290325
+P0        2.37252e-15  2.37252e-15
+
+Temperature = 340 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1           0.447527     0.447527
+P0        3.65803e-15  3.65803e-15
+
+Temperature = 350 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      33.9016
+P0        1.45429e-13          ***
+
+Temperature = 350 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1          0.0765012    0.0765012
+P0         3.2732e-16   3.2732e-16
+
+Temperature = 350 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1            0.23003      0.23003
+P0        9.85254e-16  9.85254e-16
+
+Temperature = 350 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1           0.364078     0.364078
+P0        1.55992e-15  1.55992e-15
+
+Temperature = 350 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1           0.570972     0.570972
+P0        2.44703e-15  2.44703e-15
+
+Temperature = 350 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1           0.886903     0.886903
+P0        3.80185e-15  3.80185e-15
+
+Temperature = 360 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      71.4053
+P0        1.66398e-13          ***
+
+Temperature = 360 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1           0.140596     0.140596
+P0        3.26831e-16  3.26831e-16
+
+Temperature = 360 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1            0.42909      0.42909
+P0        9.98442e-16  9.98442e-16
+
+Temperature = 360 K    Pressure = 1 atm
+
+From\To            W1           P0
+W1           0.683761     0.683761
+P0        1.59153e-15  1.59153e-15
+
+Temperature = 360 K    Pressure = 2 atm
+
+From\To            W1           P0
+W1            1.07987      1.07987
+P0        2.51415e-15  2.51415e-15
+
+Temperature = 360 K    Pressure = 4 atm
+
+From\To            W1           P0
+W1            1.68958      1.68958
+P0         3.9345e-15   3.9345e-15
+
+Temperature = 370 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***      144.643
+P0         1.8914e-13          ***
+
+Temperature = 370 K    Pressure = 0.1 atm
+
+From\To            W1           P0
+W1           0.249868     0.249868
+P0        3.25942e-16  3.25942e-16
+
+Temperature = 370 K    Pressure = 0.5 atm
+
+From\To            W1           P0
+W1           0.773334     0.773334
+P0        1.00973e-15

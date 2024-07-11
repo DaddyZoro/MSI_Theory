@@ -1,0 +1,1105 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W0
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         23.7897       0.601083        0.58627
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.066417, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.067394, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.15
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.097118, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002589, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.015726, elapsed time[sec] = 0
+         effective power exponent at 399.849 kcal/mol = 6.36045
+      interpolating states number/density done, cpu time[sec] = 1.04031, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.11898, elapsed time[sec] = 0
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         2.27757        1.07738         0.7314
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001723, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003542, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.19
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.102243, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.003303, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017159, elapsed time[sec] = 0
+         effective power exponent at 399.809 kcal/mol = 6.35945
+      interpolating states number/density done, cpu time[sec] = 1.03111, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.03945, elapsed time[sec] = 0
+   WELL: W2
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         23.7897       0.601083        0.58627
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001609, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003467, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.15
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.091553, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.003572, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017648, elapsed time[sec] = 0
+         effective power exponent at 399.849 kcal/mol = 6.36045
+      interpolating states number/density done, cpu time[sec] = 0.969178, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.97745, elapsed time[sec] = 0
+   WELL: W3
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         1.78953        1.33461       0.764474
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001494, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003301, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.21
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.098753, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.004146, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.019214, elapsed time[sec] = 0
+         effective power exponent at 399.789 kcal/mol = 6.35813
+      interpolating states number/density done, cpu time[sec] = 0.986409, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.994407, elapsed time[sec] = 0
+   WELL: W4
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.52595        1.29538        1.14032
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001531, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003355, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -86.72
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.118631, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.022171, elapsed time[sec] = 0
+         effective power exponent at 486.717 kcal/mol = 6.27499
+      interpolating states number/density done, cpu time[sec] = 0.322018, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.328523, elapsed time[sec] = 0
+   WELL: W5t
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.65604        1.21662        1.08048
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.3e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -34.55
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000942, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000182, elapsed time[sec] = 0
+         effective power exponent at 434.55 kcal/mol = 6.24835
+      interpolating states number/density done, cpu time[sec] = 0.011774, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.011828, elapsed time[sec] = 0
+   WELL: W5c
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.30924        1.21211        1.07247
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 1.8e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -29.73
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000931, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000174, elapsed time[sec] = 0
+         effective power exponent at 429.729 kcal/mol = 6.25169
+      interpolating states number/density done, cpu time[sec] = 0.011104, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.01115, elapsed time[sec] = 0
+   BIMOLECULAR: P1
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         24.1554        1.48992        1.40336
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1e-05, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 2.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 7.7e-05, elapsed time[sec] = 0
+      Model::AtomicFragment::AtomicFragment:  ... done
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.00011, elapsed time[sec] = 0
+   BIMOLECULAR: P2
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: linear
+               rotational constant[1/cm]:         1.92073
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.4e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 3.1e-05, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: linear
+               rotational constant[1/cm]:         60.7807
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.7e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 3.5e-05, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.0001, elapsed time[sec] = 0
+   BARRIER: B0
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 180
+            effective power exponent at 9866.06 kcal/mol = 2.50705
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.00027, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000279, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007175, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3.1e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.8e-05, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 5.38438
+      interpolating states number/density done, cpu time[sec] = 0.016568, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016873, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 180
+            effective power exponent at 9866.06 kcal/mol = 2.51036
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000211, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000219, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007093, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.4e-05, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 5.38477
+      interpolating states number/density done, cpu time[sec] = 0.016553, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016827, elapsed time[sec] = 0
+   BARRIER: B2
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 180
+            effective power exponent at 9866.06 kcal/mol = 2.50783
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000205, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000212, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007096, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.5e-05, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 5.38436
+      interpolating states number/density done, cpu time[sec] = 0.016549, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016786, elapsed time[sec] = 0
+   BARRIER: B3
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 180
+            effective power exponent at 9866.06 kcal/mol = 2.50891
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000198, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000205, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007205, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.6e-05, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 5.38472
+      interpolating states number/density done, cpu time[sec] = 0.016659, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016916, elapsed time[sec] = 0
+   BARRIER: B4
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 180
+            effective power exponent at 4933.03 kcal/mol = 2.49839
+            zero number of states energy = -34 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000201, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000208, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -0.0994547
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007142, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.5e-05, elapsed time[sec] = 0
+         effective power exponent at 400.098 kcal/mol = 5.28289
+      interpolating states number/density done, cpu time[sec] = 0.016546, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016781, elapsed time[sec] = 0
+   BARRIER: B5
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 179
+            effective power exponent at 4932.99 kcal/mol = 2.50236
+            zero number of states energy = -20 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000198, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000205, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -0.0597109
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007169, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.5e-05, elapsed time[sec] = 0
+         effective power exponent at 400.058 kcal/mol = 5.36095
+      interpolating states number/density done, cpu time[sec] = 0.016604, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.01684, elapsed time[sec] = 0
+   BARRIER: B6t
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:          7.8722        1.23321        1.06618
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.8e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.7e-05, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      ground state energy, kcal/mol:   7.38
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000895, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000139, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.479102, elapsed time[sec] = 1
+         effective power exponent at 399.789 kcal/mol = 6.45059
+      interpolating states number/density done, cpu time[sec] = 0.489142, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.489208, elapsed time[sec] = 1
+   BARRIER: B6c
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 179
+            effective power exponent at 4932.99 kcal/mol = 2.50358
+            zero number of states energy = -20 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.0002, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000209, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -0.0597109
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.007005, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 8.5e-05, elapsed time[sec] = 0
+         effective power exponent at 400.058 kcal/mol = 5.48174
+      interpolating states number/density done, cpu time[sec] = 0.016525, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.016761, elapsed time[sec] = 0
+   BARRIER: B7
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         24.4024       0.526528       0.515407
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.7e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.6e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -0.014
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000875, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 2.9e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000228, elapsed time[sec] = 0
+         effective power exponent at 400.012 kcal/mol = 6.3611
+      interpolating states number/density done, cpu time[sec] = 0.010203, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.010257, elapsed time[sec] = 0
+   BARRIER: B8
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         1.99039       0.921487       0.629875
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.6e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.03
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000879, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 2.9e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000175, elapsed time[sec] = 0
+         effective power exponent at 399.969 kcal/mol = 6.36032
+      interpolating states number/density done, cpu time[sec] = 0.010158, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.01021, elapsed time[sec] = 0
+   BARRIER: B9
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         1.62657        1.13315       0.667875
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.3e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.049
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000874, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000144, elapsed time[sec] = 0
+         effective power exponent at 399.949 kcal/mol = 6.35965
+      interpolating states number/density done, cpu time[sec] = 0.010114, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.010163, elapsed time[sec] = 0
+   BARRIER: B10
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         1.63723        1.17007        0.72085
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000101, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000111, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.054
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000881, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 2.9e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000144, elapsed time[sec] = 0
+         effective power exponent at 399.943 kcal/mol = 6.35921
+      interpolating states number/density done, cpu time[sec] = 0.010133, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.010269, elapsed time[sec] = 0
+   BARRIER: B11
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         23.0162       0.641482       0.624088
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.2e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.7e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.037
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000879, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 2.9e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000147, elapsed time[sec] = 0
+         effective power exponent at 399.96 kcal/mol = 6.36015
+      interpolating states number/density done, cpu time[sec] = 0.010143, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.010194, elapsed time[sec] = 0
+   BARRIER: B12
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         8.59057        1.19284        1.04741
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.4e-05, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      ground state energy, kcal/mol:   -5.65
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.001063, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000151, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 5.57106, elapsed time[sec] = 5
+         effective power exponent at 486.549 kcal/mol = 7.65602
+      interpolating states number/density done, cpu time[sec] = 5.58395, elapsed time[sec] = 5
+   Model::RRHO::RRHO:  done, cpu time[sec] = 5.58404, elapsed time[sec] = 5
+   BARRIER: B13
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         6.31571        1.36567        1.12287
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.4e-05, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      ground state energy, kcal/mol:   17.05
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.00095, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000152, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 3.35024, elapsed time[sec] = 4
+         effective power exponent at 434.55 kcal/mol = 7.21404
+      interpolating states number/density done, cpu time[sec] = 3.36123, elapsed time[sec] = 4
+   Model::RRHO::RRHO:  done, cpu time[sec] = 3.36132, elapsed time[sec] = 4
+   BARRIER: B14
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         8.67605        1.27099        1.10859
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.4e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.4e-05, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      ground state energy, kcal/mol:   -4.5
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000959, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000153, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 2.05859, elapsed time[sec] = 2
+         effective power exponent at 434.539 kcal/mol = 6.78619
+      interpolating states number/density done, cpu time[sec] = 2.06966, elapsed time[sec] = 2
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.06973, elapsed time[sec] = 2
+   BARRIER: B15
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.81391        1.08531         1.0586
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.8e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.7e-05, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      ground state energy, kcal/mol:   -7.52
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000939, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000146, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 1.53324, elapsed time[sec] = 1
+         effective power exponent at 429.729 kcal/mol = 6.63431
+      interpolating states number/density done, cpu time[sec] = 1.54433, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.5444, elapsed time[sec] = 1
+   checking input ... done
+   setting connectivity ... done
+   checking connectivity ... done
+   setting dissociation limit ... done
+   setting maximum barrier height ... done
+   partition functions (relative to the ground level, units - 1/cm3):
+     T\Q           W0           W1           W2           W3           W4          W5t          W5c          CHO            H           CO           H2           B4          B6t          B6c           B7           B8           B9          B10          B11          B14          B15           B0           B1           B2           B3           B5          B12          B13
+     100  6.68802e+29  3.50355e+29  6.68802e+29  2.38575e+29  4.22962e+27  8.90661e+27  9.12171e+27    8.484e+27  3.75861e+23   1.0073e+27  3.07492e+23  1.04299e+29  5.59872e+36  9.82345e+27  1.11592e+30  9.72568e+29  5.30642e+29  6.49279e+29  4.87589e+29  4.04807e+73  1.14776e+55  6.51015e+29  3.19552e+29  6.55805e+29  2.66318e+29  1.19468e+29 3.77327e+120 1.47634e+110
+     200  2.46284e+31  1.12683e+31  2.46284e+31  6.65357e+30  3.38477e+28  7.12984e+28  7.30404e+28  6.78942e+28  1.06309e+24  5.69815e+27  1.73944e+24   1.6744e+30  1.33417e+31  8.33686e+28  3.02111e+31  2.44075e+31  1.21944e+31   1.4075e+31  1.20542e+31  1.98892e+43  8.16294e+34     9.26e+30  4.74423e+30  9.33265e+30  3.94308e+30  1.62458e+30  3.00986e+54  3.76419e+56
+     300  2.31162e+32  1.00915e+32  2.31162e+32  5.63682e+31  1.14936e+29  2.43068e+29  2.49512e+29  2.30184e+29  1.95303e+24  1.57027e+28  4.79332e+24  8.27847e+30  2.01613e+30  3.13746e+29  2.17687e+32  1.71204e+32  8.28213e+31  9.36531e+31  8.40041e+31  5.77358e+34  1.60012e+31  4.49536e+31  2.35089e+31  4.52926e+31  1.94995e+31  7.33765e+30  6.50514e+35  3.52743e+40
+     400  1.19041e+33  5.07455e+32  1.19041e+33  2.75253e+32  2.78957e+29  5.96541e+29  6.14807e+29  5.53592e+29  3.00689e+24  3.22467e+28  9.83974e+24  2.56773e+31  2.06856e+30  8.53247e+29  9.05036e+32  7.01993e+32  3.33979e+32  3.73673e+32  3.43218e+32  7.44401e+31  5.74423e+30  1.40677e+32  7.44047e+31  1.41702e+32  6.16389e+31  2.15942e+31  2.24059e+31  1.60564e+34
+     500   4.3832e+33   1.8418e+33   4.3832e+33  9.81066e+32  5.71482e+29  1.24322e+30  1.28767e+30  1.11019e+30  4.20225e+24  5.64191e+28  1.71894e+25  6.22795e+31  3.13645e+30  1.93949e+30  2.78945e+33  2.14533e+33  1.01032e+33    1.123e+33  1.04652e+33  1.32352e+31  6.59591e+30  3.47427e+32  1.85054e+32   3.4989e+32   1.5318e+32  5.06979e+31  7.21964e+30  8.54818e+31
+     600  1.30369e+34  5.42548e+33  1.30369e+34  2.85459e+33  1.06069e+30   2.3544e+30  2.45136e+30  1.99196e+30    5.524e+24  8.93152e+28  2.71158e+25  1.29977e+32  5.20214e+30  3.93096e+30  7.12719e+33  5.44983e+33  2.54902e+33  2.82062e+33  2.65437e+33  1.01795e+31  9.50862e+30  7.40571e+32  3.96348e+32  7.45718e+32  3.27894e+32  1.03564e+32  7.76587e+30   2.3309e+31
+     700  3.34482e+34  1.38241e+34  3.34482e+34  7.20891e+33  1.84618e+30  4.18338e+30  4.37814e+30  3.31588e+30  6.96104e+24  1.32112e+29  3.98685e+25  2.45197e+32  8.73042e+30  7.35348e+30  1.60146e+34  1.21942e+34  5.67551e+33  6.25974e+33  5.93249e+33  1.16931e+31  1.44812e+31  1.42791e+33  7.66843e+32  1.43768e+33   6.3414e+32  1.92503e+32  1.06035e+31  1.93875e+31
+     800  7.69839e+34  3.16524e+34  7.69839e+34  1.63948e+34  3.06986e+30  7.09395e+30  7.46108e+30  5.22887e+30  8.50476e+24  1.86091e+29  5.56824e+25  4.30135e+32  1.44714e+31  1.29586e+31  3.27655e+34  2.48691e+34   1.1532e+34  1.26875e+34  1.20884e+34  1.53672e+31  2.22091e+31  2.55947e+33   1.3781e+33  2.57677e+33  1.13926e+33  3.34141e+32  1.55288e+31  2.22727e+31
+     900  1.62992e+35  6.67443e+34  1.62992e+35  3.43889e+34  4.93003e+30  1.15976e+31  1.22555e+31  7.91281e+30  1.01482e+25   2.5263e+29  7.47865e+25  7.14158e+32  2.35106e+31   2.1795e+31  6.24056e+34  4.72459e+34  2.18452e+34  2.39871e+34  2.29497e+34  2.12462e+31   3.3755e+31  4.33902e+33  2.34101e+33  4.36807e+33  1.93481e+33  5.50491e+32  2.31892e+31   2.8821e+31
+    1000  3.22907e+35  1.31799e+35  3.22907e+35  6.76188e+34  7.69916e+30  1.84007e+31  1.95317e+31  1.15897e+31  1.18858e+25  3.33197e+29  9.74112e+25  1.13538e+33  3.73638e+31  3.52945e+31  1.12303e+35  8.48472e+34  3.91405e+34  4.29106e+34  4.11919e+34  2.99095e+31  5.05628e+31  7.03758e+33  3.80312e+33  7.08431e+33  3.14258e+33  8.70171e+32  3.46366e+31  3.91912e+31
+    1100  6.05867e+35  2.46636e+35  6.05867e+35  1.26093e+35   1.1746e+31  2.84634e+31  3.03411e+31  1.65272e+31  1.37125e+25  4.29336e+29  1.23793e+26  1.74243e+33  5.81018e+31  5.53747e+31  1.92962e+35  1.45537e+35  6.70102e+34  7.33698e+34  7.06238e+34  4.22555e+31  7.45308e+31  1.10088e+34   5.9571e+33  1.10814e+34  4.92165e+33  1.32979e+33    5.133e+31  5.43916e+31
+    1200  1.08625e+36   4.4121e+35  1.08625e+36   2.2491e+35  1.75631e+31  4.30727e+31  4.60983e+31  2.30444e+31  1.56242e+25  5.42658e+29  1.54176e+26  2.59643e+33  8.85014e+31  8.45605e+31  3.18994e+35  2.40246e+35  1.10444e+35  1.20795e+35  1.16539e+35  5.94972e+31   1.0811e+32  1.67069e+34  9.05043e+33  1.68164e+34  7.47628e+33  1.97553e+33  7.52119e+31  7.59742e+31
+    1300  1.87358e+36  7.59568e+35  1.87358e+36  3.86234e+35  2.57999e+31  6.39306e+31  6.86805e+31  3.15181e+31  1.76174e+25  6.74839e+29  1.88817e+26  3.77313e+33  1.32228e+32  1.26126e+32   5.1031e+35  3.83858e+35  1.76229e+35  1.92569e+35  1.86142e+35  8.32074e+31  1.54424e+32   2.4706e+34  1.33963e+34  2.48672e+34   1.1065e+34  2.86486e+33  1.08818e+32  1.06036e+32
+    1400  3.12522e+36  1.26495e+36  3.12522e+36  6.41844e+35  3.73029e+31   9.3262e+31  1.00549e+32  4.23891e+31  1.96888e+25  8.27611e+29  2.27984e+26  5.36534e+33   1.9405e+32  1.84261e+32  7.93546e+35  5.96268e+35  2.73435e+35  2.98553e+35  2.89066e+35  1.15387e+32  2.17408e+32  3.57236e+34  1.93859e+34  3.59557e+34  1.60106e+34  4.06857e+33  1.55407e+32  1.47299e+32
+    1500  5.06268e+36  2.04627e+36  5.06268e+36  1.03637e+36  5.31642e+31  1.33943e+32  1.44896e+32  5.61693e+31  2.18355e+25  1.00276e+30  2.71955e+26  7.48553e+33  2.80096e+32  2.64261e+32  1.20376e+36  9.03649e+35  4.13984e+35  4.51706e+35  4.37978e+35  1.58549e+32  3.01971e+32  5.06447e+34  2.75022e+34  5.09725e+34  2.27118e+34  5.67289e+33  2.19122e+32  2.03236e+32
+    1600  7.99181e+36  3.22623e+36  7.99181e+36  1.63131e+36  7.47787e+31  1.89654e+32  2.05814e+32  7.34491e+31  2.40551e+25  1.20213e+30  3.21018e+26  1.02687e+34  3.98145e+32  3.72746e+32  1.78642e+36  1.33993e+36  6.13328e+35  6.68815e+35  6.49299e+35  2.15817e+32   4.1418e+32  7.05504e+34  3.83351e+34  7.10055e+34  3.16555e+34  7.78193e+33  3.05168e+32   2.7821e+32
+    1700  1.23281e+37  4.97133e+36  1.23281e+37  2.51009e+36  1.03912e+32  2.65062e+32  2.88508e+32  9.49047e+31  2.63451e+25   1.4276e+30  3.75472e+26  1.38753e+34  5.57972e+32  5.17912e+32  2.59976e+36  1.94856e+36  8.91234e+35  9.71352e+35  9.44047e+35  2.91036e+32   5.6147e+32  9.67483e+34  5.25986e+34  9.73706e+34  4.34307e+34  1.05204e+34  4.20025e+32  3.77654e+32
+    1800  1.86272e+37  7.50422e+36  1.86272e+37  3.78413e+36  1.42778e+32  3.66027e+32  3.99529e+32  1.21306e+32  2.87036e+25  1.68111e+30  4.35627e+26   1.8495e+34  7.71739e+32   7.0981e+32  3.71747e+36  2.78445e+36   1.2727e+36  1.38646e+36   1.3488e+36  3.88907e+32  7.52881e+32  1.30807e+35   7.1149e+34  1.31646e+35  5.87442e+34  1.40363e+34  5.71685e+32  5.08266e+32
+    1900  2.76227e+37  1.11186e+37  2.76227e+37  5.60029e+36  1.94137e+32   4.9986e+32  5.47064e+32  1.53526e+32  3.11284e+25  1.96464e+30  5.01798e+26  2.43497e+34  1.05444e+33  9.60661e+32  5.23181e+36  3.91638e+36  1.78899e+36  1.94809e+36  1.89684e+36  5.15126e+32  9.99331e+32  1.74592e+35  9.50055e+34  1.75709e+35  7.84371e+34  1.85046e+34  7.69925e+32  6.78242e+32
+    2000  4.02707e+37  1.61969e+37  4.02707e+37  8.14978e+36  2.61395e+32  6.75598e+32  7.41256e+32  1.92548e+32   3.3618e+25  2.28022e+30  5.74313e+26  3.16979e+34  1.42442e+33  1.28521e+33  7.25719e+36  5.42958e+36  2.47887e+36  2.69831e+36  2.62939e+36  6.76556e+32  1.31391e+33  2.30308e+35  1.25372e+35  2.31779e+35  1.03503e+35  2.41302e+34  1.02662e+33  8.97527e+32
+   partition functions (relative to 0 kcal/mol, units - 1/cm3):
+     T\Q           W0           W1           W2           W3           W4          W5t          W5c           B4          B6t          B6c           B7           B8           B9          B10          B11          B14          B15           B0           B1           B2           B3           B5          B12          B13
+     100  3.14396e+29   1.3467e+29  3.14396e+29  8.29233e+28 1.41284e+217 2.86837e+103  8.59098e+92  1.72043e+29  4.16231e+20  1.32666e+28  1.19737e+30  8.36289e+29  4.14681e+29  4.94785e+29  4.04754e+29  2.76601e+83  3.12301e+71  6.51015e+29  3.19552e+29  6.55805e+29  2.66318e+29  1.61342e+29 8.40645e+132   8.0715e+72
+     200   1.6886e+31  6.98619e+30   1.6886e+31  3.92266e+30 1.95625e+123  4.04614e+66  2.24154e+61  2.15049e+30  1.15036e+23  9.68836e+28  3.12942e+31   2.2633e+31  1.07799e+31  1.22869e+31  1.09826e+31  1.64407e+48   1.3465e+43     9.26e+30  4.74423e+30  9.33265e+30  3.94308e+30  1.88795e+30  4.49256e+60  8.80149e+37
+     300   1.7974e+32   7.3374e+31   1.7974e+32  3.96325e+31  1.71811e+92  3.58951e+54  1.13522e+51  9.78142e+30  8.47748e+24  3.46798e+29   2.2286e+32  1.62801e+32  7.62862e+31  8.55429e+31   7.8949e+31  1.09559e+38  4.81274e+36  4.49536e+31  2.35089e+31  4.52926e+31  1.94995e+31  8.11065e+30  8.49613e+39   1.3388e+28
+     400  9.85696e+32  3.99566e+32  9.85696e+32  2.11346e+32  6.70634e+76  4.49387e+48  1.07704e+46  2.90996e+31  1.92079e+26  9.19812e+29  9.21117e+32  6.75992e+32  3.14013e+32  3.49131e+32  3.27608e+32  2.14022e+34  7.37755e+34  1.40677e+32  7.44047e+31  1.41702e+32  6.16389e+31  2.32788e+31  2.73739e+34  7.76407e+24
+     500  3.76901e+33  1.52123e+33  3.76901e+33  7.94161e+32  4.58945e+67  1.57084e+45  1.27232e+43  6.88361e+31  1.86504e+27  2.05962e+30  2.82903e+33  2.08152e+33  9.61705e+32   1.0636e+33  1.00827e+33  1.22645e+33  1.27708e+34  3.47427e+32  1.85054e+32   3.4989e+32   1.5318e+32   5.3838e+31   2.1286e+33  3.01597e+24
+     600  1.14957e+34  4.62627e+33  1.14957e+34   2.3936e+33  4.10099e+61  9.04762e+42  1.65349e+41  1.41283e+32  1.06673e+28  4.13283e+30  7.21137e+33  5.31441e+33  2.44638e+33  2.69572e+33  2.57327e+33  4.43434e+32   5.2148e+33  7.40571e+32  3.96348e+32  7.45718e+32  3.27894e+32  1.08883e+32  8.87509e+32  1.43599e+25
+     700   3.0029e+34  1.20591e+34   3.0029e+34  6.19877e+33  2.19332e+57  2.56078e+41  8.38079e+39  2.63369e+32  4.33438e+28  7.67601e+30  1.61766e+34   1.1934e+34  5.47906e+33  6.02139e+33  5.77677e+33   2.9708e+32  3.22569e+33  1.42791e+33  7.66843e+32  1.43768e+33   6.3414e+32  2.00946e+32  6.15793e+32  9.21183e+25
+     800  7.00523e+34  2.80867e+34  7.00523e+34  1.43661e+34   1.5052e+54  1.94706e+40  9.87524e+38  4.57904e+32   1.3945e+29  1.34546e+31  3.30553e+34  2.44042e+34   1.1182e+34  1.22637e+34  1.18103e+34  2.60568e+32  2.51693e+33  2.55947e+33   1.3781e+33  2.57677e+33  1.13926e+33   3.4693e+32  5.42782e+32  4.89773e+26
+     900   1.4988e+35  6.00173e+34   1.4988e+35   3.0579e+34  5.63701e+51  2.84536e+39  2.03077e+38  7.54996e+32  3.79471e+29   2.2535e+31   6.2896e+34    4.646e+34  2.12548e+34  2.32736e+34  2.24798e+34  2.63037e+32  2.26161e+33  4.33902e+33  2.34101e+33  4.36807e+33  1.93481e+33   5.6918e+32  5.46101e+32   2.0867e+27
+    1000   2.9943e+35  1.19781e+35   2.9943e+35  6.08377e+34  6.89957e+49  6.54073e+38  6.13954e+37  1.19365e+33   9.1112e+29  3.63711e+31  1.13097e+35  8.35759e+34  3.81872e+34  4.17602e+34   4.0432e+34  2.87918e+32  2.22486e+33  7.03758e+33  3.80312e+33  7.08431e+33  3.14258e+33  8.96715e+32  5.94737e+32  7.36148e+27
+    1100  5.65686e+35  2.26104e+35  5.65686e+35  1.14543e+35  1.99217e+48  2.08278e+38  2.44769e+37  1.82354e+33  1.98582e+30  5.69082e+31  1.94202e+35  1.43553e+35  6.55248e+34  7.15795e+34  6.94384e+34  3.31084e+32  2.32488e+33  1.10088e+34   5.9571e+33  1.10814e+34  4.92165e+33  1.36662e+33  6.80623e+32  2.22872e+28
+    1200  1.02003e+36  4.07419e+35  1.02003e+36   2.0595e+35  1.09207e+47  8.44362e+37  1.19724e+37    2.707e+33  4.00763e+30  8.67046e+31  3.20872e+35  2.37242e+35  1.08197e+35   1.1809e+35  1.14744e+35  3.92688e+32  2.53178e+33  1.67069e+34  9.05043e+33  1.68164e+34  7.47628e+33  2.02562e+33  8.04041e+32  5.96321e+28
+    1300  1.76789e+36  7.05708e+35  1.76789e+36  3.56079e+35  9.78072e+45  4.11159e+37  6.83645e+36  3.92122e+33  7.59712e+30  1.29075e+32  5.13083e+35  3.79426e+35  1.72918e+35  1.88585e+35  1.83495e+35  4.74975e+32  2.83742e+33   2.4706e+34  1.33963e+34  2.48672e+34   1.1065e+34  2.93185e+33  9.69476e+32  1.44253e+29
+    1400  2.96118e+36  1.18145e+36  2.96118e+36  5.95179e+35  1.28575e+45  2.30743e+37  4.39922e+36  5.56061e+33  1.36729e+31  1.88258e+32  7.97549e+35  5.89873e+35  2.68661e+35  2.92814e+35  2.85247e+35  5.81607e+32  3.24478e+33  3.57236e+34  1.93859e+34  3.59557e+34  1.60106e+34  4.15684e+33   1.1843e+33   3.2108e+29
+    1500  4.81421e+36  1.91991e+36  4.81421e+36  9.65865e+35  2.29371e+44  1.44804e+37  3.10923e+36   7.7395e+33  2.35536e+31  2.69608e+32  1.20942e+36    8.946e+35  4.07235e+35  4.43596e+35  4.32575e+35  7.17471e+32  3.76369e+33  5.06447e+34  2.75022e+34  5.09725e+34  2.27118e+34  5.78767e+33  1.45841e+33  6.66579e+29
+    1600  7.62354e+36  3.03908e+36  7.62354e+36  1.52705e+36  5.23619e+43  9.93592e+36  2.36782e+36  1.05949e+34  3.90835e+31  3.79812e+32   1.7943e+36  1.32735e+36  6.03949e+35  6.57552e+35  6.41787e+35  8.88686e+32   4.4092e+33  7.05504e+34  3.83351e+34  7.10055e+34  3.16555e+34  7.92946e+33  1.80419e+33  1.30462e+30
+    1700  1.17926e+37  4.69945e+36  1.17926e+37  2.35881e+36  1.46259e+43  7.32807e+36  1.91494e+36  1.42899e+34  6.27859e+31  5.27148e+32  2.61055e+36  1.93133e+36  8.78401e+35  9.55948e+35  9.33764e+35  1.10269e+33  5.20085e+33  9.67483e+34  5.25986e+34  9.73706e+34  4.34307e+34   1.0708e+34  2.23677e+33  2.42772e+30
+    1800  1.78622e+37  7.11601e+36  1.78622e+37  3.56836e+36  4.82794e+42  5.73321e+36  1.62635e+36  1.90164e+34  9.80457e+31  7.21758e+32  3.73205e+36  2.76119e+36  1.25538e+36  1.36569e+36  1.33492e+36   1.3684e+33  6.16264e+33  1.30807e+35   7.1149e+34  1.31646e+35  5.87442e+34  1.42726e+34  2.77428e+33  4.32481e+30
+    1900  2.65468e+37  1.05729e+37  2.65468e+37  5.29731e+36   1.8325e+42  4.70922e+36  1.43787e+36  2.49996e+34  1.49328e+32  9.75975e+32  5.25125e+36  3.88539e+36  1.76593e+36  1.92043e+36  1.87834e+36  1.69639e+33  7.32309e+33  1.74592e+35  9.50055e+34  1.75709e+35  7.84371e+34  1.87996e+34  3.43825e+33  7.41676e+30
+    2000  3.87792e+37  1.54408e+37  3.87792e+37  7.73034e+36  7.82504e+41  4.02795e+36  1.31422e+36  3.25011e+34  2.22434e+32  1.30467e+33  7.28279e+36  5.38875e+36   2.4485e+36   2.6619e+36  2.60502e+36   2.0991e+33  8.71567e+33  2.30308e+35  1.25372e+35  2.31779e+35  1.03503e+35  2.44955e+34  4.25406e+33  1.23009e+31
+   tunneling partition function correction factors & high pressure effective energy shifts (D), kcal/mol:
+     T\B           B4            D          B6t            D          B6c            D           B7            D           B8            D           B9            D          B10            D          B11            D          B14            D          B15            D           B0            D           B1            D           B2            D           B3            D           B5            D          B12            D          B13            D
+     100            1           -0  5.67607e+08     -4.00557            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0  4.46022e+45     -20.8877  6.07262e+26     -12.2552            1           -0            1           -0            1           -0            1           -0            1           -0   3.8956e+92     -42.3665  1.44789e+82     -37.5941
+     200            1           -0      167.241     -2.03466            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0  2.72516e+14     -13.2103       536919     -5.24364            1           -0            1           -0            1           -0            1           -0            1           -0   3.8636e+25     -23.4156  4.60761e+27     -25.3158
+     300            1           -0      7.08263     -1.16707            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0       227972     -7.35478      30.2721     -2.03303            1           -0            1           -0            1           -0            1           -0            1           -0  2.38943e+06     -8.75551  1.25928e+11     -15.2372
+     400            1           -0       2.7612    -0.807328            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      117.204     -3.78672      4.31537     -1.16225            1           -0            1           -0            1           -0            1           -0            1           -0      32.2244     -2.76039      23147.2     -7.98822
+     500            1           -0      1.86513    -0.619336            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      9.83778     -2.27159      2.32689    -0.839122            1           -0            1           -0            1           -0            1           -0            1           -0      4.77606      -1.5536        58.64     -4.04534
+     600            1           -0      1.52472    -0.502933            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      3.96189     -1.64148      1.74732    -0.665408            1           -0            1           -0            1           -0            1           -0            1           -0       2.6109     -1.14426      8.38769     -2.53577
+     700            1           -0      1.35548    -0.423092            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      2.55765     -1.30631       1.4894    -0.554147            1           -0            1           -0            1           -0            1           -0            1           -0      1.94245    -0.923575      3.90631     -1.89541
+     800            1           -0      1.25778    -0.364601            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.99012     -1.09406      1.34888    -0.475769            1           -0            1           -0            1           -0            1           -0            1           -0      1.63378    -0.780402      2.63575     -1.54074
+     900            1           -0      1.19576    -0.319751            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.69641    -0.945229      1.26269    -0.417151            1           -0            1           -0            1           -0            1           -0            1           -0      1.46115    -0.678233       2.0797     -1.30956
+    1000            1           -0      1.15374    -0.284186            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.52146    -0.833963      1.20554    -0.371465            1           -0            1           -0            1           -0            1           -0            1           -0      1.35311     -0.60094      1.77842     -1.14408
+    1100            1           -0      1.12386    -0.255248            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.40744     -0.74708      1.16549    -0.334758            1           -0            1           -0            1           -0            1           -0            1           -0      1.28028    -0.540089      1.59346     -1.01843
+    1200            1           -0      1.10182    -0.231221            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.32834    -0.677066      1.13624    -0.304567            1           -0            1           -0            1           -0            1           -0            1           -0      1.22851    -0.490768      1.47025    -0.919107
+    1300            1           -0      1.08508    -0.210934            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.27089    -0.619278      1.11416    -0.279267            1           -0            1           -0            1           -0            1           -0            1           -0      1.19023     -0.44989      1.38332    -0.838259
+    1400            1           -0      1.07205    -0.193569            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.22768    -0.570675      1.09707     -0.25774            1           -0            1           -0            1           -0            1           -0            1           -0      1.16104    -0.415402      1.31932    -0.770964
+    1500            1           -0      1.06172    -0.178528            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.19426    -0.529167      1.08355    -0.239189            1           -0            1           -0            1           -0            1           -0            1           -0      1.13821    -0.385882      1.27064    -0.713952
+    1600            1           -0      1.05339    -0.165372            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.16782    -0.493268      1.07266    -0.223029            1           -0            1           -0            1           -0            1           -0            1           -0      1.11999    -0.360307      1.23261    -0.664956
+    1700            1           -0      1.04657    -0.153763            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.14651    -0.461888      1.06376    -0.208821            1           -0            1           -0            1           -0            1           -0            1           -0       1.1052     -0.33792      1.20228    -0.622345
+    1800            1           -0      1.04092    -0.143444            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.12907    -0.434206      1.05639    -0.196227            1           -0            1           -0            1           -0            1           -0            1           -0      1.09302    -0.318152      1.17765    -0.584914
+    1900            1           -0      1.03619    -0.134211            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.11459    -0.409594      1.05021    -0.184985            1           -0            1           -0            1           -0            1           -0            1           -0      1.08286    -0.300562      1.15735    -0.551748
+    2000            1           -0      1.03218    -0.125891            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0      1.10243    -0.387558      1.04499    -0.174886            1           -0            1           -0            1           -0            1           -0            1           -0      1.07429    -0.284803       1.1404    -0.522142
+Model::init:  done, cpu time[sec] = 17.8094, elapsed time[sec] = 13
+MasterEquation::set_default_partition:  starts
+   default reduction scheme: W4+W5t+W5c
+MasterEquation::set_default_partition:  done
+rate calculation starts
+   MasterEquation::set:  starts
+      Temperature      = 250 K
+      Energy reference = 11176 1/cm
+      Energy step      = 35 1/cm
+      setting wells, barriers, and bimolecular starts
+         W0 Well: average energy = 2.2 kcal/mol
+         W0 Well: density of states done, elapsed time[sec] = 3.8e-05
+         W0 Well: collisional kernel bandwidth = 1765
+         W0 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.010295
+         W0 Well: relaxation modes basis done, elapsed time[sec] = 0.001194
+         W0 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.177843
+         W0 Well: relaxation eigenvalues done, elapsed time[sec] = 1.07296
+         W0 Well: minimal relaxation eigenvalue = 0.0181401
+         W0 Well: maximal relaxation eigenvalue = 1.8773
+         W0 Well:       grid size = 318
+         W0 Well:      real depth = 52 1/cm
+         W0 Well: effective depth = 46 1/cm
+         W1 Well: average energy = 2.2 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 0.00349
+         W1 Well: collisional kernel bandwidth = 1765
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.957303
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.159823
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.162908
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.602248
+         W1 Well: minimal relaxation eigenvalue = 0.0181335
+         W1 Well: maximal relaxation eigenvalue = 1.54534
+         W1 Well:       grid size = 318
+         W1 Well:      real depth = 66 1/cm
+         W1 Well: effective depth = 46 1/cm
+         W2 Well: average energy = 2.2 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.003009
+         W2 Well: collisional kernel bandwidth = 1765
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.966186
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.132684
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.19535
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 0.620173
+         W2 Well: minimal relaxation eigenvalue = 0.0181401
+         W2 Well: maximal relaxation eigenvalue = 1.8773
+         W2 Well:       grid size = 318
+         W2 Well:      real depth = 52 1/cm
+         W2 Well: effective depth = 46 1/cm
+         W3 Well: average energy = 2.1 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.002994
+         W3 Well: collisional kernel bandwidth = 1765
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.984516
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.131679
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.212321
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 0.624481
+         W3 Well: minimal relaxation eigenvalue = 0.0181071
+         W3 Well: maximal relaxation eigenvalue = 1.40595
+         W3 Well:       grid size = 318
+         W3 Well:      real depth = 73 1/cm
+         W3 Well: effective depth = 46 1/cm
+         W4 Well: average energy = -85.9 kcal/mol
+         W4 Well: density of states done, elapsed time[sec] = 0.004666
+         W4 Well: collisional kernel bandwidth = 1765
+         W4 Well: collisional energy transfer kernel done, elapsed time[sec] = 1.67537
+         W4 Well: relaxation modes basis done, elapsed time[sec] = 0.236421
+         W4 Well: kernel in relaxation modes basis done, elapsed time[sec] = 1.28084
+         W4 Well: relaxation eigenvalues done, elapsed time[sec] = 1.34988
+         W4 Well: minimal relaxation eigenvalue = 0.026464
+         W4 Well: maximal relaxation eigenvalue = 0.903624
+         W4 Well:       grid size = 426
+         W4 Well:      real depth = -30331 1/cm
+         W4 Well: effective depth = -3733 1/cm
+         W5t Well: average energy = -33.7 kcal/mol
+         W5t Well: density of states done, elapsed time[sec] = 0.004677
+         W5t Well: collisional kernel bandwidth = 1765
+         W5t Well: collisional energy transfer kernel done, elapsed time[sec] = 1.90389
+         W5t Well: relaxation modes basis done, elapsed time[sec] = 0.266166
+         W5t Well: kernel in relaxation modes basis done, elapsed time[sec] = 1.69128
+         W5t Well: relaxation eigenvalues done, elapsed time[sec] = 1.50187
+         W5t Well: minimal relaxation eigenvalue = 0.0248378
+         W5t Well: maximal relaxation eigenvalue = 0.904058
+         W5t Well:       grid size = 445
+         W5t Well:      real depth = -12084 1/cm
+         W5t Well: effective depth = -4398 1/cm
+         W5c Well: average energy = -28.9 kcal/mol
+         W5c Well: density of states done, elapsed time[sec] = 0.004788
+         W5c Well: collisional kernel bandwidth = 1765
+         W5c Well: collisional energy transfer kernel done, elapsed time[sec] = 1.91236
+         W5c Well: relaxation modes basis done, elapsed time[sec] = 0.267103
+         W5c Well: kernel in relaxation modes basis done, elapsed time[sec] = 1.61419
+         W5c Well: relaxation eigenvalues done, elapsed time[sec] = 1.51384
+         W5c Well: minimal relaxation eigenvalue = 0.0244177
+         W5c Well: maximal relaxation eigenvalue = 0.904131
+         W5c Well:       grid size = 445
+         W5c Well:      real depth = -10398 1/cm
+         W5c Well: effective depth = -4398 1/cm
+         B4 Barrier:        grid size = 321
+         B4 Barrier:      real height = -34 1/cm
+         B4 Barrier: effective height = -58 1/cm
+         B6t Barrier:        grid size = 318
+         B6t Barrier:      real height = 73 1/cm
+         B6t Barrier: effective height = 46 1/cm
+         B6c Barrier:        grid size = 320
+         B6c Barrier:      real height = -20 1/cm
+         B6c Barrier: effective height = -23 1/cm
+         B7 Barrier:        grid size = 320
+         B7 Barrier:      real height = -4 1/cm
+         B7 Barrier: effective height = -23 1/cm
+         B8 Barrier:        grid size = 320
+         B8 Barrier:      real height = 10 1/cm
+         B8 Barrier: effective height = -23 1/cm
+         B9 Barrier:        grid size = 319
+         B9 Barrier:      real height = 17 1/cm
+         B9 Barrier: effective height = 11 1/cm
+         B10 Barrier:        grid size = 319
+         B10 Barrier:      real height = 18 1/cm
+         B10 Barrier: effective height = 11 1/cm
+         B11 Barrier:        grid size = 319
+         B11 Barrier:      real height = 12 1/cm
+         B11 Barrier: effective height = 11 1/cm
+         B14 Barrier:        grid size = 665
+         B14 Barrier:      real height = -12080 1/cm
+         B14 Barrier: effective height = -12098 1/cm
+         B15 Barrier:        grid size = 617
+         B15 Barrier:      real height = -10398 1/cm
+         B15 Barrier: effective height = -10418 1/cm
+         B0 Barrier:        grid size = 320
+         B0 Barrier:      real height = 0 1/cm
+         B0 Barrier: effective height = -23 1/cm
+         B1 Barrier:        grid size = 320
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -23 1/cm
+         B2 Barrier:        grid size = 320
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -23 1/cm
+         B3 Barrier:        grid size = 320
+         B3 Barrier:      real height = 0 1/cm
+         B3 Barrier: effective height = -23 1/cm
+         B5 Barrier:        grid size = 320
+         B5 Barrier:      real height = -20 1/cm
+         B5 Barrier: effective height = -23 1/cm
+         B12 Barrier: nonpositive number of states at -23789 1/cm => truncating
+         B12 Barrier:        grid size = 999
+         B12 Barrier:      real height = -30271 1/cm
+         B12 Barrier: effective height = -23789 1/cm
+         B13 Barrier:        grid size = 665
+         B13 Barrier:      real height = -12084 1/cm
+         B13 Barrier: effective height = -12098 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 22.6234, elapsed time[sec] = 1
+      B4 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 3.46655e+32
+      MasterEquation::Barrier::truncate: effective weight = 5.49193e+28
+      B6c barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 1.35472e+31
+      MasterEquation::Barrier::truncate: effective weight = 2.10039e+27
+      B7 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 6.44267e+33
+      MasterEquation::Barrier::truncate: effective weight = 1.02681e+30
+      B8 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 4.68815e+33
+      MasterEquation::Barrier::truncate: effective weight = 7.4731e+29
+      B9 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 2.21157e+33
+      MasterEquation::Barrier::truncate: effective weight = 3.52523e+29
+      B10 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 2.49638e+33
+      MasterEquation::Barrier::truncate: effective weight = 3.97855e+29
+      B11 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 2.27427e+33
+      MasterEquation::Barrier::truncate: effective weight = 3.62552e+29
+      B14 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 426
+      MasterEquation::Barrier::truncate: real weight = 5.03789e+43
+      MasterEquation::Barrier::truncate: effective weight = 2.94473e+34
+      B15 barrier top is lower than the bottom of one of the wells it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 445
+      MasterEquation::Barrier::truncate: real weight = 4.73076e+40
+      MasterEquation::Barrier::truncate: effective weight = 7.63855e+35
+      B0 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 1.54639e+33
+      MasterEquation::Barrier::truncate: effective weight = 2.45889e+29
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 8.01797e+32
+      MasterEquation::Barrier::truncate: effective weight = 1.27516e+29
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 1.55829e+33
+      MasterEquation::Barrier::truncate: effective weight = 2.47785e+29
+      B3 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 6.65641e+32
+      MasterEquation::Barrier::truncate: effective weight = 1.05864e+29
+      B5 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 318
+      MasterEquation::Barrier::truncate: real weight = 2.94848e+32
+      MasterEquation::Barrier::truncate: effective weight = 4.67626e+28
+      B12 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 426
+      MasterEquation::Barrier::truncate: real weight = 1.48477e+49
+      MasterEquation::Barrier::truncate: effective weight = 4.59851e+34
+      B13 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 445
+      MasterEquation::Barrier::truncate: real weight = 3.96327e+33
+      MasterEquation::Barrier::truncate: effective weight = 6.68686e+25
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W0     47     47     34.8 2.71e+09
+         W1     47     47     22.8 1.08e+09
+         W2     47     47     34.8 2.71e+09
+         W3     47     47     16.3 5.36e+08
+         W4  -3733  -3733 7.07e+05 8.35e+06
+        W5t  -4398  -4398 5.32e+03 9.18e+05
+        W5c  -4398  -4398 2.29e+03 7.09e+05
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B4     47  1.8e+09
+        B6t     47 3.17e+07
+        B6c     47 9.62e+07
+         B7     47 7.03e+11
+         B8     47  5.2e+11
+         B9     47 2.36e+11
+        B10     47 2.56e+11
+        B11     47 2.52e+11
+        B14  -3733  8.4e+07
+        B15  -4398 2.36e+08
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B0     47 1.48e+10
+         B1     47  8.1e+09
+         B2     47 1.49e+10
+         B3     47 6.69e+09
+         B5     47  1.4e+09
+        B12  -3733 1.71e+08
+        B13  -4398 2.16e+06
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W0        W1        W2        W3        W4       W5t       W5c        P1        P2
+         W0         1      2.44         1      4.44  2.05e-12  5.63e-12  1.29e-11  1.96e-18  3.69e-95
+         W1      0.41         1      0.41      1.82  8.43e-13  2.31e-12  5.31e-12  8.06e-19  1.51e-95
+         W2         1      2.44         1      4.44  2.05e-12  5.63e-12  1.29e-11  1.96e-18  3.69e-95
+         W3     0.225     0.549     0.225         1  4.63e-13  1.27e-12  2.92e-12  4.43e-19  8.32e-96
+         W4  4.87e+11  1.19e+12  4.87e+11  2.16e+12         1      2.74       6.3  9.56e-07   1.8e-83
+        W5t  1.78e+11  4.33e+11  1.78e+11  7.88e+11     0.365         1       2.3  3.49e-07  6.56e-84
+        W5c  7.73e+10  1.88e+11  7.73e+10  3.43e+11     0.159     0.435         1  1.52e-07  2.85e-84
+         P1  5.09e+17  1.24e+18  5.09e+17  2.26e+18  1.05e+06  2.87e+06  6.59e+06         1  1.88e-77
+         P2  2.71e+94   6.6e+94  2.71e+94   1.2e+95  5.57e+82  1.53e+83  3.51e+83  5.32e+76         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W0        W1        W2        W3        W4       W5t       W5c        P1        P2
+         W0         1      2.44         1      4.44  1.45e-73  2.77e-28  4.42e-24  3.13e-22  5.89e-99
+         W1      0.41         1      0.41      1.82  5.94e-74  1.14e-28  1.82e-24  1.29e-22  2.42e-99
+         W2         1      2.44         1      4.44  1.45e-73  2.77e-28  4.42e-24  3.13e-22  5.89e-99
+         W3     0.225     0.549     0.225         1  3.26e-74  6.25e-29  9.96e-25  7.06e-23  1.33e-99
+         W4  6.91e+72  1.68e+73  6.91e+72  3.07e+73         1  1.92e+45  3.06e+49  2.16e+51  4.07e-26
+        W5t  3.61e+27  8.79e+27  3.61e+27   1.6e+28  5.22e-46         1   1.6e+04  1.13e+06  2.12e-71
+        W5c  2.26e+23  5.51e+23  2.26e+23     1e+24  3.27e-50  6.27e-05         1      70.8  1.33e-75
+         P1  3.19e+21  7.78e+21  3.19e+21  1.42e+22  4.62e-52  8.85e-07    0.0141         1  1.88e-77
+         P2   1.7e+98  4.14e+98   1.7e+98  7.54e+98  2.46e+25  4.71e+70  7.51e+74  5.32e+76         1
+   MasterEquation::set:  done, cpu time[sec] = 22.6476, elapsed time[sec] = 1
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.1 atm	 Temperature = 250 K
+            Well    Collision, 1/sec
+              W0         1.23831e+09
+              W1         1.23831e+09
+              W2         1.23831e+09
+              W3         1.23831e+09
+              W4         1.23831e+09
+             W5t         1.23831e+09
+             W5c         1.23831e+09
+      global relaxation matrix dimension = 2588
+      setting global matrices ... done, cpu time[sec] = 1.99168, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 237.463, elapsed time[sec] = 14
+      microscopic rate coefficients (at reference energy) over collision frequency:
+            W0<->W4     W1<->W5t     W3<->W5c      W0<->W2      W0<->W1      W2<->W3      W0<->W3      W1<->W3     W4<->W5t    W5t<->W5c
+            5214.15      837.494      3286.71      6291.55      11713.3      10663.8        11570      11363.9      2214.55      8061.23
+             W0->P1       W1->P1       W2->P1       W3->P1       W2->P2       W4->P2      W5t->P2
+            132.756      182.381      133.588       302.13      12.5224      495.438      57.0029
+      eigenvector populations normalized:
+          L        *R        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0   0.00219   0.00129         0         0         0         0      0.43     0.397     0.173
+          1   0.00839   0.00532         0         0         0         0         1    -0.274    -0.119
+          2     0.386     0.101         0         0         0         0         0    -0.997         1
+          3     0.389     0.998         0         0         0         0     0.449     0.551    -0.379
+          4     0.507     0.996         0         0         0         0         1    -0.718    -0.222
+          5     0.677         1         0         0         0         0     0.853     0.115    0.0318
+          6     0.923     0.998         0         0         0         0         1    -0.628    -0.367
+      *R - eigenvalue over the relaxation limit
+      *P - eigenvector projection squared on the relaxation subspace (= 1 -F_ne)
+      eigenvector projections:
+          L        *Q        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  0.000235   0.00129  2.43e-11  1.26e-11  1.77e-11  9.73e-12     0.479     0.732     0.483
+          1  0.000899   0.00532 -4.01e-11 -2.08e-11 -2.91e-11 -1.59e-11    -0.876     0.397     0.262
+          2    0.0414     0.101 -2.11e-11  -1.1e-11 -1.53e-11 -8.41e-12 -0.000142     0.521    -0.792
+          3    0.0418     0.998 -4.43e-10  -2.3e-10 -3.21e-10 -1.76e-10   -0.0158   -0.0321    0.0335
+          4    0.0543     0.996    -7e-11 -3.62e-11 -5.06e-11 -2.74e-11     -0.04    0.0475    0.0223
+          5    0.0726         1 -8.33e-10 -4.33e-10 -6.05e-10 -3.32e-10  -0.00558  -0.00125 -0.000522
+          6     0.099     0.998  1.29e-10  6.75e-11  9.41e-11  5.23e-11   -0.0229    0.0237    0.0211
+         *Z       ---       ---  5.22e+18  3.34e+18  5.22e+18  2.48e+18  3.64e+24   2.2e+24  1.45e+24
+      *Q - eigenvalue over the collision frequency in first well
+      *P - eigenvector projection squared on the relaxation subspace (= 1 - F_ne)
+      *Z - well partition function square root
+      dimension of the chemical subspace = 1
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W0     0.92    0.084
+         W1     0.93    0.072
+         W2     0.91    0.093
+         W3     0.92    0.077
+         W4        0     0.47
+        W5t        0    -0.35
+        W5c        0    -0.35
+      using default reduction scheme, projection error = 0.185927
+      species:
+       #  assigned name     group
+       0             W4     W4+W5t+W5c
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W4
+         W4         1
+      W->P/P->W rate constants ratios:
+        P\W        W4
+         P1       1.2
+         P2       1.2
+      hot energies # = 0
+      prompt isomerization/dissociation:
+        W\W,P           W0           W1           W2           W3           W4          W5t          W5c  Total Diss.           P1           P2
+           W0  0.000119783  1.96586e-22  4.28912e-22  1.12121e-22  8.11138e-06  7.48924e-06  3.25834e-06     0.999861     0.915922    0.0839394
+           W1   4.7894e-22   0.00060444  3.48636e-22   9.1136e-23  6.59323e-06  6.08753e-06   2.6485e-06      0.99938     0.927017    0.0723632
+           W2  4.28912e-22  1.43101e-22  0.000119783  8.16164e-23  5.90453e-06  5.45166e-06  2.37185e-06     0.999866     0.907022    0.0928443
+           W3  4.97688e-22  1.66047e-22  3.62283e-22  -0.00030337  6.85131e-06  6.32582e-06  2.75217e-06      1.00029     0.922991    0.0772968
+           W4  1.17411e-78  3.91726e-79   8.5467e-79  2.23417e-79            1  1.49234e-62  6.49272e-63 -2.14161e-62  3.02559e-71   3.2859e-62
+          W5t  2.07647e-33   6.9279e-34  1.51153e-33  3.95126e-34  2.85853e-17            1  1.14827e-17 -1.14827e-17 -1.04905e-26 -1.72225e-17
+          W5c  1.44102e-29  4.80777e-30  1.04896e-29  2.74207e-30  1.98374e-13  1.83159e-13            1 -1.19571e-13 -7.14732e-23  -1.1955e-13
+
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 246.124, elapsed time[sec] = 15
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.5 atm	 Temperature = 250 K
+            Well    Collision, 1/sec
+              W0         6.19153e+09
+              W1         6.19153e+09
+              W2         6.19153e+09
+              W3         6.19153e+09
+              W4         6.19153e+09
+             W5t         6.19153e+09
+             W5c         6.19153e+09
+      global relaxation matrix dimension = 2588
+      setting global matrices ... done, cpu time[sec] = 0.018705, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 240.978, elapsed time[sec] = 15
+      microscopic rate coefficients (at reference energy) over collision frequency:
+            W0<->W4     W1<->W5t     W3<->W5c      W0<->W2      W0<->W1      W2<->W3      W0<->W3      W1<->W3     W4<->W5t    W5t<->W5c
+            1042.83      167.499      657.342      1258.31      2342.66      2132.76      2314.01      2272.78      442.911      1612.25
+             W0->P1       W1->P1       W2->P1       W3->P1       W2->P2       W4->P2      W5t->P2
+            26.5512      36.4762      26.7176       60.426      2.50449      99.0876      11.4006
+      eigenvector populations normalized:
+          L        *R        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  0.000734  0.000114         0         0         0         0     0.491     0.354     0.154
+          1   0.00301  0.000833         0         0         0         0         1    -0.352    -0.154
+          2     0.136     0.033         0         0         0         0         0        -1     0.998
+          3     0.442         1         0         0         0         0     0.444     0.376     0.181
+          4     0.512     0.999         0         0         0         0         1    -0.604    -0.311
+          5     0.704         1         0         0         0         0     0.372     0.402     0.226
+          6     0.876         1         0         0         0         0         1    -0.624    -0.316
+      *R - eigenvalue over the relaxation limit
+      *P - eigenvector projection squared on the relaxation subspace (= 1 -F_ne)
+      eigenvector projections:
+          L        *Q        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  5.56e-05  0.000114 -2.16e-10 -1.13e-10 -1.57e-10 -8.65e-11    -0.573    -0.684    -0.452
+          1  0.000228  0.000833  2.76e-10  1.43e-10     2e-10  1.09e-10     0.819    -0.477    -0.317
+          2    0.0103     0.033 -2.49e-12 -1.32e-12 -1.84e-12 -1.08e-12 -0.000761     0.542     -0.82
+          3    0.0335         1  8.51e-09  4.41e-09  6.13e-09  3.39e-09   0.00293    0.0041   0.00299
+          4    0.0388     0.999  2.53e-09  1.31e-09  1.82e-09     1e-09    0.0171   -0.0171   -0.0133
+          5    0.0533         1   2.3e-08  1.19e-08  1.64e-08  9.18e-09  0.000648   0.00116  0.000989
+          6    0.0663         1 -2.78e-09 -1.43e-09 -1.97e-09  -1.1e-09  -0.00631   0.00651     0.005
+         *Z       ---       ---  5.22e+18  3.34e+18  5.22e+18  2.48e+18  3.64e+24   2.2e+24  1.45e+24
+      *Q - eigenvalue over the collision frequency in first well
+      *P - eigenvector projection squared on the relaxation subspace (= 1 - F_ne)
+      *Z - well partition function square root
+      dimension of the chemical subspace = 1
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W0     0.92    0.085
+         W1     0.93    0.073
+         W2     0.91    0.093
+         W3     0.92    0.078
+         W4        0     0.33
+        W5t        0    -0.32
+        W5c        0    -0.32
+      using default reduction scheme, projection error = 0.107654
+      species:
+       #  assigned name     group
+       0             W4     W4+W5t+W5c
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W4
+         W4         1
+      W->P/P->W rate constants ratios:
+        P\W        W4
+         P1       1.1
+         P2       1.1
+      hot energies # = 0
+      prompt isomerization/dissociation:
+        W\W,P           W0           W1           W2           W3           W4          W5t          W5c  Total Diss.           P1           P2
+           W0  0.000119783  1.55871e-20  3.39834e-20  8.87986e-21  8.64688e-05  6.23328e-05  2.71552e-05     0.999704     0.915186     0.084518
+           W1  3.79748e-20   0.00060444   2.7579e-20  7.20638e-21   7.0173e-05  5.05856e-05  2.20376e-05     0.999253     0.926411    0.0728414
+           W2  3.39834e-20  1.13201e-20  0.000119783  6.44895e-21  6.27975e-05  4.52688e-05  1.97213e-05     0.999752     0.906469    0.0932834
+           W3  3.94164e-20  1.31298e-20  2.86259e-20  -0.00030337   7.2837e-05   5.2506e-05  2.28742e-05      1.00016     0.922386    0.0777693
+           W4  1.25162e-77  4.16922e-78  9.08983e-78  2.37517e-78            1  1.66727e-62  7.26342e-63 -2.39361e-62  1.17107e-70  2.33736e-62
+          W5t  1.72824e-32  5.75688e-33  1.25513e-32  3.27965e-33   3.1936e-17            1  1.00294e-17 -1.00294e-17 -7.17879e-26 -1.57486e-17
+          W5c  1.20095e-28  4.00044e-29  8.72184e-29  2.27902e-29  2.21922e-13  1.59977e-13            1 -1.09912e-13 -4.99422e-22 -1.09922e-13
+
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 247.48, elapsed time[sec] = 16
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 1 atm	 Temperature = 250 K
+            Well    Collision, 1/sec
+              W0         1.23831e+10
+              W1         1.23831e+10
+              W2         1.23831e+10
+              W3         1.23831e+10
+              W4         1.23831e+10
+             W5t         1.23831e+10
+             W5c         1.23831e+10
+      global relaxation matrix dimension = 2588
+      setting global matrices ... done, cpu time[sec] = 0.018423, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 216.322, elapsed time[sec] = 14
+      microscopic rate coefficients (at reference energy) over collision frequency:
+            W0<->W4     W1<->W5t     W3<->W5c      W0<->W2      W0<->W1      W2<->W3      W0<->W3      W1<->W3     W4<->W5t    W5t<->W5c
+            521.415      83.7494      328.671      629.155      1171.33      1066.38         1157      1136.39      221.455      806.123
+             W0->P1       W1->P1       W2->P1       W3->P1       W2->P2       W4->P2      W5t->P2
+            13.2756      18.2381      13.3588       30.213      1.25224      49.5438      5.70029
+      eigenvector populations normalized:
+          L        *R        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  0.000434  3.67e-05         0         0         0         0     0.504     0.346     0.151
+          1   0.00183  0.000315         0         0         0         0         1    -0.369    -0.162
+          2    0.0849     0.019         0         0         0         0         0        -1     0.996
+          3     0.474         1         0         0         0         0     0.245     0.494     0.261
+          4     0.527         1         0         0         0         0         1    -0.576    -0.321
+          5     0.721         1         0         0         0         0     0.167     0.522     0.311
+          6     0.871         1         0         0         0         0         1    -0.656    -0.267
+      *R - eigenvalue over the relaxation limit
+      *P - eigenvector projection squared on the relaxation subspace (= 1 -F_ne)
+      eigenvector projections:
+          L        *Q        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  2.87e-05  3.67e-05 -5.63e-10 -2.92e-10 -4.07e-10 -2.25e-10    -0.592    -0.672    -0.444
+          1  0.000121  0.000315  6.84e-10  3.54e-10  4.93e-10   2.7e-10     0.806    -0.493    -0.328
+          2   0.00562     0.019  6.32e-12  3.35e-12  4.66e-12  2.73e-12   0.00139    -0.547     0.826
+          3    0.0314         1  4.44e-08  2.27e-08  3.12e-08  1.78e-08  0.000904   0.00302   0.00243
+          4    0.0348         1  1.72e-08  8.79e-09   1.2e-08   6.9e-09    0.0107   -0.0102   -0.0086
+          5    0.0477         1 -1.76e-07 -8.95e-08 -1.22e-07 -7.14e-08 -0.000146 -0.000754 -0.000679
+          6    0.0576         1  4.16e-08   2.1e-08  2.83e-08  1.69e-08   0.00339  -0.00368  -0.00228
+         *Z       ---       ---  5.22e+18  3.34e+18  5.22e+18  2.48e+18  3.64e+24   2.2e+24  1.45e+24
+      *Q - eigenvalue over the collision frequency in first well
+      *P - eigenvector projection squared on the relaxation subspace (= 1 - F_ne)
+      *Z - well partition function square root
+      dimension of the chemical subspace = 1
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W0     0.91    0.085
+         W1     0.93    0.073
+         W2     0.91    0.094
+         W3     0.92    0.078
+         W4        0      0.3
+        W5t        0    -0.31
+        W5c        0    -0.31
+      using default reduction scheme, projection error = 0.0937307
+      species:
+       #  assigned name     group
+       0             W4     W4+W5t+W5c
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W4
+         W4         1
+      W->P/P->W rate constants ratios:
+        P\W        W4
+         P1       1.1
+         P2       1.1
+      hot energies # = 0
+      prompt isomerization/dissociation:
+        W\W,P           W0           W1           W2           W3           W4          W5t          W5c  Total Diss.           P1           P2
+           W0  0.000119783  1.05449e-19  2.29448e-19   6.0189e-20  0.000232496  0.000159604  6.95792e-05     0.999419     0.914348     0.085071
+           W1  2.56904e-19   0.00060444  1.85835e-19  4.87484e-20  0.000188303  0.000129267  5.63537e-05     0.999022     0.925717     0.073305
+           W2  2.29448e-19   7.6278e-20  0.000119783  4.35386e-20  0.000168179  0.000115452  5.03311e-05     0.999546     0.905831    0.0937151
+           W3   2.6717e-19  8.88183e-20  1.93261e-19  -0.00030337  0.000195828  0.000134432  5.86056e-05     0.999915     0.921696    0.0782187
+           W4  3.36533e-77  1.11877e-77  2.43436e-77  6.38583e-78            1  1.69334e-62  7.38209e-63 -2.43154e-62  2.59409e-70  2.14558e-62
+          W5t  4.42519e-32  1.47111e-32  3.20102e-32  8.39695e-33  3.24354e-17            1  9.70696e-18 -9.70696e-18 -1.75661e-25 -1.51701e-17
+          W5c  3.07717e-28  1.02298e-28  2.22592e-28  5.83903e-29  2.25548e-13  1.54834e-13            1 -1.06248e-13 -1.22779e-21 -1.06211e-13
+
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 222.562, elapsed time[sec] = 15
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 2 atm	 Temperature = 250 K
+            Well    Collision, 1/sec
+              W0         2.47661e+10
+              W1         2.47661e+10
+              W2         2.47661e+10
+              W3         2.47661e+10
+              W4         2.47661e+10
+             W5t         2.47661e+10
+             W5c         2.47661e+10
+      global relaxation matrix dimension = 2588
+      setting global matrices ... done, cpu time[sec] = 0.01869, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 216.342, elapsed time[sec] = 14
+      microscopic rate coefficients (at reference energy) over collision frequency:
+            W0<->W4     W1<->W5t     W3<->W5c      W0<->W2      W0<->W1      W2<->W3      W0<->W3      W1<->W3     W4<->W5t    W5t<->W5c
+            260.707      41.8747      164.335      314.577      585.664       533.19      578.502      568.195      110.728      403.062
+             W0->P1       W1->P1       W2->P1       W3->P1       W2->P2       W4->P2      W5t->P2
+             6.6378      9.11905       6.6794      15.1065     0.626122      24.7719      2.85014
+      eigenvector populations normalized:
+          L        *R        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0   0.00025  1.14e-05         0         0         0         0     0.511      0.34     0.148
+          1   0.00108   0.00011         0         0         0         0         1     -0.38    -0.167
+          2    0.0522    0.0103         0         0         0         0         0        -1     0.994
+          3      0.51         1         0         0         0         0   -0.0678     0.629     0.371
+          4     0.548         1         0         0         0         0         1    -0.542    -0.332
+          5     0.741         1         0         0         0         0    -0.111     0.623     0.377
+          6     0.874         1         0         0         0         0         1    -0.732    -0.182
+      *R - eigenvalue over the relaxation limit
+      *P - eigenvector projection squared on the relaxation subspace (= 1 -F_ne)
+      eigenvector projections:
+          L        *Q        *P        W0        W1        W2        W3        W4       W5t       W5c
+          0  1.46e-05  1.14e-05  1.59e-09  8.21e-10  1.14e-09  6.33e-10     0.603     0.665      0.44
+          1   6.3e-05   0.00011  1.87e-09  9.66e-10  1.34e-09  7.41e-10     0.797    -0.502    -0.335
+          2   0.00305    0.0103  1.78e-11  9.39e-12   1.3e-11  7.58e-12   0.00202     -0.55     0.829
+          3    0.0298         1 -3.61e-07 -1.84e-07  -2.5e-07 -1.45e-07  0.000144  -0.00221  -0.00198
+          4     0.032         1  1.86e-07  9.44e-08  1.28e-07  7.48e-08   0.00633  -0.00567  -0.00527
+          5    0.0432         1  2.06e-06  1.04e-06  1.41e-06  8.29e-07 -4.83e-05  0.000449  0.000411
+          6     0.051         1  6.84e-07  3.45e-07  4.67e-07  2.75e-07   0.00177  -0.00215 -0.000809
+         *Z       ---       ---  5.22e+18  3.34e+18  5.22e+18  2.48e+18  3.64e+24   2.2e+24  1.45e+24
+      *Q - eigenvalue over the collision frequency in first well
+      *P - eigenvector projection squared on the relaxation subspace (= 1 - F_ne)
+      *Z - well partition function square root
+      dimension of the chemical subspace = 1
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W0     0.91    0.086
+         W1     0.93    0.074
+         W2      0.9    0.094
+         W3     0.92    0.079
+         W4        0     0.29
+        W5t        0     -0.3
+        W5c        0     -0.3
+      using default reduction scheme, projection error = 0.0854473
+      species:
+       #  assigned name     group
+       0             W4     W4+W5t+W5c
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W4
+         W4         1
+      W->P/P->W rate constants ratios:
+        P\W        W4
+         P1       1.1
+         P2       1.1
+      hot energies # = 0
+      prompt isomerization/dissociation:
+        W\W,P           W0           W1           W2           W3           W4          W5t          W5c  Total Diss.           P1           P2
+           W0  0.000119783  8.33144e-19  1.80814e-18  4.76625e-19  0.000667257  0.000444342  0.000193843     0.998575     0.912858     0.085717
+           W1  2.02978e-18   0.00060444  1.46039e-18  3.84958e-19  0.000538927  0.000358884  0.000156562     0.998341     0.924475     0.073866
+           W2  1.80814e-18  5.99431e-19  0.000119783  3.42922e-19  0.000480078  0.000319696  0.000139466     0.998941     0.904685    0.0942556
+           W3  2.11567e-18  7.01383e-19  1.52218e-18  -0.00030337  0.000561731   0.00037407  0.000163186     0.999204     0.920469    0.0787357
+           W4  9.65843e-77  3.20195e-77  6.94905e-77  1.83177e-77            1   1.7077e-62  7.44978e-63 -2.45268e-62   6.6886e-70  2.02673e-62
+          W5t  1.23199e-31  4.08427e-32  8.86391e-32  2.33653e-32  3.27105e-17            1  9.50262e-18 -9.50262e-18 -4.79023e-25 -1.47574e-17
+          W5c  8.57278e-28  2.84204e-28  6.16795e-28  1.62587e-28  2.27616e-13  1.51575e-13            1 -1.03584e-13 -3.36115e-21 -1.03644e-13
+
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 222.557, elapsed time[sec] = 15
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 4 atm	 Temperature = 250 K
+            Well    Collision, 1/sec
+              W0         4.95323e+10
+              W1         4.95323e+10
+              W2         4.95323e+10
+              W3         4.95323e+10
+              W4         4.95323e+10
+             W5t         4.95323e+10
+             W5c         4.95323e+10
+      global relaxation matrix dimension = 2588
+      setting global matrices ... done, cpu time[sec] = 0.018657, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ...
