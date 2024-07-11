@@ -1,0 +1,456 @@
+TemperatureList[K] 				 200   210   220   230   240   250   260   270   280   290   300   310   320   330   340   350   360   370   380   390   400   410   420   430   440   450   460   470   480   490   500   510   520   530   540   550   560   570   580   590   600   610   620   630   640   650   660   670   680   690   700   800   900   1000   1100   1200   1300   1400   1500   1600   1700   1800   1900   2000   2100   2200   2300   2400   2500   2600   2700   2800   2900   3000   3100   3200   3300   3400   3500   3600   3700   3800   3900
+ModelEnergyLimit[kcal/mol] 				 400
+
+Bimolecular 				   R  
+Fragment 				   OH  
+RRHO 				     
+Geometry[angstrom] 				 2
+O 				 0.0     0.0     0.0578564
+H 				 0.0     0.0     -0.918217
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 1
+3706.7    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 2
+0.0    2.0    
+137.0    2.0    
+End 				     
+Fragment 				   CH3  
+RRHO 				     
+Geometry[angstrom] 				 4
+C 				 0.0     2.54834e-07     0.0
+H 				 -0.935814     -0.540292     0.0
+H 				 0.935814     -0.540292     0.0
+H 				 0.0     1.08058     0.0
+Core 				   RigidRotor  
+SymmetryFactor 				 6.0
+End 				     
+Frequencies[1/cm] 				 6
+3283.3    3283.3    3103.3    1402.3    1402.3    536.4    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+GroundEnergy[1/cm] 				 0.0
+End 				     
+
+Bimolecular 				   P8  
+Fragment 				   CH2  
+RRHO 				     
+Geometry[angstrom] 				 3
+C 				 6.05621e-18     0.0589653     3.84154e-09
+H 				 6.05621e-18     -0.351043     0.998966
+H 				 -7.81661e-17     -0.351043     -0.998966
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+End 				     
+Frequencies[1/cm] 				 3
+1040.2    3119.1    3363.2    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    3.0    
+End 				     
+Fragment 				   H2O  
+RRHO 				     
+Geometry[angstrom] 				 3
+O 				 0.0655058     0.0     0.0
+H 				 -0.519809     0.0     0.76357
+H 				 -0.519809     0.0     -0.76357
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+End 				     
+Frequencies[1/cm] 				 3
+3922.1    3816.9    1602.7    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+GroundEnergy[1/cm] 				 -3004.8
+End 				     
+
+Barrier 				   B1       R       P8  
+Variational 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 5.9468   0.326   0.3196
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.48462
+H 				 0.0     0.0     0.0
+H 				 0.9855     0.0     1.92858
+H 				 -0.96985     -0.17521     1.92847
+O 				 -0.0183     0.2024     -0.99725
+H 				 -0.10424     1.16351     -1.02455
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    71.5    
+End 				     
+Frequencies[1/cm] 				 10
+3834.0    3336.0    3122.0    2423.0    1440.0    1031.0    582.0    393.0    274.0    136.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+-2347.3    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 5.9866   0.3276   0.3212
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.43438
+H 				 0.0     0.0     0.0
+H 				 0.9805     0.0     1.89012
+H 				 -0.96517     -0.17303     1.89001
+O 				 -0.01745     0.19437     -1.04017
+H 				 -0.10288     1.15703     -1.067
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3812.0    3327.0    3122.0    1628.0    1294.0    830.0    753.0    425.0    415.0    292.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+-2248.9    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0106   0.328   0.3216
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.38067
+H 				 0.0     0.0     0.0
+H 				 0.97715     0.0     1.84411
+H 				 -0.96147     -0.17462     1.84402
+O 				 -0.01796     0.19735     -1.09116
+H 				 -0.10461     1.16134     -1.1123
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3796.0    3321.0    3123.0    1493.0    1239.0    900.0    682.0    477.0    440.0    356.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+-1464.3    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0296   0.3278   0.3216
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.32767
+H 				 0.0     0.0     0.0
+H 				 0.9744     0.0     1.79718
+H 				 -0.95807     -0.17783     1.7971
+O 				 -0.0191     0.20525     -1.14324
+H 				 -0.10772     1.17029     -1.1567
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3782.0    3315.0    3125.0    1409.0    1239.0    998.0    669.0    483.0    448.0    382.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+-720.3    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0473   0.3273   0.3212
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.27552
+H 				 0.0     0.0     0.0
+H 				 0.9718     0.0     1.75053
+H 				 -0.95457     -0.18233     1.75047
+O 				 -0.02073     0.21643     -1.1953
+H 				 -0.11196     1.18232     -1.19942
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3771.0    3310.0    3128.0    1333.0    1237.0    1070.0    693.0    493.0    446.0    380.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+-249.6    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0633   0.3265   0.3205
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.23208
+H 				 0.0     0.0     0.0
+H 				 0.96943     0.0     1.71185
+H 				 -0.95123     -0.18699     1.71181
+O 				 -0.02258     0.22912     -1.2399
+H 				 -0.11649     1.19559     -1.23404
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3760.0    3306.0    3133.0    1309.0    1184.0    1125.0    781.0    514.0    433.0    351.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+0.0    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0798   0.3249   0.319
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.19401
+H 				 0.0     0.0     0.0
+H 				 0.96682     0.0     1.67873
+H 				 -0.94738     -0.193     1.67869
+O 				 -0.02524     0.24772     -1.28175
+H 				 -0.12252     1.21441     -1.26192
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3751.0    3302.0    3138.0    1336.0    1164.0    1159.0    1033.0    527.0    406.0    295.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+170.7    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.096   0.3219   0.3162
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.16335
+H 				 0.0     0.0     0.0
+H 				 0.9639     0.0     1.65345
+H 				 -0.9427     -0.20111     1.6534
+O 				 -0.02946     0.27702     -1.32069
+H 				 -0.1312     1.24323     -1.27932
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3744.0    3300.0    3144.0    1618.0    1310.0    1189.0    1000.0    532.0    374.0    239.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+407.0    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.1045   0.3181   0.3127
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.14728
+H 				 0.0     0.0     0.0
+H 				 0.96166     0.0     1.64158
+H 				 -0.93878     -0.20859     1.64155
+O 				 -0.03437     0.31102     -1.34794
+H 				 -0.1401     1.27588     -1.28202
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3740.0    3297.0    3147.0    1868.0    1326.0    1206.0    954.0    539.0    353.0    207.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+482.9    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.108   0.3142   0.3089
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.13698
+H 				 0.0     0.0     0.0
+H 				 0.95993     0.0     1.63452
+H 				 -0.93586     -0.21366     1.6345
+O 				 -0.03905     0.34453     -1.37016
+H 				 -0.14741     1.3075     -1.28048
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3737.0    3296.0    3150.0    2043.0    1334.0    1221.0    917.0    544.0    337.0    188.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+472.3    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.1078   0.3101   0.3051
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.13078
+H 				 0.0     0.0     0.0
+H 				 0.95854     0.0     1.63104
+H 				 -0.93373     -0.21673     1.63102
+O 				 -0.0435     0.37785     -1.3887
+H 				 -0.15336     1.33847     -1.27602
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3735.0    3294.0    3152.0    2181.0    1340.0    1234.0    883.0    547.0    322.0    176.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+438.8    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.1069   0.3062   0.3013
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.12435
+H 				 0.0     0.0     0.0
+H 				 0.95718     0.0     1.62715
+H 				 -0.93203     -0.21798     1.62714
+O 				 -0.04759     0.41052     -1.40728
+H 				 -0.15796     1.36851     -1.27282
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3732.0    3293.0    3154.0    2296.0    1346.0    1245.0    853.0    549.0    309.0    167.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+376.0    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.1041   0.3023   0.2976
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.11969
+H 				 0.0     0.0     0.0
+H 				 0.95594     0.0     1.62484
+H 				 -0.93073     -0.21809     1.62482
+O 				 -0.05144     0.44317     -1.42384
+H 				 -0.16169     1.39823     -1.26853
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3730.0    3291.0    3156.0    2392.0    1350.0    1256.0    825.0    550.0    296.0    162.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+301.7    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.1   0.2984   0.294
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.11511
+H 				 0.0     0.0     0.0
+H 				 0.95477     0.0     1.62238
+H 				 -0.92991     -0.21653     1.62237
+O 				 -0.05479     0.47505     -1.44018
+H 				 -0.16401     1.42704     -1.26535
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3728.0    3290.0    3158.0    2476.0    1354.0    1265.0    798.0    549.0    285.0    159.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+201.0    3.0    
+End 				     
+RRHO 				     
+Mass[amu] 				 32.0262
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+RotationalConstants[1/cm] 				 6.0949   0.2946   0.2903
+End 				     
+Rotor 				   Hindered  
+Geometry[angstrom] 				 6
+C 				 0.0     0.0     1.11212
+H 				 0.0     0.0     0.0
+H 				 0.95362     0.0     1.62157
+H 				 -0.92904     -0.2151     1.62156
+O 				 -0.05827     0.50818     -1.45451
+H 				 -0.16649     1.4566     -1.25999
+Group 				 1  3  4
+Axis 				 2  5
+FourierExpansion[1/cm] 				 1
+2    65.0    
+End 				     
+Frequencies[1/cm] 				 10
+3727.0    3289.0    3160.0    2549.0    1358.0    1274.0    774.0    548.0    274.0    157.0    
+ZeroEnergy[1/cm] 				 1984
+ElectronicLevels[1/cm] 				 1
+112.2    3.0    
+End 				     
+Tunneling 				   Eckart  
+ImaginaryFrequency[1/cm] 				 1140.
+WellDepth[1/cm] 				 1983.7
+WellDepth[1/cm] 				  4988.5
+End 				     
+End 				     
+

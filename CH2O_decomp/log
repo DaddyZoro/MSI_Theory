@@ -1,0 +1,5 @@
+modified a copy of the 2500K folder to this folder to run at 1500 K
+with 1500 K version of reaction_with_O2.dat from good_calcs_higher_Emax.8
+ and 1500 in me_think.inp
+
+starting again directly from the files from SJK

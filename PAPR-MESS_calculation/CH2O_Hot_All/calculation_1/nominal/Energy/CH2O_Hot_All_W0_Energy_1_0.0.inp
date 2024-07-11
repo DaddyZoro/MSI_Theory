@@ -1,0 +1,15 @@
+TemperatureList[K] 				 300
+PressureList[atm] 				 1.0
+EnergyStepOverTemperature 				 0.2
+ExcessEnergyOverTemperature 				 30.0
+ModelEnergyLimit[kcal/mol] 				 400
+WellCutoff 				 10.0
+ChemicalEigenvalueMax 				 0.4
+ChemicalEigenvalueMin 				 1e-06
+CalculationMethod 				   direct  
+MicroEnerMin[kcal/mol] 				 -86.72
+MicroEnerMax[kcal/mol] 				 40.
+MicroEnerStep[kcal/mol] 				 0.01429572
+EigenvalueOutput 				   eValA.out  
+EigenvectorOutput 				   evecA.out  
+MicroRateOutput 				   keA.out  

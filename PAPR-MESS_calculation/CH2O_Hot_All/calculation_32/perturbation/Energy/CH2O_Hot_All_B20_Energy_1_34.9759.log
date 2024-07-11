@@ -1,0 +1,104 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W0
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         23.7897       0.601083        0.58627
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.012495, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.032331, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.15
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.12418, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.013628, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.027292, elapsed time[sec] = 0
+         effective power exponent at 399.849 kcal/mol = 6.36045
+      interpolating states number/density done, cpu time[sec] = 1.26018, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.32712, elapsed time[sec] = 0
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         2.27757        1.07738         0.7314
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.012218, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.03419, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.19
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.124581, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.013388, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.02908, elapsed time[sec] = 0
+         effective power exponent at 399.809 kcal/mol = 6.35945
+      interpolating states number/density done, cpu time[sec] = 1.24031, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.3111, elapsed time[sec] = 0
+   WELL: W2
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         23.7897       0.601083        0.58627
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.011792, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.033495, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.15
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.110312, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.014041, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.029401, elapsed time[sec] = 0
+         effective power exponent at 399.849 kcal/mol = 6.36045
+      interpolating states number/density done, cpu time[sec] = 1.14685, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.21583, elapsed time[sec] = 0
+   WELL: W3
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         1.78953        1.33461       0.764474
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.012077, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.033972, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0.21
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.110228, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.013363, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.029542, elapsed time[sec] = 0
+         effective power exponent at 399.789 kcal/mol = 6.35813
+      interpolating states number/density done, cpu time[sec] = 0.810406, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.867384, elapsed time[sec] = 0
+   WELL: W4
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.52595        1.29538        1.14032
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 5.3e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 8e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -86.72
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.001279, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000213, elapsed time[sec] = 0
+         effective power exponent at 486.717 kcal/mol = 6.27499
+      interpolating states number/density done, cpu time[sec] = 0.014626, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.014811, elapsed time[sec] = 0
+   WELL: W5t
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.65604        1.21662        1.08048
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.2e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -34.55
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.001047, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000194, elapsed time[sec] = 0
+         effective power exponent at 434.55 kcal/mol = 6.24835
+      interpolating states number/density done, cpu time[sec] = 0.01257, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.012631, elapsed time[sec] = 0
+Model::init:  done, cpu time[sec] = 4.82747, elapsed time[sec] = 0

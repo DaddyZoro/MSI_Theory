@@ -1,0 +1,7 @@
+*F - collisional frequency
+*Q - minimal relaxational eigenvalue
+*E - eigenvalue
+*P - eigenvector projection squared on the relaxational subspace
+ Temperature,    Pressure,          *F,         *Q/F         *E/F           *P         *E/F           *P         *E/F           *P         *E/F           *P         *E/F           *P         *E/F           *P         *E/F           *P         *E/F           *P
+            K          bar        1/sec                         0            0            1            1            2            2            3            3            4            4            5            5            6            6            7            7
+          300            1  1.03719e+10    0.0636763   0.00841734  0.000551752    0.0327783      0.99959     0.039967     0.999924     0.045395     0.999973    0.0499849     0.999989    0.0539949     0.999994    0.0574918     0.999996    0.0606068     0.999997

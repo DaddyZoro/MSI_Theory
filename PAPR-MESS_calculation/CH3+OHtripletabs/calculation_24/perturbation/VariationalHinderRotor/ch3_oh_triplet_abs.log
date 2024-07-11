@@ -1,0 +1,747 @@
+Model::Bimolecular::Bimolecular:  starts
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: linear
+            rotational constant[1/cm]:         18.6633
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.025771, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.065091, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.117697, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.55015        9.55009        4.77506
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.010267, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.029723, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.054577, elapsed time[sec] = 0
+Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.229629, elapsed time[sec] = 0
+Model::Bimolecular::Bimolecular:  starts
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         58.1076        8.38079         7.3244
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.012396, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.031972, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.055261, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         27.4886        14.3446        9.42584
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.010542, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.03071, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.057593, elapsed time[sec] = 0
+Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.155064, elapsed time[sec] = 0
+Model::VarBarrier::VarBarrier:  starts
+   1-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.009667, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.028454, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.009553, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 29.1877
+         analytic  frequency at minimum[1/cm] = 64.6053
+         numerical frequency at minimum[1/cm] = 64.6052
+         minimum energy[kcal/mol]             = -0.204426
+         maximum energy[kcal/mol]             = 0.204426
+         maximum frequency[1/cm]              = 64.6053
+         ground energy [kcal/mol]             = -0.117761
+         highest energy level [kcal/mol]      = 20696.1
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.163 0.272 0.465 0.473 0.876 0.876 1.46 1.46 2.21
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.90917        1.87146        1.90866
+           200        3.06284        3.04211        3.06278
+           300        4.00071        3.98741         4.0007
+           400          4.794        4.78459        4.79399
+           500        5.48925        5.48215        5.48924
+           600        6.11379         6.1082        6.11379
+           700        6.68469        6.68014        6.68469
+           800        7.21327        7.20948        7.21327
+           900        7.70747        7.70424        7.70747
+          1000        8.17304        8.17025        8.17304
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 7.4696, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -1.03871
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.04888, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002727, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.014211, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000125, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.071645, elapsed time[sec] = 0
+         effective power exponent at 401.038 kcal/mol = 11.3232
+      interpolating states number/density done, cpu time[sec] = 0.549894, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 8.07756, elapsed time[sec] = 0
+   2-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000536, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000875, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000318, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 29.0117
+         analytic  frequency at minimum[1/cm] = 61.4127
+         numerical frequency at minimum[1/cm] = 61.4126
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.4127
+         ground energy [kcal/mol]             = -0.103768
+         highest energy level [kcal/mol]      = 20571.3
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.155 0.252 0.447 0.453 0.856 0.856 1.43 1.43 2.18
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.97692        1.93953        1.97648
+           200        3.14813        3.12834        3.14808
+           300        4.08798        4.07548        4.08797
+           400        4.88024        4.87147        4.88023
+           500        5.57391        5.56733         5.5739
+           600        6.19691        6.19175        6.19691
+           700        6.76646        6.76227        6.76646
+           800        7.29391        7.29041        7.29391
+           900        7.78716        7.78419        7.78716
+          1000        8.25197        8.24941        8.25197
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.05612, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -0.757377
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.053742, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.001425, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.010915, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000107, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.06457, elapsed time[sec] = 0
+         effective power exponent at 400.755 kcal/mol = 11.3475
+      interpolating states number/density done, cpu time[sec] = 0.502542, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.56455, elapsed time[sec] = 0
+   3-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000375, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000618, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000254, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.8843
+         analytic  frequency at minimum[1/cm] = 61.2777
+         numerical frequency at minimum[1/cm] = 61.2776
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.2777
+         ground energy [kcal/mol]             = -0.103933
+         highest energy level [kcal/mol]      = 20481
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.252 0.446 0.452 0.853 0.853 1.43 1.43 2.17
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.97975        1.94246        1.97931
+           200        3.15378        3.13405        3.15373
+           300        4.09587         4.0834        4.09585
+           400        4.88998        4.88123        4.88998
+           500        5.58527         5.5787        5.58526
+           600        6.20971        6.20456        6.20971
+           700        6.78057        6.77638        6.78057
+           800        7.30922        7.30574        7.30922
+           900         7.8036        7.80064         7.8036
+          1000        8.26946        8.26691        8.26946
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.07278, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   1.48588
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.037968, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.001432, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.012408, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 8.4e-05, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.062933, elapsed time[sec] = 0
+         effective power exponent at 398.514 kcal/mol = 11.3468
+      interpolating states number/density done, cpu time[sec] = 0.482143, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.55941, elapsed time[sec] = 0
+   4-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000382, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000649, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.00023, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.7921
+         analytic  frequency at minimum[1/cm] = 61.1798
+         numerical frequency at minimum[1/cm] = 61.1797
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.1798
+         ground energy [kcal/mol]             = -0.104052
+         highest energy level [kcal/mol]      = 20415.6
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.252 0.445 0.451 0.851 0.851 1.42 1.42 2.16
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100         1.9818         1.9446        1.98137
+           200         3.1579         3.1382        3.15785
+           300         4.1016        4.08916        4.10159
+           400        4.89707        4.88834        4.89707
+           500        5.59353        5.58698        5.59353
+           600        6.21902        6.21388        6.21902
+           700        6.79083        6.78665        6.79083
+           800        7.32036        7.31688        7.32036
+           900        7.81556        7.81261        7.81556
+          1000        8.28219        8.27965        8.28219
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.16993, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   3.61305
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.060479, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.00277, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017365, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000131, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.111857, elapsed time[sec] = 0
+         effective power exponent at 396.387 kcal/mol = 11.3425
+      interpolating states number/density done, cpu time[sec] = 0.688587, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.86364, elapsed time[sec] = 0
+   5-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.00047, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000802, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.0003, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.7187
+         analytic  frequency at minimum[1/cm] = 61.1018
+         numerical frequency at minimum[1/cm] = 61.1017
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.1018
+         ground energy [kcal/mol]             = -0.104147
+         highest energy level [kcal/mol]      = 20363.6
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.252 0.444 0.45 0.849 0.849 1.42 1.42 2.16
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98344        1.94631        1.98301
+           200        3.16118        3.14151        3.16114
+           300        4.10619        4.09376        4.10618
+           400        4.90274        4.89402        4.90273
+           500        5.60013        5.59359        5.60013
+           600        6.22646        6.22133        6.22646
+           700        6.79903        6.79486        6.79903
+           800        7.32927         7.3258        7.32927
+           900        7.82512        7.82217        7.82512
+          1000        8.29237        8.28982        8.29237
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.26612, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   4.95884
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.058676, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002775, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017438, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000128, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.104823, elapsed time[sec] = 0
+         effective power exponent at 395.04 kcal/mol = 11.34
+      interpolating states number/density done, cpu time[sec] = 0.683171, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.95479, elapsed time[sec] = 0
+   6-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000441, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000763, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000289, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.6673
+         analytic  frequency at minimum[1/cm] = 61.0471
+         numerical frequency at minimum[1/cm] = 61.047
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.0471
+         ground energy [kcal/mol]             = -0.104214
+         highest energy level [kcal/mol]      = 20327.1
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.251 0.443 0.45 0.848 0.848 1.42 1.42 2.16
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100         1.9846        1.94751        1.98417
+           200         3.1635        3.14385        3.16345
+           300        4.10942          4.097         4.1094
+           400        4.90673        4.89801        4.90672
+           500        5.60478        5.59825        5.60478
+           600         6.2317        6.22657         6.2317
+           700        6.80481        6.80064         6.8048
+           800        7.33553        7.33206        7.33553
+           900        7.83184         7.8289        7.83184
+          1000        8.29953        8.29698        8.29953
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.98647, elapsed time[sec] = 1
+      ground state energy, kcal/mol:   5.67247
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.129685, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002885, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017848, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000128, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.125996, elapsed time[sec] = 0
+         effective power exponent at 394.325 kcal/mol = 11.3374
+      interpolating states number/density done, cpu time[sec] = 0.876548, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.86945, elapsed time[sec] = 1
+   7-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000525, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000869, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000323, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.6339
+         analytic  frequency at minimum[1/cm] = 61.0116
+         numerical frequency at minimum[1/cm] = 61.0115
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 61.0116
+         ground energy [kcal/mol]             = -0.104257
+         highest energy level [kcal/mol]      = 20303.5
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.251 0.443 0.45 0.847 0.847 1.42 1.42 2.15
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98535        1.94829        1.98492
+           200          3.165        3.14536        3.16495
+           300        4.11151         4.0991         4.1115
+           400        4.90932        4.90061        4.90931
+           500         5.6078        5.60127         5.6078
+           600         6.2351        6.22997         6.2351
+           700        6.80855        6.80439        6.80855
+           800         7.3396        7.33614         7.3396
+           900        7.83621        7.83327        7.83621
+          1000        8.30418        8.30164        8.30418
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.02784, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.16052
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.062221, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002845, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017834, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000137, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.104936, elapsed time[sec] = 0
+         effective power exponent at 393.839 kcal/mol = 11.3281
+      interpolating states number/density done, cpu time[sec] = 0.696591, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.73137, elapsed time[sec] = 0
+   8-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.00052, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000857, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000325, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.6132
+         analytic  frequency at minimum[1/cm] = 60.9895
+         numerical frequency at minimum[1/cm] = 60.9894
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.9895
+         ground energy [kcal/mol]             = -0.104284
+         highest energy level [kcal/mol]      = 20288.8
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.251 0.443 0.449 0.847 0.847 1.42 1.42 2.15
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98582        1.94878        1.98539
+           200        3.16594        3.14631        3.16589
+           300        4.11282        4.10041         4.1128
+           400        4.91093        4.90222        4.91092
+           500        5.60968        5.60315        5.60967
+           600        6.23722        6.23209        6.23721
+           700        6.81089        6.80672        6.81089
+           800        7.34213        7.33867        7.34213
+           900        7.83893        7.83599        7.83893
+          1000        8.30707        8.30453        8.30707
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.01984, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.83612
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.064369, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002823, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.018581, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000133, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.104504, elapsed time[sec] = 0
+         effective power exponent at 393.162 kcal/mol = 11.3137
+      interpolating states number/density done, cpu time[sec] = 0.697324, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.7233, elapsed time[sec] = 0
+   9-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000488, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000823, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.00031, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.5969
+         analytic  frequency at minimum[1/cm] = 60.972
+         numerical frequency at minimum[1/cm] = 60.9719
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.972
+         ground energy [kcal/mol]             = -0.104306
+         highest energy level [kcal/mol]      = 20277.2
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.154 0.251 0.443 0.449 0.846 0.846 1.42 1.42 2.15
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98619        1.94916        1.98576
+           200        3.16667        3.14705        3.16663
+           300        4.11385        4.10145        4.11383
+           400         4.9122         4.9035         4.9122
+           500        5.61116        5.60464        5.61116
+           600        6.23889        6.23376        6.23889
+           700        6.81273        6.80857        6.81273
+           800        7.34414        7.34067        7.34414
+           900        7.84108        7.83814        7.84108
+          1000        8.30936        8.30682        8.30936
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.99499, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   7.05313
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.060472, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002821, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017494, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000134, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.106607, elapsed time[sec] = 0
+         effective power exponent at 392.944 kcal/mol = 11.3062
+      interpolating states number/density done, cpu time[sec] = 0.696932, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.69773, elapsed time[sec] = 0
+   10-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000476, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000799, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000319, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.5743
+         analytic  frequency at minimum[1/cm] = 60.948
+         numerical frequency at minimum[1/cm] = 60.9479
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.948
+         ground energy [kcal/mol]             = -0.104335
+         highest energy level [kcal/mol]      = 20261.2
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.443 0.449 0.846 0.846 1.41 1.41 2.15
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100         1.9867        1.94969        1.98627
+           200        3.16769        3.14808        3.16765
+           300        4.11527        4.10287        4.11525
+           400        4.91396        4.90526        4.91395
+           500        5.61321        5.60668        5.61321
+           600        6.24119        6.23607        6.24119
+           700        6.81527        6.81111        6.81527
+           800         7.3469        7.34343         7.3469
+           900        7.84404         7.8411        7.84404
+          1000        8.31251        8.30997        8.31251
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.96454, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   7.02282
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.060131, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002811, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017782, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.00013, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.105969, elapsed time[sec] = 0
+         effective power exponent at 392.976 kcal/mol = 11.3013
+      interpolating states number/density done, cpu time[sec] = 0.692067, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.66225, elapsed time[sec] = 0
+   11-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000479, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000805, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000312, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.5478
+         analytic  frequency at minimum[1/cm] = 60.9197
+         numerical frequency at minimum[1/cm] = 60.9196
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.9197
+         ground energy [kcal/mol]             = -0.10437
+         highest energy level [kcal/mol]      = 20242.4
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.442 0.449 0.845 0.845 1.41 1.41 2.15
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100         1.9873        1.95032        1.98687
+           200         3.1689         3.1493        3.16885
+           300        4.11694        4.10456        4.11693
+           400        4.91603        4.90734        4.91602
+           500        5.61563         5.6091        5.61562
+           600        6.24392         6.2388        6.24392
+           700        6.81827        6.81412        6.81827
+           800        7.35015        7.34669        7.35015
+           900        7.84754         7.8446        7.84754
+          1000        8.31623         8.3137        8.31623
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.98634, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.92704
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.07899, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002834, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017657, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000134, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.103305, elapsed time[sec] = 0
+         effective power exponent at 393.073 kcal/mol = 11.2977
+      interpolating states number/density done, cpu time[sec] = 0.717812, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.7104, elapsed time[sec] = 0
+   12-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000485, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.001118, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000319, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.5174
+         analytic  frequency at minimum[1/cm] = 60.8873
+         numerical frequency at minimum[1/cm] = 60.8872
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.8873
+         ground energy [kcal/mol]             = -0.104409
+         highest energy level [kcal/mol]      = 20220.8
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.442 0.449 0.844 0.844 1.41 1.41 2.14
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98799        1.95103        1.98756
+           200        3.17027        3.15068        3.17023
+           300        4.11886        4.10648        4.11885
+           400         4.9184        4.90971         4.9184
+           500        5.61839        5.61187        5.61839
+           600        6.24703        6.24192        6.24703
+           700        6.82171        6.81755        6.82171
+           800        7.35388        7.35042        7.35388
+           900        7.85154         7.8486        7.85154
+          1000        8.32049        8.31796        8.32049
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.94539, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.74749
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.070911, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002831, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017742, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000131, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.104174, elapsed time[sec] = 0
+         effective power exponent at 393.25 kcal/mol = 11.295
+      interpolating states number/density done, cpu time[sec] = 0.703085, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.65438, elapsed time[sec] = 1
+   13-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000501, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000835, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000316, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.4867
+         analytic  frequency at minimum[1/cm] = 60.8545
+         numerical frequency at minimum[1/cm] = 60.8544
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.8545
+         ground energy [kcal/mol]             = -0.104449
+         highest energy level [kcal/mol]      = 20199
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.442 0.448 0.844 0.844 1.41 1.41 2.14
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98868        1.95175        1.98826
+           200        3.17167        3.15209        3.17162
+           300        4.12081        4.10844         4.1208
+           400        4.92081        4.91212         4.9208
+           500        5.62119        5.61468        5.62119
+           600        6.25019        6.24508        6.25019
+           700        6.82519        6.82104        6.82519
+           800        7.35766        7.35421        7.35766
+           900         7.8556        7.85266         7.8556
+          1000        8.32481        8.32228        8.32481
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 5.96628, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.53506
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.066178, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002824, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017277, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000136, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.103765, elapsed time[sec] = 0
+         effective power exponent at 393.465 kcal/mol = 11.293
+      interpolating states number/density done, cpu time[sec] = 0.696103, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.66836, elapsed time[sec] = 0
+   14-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000541, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000884, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000321, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.4537
+         analytic  frequency at minimum[1/cm] = 60.8193
+         numerical frequency at minimum[1/cm] = 60.8192
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.8193
+         ground energy [kcal/mol]             = -0.104492
+         highest energy level [kcal/mol]      = 20175.7
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.441 0.448 0.843 0.843 1.41 1.41 2.14
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.98943        1.95253        1.98901
+           200        3.17317         3.1536        3.17312
+           300         4.1229        4.11053        4.12289
+           400        4.92339        4.91471        4.92339
+           500         5.6242         5.6177         5.6242
+           600        6.25358        6.24847        6.25358
+           700        6.82893        6.82478        6.82893
+           800        7.36172        7.35827        7.36172
+           900        7.85996        7.85702        7.85996
+          1000        8.32945        8.32692        8.32945
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.03929, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   6.24715
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.067432, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002851, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.017745, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000146, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.105815, elapsed time[sec] = 0
+         effective power exponent at 393.75 kcal/mol = 11.2915
+      interpolating states number/density done, cpu time[sec] = 0.698829, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.74439, elapsed time[sec] = 0
+   15-th RRHO:
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000484, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000812, elapsed time[sec] = 0
+      1-th ROTOR:
+      Model::HinderedRotor::HinderedRotor:  starts
+         Model::HinderedRotor::_read:  starts
+         Model::HinderedRotor::_read:  done, cpu time[sec] = 0.000316, elapsed time[sec] = 0
+         effective rotational constant[1/cm]  = 28.4218
+         analytic  frequency at minimum[1/cm] = 60.7852
+         numerical frequency at minimum[1/cm] = 60.7851
+         minimum energy[kcal/mol]             = -0.185842
+         maximum energy[kcal/mol]             = 0.185842
+         maximum frequency[1/cm]              = 60.7852
+         ground energy [kcal/mol]             = -0.104534
+         highest energy level [kcal/mol]      = 20153.1
+         number of levels                     = 997
+         10 lowest excited states [kcal/mol] relative to the ground: 0.153 0.251 0.441 0.448 0.842 0.842 1.41 1.41 2.14
+         Statistical Weight (*** - deep tunneling regime):
+          T, K        Quantum             PG             PI  ***
+           100        1.99016        1.95329        1.98973
+           200        3.17462        3.15507        3.17457
+           300        4.12493        4.11257        4.12491
+           400        4.92589        4.91722        4.92589
+           500        5.62712        5.62062        5.62712
+           600        6.25687        6.25177        6.25687
+           700        6.83256        6.82841        6.83256
+           800        7.36566        7.36221        7.36566
+           900        7.86418        7.86125        7.86418
+          1000        8.33395        8.33141        8.33395
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 6.02098, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   5.99326
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.060966, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.002827, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.018141, elapsed time[sec] = 0
+         hindered rotors contribution starts
+            Model::HinderedRotor::set:  starts
+            Model::HinderedRotor::set:  done, cpu time[sec] = 0.000142, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.107584, elapsed time[sec] = 0
+         effective power exponent at 394.005 kcal/mol = 11.2901
+      interpolating states number/density done, cpu time[sec] = 0.711023, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 6.7379, elapsed time[sec] = 0
+   Model::EckartTunnel::EckartTunnel:  ... done
+   interpolating states number/density ... done, cpu time[sec] = 1.75237, elapsed time[sec] = 0
+   effective power exponent at 392.944 kcal/mol = 11.4722
+   Constituent transition states partition functions
+    T, K            1            2            3            4            5            6            7            8            9           10           11           12           13           14           15          Min
+     100  8.67199e+08   1.8499e+08      2285.69    0.0511812  5.86518e-05  1.62306e-06  1.40999e-07  4.83922e-09  1.67682e-09  2.01426e-09  3.35617e-09   8.5112e-09  2.53668e-08  1.10256e-07  4.03492e-07  1.65323e-09
+     200  1.50418e+07  4.76518e+06      15661.8      72.8727       2.4629     0.414959     0.128109    0.0256572    0.0161049    0.0185663    0.0249908    0.0413017     0.073468     0.157034     0.307561    0.0160694
+     300  8.52322e+06  2.76606e+06      56528.1      1538.14      159.725      49.0537      23.2918      8.58921      6.67208      7.66601       9.6934      13.9928      21.0972      35.8119      57.2792      6.66273
+     400   1.0106e+07  3.23395e+06       163284      10674.9      1934.98      798.499       466.22      233.427       202.44      232.928      286.327      387.351      539.102      817.662      1184.76      201.835
+     500  1.51394e+07  4.79106e+06       415508      45825.8      11579.2      5689.04       3730.6      2232.56      2067.95      2382.73      2882.34      3753.89      4984.57      7073.82      9669.12      2052.41
+     600  2.46367e+07  7.76993e+06       966870       150918        47542      26201.8      18466.7      12380.1      11963.5      13790.2      16502.9      20957.1      26974.8      36632.7      48178.1      11789.7
+     700  4.11632e+07  1.30194e+07  2.09852e+06       419556       154654      92455.1        68377      49500.6      49220.4      56704.8      67309.2      83925.9       105636       139013       177856      48105.7
+     800   6.8969e+07  2.19692e+07    4.303e+06  1.03556e+06       429387       272731       208680       159529       161822       186195       219554       269922       334011       429225       537854       156850
+     900   1.1469e+08  3.68869e+07  8.41288e+06  2.33855e+06  1.06252e+06       707276       554900       441563       454379       521928       611971       743881       908152  1.14543e+06  1.41204e+06       437077
+    1000   1.8843e+08  6.12747e+07  1.57934e+07  4.92655e+06  2.40822e+06  1.66412e+06  1.33078e+06  1.09172e+06  1.13534e+06  1.30159e+06  1.51861e+06  1.82868e+06  2.20796e+06  2.74298e+06  3.33695e+06  1.08486e+06
+    1100  3.05305e+08   1.0044e+08  2.86246e+07  9.81235e+06  5.09232e+06  3.62786e+06  2.94497e+06  2.47395e+06  2.59333e+06  2.96695e+06  3.44651e+06  4.11729e+06  4.92542e+06  6.04249e+06  7.27059e+06  2.46407e+06
+    1200   4.8757e+08  1.62293e+08  5.03077e+07  1.86558e+07   1.0177e+07  7.43651e+06  6.10972e+06  5.23045e+06  5.51634e+06  6.29793e+06  7.28721e+06  8.64594e+06  1.02616e+07  1.24558e+07  1.48489e+07   5.2167e+06
+    1300  7.67533e+08  2.58444e+08  8.60386e+07  3.41015e+07  1.94049e+07  1.44867e+07  1.20197e+07  1.04489e+07  1.10725e+07  1.26154e+07  1.45453e+07  1.71543e+07  2.02212e+07  2.43225e+07  2.87652e+07  1.04302e+07
+    1400  1.19147e+09  4.05691e+08  1.43606e+08  6.02608e+07  3.55545e+07  2.70345e+07  2.26152e+07  1.99098e+07  2.11771e+07  2.40801e+07  2.76747e+07  3.24667e+07  3.80433e+07  4.53985e+07  5.33205e+07  1.98842e+07
+    1500  1.82482e+09  6.28024e+08  2.34485e+08  1.03387e+08  6.29441e+07  4.86271e+07  4.09599e+07  3.64432e+07  3.88793e+07  4.41245e+07  5.05628e+07  5.90399e+07  6.88167e+07  8.15532e+07   9.5204e+07  3.64082e+07
+    1600  2.75911e+09  9.59271e+08   3.7532e+08  1.72806e+08  1.08139e+08  8.47103e+07   7.1776e+07   6.4435e+07  6.89091e+07  7.80638e+07  8.92148e+07  1.03734e+08  1.20346e+08  1.41745e+08  1.64583e+08  6.43867e+07
+    1700  4.12084e+09  1.44658e+09  5.89898e+08  2.82187e+08  1.80923e+08  1.43472e+08  1.22186e+08  1.10532e+08  1.18441e+08  1.33946e+08  1.52703e+08  1.76883e+08  2.04345e+08  2.39364e+08  2.76601e+08  1.10464e+08
+    1800   6.0831e+09  2.15496e+09  9.11768e+08  4.51243e+08  2.95619e+08  2.36991e+08  2.02729e+08  1.84609e+08  1.98142e+08  2.23715e+08  2.54466e+08  2.93748e+08  3.38067e+08  3.94058e+08  4.53402e+08  1.84514e+08
+    1900  8.88042e+09  3.17309e+09  1.38766e+09  7.07986e+08  4.72859e+08  3.82789e+08  3.28727e+08  3.01076e+08  3.23583e+08  3.64786e+08  4.14062e+08  4.76486e+08  5.46489e+08  6.34175e+08  7.26844e+08   3.0094e+08
+    2000  1.28276e+10   4.6208e+09  2.08191e+09   1.0917e+09  7.41923e+08  6.05885e+08  5.22116e+08  4.80621e+08  5.17135e+08  5.82141e+08  6.59502e+08  7.56757e+08  8.65214e+08  9.99998e+08  1.14208e+09  4.80427e+08
+
+Model::VarBarrier::VarBarrier:  done, cpu time[sec] = 104.008, elapsed time[sec] = 2
