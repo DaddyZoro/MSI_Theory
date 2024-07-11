@@ -1,0 +1,2497 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001407, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003927, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -40.5421
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.115792, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.018946, elapsed time[sec] = 0
+         effective power exponent at 440.54 kcal/mol = 6.25672
+      interpolating states number/density done, cpu time[sec] = 1.2872, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.29796, elapsed time[sec] = 0
+   WELL: W2
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001621, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003572, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -85.7732
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.136248, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.022318, elapsed time[sec] = 0
+         effective power exponent at 485.771 kcal/mol = 6.27826
+      interpolating states number/density done, cpu time[sec] = 1.40088, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.41136, elapsed time[sec] = 0
+   WELL: W3
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001619, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.003544, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -45.7457
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.109059, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.020498, elapsed time[sec] = 0
+         effective power exponent at 445.743 kcal/mol = 6.2594
+      interpolating states number/density done, cpu time[sec] = 1.22646, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.236, elapsed time[sec] = 0
+   BIMOLECULAR: R
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         20.4757        1.10907        1.05209
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.003939, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.005916, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.009098, elapsed time[sec] = 0
+      Model::AtomicFragment::AtomicFragment:  ... done
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.01533, elapsed time[sec] = 0
+   BIMOLECULAR: P1
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: linear
+               rotational constant[1/cm]:         18.7626
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.00152, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.003411, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.00632, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: linear
+               rotational constant[1/cm]:         18.7626
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001473, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.003329, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.006193, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.018503, elapsed time[sec] = 0
+   BIMOLECULAR: P2
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:          26.957        14.5288        9.44065
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001561, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.003422, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.006361, elapsed time[sec] = 0
+      Model::AtomicFragment::AtomicFragment:  ... done
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.010968, elapsed time[sec] = 0
+   BIMOLECULAR: P3
+   Model::Bimolecular::Bimolecular:  starts
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.000975, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 600
+            effective power exponent at 85.6303 kcal/mol = 5.44923
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.05478, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.05686, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.370959, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 5.44923
+      interpolating states number/density done, cpu time[sec] = 0.67702, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.736618, elapsed time[sec] = 0
+   BARRIER: B2
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 600
+            effective power exponent at 85.6303 kcal/mol = 4.95348
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.001869, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.001893, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.006926, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 4.95348
+      interpolating states number/density done, cpu time[sec] = 0.017128, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.019081, elapsed time[sec] = 0
+   BARRIER: B3
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 600
+            effective power exponent at 85.6303 kcal/mol = 4.28316
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000622, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000628, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -8.14845
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.003754, elapsed time[sec] = 0
+         effective power exponent at 408.146 kcal/mol = 4.28316
+      interpolating states number/density done, cpu time[sec] = 0.013385, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.014049, elapsed time[sec] = 0
+   BARRIER: B4
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 900
+            effective power exponent at 128.517 kcal/mol = 3.75528
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000906, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000914, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -37.5973
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.004371, elapsed time[sec] = 0
+         effective power exponent at 437.595 kcal/mol = 3.75528
+      interpolating states number/density done, cpu time[sec] = 0.014821, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.015763, elapsed time[sec] = 0
+   BARRIER: B5
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 1.9e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -34.7982
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000978, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 3.3e-05, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000148, elapsed time[sec] = 0
+         effective power exponent at 434.796 kcal/mol = 6.34191
+      interpolating states number/density done, cpu time[sec] = 0.011383, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.011433, elapsed time[sec] = 0
+   BARRIER: B6
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1e-05, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 1.7e-05, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -36.425
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.000978, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.000157, elapsed time[sec] = 0
+         effective power exponent at 436.423 kcal/mol = 6.29225
+      interpolating states number/density done, cpu time[sec] = 0.011719, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.011774, elapsed time[sec] = 0
+   BARRIER: B7
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+            grid size = 900
+            effective power exponent at 128.517 kcal/mol = 3.84678
+            zero number of states energy = 0 1/cm
+         Model::Rotd::Rotd :  done, cpu time[sec] = 0.000917, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.000924, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -37.5973
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.004408, elapsed time[sec] = 0
+         effective power exponent at 437.595 kcal/mol = 3.84678
+      interpolating states number/density done, cpu time[sec] = 0.014807, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.015761, elapsed time[sec] = 0
+   checking input ... done
+   setting connectivity ... done
+   checking connectivity ... done
+   setting dissociation limit ... done
+   setting maximum barrier height ... done
+   partition functions (relative to the ground level, units - 1/cm3):
+     T\Q           W1           W2           W3          HO2            H           OH           OH          H2O        O(1D)           B6           B7           B1           B2           B3           B4           B5
+     100  1.58858e+28  1.58858e+28  1.58858e+28  1.49698e+28  3.75861e+23  9.76161e+25  9.76161e+25   1.2131e+26   1.8793e+23  3.27075e+28  1.07607e+30  2.69619e+28  2.26895e+29  4.21652e+29   7.8285e+30  6.99845e+28
+     200  1.28496e+29  1.28496e+29  1.28496e+29  1.19804e+29  1.06309e+24    5.522e+26    5.522e+26  9.70484e+26  5.31547e+23  2.64147e+29  9.53418e+30  2.20955e+29  2.30532e+30  4.44684e+30  1.14506e+32  6.08026e+29
+     300  4.59574e+29  4.59574e+29  4.59574e+29  4.06619e+29  1.95303e+24  1.52168e+27  1.52168e+27  3.27659e+27  9.76515e+23  9.32224e+29   3.9699e+31  8.70066e+29  9.60569e+30  1.73007e+31  5.76651e+32  2.43402e+30
+     400  1.21691e+30  1.21691e+30  1.21691e+30  9.82026e+29  3.00689e+24  3.12372e+27  3.12372e+27   7.7848e+27  1.50344e+24  2.39968e+30  1.13976e+32  2.48378e+30  2.75457e+31  4.51369e+31  1.85512e+33  7.16436e+30
+     500   2.7553e+30   2.7553e+30   2.7553e+30  1.98455e+30  4.20225e+24  5.45703e+27  5.45703e+27  1.52987e+28  2.10113e+24  5.22973e+30  2.62528e+32  5.90732e+30  6.44585e+31  9.52706e+31  4.64538e+33  1.77001e+31
+     600  5.64308e+30  5.64308e+30  5.64308e+30  3.59571e+30    5.524e+24  8.60911e+27  8.60911e+27  2.67253e+28    2.762e+24   1.0257e+31  5.23506e+32  1.24687e+31  1.32706e+32  1.76706e+32  9.89371e+33  3.88706e+31
+     700  1.07492e+31  1.07492e+31  1.07492e+31  6.04719e+30  6.96104e+24  1.26612e+28  1.26612e+28  4.31051e+28  3.48052e+24  1.86728e+31  9.43702e+32  2.41565e+31  2.49927e+32  3.00637e+32  1.88033e+34  7.82828e+31
+     800  1.93576e+31  1.93576e+31  1.93576e+31  9.62795e+30  8.50476e+24  1.76926e+28  1.76926e+28  6.56374e+28  4.25238e+24  3.21325e+31  1.57965e+33  4.38362e+31  4.40486e+32  4.80909e+32  3.28403e+34  1.47416e+32
+     900  3.33142e+31  3.33142e+31  3.33142e+31  1.46924e+31  1.01482e+25  2.37834e+28  2.37834e+28  9.57061e+28  5.07412e+24   5.2888e+31  2.49906e+33  7.55129e+31  7.37167e+32  7.34497e+32  5.37467e+34  2.63003e+32
+    1000  5.52152e+31  5.52152e+31  5.52152e+31  2.16698e+31  1.18858e+25  3.10169e+28  3.10169e+28  1.34908e+29  5.94288e+24  8.39492e+31  3.78253e+33  1.24644e+32  1.18317e+33  1.08202e+33   8.3561e+34  4.48756e+32
+    1100  8.86429e+31  8.86429e+31  8.86429e+31  3.10738e+31  1.37125e+25  3.94807e+28  3.94807e+28  1.85081e+29  6.85624e+24  1.29276e+32  5.52523e+33  1.98511e+32  1.83439e+33  1.54833e+33  1.24647e+35   7.3748e+32
+    1200  1.38459e+32  1.38459e+32  1.38459e+32   4.3514e+31  1.56242e+25  4.92669e+28  4.92669e+28  2.48335e+29  7.81212e+24  1.94007e+32  7.83876e+33  3.06651e+32  2.76212e+33  2.16305e+33  1.79723e+35  1.17364e+33
+    1300  2.11162e+32  2.11162e+32  2.11162e+32  5.97064e+31  1.76174e+25  6.04719e+28  6.04719e+28  3.27078e+29   8.8087e+24  2.84724e+32  1.08529e+34  4.61361e+32  4.05597e+33  2.96131e+33  2.51899e+35  1.81642e+33
+    1400  3.15326e+32  3.15326e+32  3.15326e+32   8.0486e+31  1.96888e+25  7.31967e+28  7.31967e+28  4.24047e+29   9.8444e+24  4.09763e+32  1.47177e+34  6.78279e+32  5.82732e+33  3.98437e+33  3.44711e+35  2.74339e+33
+    1500  4.62122e+32  4.62122e+32  4.62122e+32  1.06819e+32  2.18355e+25  8.75461e+28  8.75461e+28  5.42335e+29  1.09178e+25  5.79571e+32  1.96049e+34  9.77043e+32  8.21306e+33  5.28039e+33  4.62158e+35  4.05475e+33
+    1600  6.65945e+32  6.65945e+32  6.65945e+32  1.39817e+32  2.40551e+25  1.03629e+29  1.03629e+29  6.85422e+29  1.20275e+25  8.07113e+32  2.57104e+34  1.38205e+33  1.13798e+34  6.90518e+33  6.08735e+35  5.87836e+33
+    1700  9.45158e+32  9.45158e+32  9.45158e+32  1.80749e+32  2.63451e+25  1.21557e+29  1.21557e+29  8.57205e+29  1.31726e+25  1.10834e+33   3.3256e+34  1.92332e+33  1.55287e+34  8.92306e+33  7.89476e+35  8.37546e+33
+    1800  1.32296e+33  1.32296e+33  1.32296e+33  2.31057e+32  2.87036e+25  1.41445e+29  1.41445e+29  1.06203e+30  1.43518e+25  1.50271e+33  4.24913e+34  2.63745e+33  2.09001e+34  1.14077e+34  1.00999e+36  1.17473e+34
+    1900  1.82841e+33  1.82841e+33  1.82841e+33  2.92371e+32  3.11284e+25  1.63412e+29  1.63412e+29  1.30473e+30  1.55642e+25   2.0138e+33   5.3696e+34  3.56868e+33  2.77799e+34  1.44429e+34  1.27649e+36  1.62428e+34
+    2000   2.4976e+33   2.4976e+33   2.4976e+33  3.66526e+32   3.3618e+25  1.87579e+29  1.87579e+29  1.59065e+30   1.6809e+25  2.66995e+33  6.71819e+34  4.77015e+33  3.65049e+34   1.8124e+34  1.59584e+36  2.21669e+34
+   partition functions (relative to 0 kcal/mol, units - 1/cm3):
+     T\Q           W1           W2           W3           B6           B7           B1           B2           B3           B4           B5
+     100 6.37611e+116 4.52501e+215 1.50246e+128 1.31938e+108 1.58287e+112  2.69619e+28  2.26895e+29  2.71108e+47 1.15155e+113 7.85845e+104
+     200  2.57433e+73 6.85798e+122  1.24965e+79  1.67767e+69  1.15634e+72  2.20955e+29  2.30532e+30   3.5657e+39  1.38877e+73  6.44302e+67
+     300  1.57351e+59  1.40354e+92  9.71895e+62  3.19714e+56  9.72704e+58  8.70066e+29  9.60569e+30  1.49323e+37  1.41291e+60   5.4505e+55
+     400  1.72245e+52  8.89022e+76  1.20007e+55  1.91242e+50  3.96929e+52  2.48378e+30  2.75457e+31  1.27814e+36  6.46059e+53  7.37499e+49
+     500  1.44837e+48   8.5328e+67  2.72476e+50  4.36138e+46  7.12354e+48  5.90732e+30  6.44585e+31  3.47214e+35   1.2605e+50  2.87107e+46
+     600  3.30197e+45  9.86168e+61  2.59506e+47   1.8995e+44  2.59133e+46  1.24687e+31  1.32706e+32  1.64166e+35  4.89734e+47   1.8394e+44
+     700  4.88683e+43  6.46558e+57  2.05889e+45  4.40002e+42  5.16492e+44  2.41565e+31  2.49927e+32  1.05213e+35  1.02911e+46  5.72796e+42
+     800    2.303e+42  5.23212e+54   6.0789e+43  2.86853e+41  2.94788e+43  4.38362e+31  4.40486e+32  8.09256e+34  6.12855e+44  4.72972e+41
+     900   2.3306e+41  2.24346e+52  4.27612e+42  3.70201e+40  3.36908e+42  7.55129e+31  7.37167e+32  6.99323e+34  7.24578e+43  7.41307e+40
+    1000  4.00325e+40  3.07269e+50  5.49082e+41  7.66636e+39  6.23079e+41  1.24644e+32  1.18317e+33  6.53215e+34  1.37646e+43  1.80736e+40
+    1100   1.0058e+40  9.74927e+48  1.08731e+41   2.2305e+39  1.62979e+41  1.98511e+32  1.83439e+33  6.43856e+34  3.67673e+42  6.04529e+39
+    1200  3.34926e+39  5.78813e+47  2.96918e+40  8.34886e+38  5.51502e+40  3.06651e+32  2.76212e+33  6.59298e+34  1.26445e+42  2.55307e+39
+    1300  1.38125e+39  5.54883e+46  1.03529e+40  3.78391e+38  2.27055e+40  4.61361e+32  4.05597e+33  6.93975e+34  5.27001e+41    1.286e+39
+    1400  6.72333e+38  7.73347e+45  4.36403e+39   1.9891e+38  1.08881e+40  6.78279e+32  5.82732e+33  7.45372e+34  2.55018e+41  7.42085e+38
+    1500  3.72957e+38  1.45121e+45  2.13702e+39  1.17532e+38  5.89121e+39  9.77043e+32  8.21306e+33  8.12603e+34  1.38877e+41  4.76416e+38
+    1600  2.29699e+38  3.46219e+44  1.18012e+39  7.62592e+37  3.51224e+39  1.38205e+33  1.13798e+34   8.9575e+34  8.31579e+40  3.32968e+38
+    1700  1.53985e+38  1.00518e+44  7.18511e+38   5.3378e+37  2.26599e+39  1.92332e+33  1.55287e+34  9.95529e+34  5.37932e+40  2.49205e+38
+    1800  1.10654e+38  3.43314e+43  4.73977e+38  3.97572e+37  1.56015e+39  2.63745e+33  2.09001e+34  1.11312e+35  3.70837e+40  1.97223e+38
+    1900  8.42204e+37  1.34309e+43  3.34161e+38  3.11739e+37  1.13384e+39  3.56868e+33  2.77799e+34  1.25005e+35  2.69542e+40  1.63422e+38
+    2000  6.72512e+37  5.89187e+42  2.49065e+38  2.55146e+37  8.62249e+38  4.77015e+33  3.65049e+34   1.4082e+35  2.04819e+40  1.40677e+38
+   tunneling partition function correction factors & high pressure effective energy shifts (D), kcal/mol:
+     T\B           B6            D           B7            D           B1            D           B2            D           B3            D           B4            D           B5            D
+     100            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     200            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     300            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     400            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     500            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     600            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     700            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     800            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+     900            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1000            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1100            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1200            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1300            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1400            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1500            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1600            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1700            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1800            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    1900            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+    2000            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0            1           -0
+Model::init:  done, cpu time[sec] = 4.83569, elapsed time[sec] = 0
+MasterEquation::set_default_partition:  starts
+   default reduction scheme: W2 W3
+MasterEquation::set_default_partition:  done
+rate calculation starts
+   MasterEquation::set:  starts
+      Temperature      = 200 K
+      Energy reference = 4170 1/cm
+      Energy step      = 50 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.9 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 6.2e-05
+         W1 Well: collisional kernel bandwidth = 60
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.002999
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.001834
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.519361
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.870819
+         W1 Well: minimal relaxation eigenvalue = 0.140348
+         W1 Well: maximal relaxation eigenvalue = 0.998836
+         W1 Well:       grid size = 367
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14180 1/cm
+         W2 Well: average energy = -85.1 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.008799
+         W2 Well: collisional kernel bandwidth = 60
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.858343
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.644561
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 2.40921
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 4.87424
+         W2 Well: minimal relaxation eigenvalue = 0.140416
+         W2 Well: maximal relaxation eigenvalue = 1.07246
+         W2 Well:       grid size = 684
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30030 1/cm
+         W3 Well: average energy = -45.1 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.003098
+         W3 Well: collisional kernel bandwidth = 60
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.255792
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.114556
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.222864
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 1.10338
+         W3 Well: minimal relaxation eigenvalue = 0.140416
+         W3 Well: maximal relaxation eigenvalue = 1.07246
+         W3 Well:       grid size = 404
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16030 1/cm
+         B6 Barrier:        grid size = 339
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12780 1/cm
+         B7 Barrier:        grid size = 347
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13180 1/cm
+         B1 Barrier:        grid size = 84
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -30 1/cm
+         B2 Barrier:        grid size = 84
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -30 1/cm
+         B3 Barrier:        grid size = 141
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2880 1/cm
+         B4 Barrier:        grid size = 347
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13180 1/cm
+         B5 Barrier:        grid size = 327
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12180 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 11.9276, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14180 -12780     96.3 9.23e+05
+         W2 -30030 -13180 5.96e+05 2.58e+07
+         W3 -16030 -13180      569  1.5e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12780  1.2e+09
+         B7 -13180 8.77e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -30  4.3e+06
+         B2    -30 3.65e+07
+         B3  -2880 1.06e+08
+         B4 -13180  1.8e+11
+         B5 -12180 1.17e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  3.51e-50  1.92e-06  8.45e+23  2.91e-18  1.09e+17
+         W2  2.85e+49         1  5.49e+43  2.41e+73   8.3e+31   3.1e+66
+         W3   5.2e+05  1.82e-44         1  4.39e+29  1.51e-12  5.65e+22
+          R  1.18e-24  4.15e-74  2.28e-30         1  3.45e-42  1.29e-07
+         P1  3.44e+17   1.2e-32  6.61e+11   2.9e+41         1  3.74e+34
+         P2  9.19e-18  3.22e-67  1.77e-23  7.77e+06  2.68e-35         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  3.75e-50  2.06e-06  2.02e+20  6.96e-22   2.6e+13
+         W2  2.66e+49         1  5.49e+43  5.38e+69  1.85e+28  6.93e+62
+         W3  4.85e+05  1.82e-44         1  9.81e+25  3.38e-16  1.26e+19
+          R  4.95e-21  1.86e-70  1.02e-26         1  3.45e-42  1.29e-07
+         P1  1.44e+21  5.39e-29  2.96e+15   2.9e+41         1  3.74e+34
+         P2  3.84e-14  1.44e-63  7.92e-20  7.77e+06  2.68e-35         1
+   MasterEquation::set:  done, cpu time[sec] = 11.9356, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 3.9049, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.073674, elapsed time[sec] = 1
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.19947, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  1.58e-48         0         1         0
+          1  2.03e-07  1.14e-07         0         0         1
+          2   0.00103  0.000628         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  1.58e-48         0        -1         0
+          1  2.85e-08  1.14e-07 -9.59e-11         0        -1
+          2  0.000145  0.000628         1        -0 -9.59e-11
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.29953, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.341072, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072708, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.419, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  9.18e-49         0         1         0
+          1  2.03e-07  1.14e-07         0         0         1
+          2   0.00101  0.000607         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  9.18e-49         0        -1         0
+          1  2.85e-08  1.14e-07 -2.18e-09         0        -1
+          2  0.000141  0.000607         1        -0 -2.18e-09
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.419107, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.340586, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072648, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.417794, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  6.95e-49         0         1         0
+          1  2.03e-07  1.14e-07         0         0         1
+          2  0.000984  0.000589         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  6.95e-49         0        -1         0
+          1  2.85e-08  1.14e-07 -5.45e-09         0        -1
+          2  0.000138  0.000589         1        -0 -5.45e-09
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.417904, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.338885, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072572, elapsed time[sec] = 1
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.41589, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  5.72e-49         0         1         0
+          1  2.03e-07  1.14e-07         0         0         1
+          2  0.000964  0.000575         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  5.72e-49         0        -1         0
+          1  2.85e-08  1.14e-07 -9.12e-09         0        -1
+          2  0.000135  0.000575         1        -0 -9.12e-09
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.415991, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.33963, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072906, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.417047, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  4.32e-49         0         1         0
+          1  2.03e-07  1.13e-07         0         0         1
+          2  0.000932  0.000552         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  4.32e-49         0        -1         0
+          1  2.85e-08  1.13e-07 -1.68e-08         0        -1
+          2  0.000131  0.000552         1        -0 -1.68e-08
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.417152, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 1 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.341246, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072457, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.418101, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  2.75e-49         0         1         0
+          1  2.02e-07  1.13e-07         0         0         1
+          2  0.000879  0.000517         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  2.75e-49         0        -1         0
+          1  2.84e-08  1.13e-07 -3.52e-08         0        -1
+          2  0.000123  0.000517         1        -0 -3.52e-08
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.33227e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.418205, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 2 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.340516, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072149, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.417145, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  1.61e-49         0         1         0
+          1  2.02e-07  1.12e-07         0         0         1
+          2   0.00082  0.000479         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  1.61e-49         0        -1         0
+          1  2.83e-08  1.12e-07  -6.5e-08         0        -1
+          2  0.000115  0.000479         1        -0  -6.5e-08
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 3.9968e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.417248, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 4 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.338176, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.071931, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.414558, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  8.58e-50         0         1         0
+          1     2e-07  1.11e-07         0         0         1
+          2  0.000758  0.000438         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  8.58e-50         0        -1         0
+          1  2.81e-08  1.11e-07 -1.05e-07         0        -1
+          2  0.000106  0.000438         1        -0 -1.05e-07
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.06581e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.414667, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 6 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.33883, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072402, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.415693, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  5.66e-50         0         1         0
+          1  1.98e-07   1.1e-07         0         0         1
+          2  0.000719  0.000411         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  5.66e-50         0        -1         0
+          1  2.79e-08   1.1e-07  -1.3e-07         0        -1
+          2  0.000101  0.000411         1        -0  -1.3e-07
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.68754e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.415795, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 10 atm	 Temperature = 200 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.340859, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.072681, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.417994, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.140348
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  3.19e-50         0         1         0
+          1  1.96e-07  1.08e-07         0         0         1
+          2  0.000665  0.000374         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  3.19e-50         0        -1         0
+          1  2.75e-08  1.08e-07 -1.59e-07         0        -1
+          2  9.34e-05  0.000374         1        -0 -1.59e-07
+         *Z       ---       ---  1.04e+32  5.57e+56  7.52e+34
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.53131e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.418105, elapsed time[sec] = 1
+   MasterEquation::set:  starts
+      Temperature      = 210 K
+      Energy reference = 4379 1/cm
+      Energy step      = 52 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.8 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 8.7e-05
+         W1 Well: collisional kernel bandwidth = 60
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.006364
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.003487
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.261072
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.794075
+         W1 Well: minimal relaxation eigenvalue = 0.136912
+         W1 Well: maximal relaxation eigenvalue = 1.00854
+         W1 Well:       grid size = 357
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14185 1/cm
+         W2 Well: average energy = -85.1 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.008213
+         W2 Well: collisional kernel bandwidth = 60
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.743693
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.588197
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 3.15337
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 3.97521
+         W2 Well: minimal relaxation eigenvalue = 0.137158
+         W2 Well: maximal relaxation eigenvalue = 1.32218
+         W2 Well:       grid size = 662
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30045 1/cm
+         W3 Well: average energy = -45 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.004935
+         W3 Well: collisional kernel bandwidth = 60
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.355885
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.204777
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.956927
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 1.00005
+         W3 Well: minimal relaxation eigenvalue = 0.136912
+         W3 Well: maximal relaxation eigenvalue = 1.00854
+         W3 Well:       grid size = 392
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16005 1/cm
+         B6 Barrier:        grid size = 330
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12781 1/cm
+         B7 Barrier:        grid size = 338
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13197 1/cm
+         B1 Barrier:        grid size = 85
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -41 1/cm
+         B2 Barrier:        grid size = 85
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -41 1/cm
+         B3 Barrier:        grid size = 140
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2901 1/cm
+         B4 Barrier:        grid size = 338
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13197 1/cm
+         B5 Barrier:        grid size = 319
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12209 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 12.0995, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14185 -12781     96.2 9.78e+05
+         W2 -30045 -13197 5.93e+05 2.67e+07
+         W3 -16005 -13197      561 1.58e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12781 1.27e+09
+         B7 -13197 9.16e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -41 5.18e+06
+         B2    -41 4.34e+07
+         B3  -2901 1.17e+08
+         B4 -13197 1.88e+11
+         B5 -12209 1.26e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  8.07e-48  3.84e-06  5.97e+21  1.82e-18  2.04e+15
+         W2  1.24e+47         1  4.76e+41   7.4e+68  2.25e+29  2.53e+62
+         W3   2.6e+05   2.1e-42         1  1.55e+27  4.73e-13  5.31e+20
+          R  1.67e-22  1.35e-69  6.43e-28         1  3.04e-40  3.42e-07
+         P1   5.5e+17  4.44e-30  2.12e+12  3.29e+39         1  1.12e+33
+         P2   4.9e-16  3.95e-63  1.88e-21  2.93e+06   8.9e-34         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  8.47e-48  3.84e-06  1.46e+18  4.45e-22     5e+11
+         W2  1.18e+47         1  4.54e+41  1.73e+65  5.25e+25  5.91e+58
+         W3   2.6e+05  2.21e-42         1  3.81e+23  1.16e-16   1.3e+17
+          R  6.83e-19  5.79e-66  2.63e-24         1  3.04e-40  3.42e-07
+         P1  2.25e+21   1.9e-26  8.63e+15  3.29e+39         1  1.12e+33
+         P2     2e-12  1.69e-59  7.68e-18  2.93e+06   8.9e-34         1
+   MasterEquation::set:  done, cpu time[sec] = 12.108, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 3.95795, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.06776, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.2415, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  2.48e-19  1.88e-35         0         1         0
+          1  6.15e-07  3.45e-07         0    -0.246         1
+          2   0.00163  0.000999         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0   3.4e-20  1.88e-35  1.37e-16        -1 -3.57e-22
+          1  8.42e-08  3.45e-07 -2.54e-10  3.57e-22        -1
+          2  0.000224  0.000999         1 -8.47e-17 -2.54e-10
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.24265, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.322664, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.06547, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.389328, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  2.97e-46         0         1         0
+          1  6.14e-07  3.44e-07         0         0         1
+          2    0.0016  0.000972         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  2.97e-46         0        -1         0
+          1   8.4e-08  3.44e-07 -4.23e-09         0        -1
+          2  0.000219  0.000972         1        -0 -4.23e-09
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.389422, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.322024, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.065279, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.388504, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0   2.3e-46         0         1         0
+          1  6.13e-07  3.43e-07         0         0         1
+          2   0.00157  0.000947         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0   2.3e-46         0        -1         0
+          1  8.39e-08  3.43e-07 -1.02e-08         0        -1
+          2  0.000215  0.000947         1        -0 -1.02e-08
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.388601, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.322014, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.065003, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.388197, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -2.39e-20     2e-36         0         1         0
+          1  6.12e-07  3.42e-07         0         1    -0.128
+          2   0.00154  0.000927         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -3.27e-21     2e-36 -4.65e-17        -1 -1.13e-20
+          1  8.38e-08  3.42e-07 -1.67e-08  1.13e-20        -1
+          2  0.000211  0.000927         1 -2.69e-16 -1.67e-08
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.388294, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.31814, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.064342, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.383679, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  1.47e-46         0         1         0
+          1   6.1e-07  3.41e-07         0         0         1
+          2    0.0015  0.000894         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  1.47e-46         0        -1         0
+          1  8.35e-08  3.41e-07 -3.04e-08         0        -1
+          2  0.000205  0.000894         1        -0 -3.04e-08
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 8.88178e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.383773, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 1 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.318101, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.063964, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.383228, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0   9.6e-47         0         1         0
+          1  6.05e-07  3.37e-07         0         0         1
+          2   0.00142   0.00084         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0   9.6e-47         0        -1         0
+          1  8.28e-08  3.37e-07 -6.25e-08         0        -1
+          2  0.000194   0.00084         1        -0 -6.25e-08
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 3.9968e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.383319, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 2 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.317505, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.065261, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.383927, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  5.76e-47         0         1         0
+          1  5.96e-07  3.31e-07         0         0         1
+          2   0.00133  0.000781         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  5.76e-47         0        -1         0
+          1  8.16e-08  3.31e-07 -1.13e-07         0        -1
+          2  0.000182  0.000781         1        -0 -1.13e-07
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.24345e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.384018, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 4 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.32144, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.065321, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.387965, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  3.16e-47         0         1         0
+          1  5.81e-07   3.2e-07         0         0         1
+          2   0.00123  0.000716         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  3.16e-47         0        -1         0
+          1  7.95e-08   3.2e-07 -1.74e-07         0        -1
+          2  0.000168  0.000716         1        -0 -1.74e-07
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 3.01981e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.388057, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 6 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.318524, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.063891, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.383585, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  2.12e-47         0         1         0
+          1  5.68e-07  3.11e-07         0         0         1
+          2   0.00117  0.000675         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  2.12e-47         0        -1         0
+          1  7.78e-08  3.11e-07 -2.09e-07         0        -1
+          2   0.00016  0.000675         1        -0 -2.09e-07
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.39648e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.383685, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 10 atm	 Temperature = 210 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.316637, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.063874, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.381665, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.136912
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  1.22e-47         0         1         0
+          1  5.48e-07  2.98e-07         0         0         1
+          2   0.00108  0.000617         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  1.22e-47         0        -1         0
+          1  7.51e-08  2.98e-07 -2.45e-07         0        -1
+          2  0.000149  0.000617         1        -0 -2.45e-07
+         *Z       ---       ---  9.46e+30  3.33e+54  4.83e+33
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 5.9952e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.381759, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 220 K
+      Energy reference = 4587 1/cm
+      Energy step      = 55 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.8 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 0.000102
+         W1 Well: collisional kernel bandwidth = 58
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.005684
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.00313
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.137572
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.73022
+         W1 Well: minimal relaxation eigenvalue = 0.133813
+         W1 Well: maximal relaxation eigenvalue = 1.17932
+         W1 Well:       grid size = 342
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14223 1/cm
+         W2 Well: average energy = -85 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.007757
+         W2 Well: collisional kernel bandwidth = 58
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.735623
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.542809
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.356307
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 3.49641
+         W2 Well: minimal relaxation eigenvalue = 0.133744
+         W2 Well: maximal relaxation eigenvalue = 1.00148
+         W2 Well:       grid size = 629
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30008 1/cm
+         W3 Well: average energy = -45 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.005278
+         W3 Well: collisional kernel bandwidth = 58
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.340591
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.193442
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.209036
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 0.907933
+         W3 Well: minimal relaxation eigenvalue = 0.13372
+         W3 Well: maximal relaxation eigenvalue = 1.10763
+         W3 Well:       grid size = 375
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16038 1/cm
+         B6 Barrier:        grid size = 316
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12793 1/cm
+         B7 Barrier:        grid size = 323
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13178 1/cm
+         B1 Barrier:        grid size = 84
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -33 1/cm
+         B2 Barrier:        grid size = 84
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -33 1/cm
+         B3 Barrier:        grid size = 136
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2893 1/cm
+         B4 Barrier:        grid size = 323
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13178 1/cm
+         B5 Barrier:        grid size = 305
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12188 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 7.79432, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14223 -12793     94.5 1.04e+06
+         W2 -30008 -13178 5.96e+05 2.77e+07
+         W3 -16038 -13178      570 1.67e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12793 1.36e+09
+         B7 -13178 9.57e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -33  6.2e+06
+         B2    -33 5.12e+07
+         B3  -2893 1.29e+08
+         B4 -13178 1.96e+11
+         B5 -12188 1.35e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  1.23e-45  6.77e-06  6.75e+19   1.2e-18  5.61e+13
+         W2  8.16e+44         1  5.52e+39   5.5e+64  9.82e+26  4.57e+58
+         W3  1.48e+05  1.81e-40         1  9.97e+24  1.78e-13  8.28e+18
+          R  1.48e-20  1.82e-65     1e-25         1  1.78e-38  8.31e-07
+         P1   8.3e+17  1.02e-27  5.62e+12   5.6e+37         1  4.65e+31
+         P2  1.78e-14  2.19e-59  1.21e-19   1.2e+06  2.15e-32         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  1.17e-45  6.77e-06  1.66e+16  2.95e-22  1.38e+10
+         W2  8.56e+44         1   5.8e+39  1.42e+61  2.53e+23  1.18e+55
+         W3  1.48e+05  1.73e-40         1  2.44e+21  4.36e-17  2.03e+15
+          R  6.04e-17  7.06e-62  4.09e-22         1  1.78e-38  8.31e-07
+         P1  3.38e+21  3.96e-24  2.29e+16   5.6e+37         1  4.65e+31
+         P2  7.27e-11   8.5e-56  4.93e-16   1.2e+06  2.15e-32         1
+   MasterEquation::set:  done, cpu time[sec] = 7.80272, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 4.13084, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.059504, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.39236, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -7.96e-20  1.58e-36         0         1         0
+          1  1.23e-06  6.89e-07         0   -0.0369         1
+          2   0.00245   0.00149         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.06e-20  1.58e-36 -3.25e-17        -1 -4.97e-22
+          1  1.64e-07  6.89e-07 -1.57e-10  4.97e-22        -1
+          2  0.000328   0.00149         1 -3.25e-17 -1.57e-10
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = -4.44089e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.39295, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.290102, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056474, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.347732, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  3.62e-19  3.62e-35         0         1         0
+          1  1.23e-06  6.89e-07         0   -0.0656         1
+          2   0.00218   0.00131         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  4.85e-20  3.62e-35  1.67e-16        -1 -8.84e-22
+          1  1.64e-07  6.89e-07    -3e-09  8.83e-22        -1
+          2  0.000291   0.00131         1  2.78e-16    -3e-09
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.347915, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.287146, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056122, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344398, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  5.34e-20   8.3e-37         0         1         0
+          1  1.23e-06  6.89e-07         0    -0.174         1
+          2   0.00207   0.00125         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  7.14e-21   8.3e-37  2.58e-17        -1 -2.34e-21
+          1  1.64e-07  6.89e-07 -7.08e-09  2.34e-21        -1
+          2  0.000277   0.00125         1  2.58e-17 -7.08e-09
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344491, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.286973, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056176, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344188, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.13e-20  3.83e-38         0         1         0
+          1  1.23e-06  6.88e-07         0    -0.323         1
+          2   0.00202   0.00122         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.51e-21  3.83e-38 -5.61e-18        -1 -4.35e-21
+          1  1.64e-07  6.88e-07 -1.16e-08  4.35e-21        -1
+          2   0.00027   0.00122         1 -5.61e-18 -1.16e-08
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344282, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.286928, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056179, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344229, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0   3.1e-44         0         1         0
+          1  1.23e-06  6.88e-07         0         0         1
+          2   0.00196   0.00119         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0   3.1e-44         0        -1         0
+          1  1.64e-07  6.88e-07 -2.15e-08         0        -1
+          2  0.000262   0.00119         1        -0 -2.15e-08
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.44089e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344322, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 1 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.28697, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056115, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344197, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  2.05e-44         0         1         0
+          1  1.22e-06  6.87e-07         0         0         1
+          2    0.0019   0.00115         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  2.05e-44         0        -1         0
+          1  1.64e-07  6.87e-07 -4.69e-08         0        -1
+          2  0.000253   0.00115         1        -0 -4.69e-08
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344289, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 2 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.287118, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056098, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344309, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  1.26e-44         0         1         0
+          1  1.22e-06  6.84e-07         0         0         1
+          2   0.00183   0.00111         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  1.26e-44         0        -1         0
+          1  1.63e-07  6.84e-07 -9.22e-08         0        -1
+          2  0.000245   0.00111         1        -0 -9.22e-08
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 8.43769e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344401, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 4 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.286994, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056101, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344199, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  7.06e-45         0         1         0
+          1  1.22e-06   6.8e-07         0         0         1
+          2   0.00175   0.00104         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  7.06e-45         0        -1         0
+          1  1.63e-07   6.8e-07 -1.57e-07         0        -1
+          2  0.000234   0.00104         1        -0 -1.57e-07
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.44249e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344289, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 6 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.286944, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056097, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.344131, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  4.82e-45         0         1         0
+          1  1.21e-06  6.75e-07         0         0         1
+          2   0.00169  0.000997         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  4.82e-45         0        -1         0
+          1  1.62e-07  6.75e-07    -2e-07         0        -1
+          2  0.000226  0.000997         1        -0    -2e-07
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 3.9968e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344222, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 10 atm	 Temperature = 220 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.286964, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.056116, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.34419, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.13372
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0         0  2.83e-45         0         1         0
+          1   1.2e-06  6.67e-07         0         0         1
+          2   0.00159  0.000922         1         0         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0         0  2.83e-45         0        -1         0
+          1   1.6e-07  6.67e-07 -2.53e-07         0        -1
+          2  0.000213  0.000922         1        -0 -2.53e-07
+         *Z       ---       ---  1.08e+30  3.07e+52  4.14e+32
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 6.39488e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.344281, elapsed time[sec] = 1
+   MasterEquation::set:  starts
+      Temperature      = 230 K
+      Energy reference = 4796 1/cm
+      Energy step      = 58 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.8 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 0.000119
+         W1 Well: collisional kernel bandwidth = 57
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.005394
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.002867
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.094262
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.663041
+         W1 Well: minimal relaxation eigenvalue = 0.130894
+         W1 Well: maximal relaxation eigenvalue = 1.22625
+         W1 Well:       grid size = 328
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14228 1/cm
+         W2 Well: average energy = -85 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.007939
+         W2 Well: collisional kernel bandwidth = 57
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.693318
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.492155
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.323339
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 3.09848
+         W2 Well: minimal relaxation eigenvalue = 0.130713
+         W2 Well: maximal relaxation eigenvalue = 0.996191
+         W2 Well:       grid size = 600
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30004 1/cm
+         W3 Well: average energy = -45 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.004889
+         W3 Well: collisional kernel bandwidth = 57
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.393509
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.177237
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.165369
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 0.818456
+         W3 Well: minimal relaxation eigenvalue = 0.130642
+         W3 Well: maximal relaxation eigenvalue = 1.0203
+         W3 Well:       grid size = 359
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16026 1/cm
+         B6 Barrier:        grid size = 303
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12778 1/cm
+         B7 Barrier:        grid size = 310
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13184 1/cm
+         B1 Barrier:        grid size = 83
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -18 1/cm
+         B2 Barrier:        grid size = 83
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -18 1/cm
+         B3 Barrier:        grid size = 132
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2860 1/cm
+         B4 Barrier:        grid size = 310
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13184 1/cm
+         B5 Barrier:        grid size = 293
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12198 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 6.97598, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14228 -12778     96.6  1.1e+06
+         W2 -30004 -13184 5.95e+05 2.86e+07
+         W3 -16026 -13184      567 1.76e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12778 1.44e+09
+         B7 -13184 9.98e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -18 7.37e+06
+         B2    -18 6.03e+07
+         B3  -2860 1.42e+08
+         B4 -13184 2.04e+11
+         B5 -12198 1.44e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  1.11e-43  1.15e-05  1.06e+18  7.82e-19  1.99e+12
+         W2  8.99e+42         1  1.03e+38  9.57e+60  7.03e+24  1.79e+55
+         W3   8.7e+04  9.68e-39         1  9.26e+22   6.8e-14  1.73e+17
+          R  9.39e-19  1.05e-61  1.08e-23         1  7.34e-37  1.87e-06
+         P1  1.28e+18  1.42e-25  1.47e+13  1.36e+36         1  2.54e+30
+         P2  5.03e-13  5.59e-56  5.78e-18  5.35e+05  3.93e-31         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  1.05e-43  1.14e-05  2.76e+14  2.03e-22  5.15e+08
+         W2  9.52e+42         1  1.08e+38  2.63e+57  1.93e+21  4.91e+51
+         W3   8.8e+04  9.24e-39         1  2.43e+19  1.78e-17  4.53e+13
+          R  3.63e-15  3.81e-58  4.12e-20         1  7.34e-37  1.87e-06
+         P1  4.94e+21  5.18e-22  5.61e+16  1.36e+36         1  2.54e+30
+         P2  1.94e-09  2.04e-52  2.21e-14  5.35e+05  3.93e-31         1
+   MasterEquation::set:  done, cpu time[sec] = 6.98384, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 4.14793, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.052339, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.41462, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  5.01e-19  4.54e-35         0         1         0
+          1  2.82e-06  1.59e-06         0   -0.0441         1
+          2   0.00342   0.00211         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  6.55e-20  4.54e-35  1.47e-16        -1 -4.34e-21
+          1  3.68e-07  1.59e-06 -1.84e-10  4.34e-21        -1
+          2  0.000446   0.00211         1  2.58e-16 -1.84e-10
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.41523, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.265289, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049549, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.315891, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  -2.4e-20  1.05e-37         0         1         0
+          1  2.82e-06  1.59e-06         0    -0.156         1
+          2   0.00339   0.00209         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -3.14e-21  1.05e-37 -7.08e-18        -1 -1.53e-20
+          1  3.68e-07  1.59e-06  -4.1e-09  1.53e-20        -1
+          2  0.000443   0.00209         1 -7.08e-18  -4.1e-09
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.316056, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.262352, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049317, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312653, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -3.48e-20  2.22e-37         0         1         0
+          1  2.82e-06  1.59e-06         0    -0.195         1
+          2   0.00336   0.00206         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -4.55e-21  2.22e-37 -1.04e-17        -1 -1.92e-20
+          1  3.68e-07  1.59e-06 -1.03e-08  1.92e-20        -1
+          2  0.000439   0.00206         1 -1.04e-17 -1.03e-08
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312744, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.262168, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049337, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312472, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -9.92e-20     1e-35         0         1         0
+          1  2.82e-06  1.58e-06         0    -0.246         1
+          2   0.00333   0.00204         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  -1.3e-20     1e-35    -7e-17        -1 -2.42e-20
+          1  3.68e-07  1.58e-06 -1.74e-08  2.42e-20        -1
+          2  0.000435   0.00204         1 -2.92e-16 -1.74e-08
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312561, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.262024, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049311, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312308, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  3.46e-21  1.04e-35         0         1         0
+          1  2.82e-06  1.58e-06         0    -0.284         1
+          2   0.00328     0.002         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  4.52e-22  1.04e-35 -7.23e-17        -1  -2.8e-20
+          1  3.68e-07  1.58e-06 -3.25e-08   2.8e-20        -1
+          2  0.000429     0.002         1 -2.94e-16 -3.25e-08
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.33227e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312398, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 1 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.262013, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049261, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312223, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -7.63e-20  2.06e-35         0         1         0
+          1  2.81e-06  1.58e-06         0    -0.439         1
+          2   0.00317   0.00192         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -9.97e-21  2.06e-35 -1.04e-16        -1 -4.32e-20
+          1  3.67e-07  1.58e-06    -7e-08  4.32e-20        -1
+          2  0.000414   0.00192         1 -3.26e-16    -7e-08
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.88498e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312312, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 2 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.261948, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049245, elapsed time[sec] = 1
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312146, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  3.23e-20  2.07e-37         0         1         0
+          1   2.8e-06  1.57e-06         0    -0.305         1
+          2   0.00301    0.0018         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  4.22e-21  2.07e-37  1.07e-17        -1    -3e-20
+          1  3.66e-07  1.57e-06 -1.32e-07     3e-20        -1
+          2  0.000394    0.0018         1  1.07e-17 -1.32e-07
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.73195e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312237, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 4 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.261878, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049228, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312051, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.46e-19   4.5e-36         0         1         0
+          1  2.79e-06  1.56e-06         0     -0.36         1
+          2   0.00281   0.00166         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.91e-20   4.5e-36 -5.21e-17        -1 -3.55e-20
+          1  3.64e-07  1.56e-06 -2.16e-07  3.55e-20        -1
+          2  0.000367   0.00166         1   5.9e-17 -2.16e-07
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.64073e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.31214, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 6 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.261985, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049252, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312183, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  -5.3e-20  6.16e-37         0         1         0
+          1  2.77e-06  1.55e-06         0    -0.346         1
+          2   0.00268   0.00157         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -6.93e-21  6.16e-37 -1.98e-17        -1 -3.41e-20
+          1  3.62e-07  1.55e-06  -2.7e-07  3.41e-20        -1
+          2   0.00035   0.00157         1  9.12e-17  -2.7e-07
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 7.32747e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312272, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 10 atm	 Temperature = 230 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.262005, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.049248, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.312206, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.130642
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.04e-19  2.49e-36         0         1         0
+          1  2.75e-06  1.53e-06         0    -0.474         1
+          2   0.00249   0.00144         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.35e-20  2.49e-36 -4.16e-17        -1 -4.67e-20
+          1  3.59e-07  1.53e-06 -3.38e-07  4.66e-20        -1
+          2  0.000325   0.00144         1  6.94e-17 -3.38e-07
+         *Z       ---       ---  1.45e+29  4.34e+50  4.27e+31
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.14353e-13
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.312297, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 240 K
+      Energy reference = 5004 1/cm
+      Energy step      = 60 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.7 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 0.000121
+         W1 Well: collisional kernel bandwidth = 57
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.005074
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.002865
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.099706
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.631193
+         W1 Well: minimal relaxation eigenvalue = 0.127885
+         W1 Well: maximal relaxation eigenvalue = 0.999939
+         W1 Well:       grid size = 320
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14196 1/cm
+         W2 Well: average energy = -84.9 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.007678
+         W2 Well: collisional kernel bandwidth = 57
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.677589
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.471171
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.391846
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 2.90329
+         W2 Well: minimal relaxation eigenvalue = 0.127886
+         W2 Well: maximal relaxation eigenvalue = 1.06039
+         W2 Well:       grid size = 584
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30036 1/cm
+         W3 Well: average energy = -44.9 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.004525
+         W3 Well: collisional kernel bandwidth = 57
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.356073
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.16929
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.203884
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 0.770578
+         W3 Well: minimal relaxation eigenvalue = 0.128134
+         W3 Well: maximal relaxation eigenvalue = 1.54108
+         W3 Well:       grid size = 351
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16056 1/cm
+         B6 Barrier:        grid size = 296
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12756 1/cm
+         B7 Barrier:        grid size = 303
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13176 1/cm
+         B1 Barrier:        grid size = 84
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -36 1/cm
+         B2 Barrier:        grid size = 84
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -36 1/cm
+         B3 Barrier:        grid size = 131
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2856 1/cm
+         B4 Barrier:        grid size = 303
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13176 1/cm
+         B5 Barrier:        grid size = 287
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12216 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 6.72989, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14196 -12756     99.2 1.16e+06
+         W2 -30036 -13176 5.97e+05 2.96e+07
+         W3 -16056 -13176      571 1.85e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12756 1.54e+09
+         B7 -13176 1.04e+10
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -36 8.71e+06
+         B2    -36 7.04e+07
+         B3  -2856 1.56e+08
+         B4 -13176 2.13e+11
+         B5 -12216 1.54e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1   6.3e-42   1.8e-05  2.34e+16  5.17e-19  9.18e+10
+         W2  1.59e+41         1  2.86e+36  3.71e+57  8.22e+22  1.46e+52
+         W3  5.55e+04  3.49e-37         1   1.3e+21  2.87e-14  5.09e+15
+          R  4.28e-17   2.7e-58  7.72e-22         1  2.22e-35  3.93e-06
+         P1  1.93e+18  1.22e-23  3.48e+13  4.51e+34         1  1.77e+29
+         P2  1.09e-11  6.86e-53  1.96e-16  2.55e+05  5.64e-30         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  6.49e-42  1.83e-05  6.45e+12  1.43e-22  2.54e+07
+         W2  1.54e+41         1  2.82e+36  9.95e+53   2.2e+19  3.91e+48
+         W3  5.48e+04  3.55e-37         1  3.53e+17  7.83e-18  1.39e+12
+          R  1.55e-13  1.01e-54  2.83e-18         1  2.22e-35  3.93e-06
+         P1     7e+21  4.54e-20  1.28e+17  4.51e+34         1  1.77e+29
+         P2  3.94e-08  2.56e-49   7.2e-13  2.55e+05  5.64e-30         1
+   MasterEquation::set:  done, cpu time[sec] = 6.7375, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 4.21621, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.048395, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.43506, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  7.65e-20  8.06e-37         0         1         0
+          1  5.59e-06  3.15e-06         0    -0.024         1
+          2   0.00452   0.00281         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  9.78e-21  8.06e-37  1.69e-17        -1 -1.42e-20
+          1  7.14e-07  3.15e-06  -1.6e-10  1.42e-20        -1
+          2  0.000578   0.00281         1  1.69e-17  -1.6e-10
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.43564, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.252326, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.046053, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.299259, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  2.92e-20  1.18e-37         0         1         0
+          1  5.58e-06  3.15e-06         0    -0.103         1
+          2   0.00451    0.0028         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  3.73e-21  1.18e-37  6.47e-18        -1 -6.08e-20
+          1  7.14e-07  3.15e-06  -3.4e-09  6.08e-20        -1
+          2  0.000577    0.0028         1  6.47e-18  -3.4e-09
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.299351, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249572, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.04586, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296315, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  9.01e-19  1.12e-34         0         1         0
+          1  5.58e-06  3.15e-06         0    -0.128         1
+          2   0.00449   0.00279         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  1.15e-19  1.12e-34  2.01e-16        -1 -7.56e-20
+          1  7.14e-07  3.15e-06 -8.72e-09  7.56e-20        -1
+          2  0.000575   0.00279         1  3.12e-16 -8.72e-09
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = -4.44089e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296401, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.24945, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045866, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296179, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  5.73e-19  4.54e-35         0         1         0
+          1  5.58e-06  3.15e-06         0    -0.144         1
+          2   0.00448   0.00278         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  7.33e-20  4.54e-35  1.28e-16        -1  -8.5e-20
+          1  7.14e-07  3.15e-06  -1.5e-08   8.5e-20        -1
+          2  0.000573   0.00278         1  2.39e-16  -1.5e-08
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.44089e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296267, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249366, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.04587, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296097, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.09e-19  1.66e-36         0         1         0
+          1  5.58e-06  3.15e-06         0    -0.173         1
+          2   0.00446   0.00276         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  -1.4e-20  1.66e-36 -2.46e-17        -1 -1.02e-19
+          1  7.14e-07  3.15e-06 -2.88e-08  1.02e-19        -1
+          2   0.00057   0.00276         1 -2.46e-17 -2.88e-08
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 6.66134e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296184, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 1 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249423, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045892, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296178, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  3.95e-20  2.18e-37         0         1         0
+          1  5.58e-06  3.14e-06         0    -0.191         1
+          2    0.0044   0.00271         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  5.05e-21  2.18e-37  8.98e-18        -1 -1.13e-19
+          1  7.13e-07  3.14e-06 -6.49e-08  1.13e-19        -1
+          2  0.000562   0.00271         1  8.98e-18 -6.49e-08
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.21885e-15
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296269, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 2 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.24934, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045876, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.29608, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -4.86e-20  3.37e-37         0         1         0
+          1  5.57e-06  3.14e-06         0    -0.226         1
+          2   0.00429   0.00262         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -6.22e-21  3.37e-37 -1.13e-17        -1 -1.33e-19
+          1  7.12e-07  3.14e-06 -1.29e-07  1.33e-19        -1
+          2  0.000548   0.00262         1 -1.13e-17 -1.29e-07
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.64313e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296168, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 4 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249466, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045862, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296191, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.12e-19  1.85e-36         0         1         0
+          1  5.55e-06  3.12e-06         0    -0.253         1
+          2   0.00411   0.00248         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.44e-20  1.85e-36 -2.74e-17        -1  -1.5e-19
+          1   7.1e-07  3.12e-06 -2.21e-07   1.5e-19        -1
+          2  0.000525   0.00248         1 -2.74e-17 -2.21e-07
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 4.88498e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.29628, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 6 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249284, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045846, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296002, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -1.82e-19  5.47e-35         0         1         0
+          1  5.53e-06  3.11e-06         0    -0.355         1
+          2   0.00396   0.00236         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -2.33e-20  5.47e-35 -1.52e-16        -1  -2.1e-19
+          1  7.08e-07  3.11e-06 -2.82e-07   2.1e-19        -1
+          2  0.000507   0.00236         1 -3.74e-16 -2.82e-07
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 8.01581e-14
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296088, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 10 atm	 Temperature = 240 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.249502, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.045812, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.296177, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.127885
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0   3.7e-21  1.51e-36         0         1         0
+          1   5.5e-06  3.08e-06         0    -0.286         1
+          2   0.00373   0.00219         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  4.73e-22  1.51e-36 -2.63e-17        -1 -1.69e-19
+          1  7.03e-07  3.08e-06  -3.6e-07  1.69e-19        -1
+          2  0.000478   0.00219         1 -2.48e-16  -3.6e-07
+         *Z       ---       ---  2.28e+28   9.1e+48  5.38e+30
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 1.29452e-13
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.296269, elapsed time[sec] = 1
+   MasterEquation::set:  starts
+      Temperature      = 250 K
+      Energy reference = 5213 1/cm
+      Energy step      = 62 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: average energy = -39.7 kcal/mol
+         W1 Well: density of states done, elapsed time[sec] = 0.000103
+         W1 Well: collisional kernel bandwidth = 56
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.005397
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.002625
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.08527
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.585867
+         W1 Well: minimal relaxation eigenvalue = 0.125152
+         W1 Well: maximal relaxation eigenvalue = 1.01026
+         W1 Well:       grid size = 313
+         W1 Well:      real depth = -14180 1/cm
+         W1 Well: effective depth = -14193 1/cm
+         W2 Well: average energy = -84.9 kcal/mol
+         W2 Well: density of states done, elapsed time[sec] = 0.007321
+         W2 Well: collisional kernel bandwidth = 56
+         W2 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.681533
+         W2 Well: relaxation modes basis done, elapsed time[sec] = 0.444189
+         W2 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.300933
+         W2 Well: relaxation eigenvalues done, elapsed time[sec] = 2.73791
+         W2 Well: minimal relaxation eigenvalue = 0.125135
+         W2 Well: maximal relaxation eigenvalue = 1.01457
+         W2 Well:       grid size = 568
+         W2 Well:      real depth = -30000 1/cm
+         W2 Well: effective depth = -30003 1/cm
+         W3 Well: average energy = -44.9 kcal/mol
+         W3 Well: density of states done, elapsed time[sec] = 0.004799
+         W3 Well: collisional kernel bandwidth = 56
+         W3 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.318577
+         W3 Well: relaxation modes basis done, elapsed time[sec] = 0.161851
+         W3 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.166764
+         W3 Well: relaxation eigenvalues done, elapsed time[sec] = 0.715907
+         W3 Well: minimal relaxation eigenvalue = 0.125436
+         W3 Well: maximal relaxation eigenvalue = 1.28044
+         W3 Well:       grid size = 343
+         W3 Well:      real depth = -15999 1/cm
+         W3 Well: effective depth = -16053 1/cm
+         B6 Barrier:        grid size = 290
+         B6 Barrier:      real height = -12740 1/cm
+         B6 Barrier: effective height = -12767 1/cm
+         B7 Barrier:        grid size = 297
+         B7 Barrier:      real height = -13150 1/cm
+         B7 Barrier: effective height = -13201 1/cm
+         B1 Barrier:        grid size = 85
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -57 1/cm
+         B2 Barrier:        grid size = 85
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -57 1/cm
+         B3 Barrier:        grid size = 131
+         B3 Barrier:      real height = -2850 1/cm
+         B3 Barrier: effective height = -2909 1/cm
+         B4 Barrier:        grid size = 297
+         B4 Barrier:      real height = -13150 1/cm
+         B4 Barrier: effective height = -13201 1/cm
+         B5 Barrier:        grid size = 281
+         B5 Barrier:      real height = -12171 1/cm
+         B5 Barrier: effective height = -12209 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 6.25346, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1 -14193 -12767     97.9 1.22e+06
+         W2 -30003 -13201 5.92e+05 3.06e+07
+         W3 -16053 -13201      559 1.95e+06
+      Well-to-Well Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B6 -12767 1.63e+09
+         B7 -13201 1.09e+10
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -57 1.03e+07
+         B2    -57  8.2e+07
+         B3  -2909 1.71e+08
+         B4 -13201 2.22e+11
+         B5 -12209 1.64e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  2.95e-40  2.73e-05  7.07e+14   3.6e-19  5.51e+09
+         W2  3.39e+39         1  9.26e+34   2.4e+54  1.22e+21  1.87e+49
+         W3  3.66e+04  1.08e-35         1  2.59e+19  1.32e-14  2.02e+14
+          R  1.41e-15  4.17e-55  3.86e-20         1  5.08e-34  7.78e-06
+         P1  2.78e+18  8.19e-22  7.59e+13  1.97e+33         1  1.53e+28
+         P2  1.82e-10  5.35e-50  4.95e-15  1.28e+05  6.53e-29         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        W2        W3         R        P1        P2
+         W1         1  2.88e-40  2.83e-05  2.04e+11  1.03e-22  1.58e+06
+         W2  3.47e+39         1  9.81e+34  7.06e+50  3.59e+17   5.5e+45
+         W3  3.54e+04  1.02e-35         1   7.2e+15  3.66e-18  5.61e+10
+          R  4.91e-12  1.42e-51  1.39e-16         1  5.08e-34  7.78e-06
+         P1  9.66e+21  2.78e-18  2.73e+17  1.97e+33         1  1.53e+28
+         P2  6.31e-07  1.82e-46  1.78e-11  1.28e+05  6.53e-29         1
+   MasterEquation::set:  done, cpu time[sec] = 6.26187, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.01 atm	 Temperature = 250 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 4.14255, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.044777, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 4.45308, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.125135
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -2.98e-20  1.35e-37         0         1         0
+          1  1.21e-05  6.84e-06         0    -0.116         1
+          2   0.00667   0.00416         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -3.72e-21  1.35e-37 -4.46e-18        -1  -3.8e-19
+          1  1.51e-06  6.84e-06 -3.65e-10   3.8e-19        -1
+          2  0.000835   0.00416         1 -4.46e-18 -3.65e-10
+         *Z       ---       ---  4.23e+27  2.46e+47   8.1e+29
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = -4.44089e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 4.45366, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.1 atm	 Temperature = 250 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.241329, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.04321, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.285423, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.125135
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0 -9.95e-20  9.62e-37         0         1         0
+          1  1.21e-05  6.84e-06         0     -0.23         1
+          2   0.00665   0.00414         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0 -1.25e-20  9.62e-37  -1.5e-17        -1 -7.55e-19
+          1  1.51e-06  6.84e-06 -7.03e-09  7.55e-19        -1
+          2  0.000832   0.00414         1  -1.5e-17 -7.03e-09
+         *Z       ---       ---  4.23e+27  2.46e+47   8.1e+29
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 0
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.28551, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.2 atm	 Temperature = 250 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.23877, elapsed time[sec] = 0
+         inverting kinetic matrices ... done, cpu time[sec] = 0.043111, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.282731, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collisional frequency = 0.125135
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0  5.42e-20  3.05e-37         0         1         0
+          1  1.21e-05  6.83e-06         0     -0.26         1
+          2   0.00662   0.00412         0     0.998         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  6.79e-21  3.05e-37  8.19e-18        -1 -8.53e-19
+          1  1.51e-06  6.83e-06 -1.71e-08  8.53e-19        -1
+          2  0.000829   0.00412         1  8.19e-18 -1.71e-08
+         *Z       ---       ---  4.23e+27  2.46e+47   8.1e+29
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 2.22045e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.282817, elapsed time[sec] = 0
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.3 atm	 Temperature = 250 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ... done, cpu time[sec] = 0.238619, elapsed time[sec] = 1
+         inverting kinetic matrices ... done, cpu time[sec] = 0.042982, elapsed time[sec] = 0
+      MasterEquation::low_eigenvalue_matrix:  done, cpu time[sec] = 0.282452, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collisional frequency = 0.125135
+      eigenvector populations normalized:
+          L        *R        *P        W1        W2        W3
+          0   1.4e-18  1.84e-34         0         1         0
+          1   1.2e-05  6.83e-06         0    -0.276         1
+          2    0.0066    0.0041         0         1         0
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1        W2        W3
+          0  1.75e-19  1.84e-34  2.12e-16        -1 -9.07e-19
+          1  1.51e-06  6.83e-06 -2.86e-08  9.07e-19        -1
+          2  0.000826    0.0041         1  3.23e-16 -2.86e-08
+         *Z       ---       ---  4.23e+27  2.46e+47   8.1e+29
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 2
+      using default reduction scheme, projection error = 8.88178e-16
+      species:
+       #  assigned name     group
+       0             W2     W2
+       1             W3     W3
+   MasterEquation::low_eigenvalue_method:  done, cpu time[sec] = 0.282539, elapsed time[sec] = 1
+   MasterEquation::low_eigenvalue_method:  starts
+      Pressure = 0.5 atm	 Temperature = 250 K
+      MasterEquation::low_eigenvalue_matrix:  starts
+         setting up kinetic matrices ...

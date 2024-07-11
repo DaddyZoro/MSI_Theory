@@ -1,0 +1,4131 @@
+Wells (G - ground energy, D - dissociation limit, kcal/mol):
+      Name        G        D
+        W1     -0.4      0.0
+
+Bimolecular Products (G - ground energy, kcal/mol):
+      Name        G
+        P1      0.0
+        P2    -10.0
+
+Well-to-Bimolecular Barriers (H/G - barrier height/well depth, kcal/mol)
+      Name        H     Well        G  Product
+        B1      0.0       W1     -0.4       P1
+        B2      5.0       W1     -0.4       P2
+
+________________________________________________________________________________________
+
+Unimolecular Rate Units: 1/sec;  Bimolecular Rate Units: cm^3/sec
+
+______________________________________________________________________________________
+
+Species-Species Rate Tables:
+
+Temperature = 200 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.94822e+09  1.06982e+06
+P1        2.22271e-10          ***          ***
+P2        1.01597e-25          ***          ***
+
+Temperature = 200 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.38828e-14  2.38828e-14
+P2                ***  1.01512e-25  1.01512e-25
+
+Temperature = 200 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.38868e-14  2.38868e-14
+P2                ***  1.01529e-25  1.01529e-25
+
+Temperature = 210 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.00156e+10  1.27664e+06
+P1        2.21179e-10          ***          ***
+P2        3.90675e-25          ***          ***
+
+Temperature = 210 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.82643e-14  2.82643e-14
+P2                ***  3.91667e-25  3.91667e-25
+
+Temperature = 210 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.82705e-14  2.82705e-14
+P2                ***  3.91754e-25  3.91754e-25
+
+Temperature = 220 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.00315e+10  1.51654e+06
+P1        2.20182e-10          ***          ***
+P2         1.3486e-24          ***          ***
+
+Temperature = 220 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.34656e-14  3.34656e-14
+P2                ***  1.35585e-24  1.35585e-24
+
+Temperature = 220 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   3.3475e-14   3.3475e-14
+P2                ***  1.35624e-24  1.35624e-24
+
+Temperature = 230 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.00041e+10  1.79722e+06
+P1        2.19274e-10          ***          ***
+P2        4.24436e-24          ***          ***
+
+Temperature = 230 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.96129e-14  3.96129e-14
+P2                ***  4.26814e-24  4.26814e-24
+
+Temperature = 230 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.96269e-14  3.96269e-14
+P2                ***  4.26965e-24  4.26965e-24
+
+Temperature = 240 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.94044e+09  2.12336e+06
+P1        2.18448e-10          ***          ***
+P2        1.23071e-23          ***          ***
+
+Temperature = 240 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.68443e-14  4.68443e-14
+P2                ***  1.23551e-23  1.23551e-23
+
+Temperature = 240 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.68647e-14  4.68647e-14
+P2                ***  1.23604e-23  1.23604e-23
+
+Temperature = 250 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.84684e+09  2.49262e+06
+P1        2.17697e-10          ***          ***
+P2        3.30755e-23          ***          ***
+
+Temperature = 250 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.53102e-14  5.53102e-14
+P2                ***  3.31971e-23  3.31971e-23
+
+Temperature = 250 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.53392e-14  5.53392e-14
+P2                ***  3.32145e-23  3.32145e-23
+
+Temperature = 260 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.72873e+09  2.91106e+06
+P1        2.17015e-10          ***          ***
+P2         8.3151e-23          ***          ***
+
+Temperature = 260 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  6.51724e-14  6.51724e-14
+P2                ***  8.34537e-23  8.34537e-23
+
+Temperature = 260 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  6.52131e-14  6.52131e-14
+P2                ***  8.35059e-23  8.35059e-23
+
+Temperature = 270 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.59082e+09  3.38451e+06
+P1        2.16397e-10          ***          ***
+P2        1.96999e-22          ***          ***
+
+Temperature = 270 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  7.66049e-14  7.66049e-14
+P2                ***  1.97619e-22  1.97619e-22
+
+Temperature = 270 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  7.66611e-14  7.66611e-14
+P2                ***  1.97764e-22  1.97764e-22
+
+Temperature = 280 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.43714e+09   3.9179e+06
+P1        2.15838e-10          ***          ***
+P2        4.42467e-22          ***          ***
+
+Temperature = 280 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  8.97932e-14  8.97932e-14
+P2                ***  4.43388e-22  4.43388e-22
+
+Temperature = 280 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  8.98698e-14  8.98698e-14
+P2                ***  4.43766e-22  4.43766e-22
+
+Temperature = 290 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.27112e+09  4.51216e+06
+P1        2.15333e-10          ***          ***
+P2        9.46146e-22          ***          ***
+
+Temperature = 290 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.04934e-13  1.04934e-13
+P2                ***  9.47353e-22  9.47353e-22
+
+Temperature = 290 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.05037e-13  1.05037e-13
+P2                ***  9.48282e-22  9.48282e-22
+
+Temperature = 300 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  9.09569e+09  5.17191e+06
+P1        2.14877e-10          ***          ***
+P2        1.93529e-21          ***          ***
+
+Temperature = 300 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.22235e-13  1.22235e-13
+P2                ***  1.93614e-21  1.93614e-21
+
+Temperature = 300 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.22371e-13  1.22371e-13
+P2                ***   1.9383e-21   1.9383e-21
+
+Temperature = 310 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.91331e+09   5.9016e+06
+P1        2.14466e-10          ***          ***
+P2        3.80198e-21          ***          ***
+
+Temperature = 310 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.41915e-13  1.41915e-13
+P2                ***  3.79968e-21  3.79968e-21
+
+Temperature = 310 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.42094e-13  1.42094e-13
+P2                ***  3.80448e-21  3.80448e-21
+
+Temperature = 320 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.72608e+09  6.70606e+06
+P1        2.14098e-10          ***          ***
+P2         7.1998e-21          ***          ***
+
+Temperature = 320 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.64202e-13  1.64202e-13
+P2                ***   7.1852e-21   7.1852e-21
+
+Temperature = 320 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.64435e-13  1.64435e-13
+P2                ***  7.19538e-21  7.19538e-21
+
+Temperature = 330 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.53573e+09  7.58282e+06
+P1        2.13768e-10          ***          ***
+P2        1.31715e-20          ***          ***
+
+Temperature = 330 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.89336e-13  1.89336e-13
+P2                ***  1.31322e-20  1.31322e-20
+
+Temperature = 330 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.89635e-13  1.89635e-13
+P2                ***  1.31529e-20  1.31529e-20
+
+Temperature = 340 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.34373e+09   8.5493e+06
+P1        2.13473e-10          ***          ***
+P2        2.33857e-20          ***          ***
+
+Temperature = 340 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.17564e-13  2.17564e-13
+P2                ***  2.32607e-20  2.32607e-20
+
+Temperature = 340 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.17944e-13  2.17944e-13
+P2                ***  2.33014e-20  2.33014e-20
+
+Temperature = 350 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.15129e+09   9.5764e+06
+P1        2.13211e-10          ***          ***
+P2        4.02431e-20          ***          ***
+
+Temperature = 350 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.49144e-13  2.49144e-13
+P2                ***  4.00274e-20  4.00274e-20
+
+Temperature = 350 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.49624e-13  2.49624e-13
+P2                ***  4.01046e-20  4.01046e-20
+
+Temperature = 360 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.95942e+09  1.06991e+07
+P1        2.12979e-10          ***          ***
+P2        6.75233e-20          ***          ***
+
+Temperature = 360 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.84341e-13  2.84341e-13
+P2                ***   6.7064e-20   6.7064e-20
+
+Temperature = 360 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.84943e-13  2.84943e-13
+P2                ***   6.7206e-20   6.7206e-20
+
+Temperature = 370 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.76893e+09  1.19209e+07
+P1        2.12774e-10          ***          ***
+P2        1.10653e-19          ***          ***
+
+Temperature = 370 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   3.2343e-13   3.2343e-13
+P2                ***  1.09617e-19  1.09617e-19
+
+Temperature = 370 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.24179e-13  3.24179e-13
+P2                ***   1.0987e-19   1.0987e-19
+
+Temperature = 380 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.58051e+09  1.32127e+07
+P1        2.12596e-10          ***          ***
+P2        1.76944e-19          ***          ***
+
+Temperature = 380 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.66692e-13  3.66692e-13
+P2                ***  1.75102e-19  1.75102e-19
+
+Temperature = 380 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.67615e-13  3.67615e-13
+P2                ***  1.75543e-19  1.75543e-19
+
+Temperature = 390 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.39469e+09  1.46013e+07
+P1        2.12441e-10          ***          ***
+P2        2.77147e-19          ***          ***
+
+Temperature = 390 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.14416e-13  4.14416e-13
+P2                ***  2.73802e-19  2.73802e-19
+
+Temperature = 390 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.15547e-13  4.15547e-13
+P2                ***   2.7455e-19   2.7455e-19
+
+Temperature = 400 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.21192e+09  1.60906e+07
+P1        2.12308e-10          ***          ***
+P2        4.25813e-19          ***          ***
+
+Temperature = 400 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.66895e-13  4.66895e-13
+P2                ***   4.1971e-19   4.1971e-19
+
+Temperature = 400 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.68272e-13  4.68272e-13
+P2                ***  4.20947e-19  4.20947e-19
+
+Temperature = 410 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.03253e+09  1.76545e+07
+P1        2.12196e-10          ***          ***
+P2        6.41506e-19          ***          ***
+
+Temperature = 410 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.24432e-13  5.24432e-13
+P2                ***  6.31551e-19  6.31551e-19
+
+Temperature = 410 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.26097e-13  5.26097e-13
+P2                ***  6.33555e-19  6.33555e-19
+
+Temperature = 420 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***   6.8568e+09   1.9333e+07
+P1        2.12103e-10          ***          ***
+P2        9.51007e-19          ***          ***
+
+Temperature = 420 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.87332e-13  5.87332e-13
+P2                ***  9.33991e-19  9.33991e-19
+
+Temperature = 420 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.89334e-13  5.89334e-13
+P2                ***  9.37175e-19  9.37175e-19
+
+Temperature = 430 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.68491e+09   2.1099e+07
+P1        2.12027e-10          ***          ***
+P2         1.3866e-18          ***          ***
+
+Temperature = 430 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  6.55904e-13  6.55904e-13
+P2                ***  1.35905e-18  1.35905e-18
+
+Temperature = 430 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  6.58298e-13  6.58298e-13
+P2                ***  1.36401e-18  1.36401e-18
+
+Temperature = 440 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.51701e+09    2.296e+07
+P1        2.11967e-10          ***          ***
+P2        1.99124e-18          ***          ***
+
+Temperature = 440 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  7.30465e-13  7.30465e-13
+P2                ***  1.94774e-18  1.94774e-18
+
+Temperature = 440 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  7.33312e-13  7.33312e-13
+P2                ***  1.95533e-18  1.95533e-18
+
+Temperature = 450 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.35321e+09  2.49306e+07
+P1        2.11923e-10          ***          ***
+P2        2.82068e-18          ***          ***
+
+Temperature = 450 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  8.11331e-13  8.11331e-13
+P2                ***  2.75191e-18  2.75191e-18
+
+Temperature = 450 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***    8.147e-13    8.147e-13
+P2                ***  2.76333e-18  2.76333e-18
+
+Temperature = 460 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.19355e+09  2.69896e+07
+P1        2.11893e-10          ***          ***
+P2        3.94109e-18          ***          ***
+
+Temperature = 460 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  8.98824e-13  8.98824e-13
+P2                ***  3.83635e-18  3.83635e-18
+
+Temperature = 460 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  9.02791e-13  9.02791e-13
+P2                ***  3.85328e-18  3.85328e-18
+
+Temperature = 470 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.03808e+09   2.9158e+07
+P1        2.11876e-10          ***          ***
+P2        5.44005e-18          ***          ***
+
+Temperature = 470 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  9.93265e-13  9.93265e-13
+P2                ***  5.28113e-18  5.28113e-18
+
+Temperature = 470 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  9.97916e-13  9.97916e-13
+P2                ***  5.30586e-18  5.30586e-18
+
+Temperature = 480 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.88678e+09  3.14258e+07
+P1        2.11871e-10          ***          ***
+P2        7.42085e-18          ***          ***
+
+Temperature = 480 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.09498e-12  1.09498e-12
+P2                ***   7.1842e-18   7.1842e-18
+
+Temperature = 480 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   1.1004e-12   1.1004e-12
+P2                ***  7.21979e-18  7.21979e-18
+
+Temperature = 490 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.73964e+09  3.37905e+07
+P1        2.11878e-10          ***          ***
+P2        1.00099e-17          ***          ***
+
+Temperature = 490 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.20429e-12  1.20429e-12
+P2                ***  9.66416e-18  9.66416e-18
+
+Temperature = 490 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.21059e-12  1.21059e-12
+P2                ***  9.71469e-18  9.71469e-18
+
+Temperature = 500 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.59661e+09  3.62617e+07
+P1        2.11895e-10          ***          ***
+P2        1.33636e-17          ***          ***
+
+Temperature = 500 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.32152e-12  1.32152e-12
+P2                ***  1.28634e-17  1.28634e-17
+
+Temperature = 500 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.32881e-12  1.32881e-12
+P2                ***  1.29344e-17  1.29344e-17
+
+Temperature = 510 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.45765e+09  3.88309e+07
+P1        2.11922e-10          ***          ***
+P2        1.76638e-17          ***          ***
+
+Temperature = 510 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***    1.447e-12    1.447e-12
+P2                ***  1.69513e-17  1.69513e-17
+
+Temperature = 510 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   1.4554e-12   1.4554e-12
+P2                ***  1.70497e-17  1.70497e-17
+
+Temperature = 520 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.32269e+09  4.15007e+07
+P1        2.11959e-10          ***          ***
+P2        2.31297e-17          ***          ***
+
+Temperature = 520 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.58104e-12  1.58104e-12
+P2                ***  2.21279e-17  2.21279e-17
+
+Temperature = 520 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.59069e-12  1.59069e-12
+P2                ***  2.22629e-17  2.22629e-17
+
+Temperature = 530 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.19165e+09  4.42753e+07
+P1        2.12004e-10          ***          ***
+P2        3.00226e-17          ***          ***
+
+Temperature = 530 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.72398e-12  1.72398e-12
+P2                ***  2.86273e-17  2.86273e-17
+
+Temperature = 530 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.73501e-12  1.73501e-12
+P2                ***  2.88106e-17  2.88106e-17
+
+Temperature = 540 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.06446e+09  4.71502e+07
+P1        2.12057e-10          ***          ***
+P2        3.86431e-17          ***          ***
+
+Temperature = 540 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.87612e-12  1.87612e-12
+P2                ***  3.67221e-17  3.67221e-17
+
+Temperature = 540 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.88869e-12  1.88869e-12
+P2                ***  3.69682e-17  3.69682e-17
+
+Temperature = 550 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.94101e+09  5.01294e+07
+P1        2.12118e-10          ***          ***
+P2        4.93475e-17          ***          ***
+
+Temperature = 550 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.03778e-12  2.03778e-12
+P2                ***   4.6727e-17   4.6727e-17
+
+Temperature = 550 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.05206e-12  2.05206e-12
+P2                ***  4.70546e-17  4.70546e-17
+
+Temperature = 560 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.82123e+09  5.32088e+07
+P1        2.12186e-10          ***          ***
+P2        6.25416e-17          ***          ***
+
+Temperature = 560 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.20926e-12  2.20926e-12
+P2                ***   5.9003e-17   5.9003e-17
+
+Temperature = 560 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.22544e-12  2.22544e-12
+P2                ***   5.9435e-17   5.9435e-17
+
+Temperature = 570 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.70501e+09  5.63867e+07
+P1         2.1226e-10          ***          ***
+P2        7.86932e-17          ***          ***
+
+Temperature = 570 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.39089e-12  2.39089e-12
+P2                ***  7.39624e-17  7.39624e-17
+
+Temperature = 570 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.40913e-12  2.40913e-12
+P2                ***  7.45268e-17  7.45268e-17
+
+Temperature = 580 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.59226e+09   5.9664e+07
+P1        2.12341e-10          ***          ***
+P2        9.83408e-17          ***          ***
+
+Temperature = 580 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.58295e-12  2.58295e-12
+P2                ***  9.20724e-17  9.20724e-17
+
+Temperature = 580 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.60348e-12  2.60348e-12
+P2                ***  9.28043e-17  9.28043e-17
+
+Temperature = 590 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.48289e+09  6.30444e+07
+P1        2.12428e-10          ***          ***
+P2        1.22105e-16          ***          ***
+
+Temperature = 590 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.78573e-12  2.78573e-12
+P2                ***   1.1386e-16   1.1386e-16
+
+Temperature = 590 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.80872e-12  2.80872e-12
+P2                ***    1.148e-16    1.148e-16
+
+Temperature = 600 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.37679e+09  6.65232e+07
+P1         2.1252e-10          ***          ***
+P2        1.50673e-16          ***          ***
+
+Temperature = 600 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.99954e-12  2.99954e-12
+P2                ***  1.39918e-16  1.39918e-16
+
+Temperature = 600 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   3.0253e-12   3.0253e-12
+P2                ***  1.41119e-16  1.41119e-16
+
+Temperature = 610 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.27387e+09  7.00988e+07
+P1        2.12617e-10          ***          ***
+P2        1.84825e-16          ***          ***
+
+Temperature = 610 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.22464e-12  3.22464e-12
+P2                ***  1.70905e-16  1.70905e-16
+
+Temperature = 610 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.25339e-12  3.25339e-12
+P2                ***  1.72428e-16  1.72428e-16
+
+Temperature = 620 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.17403e+09  7.37717e+07
+P1        2.12719e-10          ***          ***
+P2        2.25443e-16          ***          ***
+
+Temperature = 620 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.46131e-12  3.46131e-12
+P2                ***  2.07556e-16  2.07556e-16
+
+Temperature = 620 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.49326e-12  3.49326e-12
+P2                ***  2.09472e-16  2.09472e-16
+
+Temperature = 630 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.07717e+09  7.75452e+07
+P1        2.12825e-10          ***          ***
+P2        2.73523e-16          ***          ***
+
+Temperature = 630 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.70982e-12  3.70982e-12
+P2                ***  2.50685e-16  2.50685e-16
+
+Temperature = 630 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   3.7453e-12   3.7453e-12
+P2                ***  2.53082e-16  2.53082e-16
+
+Temperature = 640 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.98321e+09  8.14159e+07
+P1        2.12936e-10          ***          ***
+P2        3.30158e-16          ***          ***
+
+Temperature = 640 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.97042e-12  3.97042e-12
+P2                ***  3.01184e-16  3.01184e-16
+
+Temperature = 640 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.00961e-12  4.00961e-12
+P2                ***  3.04157e-16  3.04157e-16
+
+Temperature = 650 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.89204e+09  8.53807e+07
+P1        2.13051e-10          ***          ***
+P2        3.96555e-16          ***          ***
+
+Temperature = 650 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.24335e-12  4.24335e-12
+P2                ***  3.60037e-16  3.60037e-16
+
+Temperature = 650 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   4.2867e-12   4.2867e-12
+P2                ***  3.63715e-16  3.63715e-16
+
+Temperature = 660 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.80359e+09  8.94354e+07
+P1        2.13169e-10          ***          ***
+P2        4.74041e-16          ***          ***
+
+Temperature = 660 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.52886e-12  4.52886e-12
+P2                ***  4.28316e-16  4.28316e-16
+
+Temperature = 660 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.57649e-12  4.57649e-12
+P2                ***  4.32821e-16  4.32821e-16
+
+Temperature = 670 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.71775e+09  9.35846e+07
+P1        2.13291e-10          ***          ***
+P2        5.64124e-16          ***          ***
+
+Temperature = 670 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.82718e-12  4.82718e-12
+P2                ***  5.07191e-16  5.07191e-16
+
+Temperature = 670 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.87964e-12  4.87964e-12
+P2                ***  5.12703e-16  5.12703e-16
+
+Temperature = 680 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.63444e+09  9.78454e+07
+P1        2.13416e-10          ***          ***
+P2         6.6856e-16          ***          ***
+
+Temperature = 680 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   5.1385e-12   5.1385e-12
+P2                ***  5.97927e-16  5.97927e-16
+
+Temperature = 680 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.19588e-12  5.19588e-12
+P2                ***  6.04604e-16  6.04604e-16
+
+Temperature = 690 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.55359e+09  1.02164e+08
+P1        2.13544e-10          ***          ***
+P2        7.88782e-16          ***          ***
+
+Temperature = 690 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.46306e-12  5.46306e-12
+P2                ***  7.01898e-16  7.01898e-16
+
+Temperature = 690 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.52599e-12  5.52599e-12
+P2                ***  7.09984e-16  7.09984e-16
+
+Temperature = 700 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.47511e+09  1.06592e+08
+P1        2.13675e-10          ***          ***
+P2        9.27095e-16          ***          ***
+
+Temperature = 700 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.80103e-12  5.80103e-12
+P2                ***  8.20578e-16  8.20578e-16
+
+Temperature = 700 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   5.8698e-12   5.8698e-12
+P2                ***  8.30306e-16  8.30306e-16
+
+Temperature = 800 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.80437e+09  1.55611e+08
+P1        2.15107e-10          ***          ***
+P2        3.86529e-15          ***          ***
+
+Temperature = 800 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  9.95289e-12  9.95289e-12
+P2                ***  3.22308e-15  3.22308e-15
+
+Temperature = 800 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.01017e-11  1.01017e-11
+P2                ***  3.27128e-15  3.27128e-15
+
+Temperature = 900 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.29814e+09  2.12451e+08
+P1        2.16683e-10          ***          ***
+P2         1.2348e-14          ***          ***
+
+Temperature = 900 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.55687e-11  1.55687e-11
+P2                ***  9.59713e-15  9.59713e-15
+
+Temperature = 900 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   1.5844e-11   1.5844e-11
+P2                ***  9.76685e-15  9.76685e-15
+
+Temperature = 1000 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.90975e+09  2.75895e+08
+P1        2.18326e-10          ***          ***
+P2        3.25807e-14          ***          ***
+
+Temperature = 1000 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.26364e-11  2.26364e-11
+P2                ***  2.33827e-14  2.33827e-14
+
+Temperature = 1000 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.30897e-11  2.30897e-11
+P2                ***   2.3851e-14   2.3851e-14
+
+Temperature = 1100 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.60692e+09  3.44741e+08
+P1        2.19993e-10          ***          ***
+P2        7.45321e-14          ***          ***
+
+Temperature = 1100 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.10304e-11  3.10304e-11
+P2                ***  4.90031e-14  4.90031e-14
+
+Temperature = 1100 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  3.16968e-11  3.16968e-11
+P2                ***  5.00554e-14  5.00554e-14
+
+Temperature = 1200 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.36721e+09  4.17867e+08
+P1        2.21658e-10          ***          ***
+P2         1.5276e-13          ***          ***
+
+Temperature = 1200 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.05416e-11  4.05416e-11
+P2                ***  9.14165e-14  9.14165e-14
+
+Temperature = 1200 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  4.14414e-11  4.14414e-11
+P2                ***  9.34454e-14  9.34454e-14
+
+Temperature = 1300 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.17483e+09  4.94261e+08
+P1        2.23305e-10          ***          ***
+P2        2.87074e-13          ***          ***
+
+Temperature = 1300 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.09124e-11  5.09124e-11
+P2                ***  1.55574e-13  1.55574e-13
+
+Temperature = 1300 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  5.20682e-11  5.20682e-11
+P2                ***  1.59106e-13  1.59106e-13
+
+Temperature = 1400 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  1.01848e+09  5.73039e+08
+P1        2.24926e-10          ***          ***
+P2        5.03023e-13          ***          ***
+
+Temperature = 1400 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  6.18694e-11  6.18694e-11
+P2                ***   2.4592e-13   2.4592e-13
+
+Temperature = 1400 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1        1.45256e+09  7.86351e+08  6.66208e+08
+P1        1.47871e-10  1.43346e-10 -4.52523e-12
+P2        4.97962e-13  -1.7987e-14  4.79975e-13
+
+Temperature = 1500 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  8.89967e+08  6.53429e+08
+P1        2.26514e-10          ***          ***
+P2        8.32196e-13          ***          ***
+
+Temperature = 1500 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  7.31485e-11  7.31485e-11
+P2                ***  3.66026e-13  3.66026e-13
+
+Temperature = 1500 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1         1.4482e+09  7.46603e+08  7.01596e+08
+P1        1.69599e-10  1.62273e-10 -7.32639e-12
+P2        7.97495e-13 -3.66603e-14  7.60834e-13
+
+Temperature = 1600 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  7.83233e+08  7.34771e+08
+P1        2.28067e-10          ***          ***
+P2        1.31238e-12          ***          ***
+
+Temperature = 1600 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  8.45125e-11  8.45125e-11
+P2                ***  5.18389e-13  5.18389e-13
+
+Temperature = 1600 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1        1.44603e+09  7.10593e+08  7.35442e+08
+P1        1.87327e-10  1.78472e-10 -8.85501e-12
+P2        1.18922e-12 -5.43155e-14   1.1349e-12
+
+Temperature = 1700 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.93757e+08  8.16569e+08
+P1        2.29583e-10          ***          ***
+P2        1.98769e-12          ***          ***
+
+Temperature = 1700 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  9.57566e-11  9.57566e-11
+P2                ***  7.04353e-13  7.04353e-13
+
+Temperature = 1700 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1        1.44104e+09  6.75906e+08   7.6513e+08
+P1        1.98177e-10  1.90623e-10 -7.55371e-12
+P2        1.65015e-12 -5.55625e-14  1.59458e-12
+
+Temperature = 1800 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  6.18105e+08  8.98289e+08
+P1        2.31063e-10          ***          ***
+P2        2.90814e-12          ***          ***
+
+Temperature = 1800 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.06739e-10  1.06739e-10
+P2                ***  9.24387e-13  9.24387e-13
+
+Temperature = 1800 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1        1.44742e+09  6.46864e+08  8.00555e+08
+P1        2.08718e-10  2.02192e-10 -6.52622e-12
+P2        2.23701e-12 -5.65188e-14  2.18049e-12
+
+Temperature = 1900 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  5.53643e+08  9.79606e+08
+P1        2.32506e-10          ***          ***
+P2        4.13001e-12          ***          ***
+
+Temperature = 1900 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.17316e-10  1.17316e-10
+P2                ***  1.17775e-12  1.17775e-12
+
+Temperature = 1900 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1        1.44588e+09   6.1466e+08  8.31222e+08
+P1        2.08634e-10  2.08045e-10 -5.89406e-13
+P2        2.83246e-12 -5.91711e-15  2.82654e-12
+
+Temperature = 2000 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.98324e+08  1.06025e+09
+P1        2.33914e-10          ***          ***
+P2        5.71542e-12          ***          ***
+
+Temperature = 2000 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.27434e-10  1.27434e-10
+P2                ***  1.46347e-12  1.46347e-12
+
+Temperature = 2000 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.29741e-10  1.29741e-10
+P2                ***  1.48996e-12  1.48996e-12
+
+Temperature = 2100 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***   4.5054e+08  1.13992e+09
+P1        2.35287e-10          ***          ***
+P2        7.73171e-12          ***          ***
+
+Temperature = 2100 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.37007e-10  1.37007e-10
+P2                ***  1.77942e-12  1.77942e-12
+
+Temperature = 2100 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.39154e-10  1.39154e-10
+P2                ***   1.8073e-12   1.8073e-12
+
+Temperature = 2200 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  4.09015e+08  1.21844e+09
+P1        2.36626e-10          ***          ***
+P2        1.02515e-11          ***          ***
+
+Temperature = 2200 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.46019e-10  1.46019e-10
+P2                ***  2.12358e-12  2.12358e-12
+
+Temperature = 2200 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.47841e-10  1.47841e-10
+P2                ***  2.15008e-12  2.15008e-12
+
+Temperature = 2300 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.72728e+08   1.2957e+09
+P1        2.37933e-10          ***          ***
+P2        1.33529e-11          ***          ***
+
+Temperature = 2300 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.54489e-10  1.54489e-10
+P2                ***  2.49406e-12  2.49406e-12
+
+Temperature = 2300 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   1.5668e-10   1.5668e-10
+P2                ***  2.52945e-12  2.52945e-12
+
+Temperature = 2400 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.40855e+08  1.37158e+09
+P1        2.39208e-10          ***          ***
+P2        1.71186e-11          ***          ***
+
+Temperature = 2400 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.62375e-10  1.62375e-10
+P2                ***  2.88775e-12  2.88775e-12
+
+Temperature = 2400 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.64333e-10  1.64333e-10
+P2                ***  2.92256e-12  2.92256e-12
+
+Temperature = 2500 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  3.12725e+08  1.44594e+09
+P1        2.40454e-10          ***          ***
+P2        2.16345e-11          ***          ***
+
+Temperature = 2500 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.69714e-10  1.69714e-10
+P2                ***  3.30251e-12  3.30251e-12
+
+Temperature = 2500 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.71362e-10  1.71362e-10
+P2                ***  3.33459e-12  3.33459e-12
+
+Temperature = 2600 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.87788e+08  1.51879e+09
+P1        2.41671e-10          ***          ***
+P2        2.69924e-11          ***          ***
+
+Temperature = 2600 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.76544e-10  1.76544e-10
+P2                ***  3.73634e-12  3.73634e-12
+
+Temperature = 2600 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.78221e-10  1.78221e-10
+P2                ***  3.77184e-12  3.77184e-12
+
+Temperature = 2700 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.65591e+08  1.58999e+09
+P1         2.4286e-10          ***          ***
+P2        3.32856e-11          ***          ***
+
+Temperature = 2700 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***   1.8287e-10   1.8287e-10
+P2                ***  4.18656e-12  4.18656e-12
+
+Temperature = 2700 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.84256e-10  1.84256e-10
+P2                ***  4.21831e-12  4.21831e-12
+
+Temperature = 2800 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.45754e+08   1.6597e+09
+P1        2.44024e-10          ***          ***
+P2        4.06154e-11          ***          ***
+
+Temperature = 2800 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.88757e-10  1.88757e-10
+P2                ***  4.65194e-12  4.65194e-12
+
+Temperature = 2800 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.90479e-10  1.90479e-10
+P2                ***  4.69438e-12  4.69438e-12
+
+Temperature = 2900 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.27963e+08  1.72772e+09
+P1        2.45161e-10          ***          ***
+P2        4.90802e-11          ***          ***
+
+Temperature = 2900 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.94193e-10  1.94193e-10
+P2                ***  5.12954e-12  5.12954e-12
+
+Temperature = 2900 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.95716e-10  1.95716e-10
+P2                ***  5.16977e-12  5.16977e-12
+
+Temperature = 3000 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P1           P2
+W1                ***  2.11953e+08  1.79416e+09
+P1        2.46275e-10          ***          ***
+P2        5.87865e-11          ***          ***
+
+Temperature = 3000 K    Pressure = 0.1 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  1.99231e-10  1.99231e-10
+P2                ***  5.61813e-12  5.61813e-12
+
+Temperature = 3000 K    Pressure = 3 atm
+
+From\To            W1           P1           P2
+W1                ***          ***          ***
+P1                ***  2.00542e-10  2.00542e-10
+P2                ***  5.65512e-12  5.65512e-12
+
+______________________________________________________________________________________
+
+High Pressure Rate Coefficients (Temperature-Species Rate Tables):
+
+   T(K)       W1->W1       W1->P1       W1->P2
+    200          ***  9.94822e+09  1.06982e+06
+    210          ***  1.00156e+10  1.27664e+06
+    220          ***  1.00315e+10  1.51654e+06
+    230          ***  1.00041e+10  1.79722e+06
+    240          ***  9.94044e+09  2.12336e+06
+    250          ***  9.84684e+09  2.49262e+06
+    260          ***  9.72873e+09  2.91106e+06
+    270          ***  9.59082e+09  3.38451e+06
+    280          ***  9.43714e+09   3.9179e+06
+    290          ***  9.27112e+09  4.51216e+06
+    300          ***  9.09569e+09  5.17191e+06
+    310          ***  8.91331e+09   5.9016e+06
+    320          ***  8.72608e+09  6.70606e+06
+    330          ***  8.53573e+09  7.58282e+06
+    340          ***  8.34373e+09   8.5493e+06
+    350          ***  8.15129e+09   9.5764e+06
+    360          ***  7.95942e+09  1.06991e+07
+    370          ***  7.76893e+09  1.19209e+07
+    380          ***  7.58051e+09  1.32127e+07
+    390          ***  7.39469e+09  1.46013e+07
+    400          ***  7.21192e+09  1.60906e+07
+    410          ***  7.03253e+09  1.76545e+07
+    420          ***   6.8568e+09   1.9333e+07
+    430          ***  6.68491e+09   2.1099e+07
+    440          ***  6.51701e+09    2.296e+07
+    450          ***  6.35321e+09  2.49306e+07
+    460          ***  6.19355e+09  2.69896e+07
+    470          ***  6.03808e+09   2.9158e+07
+    480          ***  5.88678e+09  3.14258e+07
+    490          ***  5.73964e+09  3.37905e+07
+    500          ***  5.59661e+09  3.62617e+07
+    510          ***  5.45765e+09  3.88309e+07
+    520          ***  5.32269e+09  4.15007e+07
+    530          ***  5.19165e+09  4.42753e+07
+    540          ***  5.06446e+09  4.71502e+07
+    550          ***  4.94101e+09  5.01294e+07
+    560          ***  4.82123e+09  5.32088e+07
+    570          ***  4.70501e+09  5.63867e+07
+    580          ***  4.59226e+09   5.9664e+07
+    590          ***  4.48289e+09  6.30444e+07
+    600          ***  4.37679e+09  6.65232e+07
+    610          ***  4.27387e+09  7.00988e+07
+    620          ***  4.17403e+09  7.37717e+07
+    630          ***  4.07717e+09  7.75452e+07
+    640          ***  3.98321e+09  8.14159e+07
+    650          ***  3.89204e+09  8.53807e+07
+    660          ***  3.80359e+09  8.94354e+07
+    670          ***  3.71775e+09  9.35846e+07
+    680          ***  3.63444e+09  9.78454e+07
+    690          ***  3.55359e+09  1.02164e+08
+    700          ***  3.47511e+09  1.06592e+08
+    800          ***  2.80437e+09  1.55611e+08
+    900          ***  2.29814e+09  2.12451e+08
+   1000          ***  1.90975e+09  2.75895e+08
+   1100          ***  1.60692e+09  3.44741e+08
+   1200          ***  1.36721e+09  4.17867e+08
+   1300          ***  1.17483e+09  4.94261e+08
+   1400          ***  1.01848e+09  5.73039e+08
+   1500          ***  8.89967e+08  6.53429e+08
+   1600          ***  7.83233e+08  7.34771e+08
+   1700          ***  6.93757e+08  8.16569e+08
+   1800          ***  6.18105e+08  8.98289e+08
+   1900          ***  5.53643e+08  9.79606e+08
+   2000          ***  4.98324e+08  1.06025e+09
+   2100          ***   4.5054e+08  1.13992e+09
+   2200          ***  4.09015e+08  1.21844e+09
+   2300          ***  3.72728e+08   1.2957e+09
+   2400          ***  3.40855e+08  1.37158e+09
+   2500          ***  3.12725e+08  1.44594e+09
+   2600          ***  2.87788e+08  1.51879e+09
+   2700          ***  2.65591e+08  1.58999e+09
+   2800          ***  2.45754e+08   1.6597e+09
+   2900          ***  2.27963e+08  1.72772e+09
+   3000          ***  2.11953e+08  1.79416e+09
+
+   T(K)       P1->W1       P1->P1       P1->P2
+    200  2.22271e-10          ***          ***
+    210  2.21179e-10          ***          ***
+    220  2.20182e-10          ***          ***
+    230  2.19274e-10          ***          ***
+    240  2.18448e-10          ***          ***
+    250  2.17697e-10          ***          ***
+    260  2.17015e-10          ***          ***
+    270  2.16397e-10          ***          ***
+    280  2.15838e-10          ***          ***
+    290  2.15333e-10          ***          ***
+    300  2.14877e-10          ***          ***
+    310  2.14466e-10          ***          ***
+    320  2.14098e-10          ***          ***
+    330  2.13768e-10          ***          ***
+    340  2.13473e-10          ***          ***
+    350  2.13211e-10          ***          ***
+    360  2.12979e-10          ***          ***
+    370  2.12774e-10          ***          ***
+    380  2.12596e-10          ***          ***
+    390  2.12441e-10          ***          ***
+    400  2.12308e-10          ***          ***
+    410  2.12196e-10          ***          ***
+    420  2.12103e-10          ***          ***
+    430  2.12027e-10          ***          ***
+    440  2.11967e-10          ***          ***
+    450  2.11923e-10          ***          ***
+    460  2.11893e-10          ***          ***
+    470  2.11876e-10          ***          ***
+    480  2.11871e-10          ***          ***
+    490  2.11878e-10          ***          ***
+    500  2.11895e-10          ***          ***
+    510  2.11922e-10          ***          ***
+    520  2.11959e-10          ***          ***
+    530  2.12004e-10          ***          ***
+    540  2.12057e-10          ***          ***
+    550  2.12118e-10          ***          ***
+    560  2.12186e-10          ***          ***
+    570   2.1226e-10          ***          ***
+    580  2.12341e-10          ***          ***
+    590  2.12428e-10          ***          ***
+    600   2.1252e-10          ***          ***
+    610  2.12617e-10          ***          ***
+    620  2.12719e-10          ***          ***
+    630  2.12825e-10          ***          ***
+    640  2.12936e-10          ***          ***
+    650  2.13051e-10          ***          ***
+    660  2.13169e-10          ***          ***
+    670  2.13291e-10          ***          ***
+    680  2.13416e-10          ***          ***
+    690  2.13544e-10          ***          ***
+    700  2.13675e-10          ***          ***
+    800  2.15107e-10          ***          ***
+    900  2.16683e-10          ***          ***
+   1000  2.18326e-10          ***          ***
+   1100  2.19993e-10          ***          ***
+   1200  2.21658e-10          ***          ***
+   1300  2.23305e-10          ***          ***
+   1400  2.24926e-10          ***          ***
+   1500  2.26514e-10          ***          ***
+   1600  2.28067e-10          ***          ***
+   1700  2.29583e-10          ***          ***
+   1800  2.31063e-10          ***          ***
+   1900  2.32506e-10          ***          ***
+   2000  2.33914e-10          ***          ***
+   2100  2.35287e-10          ***          ***
+   2200  2.36626e-10          ***          ***
+   2300  2.37933e-10          ***          ***
+   2400  2.39208e-10          ***          ***
+   2500  2.40454e-10          ***          ***
+   2600  2.41671e-10          ***          ***
+   2700   2.4286e-10          ***          ***
+   2800  2.44024e-10          ***          ***
+   2900  2.45161e-10          ***          ***
+   3000  2.46275e-10          ***          ***
+
+   T(K)       P2->W1       P2->P1       P2->P2
+    200  1.01597e-25          ***          ***
+    210  3.90675e-25          ***          ***
+    220   1.3486e-24          ***          ***
+    230  4.24436e-24          ***          ***
+    240  1.23071e-23          ***          ***
+    250  3.30755e-23          ***          ***
+    260   8.3151e-23          ***          ***
+    270  1.96999e-22          ***          ***
+    280  4.42467e-22          ***          ***
+    290  9.46146e-22          ***          ***
+    300  1.93529e-21          ***          ***
+    310  3.80198e-21          ***          ***
+    320   7.1998e-21          ***          ***
+    330  1.31715e-20          ***          ***
+    340  2.33857e-20          ***          ***
+    350  4.02431e-20          ***          ***
+    360  6.75233e-20          ***          ***
+    370  1.10653e-19          ***          ***
+    380  1.76944e-19          ***          ***
+    390  2.77147e-19          ***          ***
+    400  4.25813e-19          ***          ***
+    410  6.41506e-19          ***          ***
+    420  9.51007e-19          ***          ***
+    430   1.3866e-18          ***          ***
+    440  1.99124e-18          ***          ***
+    450  2.82068e-18          ***          ***
+    460  3.94109e-18          ***          ***
+    470  5.44005e-18          ***          ***
+    480  7.42085e-18          ***          ***
+    490  1.00099e-17          ***          ***
+    500  1.33636e-17          ***          ***
+    510  1.76638e-17          ***          ***
+    520  2.31297e-17          ***          ***
+    530  3.00226e-17          ***          ***
+    540  3.86431e-17          ***          ***
+    550  4.93475e-17          ***          ***
+    560  6.25416e-17          ***          ***
+    570  7.86932e-17          ***          ***
+    580  9.83408e-17          ***          ***
+    590  1.22105e-16          ***          ***
+    600  1.50673e-16          ***          ***
+    610  1.84825e-16          ***          ***
+    620  2.25443e-16          ***          ***
+    630  2.73523e-16          ***          ***
+    640  3.30158e-16          ***          ***
+    650  3.96555e-16          ***          ***
+    660  4.74041e-16          ***          ***
+    670  5.64124e-16          ***          ***
+    680   6.6856e-16          ***          ***
+    690  7.88782e-16          ***          ***
+    700  9.27095e-16          ***          ***
+    800  3.86529e-15          ***          ***
+    900   1.2348e-14          ***          ***
+   1000  3.25807e-14          ***          ***
+   1100  7.45321e-14          ***          ***
+   1200   1.5276e-13          ***          ***
+   1300  2.87074e-13          ***          ***
+   1400  5.03023e-13          ***          ***
+   1500  8.32196e-13          ***          ***
+   1600  1.31238e-12          ***          ***
+   1700  1.98769e-12          ***          ***
+   1800  2.90814e-12          ***          ***
+   1900  4.13001e-12          ***          ***
+   2000  5.71542e-12          ***          ***
+   2100  7.73171e-12          ***          ***
+   2200  1.02515e-11          ***          ***
+   2300  1.33529e-11          ***          ***
+   2400  1.71186e-11          ***          ***
+   2500  2.16345e-11          ***          ***
+   2600  2.69924e-11          ***          ***
+   2700  3.32856e-11          ***          ***
+   2800  4.06154e-11          ***          ***
+   2900  4.90802e-11          ***          ***
+   3000  5.87865e-11          ***          ***
+
+Capture/Escape Rate Coefficients:
+
+   T(K)           W1           P1           P2
+    200  9.94929e+09  2.22271e-10  1.01597e-25
+    210  1.00169e+10  2.21179e-10  3.90675e-25
+    220   1.0033e+10  2.20182e-10   1.3486e-24
+    230  1.00059e+10  2.19274e-10  4.24436e-24
+    240  9.94256e+09  2.18448e-10  1.23071e-23
+    250  9.84933e+09  2.17697e-10  3.30755e-23
+    260  9.73164e+09  2.17015e-10   8.3151e-23
+    270   9.5942e+09  2.16397e-10  1.96999e-22
+    280  9.44105e+09  2.15838e-10  4.42467e-22
+    290  9.27563e+09  2.15333e-10  9.46146e-22
+    300  9.10086e+09  2.14877e-10  1.93529e-21
+    310  8.91921e+09  2.14466e-10  3.80198e-21
+    320  8.73278e+09  2.14098e-10   7.1998e-21
+    330  8.54331e+09  2.13768e-10  1.31715e-20
+    340  8.35228e+09  2.13473e-10  2.33857e-20
+    350  8.16087e+09  2.13211e-10  4.02431e-20
+    360  7.97012e+09  2.12979e-10  6.75233e-20
+    370  7.78085e+09  2.12774e-10  1.10653e-19
+    380  7.59372e+09  2.12596e-10  1.76944e-19
+    390  7.40929e+09  2.12441e-10  2.77147e-19
+    400  7.22801e+09  2.12308e-10  4.25813e-19
+    410  7.05019e+09  2.12196e-10  6.41506e-19
+    420  6.87613e+09  2.12103e-10  9.51007e-19
+    430  6.70601e+09  2.12027e-10   1.3866e-18
+    440  6.53997e+09  2.11967e-10  1.99124e-18
+    450  6.37814e+09  2.11923e-10  2.82068e-18
+    460  6.22054e+09  2.11893e-10  3.94109e-18
+    470  6.06724e+09  2.11876e-10  5.44005e-18
+    480  5.91821e+09  2.11871e-10  7.42085e-18
+    490  5.77343e+09  2.11878e-10  1.00099e-17
+    500  5.63288e+09  2.11895e-10  1.33636e-17
+    510  5.49649e+09  2.11922e-10  1.76638e-17
+    520  5.36419e+09  2.11959e-10  2.31297e-17
+    530  5.23593e+09  2.12004e-10  3.00226e-17
+    540  5.11161e+09  2.12057e-10  3.86431e-17
+    550  4.99114e+09  2.12118e-10  4.93475e-17
+    560  4.87444e+09  2.12186e-10  6.25416e-17
+    570   4.7614e+09   2.1226e-10  7.86932e-17
+    580  4.65193e+09  2.12341e-10  9.83408e-17
+    590  4.54594e+09  2.12428e-10  1.22105e-16
+    600  4.44332e+09   2.1252e-10  1.50673e-16
+    610  4.34397e+09  2.12617e-10  1.84825e-16
+    620   4.2478e+09  2.12719e-10  2.25443e-16
+    630  4.15472e+09  2.12825e-10  2.73523e-16
+    640  4.06462e+09  2.12936e-10  3.30158e-16
+    650  3.97742e+09  2.13051e-10  3.96555e-16
+    660  3.89302e+09  2.13169e-10  4.74041e-16
+    670  3.81133e+09  2.13291e-10  5.64124e-16
+    680  3.73229e+09  2.13416e-10   6.6856e-16
+    690  3.65576e+09  2.13544e-10  7.88782e-16
+    700   3.5817e+09  2.13675e-10  9.27095e-16
+    800  2.95998e+09  2.15107e-10  3.86529e-15
+    900  2.51059e+09  2.16683e-10   1.2348e-14
+   1000  2.18564e+09  2.18326e-10  3.25807e-14
+   1100  1.95166e+09  2.19993e-10  7.45321e-14
+   1200  1.78508e+09  2.21658e-10   1.5276e-13
+   1300  1.66909e+09  2.23305e-10  2.87074e-13
+   1400  1.59152e+09  2.24926e-10  5.03023e-13
+   1500   1.5434e+09  2.26514e-10  8.32196e-13
+   1600    1.518e+09  2.28067e-10  1.31238e-12
+   1700  1.51033e+09  2.29583e-10  1.98769e-12
+   1800  1.51639e+09  2.31063e-10  2.90814e-12
+   1900  1.53325e+09  2.32506e-10  4.13001e-12
+   2000  1.55857e+09  2.33914e-10  5.71542e-12
+   2100  1.59046e+09  2.35287e-10  7.73171e-12
+   2200  1.62746e+09  2.36626e-10  1.02515e-11
+   2300  1.66842e+09  2.37933e-10  1.33529e-11
+   2400  1.71244e+09  2.39208e-10  1.71186e-11
+   2500  1.75867e+09  2.40454e-10  2.16345e-11
+   2600  1.80658e+09  2.41671e-10  2.69924e-11
+   2700  1.85559e+09   2.4286e-10  3.32856e-11
+   2800  1.90545e+09  2.44024e-10  4.06154e-11
+   2900  1.95569e+09  2.45161e-10  4.90802e-11
+   3000  2.00611e+09  2.46275e-10  5.87865e-11
+
+______________________________________________________________________________________
+
+Pressure-Species Rate Tables:
+
+   Temperature = 200 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.94822e+09  1.06982e+06  9.94929e+09
+
+   Temperature = 210 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.00156e+10  1.27664e+06  1.00169e+10
+
+   Temperature = 220 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.00315e+10  1.51654e+06   1.0033e+10
+
+   Temperature = 230 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.00041e+10  1.79722e+06  1.00059e+10
+
+   Temperature = 240 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.94044e+09  2.12336e+06  9.94256e+09
+
+   Temperature = 250 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.84684e+09  2.49262e+06  9.84933e+09
+
+   Temperature = 260 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.72873e+09  2.91106e+06  9.73164e+09
+
+   Temperature = 270 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.59082e+09  3.38451e+06   9.5942e+09
+
+   Temperature = 280 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.43714e+09   3.9179e+06  9.44105e+09
+
+   Temperature = 290 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.27112e+09  4.51216e+06  9.27563e+09
+
+   Temperature = 300 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  9.09569e+09  5.17191e+06  9.10086e+09
+
+   Temperature = 310 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  8.91331e+09   5.9016e+06  8.91921e+09
+
+   Temperature = 320 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  8.72608e+09  6.70606e+06  8.73278e+09
+
+   Temperature = 330 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  8.53573e+09  7.58282e+06  8.54331e+09
+
+   Temperature = 340 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  8.34373e+09   8.5493e+06  8.35228e+09
+
+   Temperature = 350 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  8.15129e+09   9.5764e+06  8.16087e+09
+
+   Temperature = 360 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.95942e+09  1.06991e+07  7.97012e+09
+
+   Temperature = 370 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.76893e+09  1.19209e+07  7.78085e+09
+
+   Temperature = 380 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.58051e+09  1.32127e+07  7.59372e+09
+
+   Temperature = 390 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.39469e+09  1.46013e+07  7.40929e+09
+
+   Temperature = 400 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.21192e+09  1.60906e+07  7.22801e+09
+
+   Temperature = 410 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  7.03253e+09  1.76545e+07  7.05019e+09
+
+   Temperature = 420 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O   6.8568e+09   1.9333e+07  6.87613e+09
+
+   Temperature = 430 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  6.68491e+09   2.1099e+07  6.70601e+09
+
+   Temperature = 440 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  6.51701e+09    2.296e+07  6.53997e+09
+
+   Temperature = 450 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  6.35321e+09  2.49306e+07  6.37814e+09
+
+   Temperature = 460 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  6.19355e+09  2.69896e+07  6.22054e+09
+
+   Temperature = 470 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  6.03808e+09   2.9158e+07  6.06724e+09
+
+   Temperature = 480 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.88678e+09  3.14258e+07  5.91821e+09
+
+   Temperature = 490 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.73964e+09  3.37905e+07  5.77343e+09
+
+   Temperature = 500 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.59661e+09  3.62617e+07  5.63288e+09
+
+   Temperature = 510 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.45765e+09  3.88309e+07  5.49649e+09
+
+   Temperature = 520 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.32269e+09  4.15007e+07  5.36419e+09
+
+   Temperature = 530 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.19165e+09  4.42753e+07  5.23593e+09
+
+   Temperature = 540 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  5.06446e+09  4.71502e+07  5.11161e+09
+
+   Temperature = 550 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.94101e+09  5.01294e+07  4.99114e+09
+
+   Temperature = 560 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.82123e+09  5.32088e+07  4.87444e+09
+
+   Temperature = 570 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.70501e+09  5.63867e+07   4.7614e+09
+
+   Temperature = 580 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.59226e+09   5.9664e+07  4.65193e+09
+
+   Temperature = 590 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.48289e+09  6.30444e+07  4.54594e+09
+
+   Temperature = 600 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.37679e+09  6.65232e+07  4.44332e+09
+
+   Temperature = 610 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.27387e+09  7.00988e+07  4.34397e+09
+
+   Temperature = 620 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.17403e+09  7.37717e+07   4.2478e+09
+
+   Temperature = 630 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.07717e+09  7.75452e+07  4.15472e+09
+
+   Temperature = 640 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.98321e+09  8.14159e+07  4.06462e+09
+
+   Temperature = 650 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.89204e+09  8.53807e+07  3.97742e+09
+
+   Temperature = 660 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.80359e+09  8.94354e+07  3.89302e+09
+
+   Temperature = 670 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.71775e+09  9.35846e+07  3.81133e+09
+
+   Temperature = 680 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.63444e+09  9.78454e+07  3.73229e+09
+
+   Temperature = 690 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.55359e+09  1.02164e+08  3.65576e+09
+
+   Temperature = 700 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.47511e+09  1.06592e+08   3.5817e+09
+
+   Temperature = 800 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.80437e+09  1.55611e+08  2.95998e+09
+
+   Temperature = 900 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.29814e+09  2.12451e+08  2.51059e+09
+
+   Temperature = 1000 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.90975e+09  2.75895e+08  2.18564e+09
+
+   Temperature = 1100 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.60692e+09  3.44741e+08  1.95166e+09
+
+   Temperature = 1200 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.36721e+09  4.17867e+08  1.78508e+09
+
+   Temperature = 1300 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  1.17483e+09  4.94261e+08  1.66909e+09
+
+   Temperature = 1400 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3  7.86351e+08  6.66208e+08  1.45256e+09
+    O-O  1.01848e+09  5.73039e+08  1.59152e+09
+
+   Temperature = 1500 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3  7.46603e+08  7.01596e+08   1.4482e+09
+    O-O  8.89967e+08  6.53429e+08   1.5434e+09
+
+   Temperature = 1600 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3  7.10593e+08  7.35442e+08  1.44603e+09
+    O-O  7.83233e+08  7.34771e+08    1.518e+09
+
+   Temperature = 1700 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3  6.75906e+08   7.6513e+08  1.44104e+09
+    O-O  6.93757e+08  8.16569e+08  1.51033e+09
+
+   Temperature = 1800 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3  6.46864e+08  8.00555e+08  1.44742e+09
+    O-O  6.18105e+08  8.98289e+08  1.51639e+09
+
+   Temperature = 1900 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3   6.1466e+08  8.31222e+08  1.44588e+09
+    O-O  5.53643e+08  9.79606e+08  1.53325e+09
+
+   Temperature = 2000 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.98324e+08  1.06025e+09  1.55857e+09
+
+   Temperature = 2100 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O   4.5054e+08  1.13992e+09  1.59046e+09
+
+   Temperature = 2200 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  4.09015e+08  1.21844e+09  1.62746e+09
+
+   Temperature = 2300 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.72728e+08   1.2957e+09  1.66842e+09
+
+   Temperature = 2400 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.40855e+08  1.37158e+09  1.71244e+09
+
+   Temperature = 2500 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  3.12725e+08  1.44594e+09  1.75867e+09
+
+   Temperature = 2600 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.87788e+08  1.51879e+09  1.80658e+09
+
+   Temperature = 2700 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.65591e+08  1.58999e+09  1.85559e+09
+
+   Temperature = 2800 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.45754e+08   1.6597e+09  1.90545e+09
+
+   Temperature = 2900 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.27963e+08  1.72772e+09  1.95569e+09
+
+   Temperature = 3000 K
+
+   P(atm)       W1->P1       W1->P2         W1->
+      0.1          ***          ***          ***
+        3          ***          ***          ***
+    O-O  2.11953e+08  1.79416e+09  2.00611e+09
+
+   Temperature = 200 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.38828e-14  2.38828e-14
+        3          ***  2.38868e-14  2.38868e-14
+    O-O  2.22271e-10          ***  2.22271e-10
+
+   Temperature = 210 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.82643e-14  2.82643e-14
+        3          ***  2.82705e-14  2.82705e-14
+    O-O  2.21179e-10          ***  2.21179e-10
+
+   Temperature = 220 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.34656e-14  3.34656e-14
+        3          ***   3.3475e-14   3.3475e-14
+    O-O  2.20182e-10          ***  2.20182e-10
+
+   Temperature = 230 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.96129e-14  3.96129e-14
+        3          ***  3.96269e-14  3.96269e-14
+    O-O  2.19274e-10          ***  2.19274e-10
+
+   Temperature = 240 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.68443e-14  4.68443e-14
+        3          ***  4.68647e-14  4.68647e-14
+    O-O  2.18448e-10          ***  2.18448e-10
+
+   Temperature = 250 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.53102e-14  5.53102e-14
+        3          ***  5.53392e-14  5.53392e-14
+    O-O  2.17697e-10          ***  2.17697e-10
+
+   Temperature = 260 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  6.51724e-14  6.51724e-14
+        3          ***  6.52131e-14  6.52131e-14
+    O-O  2.17015e-10          ***  2.17015e-10
+
+   Temperature = 270 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  7.66049e-14  7.66049e-14
+        3          ***  7.66611e-14  7.66611e-14
+    O-O  2.16397e-10          ***  2.16397e-10
+
+   Temperature = 280 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  8.97932e-14  8.97932e-14
+        3          ***  8.98698e-14  8.98698e-14
+    O-O  2.15838e-10          ***  2.15838e-10
+
+   Temperature = 290 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.04934e-13  1.04934e-13
+        3          ***  1.05037e-13  1.05037e-13
+    O-O  2.15333e-10          ***  2.15333e-10
+
+   Temperature = 300 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.22235e-13  1.22235e-13
+        3          ***  1.22371e-13  1.22371e-13
+    O-O  2.14877e-10          ***  2.14877e-10
+
+   Temperature = 310 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.41915e-13  1.41915e-13
+        3          ***  1.42094e-13  1.42094e-13
+    O-O  2.14466e-10          ***  2.14466e-10
+
+   Temperature = 320 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.64202e-13  1.64202e-13
+        3          ***  1.64435e-13  1.64435e-13
+    O-O  2.14098e-10          ***  2.14098e-10
+
+   Temperature = 330 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.89336e-13  1.89336e-13
+        3          ***  1.89635e-13  1.89635e-13
+    O-O  2.13768e-10          ***  2.13768e-10
+
+   Temperature = 340 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.17564e-13  2.17564e-13
+        3          ***  2.17944e-13  2.17944e-13
+    O-O  2.13473e-10          ***  2.13473e-10
+
+   Temperature = 350 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.49144e-13  2.49144e-13
+        3          ***  2.49624e-13  2.49624e-13
+    O-O  2.13211e-10          ***  2.13211e-10
+
+   Temperature = 360 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.84341e-13  2.84341e-13
+        3          ***  2.84943e-13  2.84943e-13
+    O-O  2.12979e-10          ***  2.12979e-10
+
+   Temperature = 370 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***   3.2343e-13   3.2343e-13
+        3          ***  3.24179e-13  3.24179e-13
+    O-O  2.12774e-10          ***  2.12774e-10
+
+   Temperature = 380 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.66692e-13  3.66692e-13
+        3          ***  3.67615e-13  3.67615e-13
+    O-O  2.12596e-10          ***  2.12596e-10
+
+   Temperature = 390 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.14416e-13  4.14416e-13
+        3          ***  4.15547e-13  4.15547e-13
+    O-O  2.12441e-10          ***  2.12441e-10
+
+   Temperature = 400 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.66895e-13  4.66895e-13
+        3          ***  4.68272e-13  4.68272e-13
+    O-O  2.12308e-10          ***  2.12308e-10
+
+   Temperature = 410 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.24432e-13  5.24432e-13
+        3          ***  5.26097e-13  5.26097e-13
+    O-O  2.12196e-10          ***  2.12196e-10
+
+   Temperature = 420 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.87332e-13  5.87332e-13
+        3          ***  5.89334e-13  5.89334e-13
+    O-O  2.12103e-10          ***  2.12103e-10
+
+   Temperature = 430 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  6.55904e-13  6.55904e-13
+        3          ***  6.58298e-13  6.58298e-13
+    O-O  2.12027e-10          ***  2.12027e-10
+
+   Temperature = 440 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  7.30465e-13  7.30465e-13
+        3          ***  7.33312e-13  7.33312e-13
+    O-O  2.11967e-10          ***  2.11967e-10
+
+   Temperature = 450 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  8.11331e-13  8.11331e-13
+        3          ***    8.147e-13    8.147e-13
+    O-O  2.11923e-10          ***  2.11923e-10
+
+   Temperature = 460 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  8.98824e-13  8.98824e-13
+        3          ***  9.02791e-13  9.02791e-13
+    O-O  2.11893e-10          ***  2.11893e-10
+
+   Temperature = 470 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  9.93265e-13  9.93265e-13
+        3          ***  9.97916e-13  9.97916e-13
+    O-O  2.11876e-10          ***  2.11876e-10
+
+   Temperature = 480 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.09498e-12  1.09498e-12
+        3          ***   1.1004e-12   1.1004e-12
+    O-O  2.11871e-10          ***  2.11871e-10
+
+   Temperature = 490 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.20429e-12  1.20429e-12
+        3          ***  1.21059e-12  1.21059e-12
+    O-O  2.11878e-10          ***  2.11878e-10
+
+   Temperature = 500 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.32152e-12  1.32152e-12
+        3          ***  1.32881e-12  1.32881e-12
+    O-O  2.11895e-10          ***  2.11895e-10
+
+   Temperature = 510 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***    1.447e-12    1.447e-12
+        3          ***   1.4554e-12   1.4554e-12
+    O-O  2.11922e-10          ***  2.11922e-10
+
+   Temperature = 520 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.58104e-12  1.58104e-12
+        3          ***  1.59069e-12  1.59069e-12
+    O-O  2.11959e-10          ***  2.11959e-10
+
+   Temperature = 530 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.72398e-12  1.72398e-12
+        3          ***  1.73501e-12  1.73501e-12
+    O-O  2.12004e-10          ***  2.12004e-10
+
+   Temperature = 540 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.87612e-12  1.87612e-12
+        3          ***  1.88869e-12  1.88869e-12
+    O-O  2.12057e-10          ***  2.12057e-10
+
+   Temperature = 550 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.03778e-12  2.03778e-12
+        3          ***  2.05206e-12  2.05206e-12
+    O-O  2.12118e-10          ***  2.12118e-10
+
+   Temperature = 560 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.20926e-12  2.20926e-12
+        3          ***  2.22544e-12  2.22544e-12
+    O-O  2.12186e-10          ***  2.12186e-10
+
+   Temperature = 570 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.39089e-12  2.39089e-12
+        3          ***  2.40913e-12  2.40913e-12
+    O-O   2.1226e-10          ***   2.1226e-10
+
+   Temperature = 580 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.58295e-12  2.58295e-12
+        3          ***  2.60348e-12  2.60348e-12
+    O-O  2.12341e-10          ***  2.12341e-10
+
+   Temperature = 590 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.78573e-12  2.78573e-12
+        3          ***  2.80872e-12  2.80872e-12
+    O-O  2.12428e-10          ***  2.12428e-10
+
+   Temperature = 600 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.99954e-12  2.99954e-12
+        3          ***   3.0253e-12   3.0253e-12
+    O-O   2.1252e-10          ***   2.1252e-10
+
+   Temperature = 610 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.22464e-12  3.22464e-12
+        3          ***  3.25339e-12  3.25339e-12
+    O-O  2.12617e-10          ***  2.12617e-10
+
+   Temperature = 620 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.46131e-12  3.46131e-12
+        3          ***  3.49326e-12  3.49326e-12
+    O-O  2.12719e-10          ***  2.12719e-10
+
+   Temperature = 630 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.70982e-12  3.70982e-12
+        3          ***   3.7453e-12   3.7453e-12
+    O-O  2.12825e-10          ***  2.12825e-10
+
+   Temperature = 640 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.97042e-12  3.97042e-12
+        3          ***  4.00961e-12  4.00961e-12
+    O-O  2.12936e-10          ***  2.12936e-10
+
+   Temperature = 650 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.24335e-12  4.24335e-12
+        3          ***   4.2867e-12   4.2867e-12
+    O-O  2.13051e-10          ***  2.13051e-10
+
+   Temperature = 660 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.52886e-12  4.52886e-12
+        3          ***  4.57649e-12  4.57649e-12
+    O-O  2.13169e-10          ***  2.13169e-10
+
+   Temperature = 670 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.82718e-12  4.82718e-12
+        3          ***  4.87964e-12  4.87964e-12
+    O-O  2.13291e-10          ***  2.13291e-10
+
+   Temperature = 680 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***   5.1385e-12   5.1385e-12
+        3          ***  5.19588e-12  5.19588e-12
+    O-O  2.13416e-10          ***  2.13416e-10
+
+   Temperature = 690 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.46306e-12  5.46306e-12
+        3          ***  5.52599e-12  5.52599e-12
+    O-O  2.13544e-10          ***  2.13544e-10
+
+   Temperature = 700 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.80103e-12  5.80103e-12
+        3          ***   5.8698e-12   5.8698e-12
+    O-O  2.13675e-10          ***  2.13675e-10
+
+   Temperature = 800 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  9.95289e-12  9.95289e-12
+        3          ***  1.01017e-11  1.01017e-11
+    O-O  2.15107e-10          ***  2.15107e-10
+
+   Temperature = 900 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.55687e-11  1.55687e-11
+        3          ***   1.5844e-11   1.5844e-11
+    O-O  2.16683e-10          ***  2.16683e-10
+
+   Temperature = 1000 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  2.26364e-11  2.26364e-11
+        3          ***  2.30897e-11  2.30897e-11
+    O-O  2.18326e-10          ***  2.18326e-10
+
+   Temperature = 1100 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  3.10304e-11  3.10304e-11
+        3          ***  3.16968e-11  3.16968e-11
+    O-O  2.19993e-10          ***  2.19993e-10
+
+   Temperature = 1200 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  4.05416e-11  4.05416e-11
+        3          ***  4.14414e-11  4.14414e-11
+    O-O  2.21658e-10          ***  2.21658e-10
+
+   Temperature = 1300 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  5.09124e-11  5.09124e-11
+        3          ***  5.20682e-11  5.20682e-11
+    O-O  2.23305e-10          ***  2.23305e-10
+
+   Temperature = 1400 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  6.18694e-11  6.18694e-11
+        3  1.47871e-10 -4.52523e-12  1.43346e-10
+    O-O  2.24926e-10          ***  2.24926e-10
+
+   Temperature = 1500 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  7.31485e-11  7.31485e-11
+        3  1.69599e-10 -7.32639e-12  1.62273e-10
+    O-O  2.26514e-10          ***  2.26514e-10
+
+   Temperature = 1600 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  8.45125e-11  8.45125e-11
+        3  1.87327e-10 -8.85501e-12  1.78472e-10
+    O-O  2.28067e-10          ***  2.28067e-10
+
+   Temperature = 1700 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  9.57566e-11  9.57566e-11
+        3  1.98177e-10 -7.55371e-12  1.90623e-10
+    O-O  2.29583e-10          ***  2.29583e-10
+
+   Temperature = 1800 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.06739e-10  1.06739e-10
+        3  2.08718e-10 -6.52622e-12  2.02192e-10
+    O-O  2.31063e-10          ***  2.31063e-10
+
+   Temperature = 1900 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.17316e-10  1.17316e-10
+        3  2.08634e-10 -5.89406e-13  2.08045e-10
+    O-O  2.32506e-10          ***  2.32506e-10
+
+   Temperature = 2000 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.27434e-10  1.27434e-10
+        3          ***  1.29741e-10  1.29741e-10
+    O-O  2.33914e-10          ***  2.33914e-10
+
+   Temperature = 2100 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.37007e-10  1.37007e-10
+        3          ***  1.39154e-10  1.39154e-10
+    O-O  2.35287e-10          ***  2.35287e-10
+
+   Temperature = 2200 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.46019e-10  1.46019e-10
+        3          ***  1.47841e-10  1.47841e-10
+    O-O  2.36626e-10          ***  2.36626e-10
+
+   Temperature = 2300 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.54489e-10  1.54489e-10
+        3          ***   1.5668e-10   1.5668e-10
+    O-O  2.37933e-10          ***  2.37933e-10
+
+   Temperature = 2400 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.62375e-10  1.62375e-10
+        3          ***  1.64333e-10  1.64333e-10
+    O-O  2.39208e-10          ***  2.39208e-10
+
+   Temperature = 2500 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.69714e-10  1.69714e-10
+        3          ***  1.71362e-10  1.71362e-10
+    O-O  2.40454e-10          ***  2.40454e-10
+
+   Temperature = 2600 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.76544e-10  1.76544e-10
+        3          ***  1.78221e-10  1.78221e-10
+    O-O  2.41671e-10          ***  2.41671e-10
+
+   Temperature = 2700 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***   1.8287e-10   1.8287e-10
+        3          ***  1.84256e-10  1.84256e-10
+    O-O   2.4286e-10          ***   2.4286e-10
+
+   Temperature = 2800 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.88757e-10  1.88757e-10
+        3          ***  1.90479e-10  1.90479e-10
+    O-O  2.44024e-10          ***  2.44024e-10
+
+   Temperature = 2900 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.94193e-10  1.94193e-10
+        3          ***  1.95716e-10  1.95716e-10
+    O-O  2.45161e-10          ***  2.45161e-10
+
+   Temperature = 3000 K
+
+   P(atm)       P1->W1       P1->P2         P1->
+      0.1          ***  1.99231e-10  1.99231e-10
+        3          ***  2.00542e-10  2.00542e-10
+    O-O  2.46275e-10          ***  2.46275e-10
+
+   Temperature = 200 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.01512e-25  1.01512e-25
+        3          ***  1.01529e-25  1.01529e-25
+    O-O  1.01597e-25          ***  1.01597e-25
+
+   Temperature = 210 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.91667e-25  3.91667e-25
+        3          ***  3.91754e-25  3.91754e-25
+    O-O  3.90675e-25          ***  3.90675e-25
+
+   Temperature = 220 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.35585e-24  1.35585e-24
+        3          ***  1.35624e-24  1.35624e-24
+    O-O   1.3486e-24          ***   1.3486e-24
+
+   Temperature = 230 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.26814e-24  4.26814e-24
+        3          ***  4.26965e-24  4.26965e-24
+    O-O  4.24436e-24          ***  4.24436e-24
+
+   Temperature = 240 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.23551e-23  1.23551e-23
+        3          ***  1.23604e-23  1.23604e-23
+    O-O  1.23071e-23          ***  1.23071e-23
+
+   Temperature = 250 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.31971e-23  3.31971e-23
+        3          ***  3.32145e-23  3.32145e-23
+    O-O  3.30755e-23          ***  3.30755e-23
+
+   Temperature = 260 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  8.34537e-23  8.34537e-23
+        3          ***  8.35059e-23  8.35059e-23
+    O-O   8.3151e-23          ***   8.3151e-23
+
+   Temperature = 270 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.97619e-22  1.97619e-22
+        3          ***  1.97764e-22  1.97764e-22
+    O-O  1.96999e-22          ***  1.96999e-22
+
+   Temperature = 280 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.43388e-22  4.43388e-22
+        3          ***  4.43766e-22  4.43766e-22
+    O-O  4.42467e-22          ***  4.42467e-22
+
+   Temperature = 290 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.47353e-22  9.47353e-22
+        3          ***  9.48282e-22  9.48282e-22
+    O-O  9.46146e-22          ***  9.46146e-22
+
+   Temperature = 300 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.93614e-21  1.93614e-21
+        3          ***   1.9383e-21   1.9383e-21
+    O-O  1.93529e-21          ***  1.93529e-21
+
+   Temperature = 310 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.79968e-21  3.79968e-21
+        3          ***  3.80448e-21  3.80448e-21
+    O-O  3.80198e-21          ***  3.80198e-21
+
+   Temperature = 320 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   7.1852e-21   7.1852e-21
+        3          ***  7.19538e-21  7.19538e-21
+    O-O   7.1998e-21          ***   7.1998e-21
+
+   Temperature = 330 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.31322e-20  1.31322e-20
+        3          ***  1.31529e-20  1.31529e-20
+    O-O  1.31715e-20          ***  1.31715e-20
+
+   Temperature = 340 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.32607e-20  2.32607e-20
+        3          ***  2.33014e-20  2.33014e-20
+    O-O  2.33857e-20          ***  2.33857e-20
+
+   Temperature = 350 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.00274e-20  4.00274e-20
+        3          ***  4.01046e-20  4.01046e-20
+    O-O  4.02431e-20          ***  4.02431e-20
+
+   Temperature = 360 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   6.7064e-20   6.7064e-20
+        3          ***   6.7206e-20   6.7206e-20
+    O-O  6.75233e-20          ***  6.75233e-20
+
+   Temperature = 370 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.09617e-19  1.09617e-19
+        3          ***   1.0987e-19   1.0987e-19
+    O-O  1.10653e-19          ***  1.10653e-19
+
+   Temperature = 380 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.75102e-19  1.75102e-19
+        3          ***  1.75543e-19  1.75543e-19
+    O-O  1.76944e-19          ***  1.76944e-19
+
+   Temperature = 390 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.73802e-19  2.73802e-19
+        3          ***   2.7455e-19   2.7455e-19
+    O-O  2.77147e-19          ***  2.77147e-19
+
+   Temperature = 400 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   4.1971e-19   4.1971e-19
+        3          ***  4.20947e-19  4.20947e-19
+    O-O  4.25813e-19          ***  4.25813e-19
+
+   Temperature = 410 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  6.31551e-19  6.31551e-19
+        3          ***  6.33555e-19  6.33555e-19
+    O-O  6.41506e-19          ***  6.41506e-19
+
+   Temperature = 420 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.33991e-19  9.33991e-19
+        3          ***  9.37175e-19  9.37175e-19
+    O-O  9.51007e-19          ***  9.51007e-19
+
+   Temperature = 430 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.35905e-18  1.35905e-18
+        3          ***  1.36401e-18  1.36401e-18
+    O-O   1.3866e-18          ***   1.3866e-18
+
+   Temperature = 440 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.94774e-18  1.94774e-18
+        3          ***  1.95533e-18  1.95533e-18
+    O-O  1.99124e-18          ***  1.99124e-18
+
+   Temperature = 450 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.75191e-18  2.75191e-18
+        3          ***  2.76333e-18  2.76333e-18
+    O-O  2.82068e-18          ***  2.82068e-18
+
+   Temperature = 460 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.83635e-18  3.83635e-18
+        3          ***  3.85328e-18  3.85328e-18
+    O-O  3.94109e-18          ***  3.94109e-18
+
+   Temperature = 470 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.28113e-18  5.28113e-18
+        3          ***  5.30586e-18  5.30586e-18
+    O-O  5.44005e-18          ***  5.44005e-18
+
+   Temperature = 480 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   7.1842e-18   7.1842e-18
+        3          ***  7.21979e-18  7.21979e-18
+    O-O  7.42085e-18          ***  7.42085e-18
+
+   Temperature = 490 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.66416e-18  9.66416e-18
+        3          ***  9.71469e-18  9.71469e-18
+    O-O  1.00099e-17          ***  1.00099e-17
+
+   Temperature = 500 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.28634e-17  1.28634e-17
+        3          ***  1.29344e-17  1.29344e-17
+    O-O  1.33636e-17          ***  1.33636e-17
+
+   Temperature = 510 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.69513e-17  1.69513e-17
+        3          ***  1.70497e-17  1.70497e-17
+    O-O  1.76638e-17          ***  1.76638e-17
+
+   Temperature = 520 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.21279e-17  2.21279e-17
+        3          ***  2.22629e-17  2.22629e-17
+    O-O  2.31297e-17          ***  2.31297e-17
+
+   Temperature = 530 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.86273e-17  2.86273e-17
+        3          ***  2.88106e-17  2.88106e-17
+    O-O  3.00226e-17          ***  3.00226e-17
+
+   Temperature = 540 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.67221e-17  3.67221e-17
+        3          ***  3.69682e-17  3.69682e-17
+    O-O  3.86431e-17          ***  3.86431e-17
+
+   Temperature = 550 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   4.6727e-17   4.6727e-17
+        3          ***  4.70546e-17  4.70546e-17
+    O-O  4.93475e-17          ***  4.93475e-17
+
+   Temperature = 560 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   5.9003e-17   5.9003e-17
+        3          ***   5.9435e-17   5.9435e-17
+    O-O  6.25416e-17          ***  6.25416e-17
+
+   Temperature = 570 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  7.39624e-17  7.39624e-17
+        3          ***  7.45268e-17  7.45268e-17
+    O-O  7.86932e-17          ***  7.86932e-17
+
+   Temperature = 580 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.20724e-17  9.20724e-17
+        3          ***  9.28043e-17  9.28043e-17
+    O-O  9.83408e-17          ***  9.83408e-17
+
+   Temperature = 590 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   1.1386e-16   1.1386e-16
+        3          ***    1.148e-16    1.148e-16
+    O-O  1.22105e-16          ***  1.22105e-16
+
+   Temperature = 600 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.39918e-16  1.39918e-16
+        3          ***  1.41119e-16  1.41119e-16
+    O-O  1.50673e-16          ***  1.50673e-16
+
+   Temperature = 610 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.70905e-16  1.70905e-16
+        3          ***  1.72428e-16  1.72428e-16
+    O-O  1.84825e-16          ***  1.84825e-16
+
+   Temperature = 620 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.07556e-16  2.07556e-16
+        3          ***  2.09472e-16  2.09472e-16
+    O-O  2.25443e-16          ***  2.25443e-16
+
+   Temperature = 630 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.50685e-16  2.50685e-16
+        3          ***  2.53082e-16  2.53082e-16
+    O-O  2.73523e-16          ***  2.73523e-16
+
+   Temperature = 640 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.01184e-16  3.01184e-16
+        3          ***  3.04157e-16  3.04157e-16
+    O-O  3.30158e-16          ***  3.30158e-16
+
+   Temperature = 650 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.60037e-16  3.60037e-16
+        3          ***  3.63715e-16  3.63715e-16
+    O-O  3.96555e-16          ***  3.96555e-16
+
+   Temperature = 660 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.28316e-16  4.28316e-16
+        3          ***  4.32821e-16  4.32821e-16
+    O-O  4.74041e-16          ***  4.74041e-16
+
+   Temperature = 670 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.07191e-16  5.07191e-16
+        3          ***  5.12703e-16  5.12703e-16
+    O-O  5.64124e-16          ***  5.64124e-16
+
+   Temperature = 680 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.97927e-16  5.97927e-16
+        3          ***  6.04604e-16  6.04604e-16
+    O-O   6.6856e-16          ***   6.6856e-16
+
+   Temperature = 690 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  7.01898e-16  7.01898e-16
+        3          ***  7.09984e-16  7.09984e-16
+    O-O  7.88782e-16          ***  7.88782e-16
+
+   Temperature = 700 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  8.20578e-16  8.20578e-16
+        3          ***  8.30306e-16  8.30306e-16
+    O-O  9.27095e-16          ***  9.27095e-16
+
+   Temperature = 800 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.22308e-15  3.22308e-15
+        3          ***  3.27128e-15  3.27128e-15
+    O-O  3.86529e-15          ***  3.86529e-15
+
+   Temperature = 900 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.59713e-15  9.59713e-15
+        3          ***  9.76685e-15  9.76685e-15
+    O-O   1.2348e-14          ***   1.2348e-14
+
+   Temperature = 1000 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.33827e-14  2.33827e-14
+        3          ***   2.3851e-14   2.3851e-14
+    O-O  3.25807e-14          ***  3.25807e-14
+
+   Temperature = 1100 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.90031e-14  4.90031e-14
+        3          ***  5.00554e-14  5.00554e-14
+    O-O  7.45321e-14          ***  7.45321e-14
+
+   Temperature = 1200 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.14165e-14  9.14165e-14
+        3          ***  9.34454e-14  9.34454e-14
+    O-O   1.5276e-13          ***   1.5276e-13
+
+   Temperature = 1300 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.55574e-13  1.55574e-13
+        3          ***  1.59106e-13  1.59106e-13
+    O-O  2.87074e-13          ***  2.87074e-13
+
+   Temperature = 1400 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***   2.4592e-13   2.4592e-13
+        3  4.97962e-13  -1.7987e-14  4.79975e-13
+    O-O  5.03023e-13          ***  5.03023e-13
+
+   Temperature = 1500 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.66026e-13  3.66026e-13
+        3  7.97495e-13 -3.66603e-14  7.60834e-13
+    O-O  8.32196e-13          ***  8.32196e-13
+
+   Temperature = 1600 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.18389e-13  5.18389e-13
+        3  1.18922e-12 -5.43155e-14   1.1349e-12
+    O-O  1.31238e-12          ***  1.31238e-12
+
+   Temperature = 1700 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  7.04353e-13  7.04353e-13
+        3  1.65015e-12 -5.55625e-14  1.59458e-12
+    O-O  1.98769e-12          ***  1.98769e-12
+
+   Temperature = 1800 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  9.24387e-13  9.24387e-13
+        3  2.23701e-12 -5.65188e-14  2.18049e-12
+    O-O  2.90814e-12          ***  2.90814e-12
+
+   Temperature = 1900 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.17775e-12  1.17775e-12
+        3  2.83246e-12 -5.91711e-15  2.82654e-12
+    O-O  4.13001e-12          ***  4.13001e-12
+
+   Temperature = 2000 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.46347e-12  1.46347e-12
+        3          ***  1.48996e-12  1.48996e-12
+    O-O  5.71542e-12          ***  5.71542e-12
+
+   Temperature = 2100 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  1.77942e-12  1.77942e-12
+        3          ***   1.8073e-12   1.8073e-12
+    O-O  7.73171e-12          ***  7.73171e-12
+
+   Temperature = 2200 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.12358e-12  2.12358e-12
+        3          ***  2.15008e-12  2.15008e-12
+    O-O  1.02515e-11          ***  1.02515e-11
+
+   Temperature = 2300 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.49406e-12  2.49406e-12
+        3          ***  2.52945e-12  2.52945e-12
+    O-O  1.33529e-11          ***  1.33529e-11
+
+   Temperature = 2400 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  2.88775e-12  2.88775e-12
+        3          ***  2.92256e-12  2.92256e-12
+    O-O  1.71186e-11          ***  1.71186e-11
+
+   Temperature = 2500 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.30251e-12  3.30251e-12
+        3          ***  3.33459e-12  3.33459e-12
+    O-O  2.16345e-11          ***  2.16345e-11
+
+   Temperature = 2600 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  3.73634e-12  3.73634e-12
+        3          ***  3.77184e-12  3.77184e-12
+    O-O  2.69924e-11          ***  2.69924e-11
+
+   Temperature = 2700 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.18656e-12  4.18656e-12
+        3          ***  4.21831e-12  4.21831e-12
+    O-O  3.32856e-11          ***  3.32856e-11
+
+   Temperature = 2800 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  4.65194e-12  4.65194e-12
+        3          ***  4.69438e-12  4.69438e-12
+    O-O  4.06154e-11          ***  4.06154e-11
+
+   Temperature = 2900 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.12954e-12  5.12954e-12
+        3          ***  5.16977e-12  5.16977e-12
+    O-O  4.90802e-11          ***  4.90802e-11
+
+   Temperature = 3000 K
+
+   P(atm)       P2->W1       P2->P1         P2->
+      0.1          ***  5.61813e-12  5.61813e-12
+        3          ***  5.65512e-12  5.65512e-12
+    O-O  5.87865e-11          ***  5.87865e-11
+
+______________________________________________________________________________________
+
+Temperature-Species Rate Tables:
+
+   Pressure = 0.1 atm
+
+   T(K)       W1->P1       W1->P2         W1->      Capture
+    200          ***          ***          ***  9.94929e+09
+    210          ***          ***          ***  1.00169e+10
+    220          ***          ***          ***   1.0033e+10
+    230          ***          ***          ***  1.00059e+10
+    240          ***          ***          ***  9.94256e+09
+    250          ***          ***          ***  9.84933e+09
+    260          ***          ***          ***  9.73164e+09
+    270          ***          ***          ***   9.5942e+09
+    280          ***          ***          ***  9.44105e+09
+    290          ***          ***          ***  9.27563e+09
+    300          ***          ***          ***  9.10086e+09
+    310          ***          ***          ***  8.91921e+09
+    320          ***          ***          ***  8.73278e+09
+    330          ***          ***          ***  8.54331e+09
+    340          ***          ***          ***  8.35228e+09
+    350          ***          ***          ***  8.16087e+09
+    360          ***          ***          ***  7.97012e+09
+    370          ***          ***          ***  7.78085e+09
+    380          ***          ***          ***  7.59372e+09
+    390          ***          ***          ***  7.40929e+09
+    400          ***          ***          ***  7.22801e+09
+    410          ***          ***          ***  7.05019e+09
+    420          ***          ***          ***  6.87613e+09
+    430          ***          ***          ***  6.70601e+09
+    440          ***          ***          ***  6.53997e+09
+    450          ***          ***          ***  6.37814e+09
+    460          ***          ***          ***  6.22054e+09
+    470          ***          ***          ***  6.06724e+09
+    480          ***          ***          ***  5.91821e+09
+    490          ***          ***          ***  5.77343e+09
+    500          ***          ***          ***  5.63288e+09
+    510          ***          ***          ***  5.49649e+09
+    520          ***          ***          ***  5.36419e+09
+    530          ***          ***          ***  5.23593e+09
+    540          ***          ***          ***  5.11161e+09
+    550          ***          ***          ***  4.99114e+09
+    560          ***          ***          ***  4.87444e+09
+    570          ***          ***          ***   4.7614e+09
+    580          ***          ***          ***  4.65193e+09
+    590          ***          ***          ***  4.54594e+09
+    600          ***          ***          ***  4.44332e+09
+    610          ***          ***          ***  4.34397e+09
+    620          ***          ***          ***   4.2478e+09
+    630          ***          ***          ***  4.15472e+09
+    640          ***          ***          ***  4.06462e+09
+    650          ***          ***          ***  3.97742e+09
+    660          ***          ***          ***  3.89302e+09
+    670          ***          ***          ***  3.81133e+09
+    680          ***          ***          ***  3.73229e+09
+    690          ***          ***          ***  3.65576e+09
+    700          ***          ***          ***   3.5817e+09
+    800          ***          ***          ***  2.95998e+09
+    900          ***          ***          ***  2.51059e+09
+   1000          ***          ***          ***  2.18564e+09
+   1100          ***          ***          ***  1.95166e+09
+   1200          ***          ***          ***  1.78508e+09
+   1300          ***          ***          ***  1.66909e+09
+   1400          ***          ***          ***  1.59152e+09
+   1500          ***          ***          ***   1.5434e+09
+   1600          ***          ***          ***    1.518e+09
+   1700          ***          ***          ***  1.51033e+09
+   1800          ***          ***          ***  1.51639e+09
+   1900          ***          ***          ***  1.53325e+09
+   2000          ***          ***          ***  1.55857e+09
+   2100          ***          ***          ***  1.59046e+09
+   2200          ***          ***          ***  1.62746e+09
+   2300          ***          ***          ***  1.66842e+09
+   2400          ***          ***          ***  1.71244e+09
+   2500          ***          ***          ***  1.75867e+09
+   2600          ***          ***          ***  1.80658e+09
+   2700          ***          ***          ***  1.85559e+09
+   2800          ***          ***          ***  1.90545e+09
+   2900          ***          ***          ***  1.95569e+09
+   3000          ***          ***          ***  2.00611e+09
+
+   Pressure = 3 atm
+
+   T(K)       W1->P1       W1->P2         W1->      Capture
+    200          ***          ***          ***  9.94929e+09
+    210          ***          ***          ***  1.00169e+10
+    220          ***          ***          ***   1.0033e+10
+    230          ***          ***          ***  1.00059e+10
+    240          ***          ***          ***  9.94256e+09
+    250          ***          ***          ***  9.84933e+09
+    260          ***          ***          ***  9.73164e+09
+    270          ***          ***          ***   9.5942e+09
+    280          ***          ***          ***  9.44105e+09
+    290          ***          ***          ***  9.27563e+09
+    300          ***          ***          ***  9.10086e+09
+    310          ***          ***          ***  8.91921e+09
+    320          ***          ***          ***  8.73278e+09
+    330          ***          ***          ***  8.54331e+09
+    340          ***          ***          ***  8.35228e+09
+    350          ***          ***          ***  8.16087e+09
+    360          ***          ***          ***  7.97012e+09
+    370          ***          ***          ***  7.78085e+09
+    380          ***          ***          ***  7.59372e+09
+    390          ***          ***          ***  7.40929e+09
+    400          ***          ***          ***  7.22801e+09
+    410          ***          ***          ***  7.05019e+09
+    420          ***          ***          ***  6.87613e+09
+    430          ***          ***          ***  6.70601e+09
+    440          ***          ***          ***  6.53997e+09
+    450          ***          ***          ***  6.37814e+09
+    460          ***          ***          ***  6.22054e+09
+    470          ***          ***          ***  6.06724e+09
+    480          ***          ***          ***  5.91821e+09
+    490          ***          ***          ***  5.77343e+09
+    500          ***          ***          ***  5.63288e+09
+    510          ***          ***          ***  5.49649e+09
+    520          ***          ***          ***  5.36419e+09
+    530          ***          ***          ***  5.23593e+09
+    540          ***          ***          ***  5.11161e+09
+    550          ***          ***          ***  4.99114e+09
+    560          ***          ***          ***  4.87444e+09
+    570          ***          ***          ***   4.7614e+09
+    580          ***          ***          ***  4.65193e+09
+    590          ***          ***          ***  4.54594e+09
+    600          ***          ***          ***  4.44332e+09
+    610          ***          ***          ***  4.34397e+09
+    620          ***          ***          ***   4.2478e+09
+    630          ***          ***          ***  4.15472e+09
+    640          ***          ***          ***  4.06462e+09
+    650          ***          ***          ***  3.97742e+09
+    660          ***          ***          ***  3.89302e+09
+    670          ***          ***          ***  3.81133e+09
+    680          ***          ***          ***  3.73229e+09
+    690          ***          ***          ***  3.65576e+09
+    700          ***          ***          ***   3.5817e+09
+    800          ***          ***          ***  2.95998e+09
+    900          ***          ***          ***  2.51059e+09
+   1000          ***          ***          ***  2.18564e+09
+   1100          ***          ***          ***  1.95166e+09
+   1200          ***          ***          ***  1.78508e+09
+   1300          ***          ***          ***  1.66909e+09
+   1400  7.86351e+08  6.66208e+08  1.45256e+09  1.59152e+09
+   1500  7.46603e+08  7.01596e+08   1.4482e+09   1.5434e+09
+   1600  7.10593e+08  7.35442e+08  1.44603e+09    1.518e+09
+   1700  6.75906e+08   7.6513e+08  1.44104e+09  1.51033e+09
+   1800  6.46864e+08  8.00555e+08  1.44742e+09  1.51639e+09
+   1900   6.1466e+08  8.31222e+08  1.44588e+09  1.53325e+09
+   2000          ***          ***          ***  1.55857e+09
+   2100          ***          ***          ***  1.59046e+09
+   2200          ***          ***          ***  1.62746e+09
+   2300          ***          ***          ***  1.66842e+09
+   2400          ***          ***          ***  1.71244e+09
+   2500          ***          ***          ***  1.75867e+09
+   2600          ***          ***          ***  1.80658e+09
+   2700          ***          ***          ***  1.85559e+09
+   2800          ***          ***          ***  1.90545e+09
+   2900          ***          ***          ***  1.95569e+09
+   3000          ***          ***          ***  2.00611e+09
+
+   Pressure = 0.1 atm
+
+   T(K)       P1->W1       P1->P2         P1->      Capture
+    200          ***  2.38828e-14  2.38828e-14  2.22271e-10
+    210          ***  2.82643e-14  2.82643e-14  2.21179e-10
+    220          ***  3.34656e-14  3.34656e-14  2.20182e-10
+    230          ***  3.96129e-14  3.96129e-14  2.19274e-10
+    240          ***  4.68443e-14  4.68443e-14  2.18448e-10
+    250          ***  5.53102e-14  5.53102e-14  2.17697e-10
+    260          ***  6.51724e-14  6.51724e-14  2.17015e-10
+    270          ***  7.66049e-14  7.66049e-14  2.16397e-10
+    280          ***  8.97932e-14  8.97932e-14  2.15838e-10
+    290          ***  1.04934e-13  1.04934e-13  2.15333e-10
+    300          ***  1.22235e-13  1.22235e-13  2.14877e-10
+    310          ***  1.41915e-13  1.41915e-13  2.14466e-10
+    320          ***  1.64202e-13  1.64202e-13  2.14098e-10
+    330          ***  1.89336e-13  1.89336e-13  2.13768e-10
+    340          ***  2.17564e-13  2.17564e-13  2.13473e-10
+    350          ***  2.49144e-13  2.49144e-13  2.13211e-10
+    360          ***  2.84341e-13  2.84341e-13  2.12979e-10
+    370          ***   3.2343e-13   3.2343e-13  2.12774e-10
+    380          ***  3.66692e-13  3.66692e-13  2.12596e-10
+    390          ***  4.14416e-13  4.14416e-13  2.12441e-10
+    400          ***  4.66895e-13  4.66895e-13  2.12308e-10
+    410          ***  5.24432e-13  5.24432e-13  2.12196e-10
+    420          ***  5.87332e-13  5.87332e-13  2.12103e-10
+    430          ***  6.55904e-13  6.55904e-13  2.12027e-10
+    440          ***  7.30465e-13  7.30465e-13  2.11967e-10
+    450          ***  8.11331e-13  8.11331e-13  2.11923e-10
+    460          ***  8.98824e-13  8.98824e-13  2.11893e-10
+    470          ***  9.93265e-13  9.93265e-13  2.11876e-10
+    480          ***  1.09498e-12  1.09498e-12  2.11871e-10
+    490          ***  1.20429e-12  1.20429e-12  2.11878e-10
+    500          ***  1.32152e-12  1.32152e-12  2.11895e-10
+    510          ***    1.447e-12    1.447e-12  2.11922e-10
+    520          ***  1.58104e-12  1.58104e-12  2.11959e-10
+    530          ***  1.72398e-12  1.72398e-12  2.12004e-10
+    540          ***  1.87612e-12  1.87612e-12  2.12057e-10
+    550          ***  2.03778e-12  2.03778e-12  2.12118e-10
+    560          ***  2.20926e-12  2.20926e-12  2.12186e-10
+    570          ***  2.39089e-12  2.39089e-12   2.1226e-10
+    580          ***  2.58295e-12  2.58295e-12  2.12341e-10
+    590          ***  2.78573e-12  2.78573e-12  2.12428e-10
+    600          ***  2.99954e-12  2.99954e-12   2.1252e-10
+    610          ***  3.22464e-12  3.22464e-12  2.12617e-10
+    620          ***  3.46131e-12  3.46131e-12  2.12719e-10
+    630          ***  3.70982e-12  3.70982e-12  2.12825e-10
+    640          ***  3.97042e-12  3.97042e-12  2.12936e-10
+    650          ***  4.24335e-12  4.24335e-12  2.13051e-10
+    660          ***  4.52886e-12  4.52886e-12  2.13169e-10
+    670          ***  4.82718e-12  4.82718e-12  2.13291e-10
+    680          ***   5.1385e-12   5.1385e-12  2.13416e-10
+    690          ***  5.46306e-12  5.46306e-12  2.13544e-10
+    700          ***  5.80103e-12  5.80103e-12  2.13675e-10
+    800          ***  9.95289e-12  9.95289e-12  2.15107e-10
+    900          ***  1.55687e-11  1.55687e-11  2.16683e-10
+   1000          ***  2.26364e-11  2.26364e-11  2.18326e-10
+   1100          ***  3.10304e-11  3.10304e-11  2.19993e-10
+   1200          ***  4.05416e-11  4.05416e-11  2.21658e-10
+   1300          ***  5.09124e-11  5.09124e-11  2.23305e-10
+   1400          ***  6.18694e-11  6.18694e-11  2.24926e-10
+   1500          ***  7.31485e-11  7.31485e-11  2.26514e-10
+   1600          ***  8.45125e-11  8.45125e-11  2.28067e-10
+   1700          ***  9.57566e-11  9.57566e-11  2.29583e-10
+   1800          ***  1.06739e-10  1.06739e-10  2.31063e-10
+   1900          ***  1.17316e-10  1.17316e-10  2.32506e-10
+   2000          ***  1.27434e-10  1.27434e-10  2.33914e-10
+   2100          ***  1.37007e-10  1.37007e-10  2.35287e-10
+   2200          ***  1.46019e-10  1.46019e-10  2.36626e-10
+   2300          ***  1.54489e-10  1.54489e-10  2.37933e-10
+   2400          ***  1.62375e-10  1.62375e-10  2.39208e-10
+   2500          ***  1.69714e-10  1.69714e-10  2.40454e-10
+   2600          ***  1.76544e-10  1.76544e-10  2.41671e-10
+   2700          ***   1.8287e-10   1.8287e-10   2.4286e-10
+   2800          ***  1.88757e-10  1.88757e-10  2.44024e-10
+   2900          ***  1.94193e-10  1.94193e-10  2.45161e-10
+   3000          ***  1.99231e-10  1.99231e-10  2.46275e-10
+
+   Pressure = 3 atm
+
+   T(K)       P1->W1       P1->P2         P1->      Capture
+    200          ***  2.38868e-14  2.38868e-14  2.22271e-10
+    210          ***  2.82705e-14  2.82705e-14  2.21179e-10
+    220          ***   3.3475e-14   3.3475e-14  2.20182e-10
+    230          ***  3.96269e-14  3.96269e-14  2.19274e-10
+    240          ***  4.68647e-14  4.68647e-14  2.18448e-10
+    250          ***  5.53392e-14  5.53392e-14  2.17697e-10
+    260          ***  6.52131e-14  6.52131e-14  2.17015e-10
+    270          ***  7.66611e-14  7.66611e-14  2.16397e-10
+    280          ***  8.98698e-14  8.98698e-14  2.15838e-10
+    290          ***  1.05037e-13  1.05037e-13  2.15333e-10
+    300          ***  1.22371e-13  1.22371e-13  2.14877e-10
+    310          ***  1.42094e-13  1.42094e-13  2.14466e-10
+    320          ***  1.64435e-13  1.64435e-13  2.14098e-10
+    330          ***  1.89635e-13  1.89635e-13  2.13768e-10
+    340          ***  2.17944e-13  2.17944e-13  2.13473e-10
+    350          ***  2.49624e-13  2.49624e-13  2.13211e-10
+    360          ***  2.84943e-13  2.84943e-13  2.12979e-10
+    370          ***  3.24179e-13  3.24179e-13  2.12774e-10
+    380          ***  3.67615e-13  3.67615e-13  2.12596e-10
+    390          ***  4.15547e-13  4.15547e-13  2.12441e-10
+    400          ***  4.68272e-13  4.68272e-13  2.12308e-10
+    410          ***  5.26097e-13  5.26097e-13  2.12196e-10
+    420          ***  5.89334e-13  5.89334e-13  2.12103e-10
+    430          ***  6.58298e-13  6.58298e-13  2.12027e-10
+    440          ***  7.33312e-13  7.33312e-13  2.11967e-10
+    450          ***    8.147e-13    8.147e-13  2.11923e-10
+    460          ***  9.02791e-13  9.02791e-13  2.11893e-10
+    470          ***  9.97916e-13  9.97916e-13  2.11876e-10
+    480          ***   1.1004e-12   1.1004e-12  2.11871e-10
+    490          ***  1.21059e-12  1.21059e-12  2.11878e-10
+    500          ***  1.32881e-12  1.32881e-12  2.11895e-10
+    510          ***   1.4554e-12   1.4554e-12  2.11922e-10
+    520          ***  1.59069e-12  1.59069e-12  2.11959e-10
+    530          ***  1.73501e-12  1.73501e-12  2.12004e-10
+    540          ***  1.88869e-12  1.88869e-12  2.12057e-10
+    550          ***  2.05206e-12  2.05206e-12  2.12118e-10
+    560          ***  2.22544e-12  2.22544e-12  2.12186e-10
+    570          ***  2.40913e-12  2.40913e-12   2.1226e-10
+    580          ***  2.60348e-12  2.60348e-12  2.12341e-10
+    590          ***  2.80872e-12  2.80872e-12  2.12428e-10
+    600          ***   3.0253e-12   3.0253e-12   2.1252e-10
+    610          ***  3.25339e-12  3.25339e-12  2.12617e-10
+    620          ***  3.49326e-12  3.49326e-12  2.12719e-10
+    630          ***   3.7453e-12   3.7453e-12  2.12825e-10
+    640          ***  4.00961e-12  4.00961e-12  2.12936e-10
+    650          ***   4.2867e-12   4.2867e-12  2.13051e-10
+    660          ***  4.57649e-12  4.57649e-12  2.13169e-10
+    670          ***  4.87964e-12  4.87964e-12  2.13291e-10
+    680          ***  5.19588e-12  5.19588e-12  2.13416e-10
+    690          ***  5.52599e-12  5.52599e-12  2.13544e-10
+    700          ***   5.8698e-12   5.8698e-12  2.13675e-10
+    800          ***  1.01017e-11  1.01017e-11  2.15107e-10
+    900          ***   1.5844e-11   1.5844e-11  2.16683e-10
+   1000          ***  2.30897e-11  2.30897e-11  2.18326e-10
+   1100          ***  3.16968e-11  3.16968e-11  2.19993e-10
+   1200          ***  4.14414e-11  4.14414e-11  2.21658e-10
+   1300          ***  5.20682e-11  5.20682e-11  2.23305e-10
+   1400  1.47871e-10 -4.52523e-12  1.43346e-10  2.24926e-10
+   1500  1.69599e-10 -7.32639e-12  1.62273e-10  2.26514e-10
+   1600  1.87327e-10 -8.85501e-12  1.78472e-10  2.28067e-10
+   1700  1.98177e-10 -7.55371e-12  1.90623e-10  2.29583e-10
+   1800  2.08718e-10 -6.52622e-12  2.02192e-10  2.31063e-10
+   1900  2.08634e-10 -5.89406e-13  2.08045e-10  2.32506e-10
+   2000          ***  1.29741e-10  1.29741e-10  2.33914e-10
+   2100          ***  1.39154e-10  1.39154e-10  2.35287e-10
+   2200          ***  1.47841e-10  1.47841e-10  2.36626e-10
+   2300          ***   1.5668e-10   1.5668e-10  2.37933e-10
+   2400          ***  1.64333e-10  1.64333e-10  2.39208e-10
+   2500          ***  1.71362e-10  1.71362e-10  2.40454e-10
+   2600          ***  1.78221e-10  1.78221e-10  2.41671e-10
+   2700          ***  1.84256e-10  1.84256e-10   2.4286e-10
+   2800          ***  1.90479e-10  1.90479e-10  2.44024e-10
+   2900          ***  1.95716e-10  1.95716e-10  2.45161e-10
+   3000          ***  2.00542e-10  2.00542e-10  2.46275e-10
+
+   Pressure = 0.1 atm
+
+   T(K)       P2->W1       P2->P1         P2->      Capture
+    200          ***  1.01512e-25  1.01512e-25  1.01597e-25
+    210          ***  3.91667e-25  3.91667e-25  3.90675e-25
+    220          ***  1.35585e-24  1.35585e-24   1.3486e-24
+    230          ***  4.26814e-24  4.26814e-24  4.24436e-24
+    240          ***  1.23551e-23  1.23551e-23  1.23071e-23
+    250          ***  3.31971e-23  3.31971e-23  3.30755e-23
+    260          ***  8.34537e-23  8.34537e-23   8.3151e-23
+    270          ***  1.97619e-22  1.97619e-22  1.96999e-22
+    280          ***  4.43388e-22  4.43388e-22  4.42467e-22
+    290          ***  9.47353e-22  9.47353e-22  9.46146e-22
+    300          ***  1.93614e-21  1.93614e-21  1.93529e-21
+    310          ***  3.79968e-21  3.79968e-21  3.80198e-21
+    320          ***   7.1852e-21   7.1852e-21   7.1998e-21
+    330          ***  1.31322e-20  1.31322e-20  1.31715e-20
+    340          ***  2.32607e-20  2.32607e-20  2.33857e-20
+    350          ***  4.00274e-20  4.00274e-20  4.02431e-20
+    360          ***   6.7064e-20   6.7064e-20  6.75233e-20
+    370          ***  1.09617e-19  1.09617e-19  1.10653e-19
+    380          ***  1.75102e-19  1.75102e-19  1.76944e-19
+    390          ***  2.73802e-19  2.73802e-19  2.77147e-19
+    400          ***   4.1971e-19   4.1971e-19  4.25813e-19
+    410          ***  6.31551e-19  6.31551e-19  6.41506e-19
+    420          ***  9.33991e-19  9.33991e-19  9.51007e-19
+    430          ***  1.35905e-18  1.35905e-18   1.3866e-18
+    440          ***  1.94774e-18  1.94774e-18  1.99124e-18
+    450          ***  2.75191e-18  2.75191e-18  2.82068e-18
+    460          ***  3.83635e-18  3.83635e-18  3.94109e-18
+    470          ***  5.28113e-18  5.28113e-18  5.44005e-18
+    480          ***   7.1842e-18   7.1842e-18  7.42085e-18
+    490          ***  9.66416e-18  9.66416e-18  1.00099e-17
+    500          ***  1.28634e-17  1.28634e-17  1.33636e-17
+    510          ***  1.69513e-17  1.69513e-17  1.76638e-17
+    520          ***  2.21279e-17  2.21279e-17  2.31297e-17
+    530          ***  2.86273e-17  2.86273e-17  3.00226e-17
+    540          ***  3.67221e-17  3.67221e-17  3.86431e-17
+    550          ***   4.6727e-17   4.6727e-17  4.93475e-17
+    560          ***   5.9003e-17   5.9003e-17  6.25416e-17
+    570          ***  7.39624e-17  7.39624e-17  7.86932e-17
+    580          ***  9.20724e-17  9.20724e-17  9.83408e-17
+    590          ***   1.1386e-16   1.1386e-16  1.22105e-16
+    600          ***  1.39918e-16  1.39918e-16  1.50673e-16
+    610          ***  1.70905e-16  1.70905e-16  1.84825e-16
+    620          ***  2.07556e-16  2.07556e-16  2.25443e-16
+    630          ***  2.50685e-16  2.50685e-16  2.73523e-16
+    640          ***  3.01184e-16  3.01184e-16  3.30158e-16
+    650          ***  3.60037e-16  3.60037e-16  3.96555e-16
+    660          ***  4.28316e-16  4.28316e-16  4.74041e-16
+    670          ***  5.07191e-16  5.07191e-16  5.64124e-16
+    680          ***  5.97927e-16  5.97927e-16   6.6856e-16
+    690          ***  7.01898e-16  7.01898e-16  7.88782e-16
+    700          ***  8.20578e-16  8.20578e-16  9.27095e-16
+    800          ***  3.22308e-15  3.22308e-15  3.86529e-15
+    900          ***  9.59713e-15  9.59713e-15   1.2348e-14
+   1000          ***  2.33827e-14  2.33827e-14  3.25807e-14
+   1100          ***  4.90031e-14  4.90031e-14  7.45321e-14
+   1200          ***  9.14165e-14  9.14165e-14   1.5276e-13
+   1300          ***  1.55574e-13  1.55574e-13  2.87074e-13
+   1400          ***   2.4592e-13   2.4592e-13  5.03023e-13
+   1500          ***  3.66026e-13  3.66026e-13  8.32196e-13
+   1600          ***  5.18389e-13  5.18389e-13  1.31238e-12
+   1700          ***  7.04353e-13  7.04353e-13  1.98769e-12
+   1800          ***  9.24387e-13  9.24387e-13  2.90814e-12
+   1900          ***  1.17775e-12  1.17775e-12  4.13001e-12
+   2000          ***  1.46347e-12  1.46347e-12  5.71542e-12
+   2100          ***  1.77942e-12  1.77942e-12  7.73171e-12
+   2200          ***  2.12358e-12  2.12358e-12  1.02515e-11
+   2300          ***  2.49406e-12  2.49406e-12  1.33529e-11
+   2400          ***  2.88775e-12  2.88775e-12  1.71186e-11
+   2500          ***  3.30251e-12  3.30251e-12  2.16345e-11
+   2600          ***  3.73634e-12  3.73634e-12  2.69924e-11
+   2700          ***  4.18656e-12  4.18656e-12  3.32856e-11
+   2800          ***  4.65194e-12  4.65194e-12  4.06154e-11
+   2900          ***  5.12954e-12  5.12954e-12  4.90802e-11
+   3000          ***  5.61813e-12  5.61813e-12  5.87865e-11
+
+   Pressure = 3 atm
+
+   T(K)       P2->W1       P2->P1         P2->      Capture
+    200          ***  1.01529e-25  1.01529e-25  1.01597e-25
+    210          ***  3.91754e-25  3.91754e-25  3.90675e-25
+    220          ***  1.35624e-24  1.35624e-24   1.3486e-24
+    230          ***  4.26965e-24  4.26965e-24  4.24436e-24
+    240          ***  1.23604e-23  1.23604e-23  1.23071e-23
+    250          ***  3.32145e-23  3.32145e-23  3.30755e-23
+    260          ***  8.35059e-23  8.35059e-23   8.3151e-23
+    270          ***  1.97764e-22  1.97764e-22  1.96999e-22
+    280          ***  4.43766e-22  4.43766e-22  4.42467e-22
+    290          ***  9.48282e-22  9.48282e-22  9.46146e-22
+    300          ***   1.9383e-21   1.9383e-21  1.93529e-21
+    310          ***  3.80448e-21  3.80448e-21  3.80198e-21
+    320          ***  7.19538e-21  7.19538e-21   7.1998e-21
+    330          ***  1.31529e-20  1.31529e-20  1.31715e-20
+    340          ***  2.33014e-20  2.33014e-20  2.33857e-20
+    350          ***  4.01046e-20  4.01046e-20  4.02431e-20
+    360          ***   6.7206e-20   6.7206e-20  6.75233e-20
+    370          ***   1.0987e-19   1.0987e-19  1.10653e-19
+    380          ***  1.75543e-19  1.75543e-19  1.76944e-19
+    390          ***   2.7455e-19   2.7455e-19  2.77147e-19
+    400          ***  4.20947e-19  4.20947e-19  4.25813e-19
+    410          ***  6.33555e-19  6.33555e-19  6.41506e-19
+    420          ***  9.37175e-19  9.37175e-19  9.51007e-19
+    430          ***  1.36401e-18  1.36401e-18   1.3866e-18
+    440          ***  1.95533e-18  1.95533e-18  1.99124e-18
+    450          ***  2.76333e-18  2.76333e-18  2.82068e-18
+    460          ***  3.85328e-18  3.85328e-18  3.94109e-18
+    470          ***  5.30586e-18  5.30586e-18  5.44005e-18
+    480          ***  7.21979e-18  7.21979e-18  7.42085e-18
+    490          ***  9.71469e-18  9.71469e-18  1.00099e-17
+    500          ***  1.29344e-17  1.29344e-17  1.33636e-17
+    510          ***  1.70497e-17  1.70497e-17  1.76638e-17
+    520          ***  2.22629e-17  2.22629e-17  2.31297e-17
+    530          ***  2.88106e-17  2.88106e-17  3.00226e-17
+    540          ***  3.69682e-17  3.69682e-17  3.86431e-17
+    550          ***  4.70546e-17  4.70546e-17  4.93475e-17
+    560          ***   5.9435e-17   5.9435e-17  6.25416e-17
+    570          ***  7.45268e-17  7.45268e-17  7.86932e-17
+    580          ***  9.28043e-17  9.28043e-17  9.83408e-17
+    590          ***    1.148e-16    1.148e-16  1.22105e-16
+    600          ***  1.41119e-16  1.41119e-16  1.50673e-16
+    610          ***  1.72428e-16  1.72428e-16  1.84825e-16
+    620          ***  2.09472e-16  2.09472e-16  2.25443e-16
+    630          ***  2.53082e-16  2.53082e-16  2.73523e-16
+    640          ***  3.04157e-16  3.04157e-16  3.30158e-16
+    650          ***  3.63715e-16  3.63715e-16  3.96555e-16
+    660          ***  4.32821e-16  4.32821e-16  4.74041e-16
+    670          ***  5.12703e-16  5.12703e-16  5.64124e-16
+    680          ***  6.04604e-16  6.04604e-16   6.6856e-16
+    690          ***  7.09984e-16  7.09984e-16  7.88782e-16
+    700          ***  8.30306e-16  8.30306e-16  9.27095e-16
+    800          ***  3.27128e-15  3.27128e-15  3.86529e-15
+    900          ***  9.76685e-15  9.76685e-15   1.2348e-14
+   1000          ***   2.3851e-14   2.3851e-14  3.25807e-14
+   1100          ***  5.00554e-14  5.00554e-14  7.45321e-14
+   1200          ***  9.34454e-14  9.34454e-14   1.5276e-13
+   1300          ***  1.59106e-13  1.59106e-13  2.87074e-13
+   1400  4.97962e-13  -1.7987e-14  4.79975e-13  5.03023e-13
+   1500  7.97495e-13 -3.66603e-14  7.60834e-13  8.32196e-13
+   1600  1.18922e-12 -5.43155e-14   1.1349e-12  1.31238e-12
+   1700  1.65015e-12 -5.55625e-14  1.59458e-12  1.98769e-12
+   1800  2.23701e-12 -5.65188e-14  2.18049e-12  2.90814e-12
+   1900  2.83246e-12 -5.91711e-15  2.82654e-12  4.13001e-12
+   2000          ***  1.48996e-12  1.48996e-12  5.71542e-12
+   2100          ***   1.8073e-12   1.8073e-12  7.73171e-12
+   2200          ***  2.15008e-12  2.15008e-12  1.02515e-11
+   2300          ***  2.52945e-12  2.52945e-12  1.33529e-11
+   2400          ***  2.92256e-12  2.92256e-12  1.71186e-11
+   2500          ***  3.33459e-12  3.33459e-12  2.16345e-11
+   2600          ***  3.77184e-12  3.77184e-12  2.69924e-11
+   2700          ***  4.21831e-12  4.21831e-12  3.32856e-11
+   2800          ***  4.69438e-12  4.69438e-12  4.06154e-11
+   2900          ***  5.16977e-12  5.16977e-12  4.90802e-11
+   3000          ***  5.65512e-12  5.65512e-12  5.87865e-11
+
+______________________________________________________________________________________
+
+Temperature-Pressure Rate Tables:
+
+W1->P1
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+3                ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***  7.86351e+08  7.46603e+08  7.10593e+08  6.75906e+08  6.46864e+08   6.1466e+08          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+O-O      9.94822e+09  1.00156e+10  1.00315e+10  1.00041e+10  9.94044e+09  9.84684e+09  9.72873e+09  9.59082e+09  9.43714e+09  9.27112e+09  9.09569e+09  8.91331e+09  8.72608e+09  8.53573e+09  8.34373e+09  8.15129e+09  7.95942e+09  7.76893e+09  7.58051e+09  7.39469e+09  7.21192e+09  7.03253e+09   6.8568e+09  6.68491e+09  6.51701e+09  6.35321e+09  6.19355e+09  6.03808e+09  5.88678e+09  5.73964e+09  5.59661e+09  5.45765e+09  5.32269e+09  5.19165e+09  5.06446e+09  4.94101e+09  4.82123e+09  4.70501e+09  4.59226e+09  4.48289e+09  4.37679e+09  4.27387e+09  4.17403e+09  4.07717e+09  3.98321e+09  3.89204e+09  3.80359e+09  3.71775e+09  3.63444e+09  3.55359e+09  3.47511e+09  2.80437e+09  2.29814e+09  1.90975e+09  1.60692e+09  1.36721e+09  1.17483e+09  1.01848e+09  8.89967e+08  7.83233e+08  6.93757e+08  6.18105e+08  5.53643e+08  4.98324e+08   4.5054e+08  4.09015e+08  3.72728e+08  3.40855e+08  3.12725e+08  2.87788e+08  2.65591e+08  2.45754e+08  2.27963e+08  2.11953e+08
+
+W1->P2
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+3                ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***  6.66208e+08  7.01596e+08  7.35442e+08   7.6513e+08  8.00555e+08  8.31222e+08          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+O-O      1.06982e+06  1.27664e+06  1.51654e+06  1.79722e+06  2.12336e+06  2.49262e+06  2.91106e+06  3.38451e+06   3.9179e+06  4.51216e+06  5.17191e+06   5.9016e+06  6.70606e+06  7.58282e+06   8.5493e+06   9.5764e+06  1.06991e+07  1.19209e+07  1.32127e+07  1.46013e+07  1.60906e+07  1.76545e+07   1.9333e+07   2.1099e+07    2.296e+07  2.49306e+07  2.69896e+07   2.9158e+07  3.14258e+07  3.37905e+07  3.62617e+07  3.88309e+07  4.15007e+07  4.42753e+07  4.71502e+07  5.01294e+07  5.32088e+07  5.63867e+07   5.9664e+07  6.30444e+07  6.65232e+07  7.00988e+07  7.37717e+07  7.75452e+07  8.14159e+07  8.53807e+07  8.94354e+07  9.35846e+07  9.78454e+07  1.02164e+08  1.06592e+08  1.55611e+08  2.12451e+08  2.75895e+08  3.44741e+08  4.17867e+08  4.94261e+08  5.73039e+08  6.53429e+08  7.34771e+08  8.16569e+08  8.98289e+08  9.79606e+08  1.06025e+09  1.13992e+09  1.21844e+09   1.2957e+09  1.37158e+09  1.44594e+09  1.51879e+09  1.58999e+09   1.6597e+09  1.72772e+09  1.79416e+09
+
+P1->W1
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+3                ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***  1.47871e-10  1.69599e-10  1.87327e-10  1.98177e-10  2.08718e-10  2.08634e-10          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+O-O      2.22271e-10  2.21179e-10  2.20182e-10  2.19274e-10  2.18448e-10  2.17697e-10  2.17015e-10  2.16397e-10  2.15838e-10  2.15333e-10  2.14877e-10  2.14466e-10  2.14098e-10  2.13768e-10  2.13473e-10  2.13211e-10  2.12979e-10  2.12774e-10  2.12596e-10  2.12441e-10  2.12308e-10  2.12196e-10  2.12103e-10  2.12027e-10  2.11967e-10  2.11923e-10  2.11893e-10  2.11876e-10  2.11871e-10  2.11878e-10  2.11895e-10  2.11922e-10  2.11959e-10  2.12004e-10  2.12057e-10  2.12118e-10  2.12186e-10   2.1226e-10  2.12341e-10  2.12428e-10   2.1252e-10  2.12617e-10  2.12719e-10  2.12825e-10  2.12936e-10  2.13051e-10  2.13169e-10  2.13291e-10  2.13416e-10  2.13544e-10  2.13675e-10  2.15107e-10  2.16683e-10  2.18326e-10  2.19993e-10  2.21658e-10  2.23305e-10  2.24926e-10  2.26514e-10  2.28067e-10  2.29583e-10  2.31063e-10  2.32506e-10  2.33914e-10  2.35287e-10  2.36626e-10  2.37933e-10  2.39208e-10  2.40454e-10  2.41671e-10   2.4286e-10  2.44024e-10  2.45161e-10  2.46275e-10
+
+P1->P2
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1      2.38828e-14  2.82643e-14  3.34656e-14  3.96129e-14  4.68443e-14  5.53102e-14  6.51724e-14  7.66049e-14  8.97932e-14  1.04934e-13  1.22235e-13  1.41915e-13  1.64202e-13  1.89336e-13  2.17564e-13  2.49144e-13  2.84341e-13   3.2343e-13  3.66692e-13  4.14416e-13  4.66895e-13  5.24432e-13  5.87332e-13  6.55904e-13  7.30465e-13  8.11331e-13  8.98824e-13  9.93265e-13  1.09498e-12  1.20429e-12  1.32152e-12    1.447e-12  1.58104e-12  1.72398e-12  1.87612e-12  2.03778e-12  2.20926e-12  2.39089e-12  2.58295e-12  2.78573e-12  2.99954e-12  3.22464e-12  3.46131e-12  3.70982e-12  3.97042e-12  4.24335e-12  4.52886e-12  4.82718e-12   5.1385e-12  5.46306e-12  5.80103e-12  9.95289e-12  1.55687e-11  2.26364e-11  3.10304e-11  4.05416e-11  5.09124e-11  6.18694e-11  7.31485e-11  8.45125e-11  9.57566e-11  1.06739e-10  1.17316e-10  1.27434e-10  1.37007e-10  1.46019e-10  1.54489e-10  1.62375e-10  1.69714e-10  1.76544e-10   1.8287e-10  1.88757e-10  1.94193e-10  1.99231e-10
+3        2.38868e-14  2.82705e-14   3.3475e-14  3.96269e-14  4.68647e-14  5.53392e-14  6.52131e-14  7.66611e-14  8.98698e-14  1.05037e-13  1.22371e-13  1.42094e-13  1.64435e-13  1.89635e-13  2.17944e-13  2.49624e-13  2.84943e-13  3.24179e-13  3.67615e-13  4.15547e-13  4.68272e-13  5.26097e-13  5.89334e-13  6.58298e-13  7.33312e-13    8.147e-13  9.02791e-13  9.97916e-13   1.1004e-12  1.21059e-12  1.32881e-12   1.4554e-12  1.59069e-12  1.73501e-12  1.88869e-12  2.05206e-12  2.22544e-12  2.40913e-12  2.60348e-12  2.80872e-12   3.0253e-12  3.25339e-12  3.49326e-12   3.7453e-12  4.00961e-12   4.2867e-12  4.57649e-12  4.87964e-12  5.19588e-12  5.52599e-12   5.8698e-12  1.01017e-11   1.5844e-11  2.30897e-11  3.16968e-11  4.14414e-11  5.20682e-11 -4.52523e-12 -7.32639e-12 -8.85501e-12 -7.55371e-12 -6.52622e-12 -5.89406e-13  1.29741e-10  1.39154e-10  1.47841e-10   1.5668e-10  1.64333e-10  1.71362e-10  1.78221e-10  1.84256e-10  1.90479e-10  1.95716e-10  2.00542e-10
+O-O              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+
+P2->W1
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+3                ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***  4.97962e-13  7.97495e-13  1.18922e-12  1.65015e-12  2.23701e-12  2.83246e-12          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+O-O      1.01597e-25  3.90675e-25   1.3486e-24  4.24436e-24  1.23071e-23  3.30755e-23   8.3151e-23  1.96999e-22  4.42467e-22  9.46146e-22  1.93529e-21  3.80198e-21   7.1998e-21  1.31715e-20  2.33857e-20  4.02431e-20  6.75233e-20  1.10653e-19  1.76944e-19  2.77147e-19  4.25813e-19  6.41506e-19  9.51007e-19   1.3866e-18  1.99124e-18  2.82068e-18  3.94109e-18  5.44005e-18  7.42085e-18  1.00099e-17  1.33636e-17  1.76638e-17  2.31297e-17  3.00226e-17  3.86431e-17  4.93475e-17  6.25416e-17  7.86932e-17  9.83408e-17  1.22105e-16  1.50673e-16  1.84825e-16  2.25443e-16  2.73523e-16  3.30158e-16  3.96555e-16  4.74041e-16  5.64124e-16   6.6856e-16  7.88782e-16  9.27095e-16  3.86529e-15   1.2348e-14  3.25807e-14  7.45321e-14   1.5276e-13  2.87074e-13  5.03023e-13  8.32196e-13  1.31238e-12  1.98769e-12  2.90814e-12  4.13001e-12  5.71542e-12  7.73171e-12  1.02515e-11  1.33529e-11  1.71186e-11  2.16345e-11  2.69924e-11  3.32856e-11  4.06154e-11  4.90802e-11  5.87865e-11
+
+P2->P1
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1      1.01512e-25  3.91667e-25  1.35585e-24  4.26814e-24  1.23551e-23  3.31971e-23  8.34537e-23  1.97619e-22  4.43388e-22  9.47353e-22  1.93614e-21  3.79968e-21   7.1852e-21  1.31322e-20  2.32607e-20  4.00274e-20   6.7064e-20  1.09617e-19  1.75102e-19  2.73802e-19   4.1971e-19  6.31551e-19  9.33991e-19  1.35905e-18  1.94774e-18  2.75191e-18  3.83635e-18  5.28113e-18   7.1842e-18  9.66416e-18  1.28634e-17  1.69513e-17  2.21279e-17  2.86273e-17  3.67221e-17   4.6727e-17   5.9003e-17  7.39624e-17  9.20724e-17   1.1386e-16  1.39918e-16  1.70905e-16  2.07556e-16  2.50685e-16  3.01184e-16  3.60037e-16  4.28316e-16  5.07191e-16  5.97927e-16  7.01898e-16  8.20578e-16  3.22308e-15  9.59713e-15  2.33827e-14  4.90031e-14  9.14165e-14  1.55574e-13   2.4592e-13  3.66026e-13  5.18389e-13  7.04353e-13  9.24387e-13  1.17775e-12  1.46347e-12  1.77942e-12  2.12358e-12  2.49406e-12  2.88775e-12  3.30251e-12  3.73634e-12  4.18656e-12  4.65194e-12  5.12954e-12  5.61813e-12
+3        1.01529e-25  3.91754e-25  1.35624e-24  4.26965e-24  1.23604e-23  3.32145e-23  8.35059e-23  1.97764e-22  4.43766e-22  9.48282e-22   1.9383e-21  3.80448e-21  7.19538e-21  1.31529e-20  2.33014e-20  4.01046e-20   6.7206e-20   1.0987e-19  1.75543e-19   2.7455e-19  4.20947e-19  6.33555e-19  9.37175e-19  1.36401e-18  1.95533e-18  2.76333e-18  3.85328e-18  5.30586e-18  7.21979e-18  9.71469e-18  1.29344e-17  1.70497e-17  2.22629e-17  2.88106e-17  3.69682e-17  4.70546e-17   5.9435e-17  7.45268e-17  9.28043e-17    1.148e-16  1.41119e-16  1.72428e-16  2.09472e-16  2.53082e-16  3.04157e-16  3.63715e-16  4.32821e-16  5.12703e-16  6.04604e-16  7.09984e-16  8.30306e-16  3.27128e-15  9.76685e-15   2.3851e-14  5.00554e-14  9.34454e-14  1.59106e-13  -1.7987e-14 -3.66603e-14 -5.43155e-14 -5.55625e-14 -5.65188e-14 -5.91711e-15  1.48996e-12   1.8073e-12  2.15008e-12  2.52945e-12  2.92256e-12  3.33459e-12  3.77184e-12  4.21831e-12  4.69438e-12  5.16977e-12  5.65512e-12
+O-O              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+
+W1-> 
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1              ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+3                ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***  1.45256e+09   1.4482e+09  1.44603e+09  1.44104e+09  1.44742e+09  1.44588e+09          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***          ***
+O-O      9.94929e+09  1.00169e+10   1.0033e+10  1.00059e+10  9.94256e+09  9.84933e+09  9.73164e+09   9.5942e+09  9.44105e+09  9.27563e+09  9.10086e+09  8.91921e+09  8.73278e+09  8.54331e+09  8.35228e+09  8.16087e+09  7.97012e+09  7.78085e+09  7.59372e+09  7.40929e+09  7.22801e+09  7.05019e+09  6.87613e+09  6.70601e+09  6.53997e+09  6.37814e+09  6.22054e+09  6.06724e+09  5.91821e+09  5.77343e+09  5.63288e+09  5.49649e+09  5.36419e+09  5.23593e+09  5.11161e+09  4.99114e+09  4.87444e+09   4.7614e+09  4.65193e+09  4.54594e+09  4.44332e+09  4.34397e+09   4.2478e+09  4.15472e+09  4.06462e+09  3.97742e+09  3.89302e+09  3.81133e+09  3.73229e+09  3.65576e+09   3.5817e+09  2.95998e+09  2.51059e+09  2.18564e+09  1.95166e+09  1.78508e+09  1.66909e+09  1.59152e+09   1.5434e+09    1.518e+09  1.51033e+09  1.51639e+09  1.53325e+09  1.55857e+09  1.59046e+09  1.62746e+09  1.66842e+09  1.71244e+09  1.75867e+09  1.80658e+09  1.85559e+09  1.90545e+09  1.95569e+09  2.00611e+09
+
+P1-> 
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1      2.38828e-14  2.82643e-14  3.34656e-14  3.96129e-14  4.68443e-14  5.53102e-14  6.51724e-14  7.66049e-14  8.97932e-14  1.04934e-13  1.22235e-13  1.41915e-13  1.64202e-13  1.89336e-13  2.17564e-13  2.49144e-13  2.84341e-13   3.2343e-13  3.66692e-13  4.14416e-13  4.66895e-13  5.24432e-13  5.87332e-13  6.55904e-13  7.30465e-13  8.11331e-13  8.98824e-13  9.93265e-13  1.09498e-12  1.20429e-12  1.32152e-12    1.447e-12  1.58104e-12  1.72398e-12  1.87612e-12  2.03778e-12  2.20926e-12  2.39089e-12  2.58295e-12  2.78573e-12  2.99954e-12  3.22464e-12  3.46131e-12  3.70982e-12  3.97042e-12  4.24335e-12  4.52886e-12  4.82718e-12   5.1385e-12  5.46306e-12  5.80103e-12  9.95289e-12  1.55687e-11  2.26364e-11  3.10304e-11  4.05416e-11  5.09124e-11  6.18694e-11  7.31485e-11  8.45125e-11  9.57566e-11  1.06739e-10  1.17316e-10  1.27434e-10  1.37007e-10  1.46019e-10  1.54489e-10  1.62375e-10  1.69714e-10  1.76544e-10   1.8287e-10  1.88757e-10  1.94193e-10  1.99231e-10
+3        2.38868e-14  2.82705e-14   3.3475e-14  3.96269e-14  4.68647e-14  5.53392e-14  6.52131e-14  7.66611e-14  8.98698e-14  1.05037e-13  1.22371e-13  1.42094e-13  1.64435e-13  1.89635e-13  2.17944e-13  2.49624e-13  2.84943e-13  3.24179e-13  3.67615e-13  4.15547e-13  4.68272e-13  5.26097e-13  5.89334e-13  6.58298e-13  7.33312e-13    8.147e-13  9.02791e-13  9.97916e-13   1.1004e-12  1.21059e-12  1.32881e-12   1.4554e-12  1.59069e-12  1.73501e-12  1.88869e-12  2.05206e-12  2.22544e-12  2.40913e-12  2.60348e-12  2.80872e-12   3.0253e-12  3.25339e-12  3.49326e-12   3.7453e-12  4.00961e-12   4.2867e-12  4.57649e-12  4.87964e-12  5.19588e-12  5.52599e-12   5.8698e-12  1.01017e-11   1.5844e-11  2.30897e-11  3.16968e-11  4.14414e-11  5.20682e-11  1.43346e-10  1.62273e-10  1.78472e-10  1.90623e-10  2.02192e-10  2.08045e-10  1.29741e-10  1.39154e-10  1.47841e-10   1.5668e-10  1.64333e-10  1.71362e-10  1.78221e-10  1.84256e-10  1.90479e-10  1.95716e-10  2.00542e-10
+O-O      2.22271e-10  2.21179e-10  2.20182e-10  2.19274e-10  2.18448e-10  2.17697e-10  2.17015e-10  2.16397e-10  2.15838e-10  2.15333e-10  2.14877e-10  2.14466e-10  2.14098e-10  2.13768e-10  2.13473e-10  2.13211e-10  2.12979e-10  2.12774e-10  2.12596e-10  2.12441e-10  2.12308e-10  2.12196e-10  2.12103e-10  2.12027e-10  2.11967e-10  2.11923e-10  2.11893e-10  2.11876e-10  2.11871e-10  2.11878e-10  2.11895e-10  2.11922e-10  2.11959e-10  2.12004e-10  2.12057e-10  2.12118e-10  2.12186e-10   2.1226e-10  2.12341e-10  2.12428e-10   2.1252e-10  2.12617e-10  2.12719e-10  2.12825e-10  2.12936e-10  2.13051e-10  2.13169e-10  2.13291e-10  2.13416e-10  2.13544e-10  2.13675e-10  2.15107e-10  2.16683e-10  2.18326e-10  2.19993e-10  2.21658e-10  2.23305e-10  2.24926e-10  2.26514e-10  2.28067e-10  2.29583e-10  2.31063e-10  2.32506e-10  2.33914e-10  2.35287e-10  2.36626e-10  2.37933e-10  2.39208e-10  2.40454e-10  2.41671e-10   2.4286e-10  2.44024e-10  2.45161e-10  2.46275e-10
+
+P2-> 
+
+P\T              200          210          220          230          240          250          260          270          280          290          300          310          320          330          340          350          360          370          380          390          400          410          420          430          440          450          460          470          480          490          500          510          520          530          540          550          560          570          580          590          600          610          620          630          640          650          660          670          680          690          700          800          900         1000         1100         1200         1300         1400         1500         1600         1700         1800         1900         2000         2100         2200         2300         2400         2500         2600         2700         2800         2900         3000
+0.1      1.01512e-25  3.91667e-25  1.35585e-24  4.26814e-24  1.23551e-23  3.31971e-23  8.34537e-23  1.97619e-22  4.43388e-22  9.47353e-22  1.93614e-21  3.79968e-21   7.1852e-21  1.31322e-20  2.32607e-20  4.00274e-20   6.7064e-20  1.09617e-19  1.75102e-19  2.73802e-19   4.1971e-19  6.31551e-19  9.33991e-19  1.35905e-18  1.94774e-18  2.75191e-18  3.83635e-18  5.28113e-18   7.1842e-18  9.66416e-18  1.28634e-17  1.69513e-17  2.21279e-17  2.86273e-17  3.67221e-17   4.6727e-17   5.9003e-17  7.39624e-17  9.20724e-17   1.1386e-16  1.39918e-16  1.70905e-16  2.07556e-16  2.50685e-16  3.01184e-16  3.60037e-16  4.28316e-16  5.07191e-16  5.97927e-16  7.01898e-16  8.20578e-16  3.22308e-15  9.59713e-15  2.33827e-14  4.90031e-14  9.14165e-14  1.55574e-13   2.4592e-13  3.66026e-13  5.18389e-13  7.04353e-13  9.24387e-13  1.17775e-12  1.46347e-12  1.77942e-12  2.12358e-12  2.49406e-12  2.88775e-12  3.30251e-12  3.73634e-12  4.18656e-12  4.65194e-12  5.12954e-12  5.61813e-12
+3        1.01529e-25  3.91754e-25  1.35624e-24  4.26965e-24  1.23604e-23  3.32145e-23  8.35059e-23  1.97764e-22  4.43766e-22  9.48282e-22   1.9383e-21  3.80448e-21  7.19538e-21  1.31529e-20  2.33014e-20  4.01046e-20   6.7206e-20   1.0987e-19  1.75543e-19   2.7455e-19  4.20947e-19  6.33555e-19  9.37175e-19  1.36401e-18  1.95533e-18  2.76333e-18  3.85328e-18  5.30586e-18  7.21979e-18  9.71469e-18  1.29344e-17  1.70497e-17  2.22629e-17  2.88106e-17  3.69682e-17  4.70546e-17   5.9435e-17  7.45268e-17  9.28043e-17    1.148e-16  1.41119e-16  1.72428e-16  2.09472e-16  2.53082e-16  3.04157e-16  3.63715e-16  4.32821e-16  5.12703e-16  6.04604e-16  7.09984e-16  8.30306e-16  3.27128e-15  9.76685e-15   2.3851e-14  5.00554e-14  9.34454e-14  1.59106e-13  4.79975e-13  7.60834e-13   1.1349e-12  1.59458e-12  2.18049e-12  2.82654e-12  1.48996e-12   1.8073e-12  2.15008e-12  2.52945e-12  2.92256e-12  3.33459e-12  3.77184e-12  4.21831e-12  4.69438e-12  5.16977e-12  5.65512e-12
+O-O      1.01597e-25  3.90675e-25   1.3486e-24  4.24436e-24  1.23071e-23  3.30755e-23   8.3151e-23  1.96999e-22  4.42467e-22  9.46146e-22  1.93529e-21  3.80198e-21   7.1998e-21  1.31715e-20  2.33857e-20  4.02431e-20  6.75233e-20  1.10653e-19  1.76944e-19  2.77147e-19  4.25813e-19  6.41506e-19  9.51007e-19   1.3866e-18  1.99124e-18  2.82068e-18  3.94109e-18  5.44005e-18  7.42085e-18  1.00099e-17  1.33636e-17  1.76638e-17  2.31297e-17  3.00226e-17  3.86431e-17  4.93475e-17  6.25416e-17  7.86932e-17  9.83408e-17  1.22105e-16  1.50673e-16  1.84825e-16  2.25443e-16  2.73523e-16  3.30158e-16  3.96555e-16  4.74041e-16  5.64124e-16   6.6856e-16  7.88782e-16  9.27095e-16  3.86529e-15   1.2348e-14  3.25807e-14  7.45321e-14   1.5276e-13  2.87074e-13  5.03023e-13  8.32196e-13  1.31238e-12  1.98769e-12  2.90814e-12  4.13001e-12  5.71542e-12  7.73171e-12  1.02515e-11  1.33529e-11  1.71186e-11  2.16345e-11  2.69924e-11  3.32856e-11  4.06154e-11  4.90802e-11  5.87865e-11
+

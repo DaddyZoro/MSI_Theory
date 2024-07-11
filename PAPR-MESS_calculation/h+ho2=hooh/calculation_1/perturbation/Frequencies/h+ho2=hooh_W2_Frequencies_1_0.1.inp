@@ -1,0 +1,244 @@
+TemperatureList[K] 				 200   210   220   230   240   250   260   270   280   290   300   310   320   330   340   350   360   370   380   390   400   410   420   430   440   450   460   470   480   490   500   510   520   530   540   550   560   570   580   590   600   610   620   630   640   650   660   670   680   690   700   800   900   1000   1100   1200   1300   1400   1500   1600   1700   1800   1900   2000   2100   2200   2300   2400
+PressureList[atm] 				 0.01   0.1   0.2   0.3   0.5   1   2   4   6   10
+EnergyStep[1/cm] 				 50
+ExcessEnergyOverTemperature 				 30.0
+ModelEnergyLimit[kcal/mol] 				 400
+CalculationMethod 				   low-eigenvalue  
+DefaultReductionScheme 				   (W2  W3)  
+
+Model 				     
+EnergyRelaxation 				     
+Exponential 				     
+Factor[1/cm] 				 261.71357112075
+Power 				 0.685
+ExponentCutoff 				 15.0
+End 				     
+CollisionFrequency 				     
+LennardJones 				     
+Epsilons[1/cm] 				 180.0   272.0
+Sigmas[angstrom] 				 3.52355   4.455
+Masses[amu] 				 84.0   34.0
+End 				     
+
+Well 				   W1  
+Species 				     
+RRHO 				     
+Mass[amu] 				 34
+Core 				   RigidRotor  
+RotationalConstants[1/cm] 				 9.615559797   0.789152897   0.76472762
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 6
+680.92    862.82    896.64    1614.64    3703.22    3802.36    
+ZeroEnergy[1/cm] 				 -14180.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+End 				     
+
+Well 				   W2  
+Species 				     
+RRHO 				     
+Mass[amu] 				 34
+Core 				   RigidRotor  
+RotationalConstants[1/cm] 				 9.615559797   0.789152897   0.76472762
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 6
+749.012    949.102    986.304    1776.104    4073.542    4182.596    
+ZeroEnergy[1/cm] 				 -30000.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+End 				     
+
+Well 				   W3  
+Species 				     
+RRHO 				     
+Mass[amu] 				 34
+Core 				   RigidRotor  
+RotationalConstants[1/cm] 				 9.615559797   0.789152897   0.76472762
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 6
+680.92    862.82    896.64    1614.64    3703.22    3802.36    
+ZeroEnergy[1/cm] 				 -16000.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+End 				     
+
+Bimolecular 				   R  
+Fragment 				   HO2  
+RRHO 				     
+Geometry[angstrom] 				 3
+O 				 0.0     0.0117628     0.697673
+O 				 0.0     -0.0657491     -0.639496
+H 				 0.0     0.86378     -0.930845
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 3
+1108.0    1426.0    3641.0    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+Fragment 				   H  
+Atom 				     
+Mass[amu] 				 1
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+GroundEnergy[1/cm] 				 0.0
+End 				     
+
+Bimolecular 				   P1  
+Fragment 				   OH  
+RRHO 				     
+Geometry[angstrom] 				 2
+O 				 0.0     0.0     0.0572639
+H 				 0.0     0.0     -0.916223
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 1
+3715.0    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+Fragment 				   OH  
+RRHO 				     
+Geometry[angstrom] 				 2
+O 				 0.0     0.0     0.0572639
+H 				 0.0     0.0     -0.916223
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 1
+3715.0    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+GroundEnergy[1/cm] 				 -13150.
+End 				     
+
+Bimolecular 				   P2  
+Fragment 				   H2O  
+RRHO 				     
+Geometry[angstrom] 				 3
+O 				 0.0     0.0656732     0.0
+H 				 0.0     -0.525385     0.758714
+H 				 0.0     -0.525385     -0.758714
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+End 				     
+Frequencies[1/cm] 				 3
+1645.0    3807.0    3916.0    
+ZeroEnergy[1/cm] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+Fragment 				   O(1D)  
+Atom 				     
+Mass[amu] 				 1
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+GroundEnergy[1/cm] 				 -2850.
+End 				     
+
+Bimolecular 				   P3  
+Dummy 				     
+
+Barrier 				   B1       W1       R  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   Rotd  
+File 				   R=W1.dat  
+SymmetryFactor 				 1.0
+End 				     
+ZeroEnergy[1/cm] 				 0.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+
+Barrier 				   B2       W2       R  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   Rotd  
+File 				   R=W2.dat  
+SymmetryFactor 				 1.0
+End 				     
+ZeroEnergy[1/cm] 				 0.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+
+Barrier 				   B3       W1       P2  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   Rotd  
+File 				   W1=P2.dat  
+SymmetryFactor 				 1.0
+End 				     
+ZeroEnergy[1/cm] 				 -2850.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+
+Barrier 				   B4       W3       P1  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   Rotd  
+File 				   W3=P1.dat  
+SymmetryFactor 				 1.0
+End 				     
+ZeroEnergy[1/cm] 				 -13150.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+
+Barrier 				   B5       W3       P3  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   RigidRotor  
+RotationalConstants[1/cm] 				 15.801351   0.42031749   0.4094267
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 5
+366.0    633.0    826.0    1720.0    3758.0    
+ZeroEnergy[1/cm] 				 -12171.
+ElectronicLevels[1/cm] 				 1
+0.0    3.0    
+End 				     
+
+Barrier 				   B6       W1       W2  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   RigidRotor  
+RotationalConstants[1/cm] 				 10.29041777   0.736851987   0.72214204
+SymmetryFactor 				 0.5
+End 				     
+Frequencies[1/cm] 				 5
+667.0    933.0    1425.0    2938.0    3755.0    
+ZeroEnergy[1/cm] 				 -12740.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+
+Barrier 				   B7       W2       W3  
+RRHO 				     
+Mass[amu] 				 34
+Core 				   Rotd  
+File 				   W2=W3.dat  
+SymmetryFactor 				 1.0
+End 				     
+ZeroEnergy[1/cm] 				 -13150.
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+End 				     
+

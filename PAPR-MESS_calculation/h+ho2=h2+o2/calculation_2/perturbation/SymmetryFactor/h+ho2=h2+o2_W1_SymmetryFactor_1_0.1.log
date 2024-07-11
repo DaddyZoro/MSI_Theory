@@ -1,0 +1,40 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::RigidRotor::RigidRotor:  starts
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.003467, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.009825, elapsed time[sec] = 0
+      ground state energy, kcal/mol:   -54.8405
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.165268, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0.005867, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.021879, elapsed time[sec] = 0
+         effective power exponent at 554.838 kcal/mol = 5.34147
+      interpolating states number/density done, cpu time[sec] = 1.60269, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.62774, elapsed time[sec] = 0
+   BIMOLECULAR: P1
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         20.4757        1.10907        1.05209
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.0056, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.010289, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.016304, elapsed time[sec] = 0
+      Model::AtomicFragment::AtomicFragment:  ... done
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.02663, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::RRHO::RRHO:  starts
+      Model::new_core:  starts
+         Model::Rotd::Rotd :  starts
+            WARNING: zero number of states energy is not initialized: will try to estimate it from the data
+         Model::Rotd::Rotd :  done, cpu time[sec] = 2.46281, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 2.4695, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.47501, elapsed time[sec] = 0
+Model::init:  done, cpu time[sec] = 4.15228, elapsed time[sec] = 0
