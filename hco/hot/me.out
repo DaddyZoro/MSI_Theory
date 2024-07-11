@@ -1,0 +1,107 @@
+Wells (G - ground energy, D - dissociation limit, kcal/mol):
+      Name        G        D
+        W1    -14.6      4.0
+
+Bimolecular Products (G - ground energy, kcal/mol):
+      Name        G
+        P0      0.0
+
+Well-to-Bimolecular Barriers (H/G - barrier height/well depth, kcal/mol)
+      Name        H     Well        G  Product
+        B1      4.0       W1    -14.6       P0
+
+________________________________________________________________________________________
+
+Unimolecular Rate Units: 1/sec;  Bimolecular Rate Units: cm^3/sec
+
+______________________________________________________________________________________
+
+Species-Species Rate Tables:
+
+Temperature = 800 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***   3.2002e+08
+P0        5.17521e-12          ***
+
+Temperature = 800 K    Pressure = 10 atm
+
+From\To            W1           P0
+W1             571235       571235
+P0        9.21819e-15  9.21819e-15
+
+______________________________________________________________________________________
+
+High Pressure Rate Coefficients (Temperature-Species Rate Tables):
+
+   T(K)       W1->W1       W1->P0
+    800          ***   3.2002e+08
+
+   T(K)       P0->W1       P0->P0
+    800  5.17521e-12          ***
+
+Capture/Escape Rate Coefficients:
+
+   T(K)           W1           P0
+    800   3.2002e+08  5.17521e-12
+
+______________________________________________________________________________________
+
+Pressure-Species Rate Tables:
+
+   Temperature = 800 K
+
+   P(atm)       W1->P0         W1->
+       10       571235       571235
+    O-O   3.2002e+08   3.2002e+08
+
+   Temperature = 800 K
+
+   P(atm)       P0->W1         P0->
+       10  9.21819e-15  9.21819e-15
+    O-O  5.17521e-12  5.17521e-12
+
+______________________________________________________________________________________
+
+Temperature-Species Rate Tables:
+
+   Pressure = 10 atm
+
+   T(K)       W1->P0         W1->      Capture
+    800       571235       571235   3.2002e+08
+
+   Pressure = 10 atm
+
+   T(K)       P0->W1         P0->      Capture
+    800  9.21819e-15  9.21819e-15  5.17521e-12
+
+______________________________________________________________________________________
+
+Temperature-Pressure Rate Tables:
+
+W1->P0
+
+P\T              800
+10            571235
+O-O       3.2002e+08
+
+P0->W1
+
+P\T              800
+10       9.21819e-15
+O-O      5.17521e-12
+
+W1-> 
+
+P\T              800
+10            571235
+O-O       3.2002e+08
+
+P0-> 
+
+P\T              800
+10       9.21819e-15
+O-O      5.17521e-12
+

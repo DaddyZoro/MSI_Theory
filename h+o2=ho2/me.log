@@ -1,0 +1,5 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W1
+Model::init:  done, cpu time[sec] = 0.030125, elapsed time[sec] = 0

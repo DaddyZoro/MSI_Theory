@@ -1,0 +1,275 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   BIMOLECULAR: R
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: linear
+               rotational constant[1/cm]:         18.6633
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.9576, elapsed time[sec] = 1
+         Model::new_core:  done, cpu time[sec] = 1.96336, elapsed time[sec] = 1
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 1.96626, elapsed time[sec] = 1
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         9.55015        9.55009        4.77506
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.001346, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.001977, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.003664, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 1.97353, elapsed time[sec] = 1
+   BIMOLECULAR: P8
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         19.7111        11.2504        7.16236
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000781, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.001345, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.002757, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+               molecular geometry will be used to estimate rotational constants
+               rotational configuration: nonlinear
+               rotational constants[1/cm]:         27.4886        14.3446        9.42584
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000719, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.001276, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.002668, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.008214, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::VarBarrier::VarBarrier:  starts
+      1-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.000646, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.001216, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   -1.03868
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.170343, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.043307, elapsed time[sec] = 0
+            effective power exponent at 601.039 kcal/mol = 11.0512
+         interpolating states number/density done, cpu time[sec] = 1.74244, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 1.7522, elapsed time[sec] = 0
+      2-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.004421, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 0.012676, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   -0.757346
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.177149, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.047201, elapsed time[sec] = 0
+            effective power exponent at 600.756 kcal/mol = 11.0682
+         interpolating states number/density done, cpu time[sec] = 0.965533, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.987148, elapsed time[sec] = 0
+      3-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1.1e-05, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.7e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   1.48591
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001402, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000424, elapsed time[sec] = 0
+            effective power exponent at 598.514 kcal/mol = 11.0684
+         interpolating states number/density done, cpu time[sec] = 0.016002, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.016061, elapsed time[sec] = 0
+      4-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   3.61309
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001394, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000418, elapsed time[sec] = 0
+            effective power exponent at 596.387 kcal/mol = 11.0663
+         interpolating states number/density done, cpu time[sec] = 0.015932, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015988, elapsed time[sec] = 0
+      5-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 8e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   4.95887
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001389, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000419, elapsed time[sec] = 0
+            effective power exponent at 595.04 kcal/mol = 11.0651
+         interpolating states number/density done, cpu time[sec] = 0.015879, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015936, elapsed time[sec] = 0
+      6-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   5.6725
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001388, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000422, elapsed time[sec] = 0
+            effective power exponent at 594.325 kcal/mol = 11.0636
+         interpolating states number/density done, cpu time[sec] = 0.015898, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015956, elapsed time[sec] = 0
+      7-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.16055
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001375, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000463, elapsed time[sec] = 0
+            effective power exponent at 593.839 kcal/mol = 11.0576
+         interpolating states number/density done, cpu time[sec] = 0.015875, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015941, elapsed time[sec] = 0
+      8-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1e-05, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.83616
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001388, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000399, elapsed time[sec] = 0
+            effective power exponent at 593.162 kcal/mol = 11.0482
+         interpolating states number/density done, cpu time[sec] = 0.015819, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015879, elapsed time[sec] = 0
+      9-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   7.05316
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001382, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000419, elapsed time[sec] = 0
+            effective power exponent at 592.944 kcal/mol = 11.0432
+         interpolating states number/density done, cpu time[sec] = 0.015848, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015902, elapsed time[sec] = 0
+      10-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   7.02286
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001385, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000417, elapsed time[sec] = 0
+            effective power exponent at 592.976 kcal/mol = 11.0398
+         interpolating states number/density done, cpu time[sec] = 0.015844, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015901, elapsed time[sec] = 0
+      11-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.92708
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001385, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000412, elapsed time[sec] = 0
+            effective power exponent at 593.07 kcal/mol = 11.0374
+         interpolating states number/density done, cpu time[sec] = 0.015884, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015952, elapsed time[sec] = 0
+      12-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.5e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.74752
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001377, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000414, elapsed time[sec] = 0
+            effective power exponent at 593.25 kcal/mol = 11.0355
+         interpolating states number/density done, cpu time[sec] = 0.015848, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015902, elapsed time[sec] = 0
+      13-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 1e-05, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.53509
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001381, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000403, elapsed time[sec] = 0
+            effective power exponent at 593.465 kcal/mol = 11.034
+         interpolating states number/density done, cpu time[sec] = 0.015773, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.01583, elapsed time[sec] = 0
+      14-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 8e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.4e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   6.24718
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001373, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000409, elapsed time[sec] = 0
+            effective power exponent at 593.751 kcal/mol = 11.0329
+         interpolating states number/density done, cpu time[sec] = 0.015817, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015869, elapsed time[sec] = 0
+      15-th RRHO:
+      Model::RRHO::RRHO:  starts
+         Model::new_core:  starts
+            Model::RigidRotor::RigidRotor:  starts
+            Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 9e-06, elapsed time[sec] = 0
+         Model::new_core:  done, cpu time[sec] = 1.6e-05, elapsed time[sec] = 0
+         ground state energy, kcal/mol:   5.99329
+         interpolating states number/density starts
+            core state contribution ... done, cpu time[sec] = 0.001382, elapsed time[sec] = 0
+            vibrational modes contribution ... done, cpu time[sec] = 0.000408, elapsed time[sec] = 0
+            effective power exponent at 594.005 kcal/mol = 11.0319
+         interpolating states number/density done, cpu time[sec] = 0.015817, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.015873, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      interpolating states number/density ... done, cpu time[sec] = 0.707892, elapsed time[sec] = 0
+      effective power exponent at 592.944 kcal/mol = 11.1523
+      Constituent transition states partition functions
+       T, K            1            2            3            4            5            6            7            8            9           10           11           12           13           14           15          Min
+        100  1.51409e+08  3.11916e+07      384.846   0.00860854  9.85689e-06  2.72609e-07  2.36733e-08  8.12297e-10  2.81413e-10  3.37957e-10  5.62936e-10   1.4271e-09  4.25186e-09  1.84736e-08  6.75812e-08   2.7802e-10
+        200  1.63702e+06       504552      1655.34      7.69212     0.259702    0.0437236    0.0134923   0.00270138   0.00169525   0.00195372   0.00262876    0.0043426   0.00772128    0.0164961    0.0322937   0.00169402
+        300       710141       225544      4600.41      125.003      12.9662      3.97897      1.88834     0.696134      0.54062     0.620941     0.784838      1.13242      1.70655      2.89537      4.62871     0.540437
+        400       702685       220887      11130.5      726.617      131.558      54.2452      31.6555      15.8441      13.7372      15.8004      19.4145      26.2518      36.5185       55.359       80.172      13.7037
+        500       919336       286517      24797.8      2730.88       689.22      338.345       221.75      132.661      122.848      141.496       171.09      222.715      295.582      419.249      572.769      121.937
+        600  1.34323e+06       417946        51901      8089.05      2545.16      1401.53      987.243      661.627      639.187      736.514      881.012      1118.24      1438.61      1952.62      2566.67      629.839
+        700  2.05261e+06       641367       103163      20594.2      7582.13      4528.91       3347.6      2422.62      2408.26      2773.42      3290.63      4100.92       5159.1       6785.5      8676.88      2353.49
+        800  3.18713e+06    1.004e+06       196236      47154.5      19528.4      12393.2      9477.34      7242.63      7344.72      8447.77      9956.89      12234.9      15132.1        19435      24340.6      7119.26
+        900  4.96011e+06  1.57896e+06       359359        99739      45260.9      30102.6      23604.1      18776.5      19316.2      22179.4      25994.2      31581.1      38535.2      48576.5      59851.1        18584
+       1000  7.68504e+06  2.47515e+06       636614       198279      96804.7        66836      53418.3        43807      45544.6      52193.9      60869.5      73260.3        88409       109770       133468      43533.6
+       1100  1.18138e+07  3.85153e+06  1.09532e+06       374892       194318       138316       112217      94236.1      98755.8       112941       131137       156579       187214       229545       276050      93873.8
+       1200  1.79887e+07   5.9366e+06  1.83631e+06       679913       370443       270455       222076       190050       200382       228687       264489       313643       372058       451363       537787       189594
+       1300   2.7111e+07  9.05453e+06  3.00791e+06  1.19034e+06       676506       504605       418438       363627       385219       438729       505618       596002       702192       844137       997782       363076
+       1400  4.04312e+07  1.36595e+07  4.82481e+06  2.02147e+06  1.19121e+06       904969       756604       665860       708047       804796       924516  1.08404e+06  1.26957e+06  1.51417e+06  1.77743e+06       665214
+       1500  5.96656e+07  2.03805e+07  7.59316e+06  3.34268e+06  2.03257e+06  1.56888e+06  1.32076e+06   1.1747e+06  1.25288e+06  1.42136e+06  1.62801e+06  1.89997e+06  2.21343e+06  2.62161e+06  3.05876e+06  1.17396e+06
+       1600  8.71458e+07  3.00796e+07  1.17435e+07  5.39856e+06  3.37411e+06  2.64079e+06   2.2363e+06  2.00687e+06  2.14562e+06  2.42974e+06  2.77555e+06  3.22559e+06  3.74014e+06   4.4027e+06  5.10928e+06  2.00605e+06
+       1700  1.26009e+08  4.39256e+07  1.78738e+07  8.53686e+06  5.46653e+06  4.33117e+06  3.68649e+06   3.3337e+06  3.57124e+06  4.03717e+06  4.60043e+06  5.32611e+06  6.14977e+06  7.19962e+06  8.31506e+06  3.33278e+06
+       1800   1.8044e+08  6.34886e+07  2.68043e+07   1.3245e+07  8.66624e+06  6.94144e+06  5.93451e+06  5.40219e+06  5.79655e+06  6.54217e+06  7.43805e+06  8.58178e+06  9.87133e+06  1.14997e+07  1.32243e+07  5.40119e+06
+       1900  2.55967e+08  9.08584e+07  3.96487e+07  2.01972e+07  1.34727e+07  1.08968e+07  9.35252e+06  8.56277e+06  9.20031e+06  1.03678e+07   1.1763e+07  1.35293e+07  1.55087e+07   1.7987e+07   2.0604e+07  8.56172e+06
+       2000  3.59842e+08  1.28792e+08  5.79025e+07   3.0315e+07  2.05764e+07  1.67888e+07  1.44593e+07  1.33054e+07  1.43123e+07  1.61052e+07   1.8237e+07  2.09155e+07  2.39004e+07   2.7608e+07  3.15132e+07  1.33043e+07
+
+   Model::VarBarrier::VarBarrier:  done, cpu time[sec] = 3.68539, elapsed time[sec] = 1
+   checking input ... done
+Model::init:  done, cpu time[sec] = 5.67321, elapsed time[sec] = 2

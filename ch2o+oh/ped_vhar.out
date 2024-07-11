@@ -1,0 +1,155 @@
+Wells (G - ground energy, D - dissociation limit, kcal/mol):
+      Name        G        D
+        W0     -6.0     -0.5
+
+Bimolecular Products (G - ground energy, kcal/mol):
+      Name        G
+        P0      0.0
+        P1    -31.1
+
+Well-to-Bimolecular Barriers (H/G - barrier height/well depth, kcal/mol)
+      Name        H     Well        G  Product
+        B0      0.0       W0     -6.0       P0
+        B1     -0.5       W0     -6.0       P1
+
+________________________________________________________________________________________
+
+Unimolecular Rate Units: 1/sec;  Bimolecular Rate Units: cm^3/sec
+
+______________________________________________________________________________________
+
+Species-Species Rate Tables:
+
+Temperature = 600 K
+
+High Pressure Rate Coefficients:
+
+From\To            W0           P0           P1
+W0                ***  1.80181e+12  3.80432e+11
+P0         8.6011e-11          ***          ***
+P1         2.3991e-23          ***          ***
+
+Temperature = 600 K    Pressure = 10 atm
+
+From\To            W0           P0           P1
+W0                ***          ***          ***
+P0                ***  1.48427e-11  1.48427e-11
+P1                ***  1.96082e-23  1.96082e-23
+
+______________________________________________________________________________________
+
+High Pressure Rate Coefficients (Temperature-Species Rate Tables):
+
+   T(K)       W0->W0       W0->P0       W0->P1
+    600          ***  1.80181e+12  3.80432e+11
+
+   T(K)       P0->W0       P0->P0       P0->P1
+    600   8.6011e-11          ***          ***
+
+   T(K)       P1->W0       P1->P0       P1->P1
+    600   2.3991e-23          ***          ***
+
+Capture/Escape Rate Coefficients:
+
+   T(K)           W0           P0           P1
+    600  2.18224e+12   8.6011e-11   2.3991e-23
+
+______________________________________________________________________________________
+
+Pressure-Species Rate Tables:
+
+   Temperature = 600 K
+
+   P(atm)       W0->P0       W0->P1         W0->
+       10          ***          ***          ***
+    O-O  1.80181e+12  3.80432e+11  2.18224e+12
+
+   Temperature = 600 K
+
+   P(atm)       P0->W0       P0->P1         P0->
+       10          ***  1.48427e-11  1.48427e-11
+    O-O   8.6011e-11          ***   8.6011e-11
+
+   Temperature = 600 K
+
+   P(atm)       P1->W0       P1->P0         P1->
+       10          ***  1.96082e-23  1.96082e-23
+    O-O   2.3991e-23          ***   2.3991e-23
+
+______________________________________________________________________________________
+
+Temperature-Species Rate Tables:
+
+   Pressure = 10 atm
+
+   T(K)       W0->P0       W0->P1         W0->      Capture
+    600          ***          ***          ***  2.18224e+12
+
+   Pressure = 10 atm
+
+   T(K)       P0->W0       P0->P1         P0->      Capture
+    600          ***  1.48427e-11  1.48427e-11   8.6011e-11
+
+   Pressure = 10 atm
+
+   T(K)       P1->W0       P1->P0         P1->      Capture
+    600          ***  1.96082e-23  1.96082e-23   2.3991e-23
+
+______________________________________________________________________________________
+
+Temperature-Pressure Rate Tables:
+
+W0->P0
+
+P\T              600
+10               ***
+O-O      1.80181e+12
+
+W0->P1
+
+P\T              600
+10               ***
+O-O      3.80432e+11
+
+P0->W0
+
+P\T              600
+10               ***
+O-O       8.6011e-11
+
+P0->P1
+
+P\T              600
+10       1.48427e-11
+O-O              ***
+
+P1->W0
+
+P\T              600
+10               ***
+O-O       2.3991e-23
+
+P1->P0
+
+P\T              600
+10       1.96082e-23
+O-O              ***
+
+W0-> 
+
+P\T              600
+10               ***
+O-O      2.18224e+12
+
+P0-> 
+
+P\T              600
+10       1.48427e-11
+O-O       8.6011e-11
+
+P1-> 
+
+P\T              600
+10       1.96082e-23
+O-O       2.3991e-23
+

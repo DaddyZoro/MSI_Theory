@@ -1,0 +1,168 @@
+TemperatureList[K]                      800.
+!TemperatureList[K]                      300 400 500 600 700 850. 1000 1125. 1250 1375. 1500 1625. 1750 1875. 2000
+!PressureList[torr]                       30.
+!PressureList[bar]                       1.
+PressureList[bar]                       10.
+!PressureList[bar]                       0.001 0.003 0.01 0.03 0.1 0.3 1. 2. 5. 10. 20.0 50. 100.
+EnergyStepOverTemperature		.1
+ExcessEnergyOverTemperature		40
+ModelEnergyLimit[kcal/mol]		400
+CalculationMethod			direct
+!CalculationMethod			low-eigenvalue !direct
+!RateOutput				me.out
+!LogOutput				me.log
+!WellCutoff				10
+ChemicalEigenvalueMax			0.5
+PEDOutput				ped.out
+PEDSpecies				P1_P2
+!Reactant				P1
+Model
+  EnergyRelaxation
+    Exponential
+     Factor[1/cm]			115  ! N2
+!      Factor[1/cm]			100  ! Ar
+!      Factor[1/cm]			1000  ! CH3OH = 10*Ar
+      Power				.75
+      ExponentCutoff			15
+    End
+  CollisionFrequency
+    LennardJones
+     Epsilons[1/cm]			67.9  290. 
+     Sigmas[angstrom]			3.681 3.69 
+     Masses[amu]			28. 31.
+!       Epsilons[1/cm]			290.  290. 
+!       Sigmas[angstrom]			3.69  3.69 
+!       Masses[amu]			32. 31.
+!       Epsilons[1/cm]			94.9  290. 
+!       Sigmas[angstrom]			3.330 3.69 
+!       Masses[amu]			40. 31.
+!      Epsilons[1/cm]			49.6  271.7 ! old N2
+!      Sigmas[angstrom]			3.798 4.455
+!      Masses[amu]			28. 31.
+    End
+  Well     W1	# CH2O...H
+	Species
+    RRHO !ch2oh ! use planar geometry for purposes of umbrella mode analysis
+      Geometry[angstrom]			5
+ 	C          0.0000000000        0.0145778378       -0.7256356707
+ 	O          0.0000000000       -0.0655708805        0.6364377351
+ 	H          0.0000000000        0.9740853388       -1.2145630866
+ 	H          0.0000000000       -0.9287654439       -1.2393342345
+ 	H          0.0000000000        0.8217955444        0.9984417802
+
+      Core	RigidRotor
+	  SymmetryFactor	1
+      End
+      Frequencies[1/cm]			8
+   	1063.23     1209.25     1378.05
+   	1494.02     3145.78     3288.22     3867.21
+   	597.77     
+      ZeroEnergy[kcal/mol]			-2.  ! 
+      ElectronicLevels[1/cm]			1
+	0	2
+    End
+  End
+  Bimolecular		P1	# CH2O+H
+    Fragment	CH2O
+      RRHO
+	Geometry[angstrom]	4
+    		C             0.00000       0.00000      0.604831
+    		O             0.00000       0.00000     -0.601779
+    		H             0.00000     -0.936999       1.18524
+		H             0.00000      0.936999       1.18524
+	Core	RigidRotor
+	  SymmetryFactor	2 
+	End
+	Frequencies[1/cm]	6
+ 		1190.23     1272.78     1537.61     1780.75     2933.25
+ 		3003.42
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+    Fragment    H
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+    GroundEnergy[kcal/mol]			0.0
+  End
+  Bimolecular		P2	# CHO+H2
+    Fragment	CHO
+      RRHO
+	Geometry[angstrom]	3
+ C          0.0000000000       -0.1016640902       -0.6203070626
+ O          0.0000000000        0.0293570302        0.5508742746
+ H          0.0000000000        0.7454734580       -1.3524115921
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+	Frequencies[1/cm]	3
+      	1118.66     1894.49     2700.38
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	2
+      End             
+    Fragment	H2
+      RRHO
+	Geometry[angstrom]	2
+ H          0.0000000000        0.0000000000       -0.3709457849
+ H          0.0000000000        0.0000000000        0.3709457849
+	Core	RigidRotor
+	  SymmetryFactor	2
+	End
+	Frequencies[1/cm]	1
+	4402.97
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+    GroundEnergy[kcal/mol]			-16.61
+  End
+  Barrier	B1	W1	P1  ! H2CO + H = H2CO...H
+    RRHO
+        Stoichiometry  C1O1H3
+        Core     PhaseSpaceTheory
+         FragmentGeometry[angstrom]     4
+    		C             0.00000       0.00000      0.604831
+    		O             0.00000       0.00000     -0.601779
+    		H             0.00000     -0.936999       1.18524
+		H             0.00000      0.936999       1.18524
+         FragmentGeometry[angstrom]     1
+ H          0.0000000000        0.0000000000        0.9706740510
+         SymmetryFactor     2
+         PotentialPrefactor[au]         1.0e10
+         PotentialPowerExponent         6
+       End
+       Frequencies[1/cm]         6
+ 		1190.23     1272.78     1537.61     1780.75     2933.25
+ 		3003.42
+       ZeroEnergy[kcal/mol]           0.0
+       ElectronicLevels[1/cm]         1
+            0    2
+    End
+  Barrier	B2	W1	P2	# H2CO...H = HCO + H2
+      RRHO
+	Geometry[angstrom]			5
+ C          0.0000000000       -0.2301613016       -0.4853861758
+ O          0.0000000000        0.1351175474        0.6471080172
+ H          0.0000000000        0.5973319834       -1.4485414454
+ H          0.0000000000       -1.2913017408       -0.8022635559
+ H          0.0000000000        1.2918899774       -2.2369290433
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+        Frequencies[1/cm]			8
+       319.97      396.99     1162.20     1180.85     1314.00
+      1399.81     1835.84     2898.11
+        ZeroEnergy[kcal/mol]			5.15
+        ElectronicLevels[1/cm]			1
+		0	2
+      Tunneling         Eckart
+        ImaginaryFrequency[1/cm]        1700.37
+        WellDepth[kcal/mol]             5.15
+        WellDepth[kcal/mol]             21.82
+      End
+    End
+End

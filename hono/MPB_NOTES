@@ -1,0 +1,18 @@
+changed the entry for 0.0 energy for the merged_oh_no_transhono_7.dat
+from 2.19681E+01 to 0.0 to avoid this error:
+
+
+Model::Rotd::Rotd : zero flux energy is not reached
+terminate called after throwing an instance of 'Error::Input'
+Aborted (core dumped)
+
+
+which happens when there's not at least one 0.0 entry in the .dat file
+
+
+-------------
+the file in this directory runs on burkelab3
+
+I had also tried running the original MESS files (without the tweak above)
+on burkelab2 initially and it gave an error having to do with finding math libraries
+(which implies MESS wasn't installed correctly rather than an input file issue -- not sure what's going on there, but it works on burkelab3 so we can do the calculations on burkelab3)

@@ -1,0 +1,100 @@
+!TemperatureList[K]                     700.
+TemperatureList[K]                     798.6389601	793.0491526	787.5370493	782.1010411	776.739563	771.2635503	765.8642088	760.7223023	755.6489795	750.6428772	745.7026683	740.8270603	735.8440836	730.9276924	726.2427691	721.6175199	717.0508118	712.5415405	708.0886291	703.6910275	699.1935845	695.0576823	690.6695735	686.336524	682.204168	678.1212751	674.0869625	669.9588619	666.1606508	662.1287703	658.1454015	654.3446049	650.5874555	646.8732059	643.2011252	639.5704996	635.980631	632.3047911	628.6711984	625.4488173
+!PressureList[torr]                     495.0716392	538.9946601	584.0189261	634.6199983	687.6322111	749.3546699	811.9511044	882.3008734	958.7459478	1038.833629	1132.080229	1226.64718	1329.113666	1448.416052	1569.407732	1700.506306	1853.145215	2007.945455	2175.676746	2370.967362	2569.023249	2791.61078	3033.483933	3286.882338	3581.915725	3881.126715	4205.331933	4569.693935	4965.625305	5380.422799	5863.374178	6353.164037	6883.867898	7501.769802	8128.421054	8858.035121	9597.980354
+PressureList[torr]                     5
+EnergyStepOverTemperature              0.1          #Ratio of discretization energy step to T 
+ExcessEnergyOverTemperature            30
+ModelEnergyLimit[kcal/mol]	           400     
+!WellCutoff                            10
+!ChemicalEigenvalueMax                 0.2
+!ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                      direct
+!RateOutput                            me.out
+!LogOutput                             me.log
+!EigenvalueOutput			           eigenvalue.out
+MicroRateOutput    			           ke.out
+MicroEnerMax[kcal/mol]				   450.
+MicroEnerMin[kcal/mol]				   -50.
+MicroEnerStep[kcal/mol] 			   0.5
+
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                     63       ! from Labbe et al. 
+     Power			                  0.85
+     ExponentCutoff		              15
+   End
+   
+  CollisionFrequency
+    LennardJones                                    ! Collider: N2 from Labbe et al. and HCO from original SJK file
+       Epsilons[1/cm]                    80.      68.          
+       Sigmas[angstrom]                  3.4      3.07
+       Masses[amu]                       29       28
+	   
+!  CollisionFrequency
+!    LennardJones                                    ! Collider: N2 from original variflex input
+!       Epsilons[1/cm]                    80.      57.         
+!       Sigmas[angstrom]                  3.4      2.74
+!       Masses[amu]                       29       28
+    End
+
+  Well       W1  # HCO
+  Species
+    RRHO
+    Mass[amu]       29.0
+        Core    RigidRotor
+          SymmetryFactor             1.0
+		  RotationalConstants[1/cm]	 24.1558    1.48995   1.40339
+        End
+    Frequencies[1/cm]         3     cc/qz
+	1118.66     1894.49     2700.38
+	ElectronicLevels[1/cm]          1
+                0       2
+    ZeroEnergy[1/cm]        -5109
+    End
+  End
+
+  Bimolecular      P0    # CO + H
+    Fragment     CO
+      RRHO
+        Geometry[angstrom]     2
+ C          0.0000000000        0.0000000000       -0.6462644189
+ O          0.0000000000        0.0000000000        0.4851608145
+        Core     RigidRotor
+        SymmetryFactor       1
+        End
+        Frequencies[1/cm]      1   
+	2163.55
+        ZeroEnergy[kcal/mol]           0
+        ElectronicLevels[1/cm]        1
+             0   1
+      End
+    Fragment    H
+      Atom
+        Mass[amu]    1.007825
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+      GroundEnergy[kcal/mol]             0.0
+    End
+   
+   Barrier      B1   W1   P0    # TS1, HCO = CO + H
+     RRHO
+      Mass[amu]       29.0
+        Core    RigidRotor
+          SymmetryFactor             1.0
+		  RotationalConstants[1/cm]	 8.26563    1.44468   1.22974
+        End
+       Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    791.
+         WellDepth[1/cm]             1385
+         WellDepth[1/cm]             6493
+       End
+       Frequencies[1/cm]     2
+       381.04     2111.61
+        ZeroEnergy[1/cm]             1385
+       ElectronicLevels[1/cm]        1
+            0    2
+   End
+End
+     

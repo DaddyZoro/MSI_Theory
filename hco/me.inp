@@ -1,0 +1,133 @@
+!TemperatureList[K]                     600 625 650 675 700. 725 750. 775 800. 850. 900. 950. 1000. 2000
+!TemperatureList[K]                     793.625 778.66 764.25 751.37 735.06 723.13 710.69 693.51 680.7 667.28 651.37
+TemperatureList[K]                     700.
+PressureList[atm]                      0.647259301 0.775276604 0.982108298 1.357375235 1.708834176 2.361785553 3.067283902 3.983524465 5.077768466 6.19668444 7.376240297 8.835139982 10.64864909 12.59701043
+EnergyStepOverTemperature             0.1          #Ratio of discretization energy step to T 
+ExcessEnergyOverTemperature           30
+ModelEnergyLimit[kcal/mol]	      400     
+WellCutoff                            10
+ChemicalEigenvalueMax                 0.2
+ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                     direct
+!RateOutput                            me.out
+!LogOutput                             me.log
+EigenvalueOutput			            eigenvalue.out
+!EigenvectorOutput			            eigenvector_test.out
+!EigenvectorNumber                    0
+!ReductionNumber                      5
+!Reactant          #ground energy of bimolecular species will be used as a reference.
+!MicroRateOutput    			ke.out
+!HotEnergies[kcal/mol]  1
+!        W1      -5.
+!        W1      -4.
+!        W1      -3.
+!        W1     -2.
+!        W1     -1.
+!        W1      0.
+!        W1      1.
+!        W1      2.
+!        W1      3.
+!        W1      4.
+!        W1      5.
+!        W1      6.
+!        W1      7.
+!        W1      8.
+!        W1      9.
+!        W1     10.
+!        W1     11.
+!        W1     12.
+!        W1     13.
+!        W1     14.
+!        W1     15.
+!        W1     16.
+!        W1     17.
+!        W1     18.
+!        W1     19.
+!        W1     20.
+!        W1     21.
+!        W1     22.
+!        W1     23.
+!        W1     24.
+!        W1     25.
+!        W1     26.
+!        W1     27.
+!        W1     28.
+!        W1     29.
+
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                     63
+!     Factor[1/cm]                     75
+     Power			      0.85
+     ExponentCutoff		      15
+   End
+  CollisionFrequency
+    LennardJones                                    !HO2, N2
+       Epsilons[1/cm]                    80.      57.          
+       Sigmas[angstrom]                  3.4      3.74
+       Masses[amu]                       29       28
+    End
+
+  Well       W1  # HCO
+  Species
+    RRHO
+    Geometry[angstrom]    3        ! cc/qz
+ C          0.0000000000       -0.1016640902       -0.6203070626
+ O          0.0000000000        0.0293570302        0.5508742746
+ H          0.0000000000        0.7454734580       -1.3524115921
+    Core   RigidRotor
+      SymmetryFactor            1.0  ! fudged to make rates agree with expt
+    End
+    Frequencies[1/cm]         3     cc/qz
+	1118.66     1894.49     2700.38
+    ZeroEnergy[kcal/mol]        -14.61
+    End
+  End
+
+  Bimolecular      P0    # CO + H
+    Fragment     CO
+      RRHO
+        Geometry[angstrom]     2
+ C          0.0000000000        0.0000000000       -0.6462644189
+ O          0.0000000000        0.0000000000        0.4851608145
+        Core     RigidRotor
+        SymmetryFactor       1
+        End
+        Frequencies[1/cm]      1   
+	2163.55
+        ZeroEnergy[kcal/mol]           0
+        ElectronicLevels[1/cm]        1
+             0   1
+      End
+    Fragment    H
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+      GroundEnergy[kcal/mol]             0.0
+    End
+   
+   Barrier      B1   W1   P0    # TS1, HCO = CO + H
+     RRHO
+       Geometry[angstrom]     3  ! ts
+ C          0.0000000000       -0.2108377387       -0.5615139601
+ O          0.0000000000        0.0842232835        0.5355114852
+ H          0.0000000000        1.1755164757       -1.8091536016
+       Core      RigidRotor
+         SymmetryFactor          3
+       End
+       Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    790.75
+         WellDepth[kcal/mol]         3.96
+         WellDepth[kcal/mol]         18.57
+       End
+       Frequencies[1/cm]     2
+       381.04     2111.61
+        ZeroEnergy[kcal/mol]     3.96
+       ElectronicLevels[1/cm]         1
+            0    2
+   End
+End
+     

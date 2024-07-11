@@ -1,0 +1,107 @@
+Wells (G - ground energy, D - dissociation limit, kcal/mol):
+      Name        G        D
+        W1    -14.6      4.0
+
+Bimolecular Products (G - ground energy, kcal/mol):
+      Name        G
+        P0      0.0
+
+Well-to-Bimolecular Barriers (H/G - barrier height/well depth, kcal/mol)
+      Name        H     Well        G  Product
+        B1      4.0       W1    -14.6       P0
+
+________________________________________________________________________________________
+
+Unimolecular Rate Units: 1/sec;  Bimolecular Rate Units: cm^3/sec
+
+______________________________________________________________________________________
+
+Species-Species Rate Tables:
+
+Temperature = 1000 K
+
+High Pressure Rate Coefficients:
+
+From\To            W1           P0
+W1                ***  4.28271e+09
+P0        9.76078e-12          ***
+
+Temperature = 1000 K    Pressure = 30 torr
+
+From\To            W1           P0
+W1            22637.8      22637.8
+P0        5.08898e-17  5.08898e-17
+
+______________________________________________________________________________________
+
+High Pressure Rate Coefficients (Temperature-Species Rate Tables):
+
+   T(K)       W1->W1       W1->P0
+   1000          ***  4.28271e+09
+
+   T(K)       P0->W1       P0->P0
+   1000  9.76078e-12          ***
+
+Capture/Escape Rate Coefficients:
+
+   T(K)           W1           P0
+   1000  4.28271e+09  9.76078e-12
+
+______________________________________________________________________________________
+
+Pressure-Species Rate Tables:
+
+   Temperature = 1000 K
+
+  P(torr)       W1->P0         W1->
+       30      22637.8      22637.8
+    O-O  4.28271e+09  4.28271e+09
+
+   Temperature = 1000 K
+
+  P(torr)       P0->W1         P0->
+       30  5.08898e-17  5.08898e-17
+    O-O  9.76078e-12  9.76078e-12
+
+______________________________________________________________________________________
+
+Temperature-Species Rate Tables:
+
+   Pressure = 30 torr
+
+   T(K)       W1->P0         W1->      Capture
+   1000      22637.8      22637.8  4.28271e+09
+
+   Pressure = 30 torr
+
+   T(K)       P0->W1         P0->      Capture
+   1000  5.08898e-17  5.08898e-17  9.76078e-12
+
+______________________________________________________________________________________
+
+Temperature-Pressure Rate Tables:
+
+W1->P0
+
+P\T             1000
+30           22637.8
+O-O      4.28271e+09
+
+P0->W1
+
+P\T             1000
+30       5.08898e-17
+O-O      9.76078e-12
+
+W1-> 
+
+P\T             1000
+30           22637.8
+O-O      4.28271e+09
+
+P0-> 
+
+P\T             1000
+30       5.08898e-17
+O-O      9.76078e-12
+

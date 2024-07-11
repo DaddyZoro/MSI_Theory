@@ -1,0 +1,96 @@
+TemperatureList[K]                      300. 500. 750. 1000. 1250. 1500. 1750. 2000.
+PressureList[atm]                       0.001 0.01 0.1 1. 10. 100.
+EnergyStepOverTemperature		.2
+ExcessEnergyOverTemperature		30
+ModelEnergyLimit[kcal/mol]		400
+CalculationMethod			direct
+!CalculationMethod			low-eigenvalue !direct
+!RateOutput				me_rotd.out
+!LogOutput				me_rotd.log
+WellCutoff				10
+ChemicalEigenvalueMax		0.2
+Reactant				R
+Model
+  EnergyRelaxation
+    Exponential
+      Factor[1/cm]			100  
+      Power				.85
+      ExponentCutoff			15
+    End
+  CollisionFrequency
+    LennardJones
+        Epsilons[1/cm]                  6.95  225.5 ! He , C2H6
+        Sigmas[angstrom]                2.55  4.42  ! He, C2H6
+        Masses[amu]                     4. 36.
+    End
+  Well     W1	# HO2
+    Species
+    RRHO 
+      Geometry[angstrom]			6
+      Core                 RigidRotor
+        SymmetryFactor                          1
+      End
+      Frequencies[1/cm]			3
+      ZeroEnergy[kcal/mol]			-48.07
+      ElectronicLevels[1/cm]			1
+	0	2
+    End
+    Escape      
+       Constant 
+           PseudoFirstOrderRateConstant[1/sec]  2344000
+
+  End
+  Bimolecular		P1	# H + O2
+    Fragment	O2
+      RRHO
+	Geometry[angstrom]	2
+	Core	RigidRotor
+	  SymmetryFactor	2
+	End
+	Frequencies[1/cm]	1
+ 	ZeroEnergy[1/cm]			0
+ 	ElectronicLevels[1/cm]			1
+		0	3
+      End             
+    Fragment	H
+    GroundEnergy[1/cm]			0.0
+  End
+  Bimolecular		P2	# OH + OH
+	Dummy
+  Bimolecular		P3	# H2 + O2
+	Dummy
+  End
+     Barrier     B1   W1   P1    # H + O2 = HO2
+       RRHO
+       Core      Rotd
+        File                            h_o2.dat
+        SymmetryFactor     8
+      End
+          Frequencies[1/cm]         1
+          ZeroEnergy[1/cm]           0.
+          ElectronicLevels[1/cm]         1
+               0    1
+        End
+     Barrier     B1   W1   P2    # H + HO2 = 2OH
+       RRHO
+       Core      Rotd
+        File                            h_ho2s.dat
+        SymmetryFactor     8
+      End
+          Frequencies[1/cm]         3
+          ZeroEnergy[1/cm]           0.
+          ElectronicLevels[1/cm]         1
+               0    1
+        End
+     Barrier     B1   W1   P3    # H + HO2 = H2 + O2
+       RRHO
+       Core      Rotd
+        File                            h_ho2t.dat
+        SymmetryFactor     8
+      End
+          Frequencies[1/cm]         3
+          ZeroEnergy[1/cm]           0.
+          ElectronicLevels[1/cm]         1
+               0    1
+        End
+End

@@ -1,0 +1,227 @@
+TemperatureList[K]                     300 500. 750. 1000. 1250. 1500. 1750. 2000.
+PressureList[atm]                      1.
+EnergyStepOverTemperature             0.1          #Ratio of discretization energy step to T 
+ExcessEnergyOverTemperature           30
+ModelEnergyLimit[kcal/mol]	      400     
+WellCutoff                            10
+ChemicalEigenvalueMax                 0.2
+ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                     direct
+!RateOutput                            me.out
+!LogOutput                             me.log
+EigenvalueOutput			            eigenvalue.out
+!EigenvectorOutput			            eigenvector_test.out
+!EigenvectorNumber                    0
+!ReductionNumber                      5
+!Reactant          #ground energy of bimolecular species will be used as a reference.
+PEDOutput	ped.out
+PEDSpecies	P0_P1  
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                   100
+     Power			      0.76
+     ExponentCutoff		      15
+   End
+  CollisionFrequency
+    LennardJones                                    !CH3OH+OH, N2
+       Epsilons[1/cm]                    188.     57.          
+       Sigmas[angstrom]                  4.78     3.74
+       Masses[amu]                       47       28
+    End
+
+  Well       W0  # h2co-oh complex 
+  Species
+    RRHO
+    Geometry[angstrom]    6        ! cc/tz
+ C         -0.5381373760        0.0000000000       -1.2673601373
+ O          0.6070026029        0.0000000000       -0.8624549586
+ H         -1.3909336748        0.0000000000       -0.5721867744
+ H         -0.7621248409        0.0000000000       -2.3444806504
+ H          0.3978296041        0.0000000000        1.0835134833
+ O         -0.0924374660        0.0000000000        1.9293682050
+    Core   RigidRotor
+      SymmetryFactor            1
+    End
+    Frequencies[1/cm]         12     cc/tz
+	109	197	205	453	579	1205	1279	1537	1762	2963	3047	3635
+    ZeroEnergy[kcal/mol]        -6.
+  End
+  End
+
+  Bimolecular      P0    # CH2O + OH
+    Fragment     CH2O
+      RRHO
+        Geometry[angstrom]     4
+ C          0.0000000000        0.0000000000       -0.6053837058
+ O          0.0000000000        0.0000000000        0.6042162041
+ H          0.0000000000        0.9366280208       -1.1884799916
+ H          0.0000000000       -0.9366280208       -1.1884799916
+        Core     RigidRotor
+        SymmetryFactor       2
+        End
+        Frequencies[1/cm]      6   
+	1192	1275	1543	1780	2929	2995
+        ZeroEnergy[kcal/mol]           0
+        ElectronicLevels[1/cm]        1
+             0   1
+      End
+
+      Fragment     OH
+      RRHO
+        Geometry[angstrom]     2
+ O          0.0000000000        0.0000000000       -0.0004569770
+ H          0.0000000000        0.0000000000        0.9706740510
+        Core     RigidRotor
+        SymmetryFactor       1
+        End
+        Frequencies[1/cm]      1
+	3743.7
+        ZeroEnergy[kcal/mol]            0.0
+        ElectronicLevels[1/cm]        2
+             0   2
+           140   2
+      End
+      GroundEnergy[kcal/mol]             0.0
+    End
+   
+   Bimolecular      P1    # CHO + H2O
+     Fragment        CHO
+       RRHO
+       Geometry[angstrom]      3
+ C          0.0000000000       -0.1017851395       -0.6226017774
+ O          0.0000000000        0.0293082274        0.5526894063
+ H          0.0000000000        0.7476905944       -1.3538791388
+       Core      RigidRotor
+         SymmetryFactor       1
+       End
+       Frequencies[1/cm]       3
+	1122.86     1887.71     2690.83
+       ZeroEnergy[kcal/mol]        0
+       ElectronicLevels[1/cm]      1
+         0    2
+       End
+     Fragment     H2O      
+        RRHO
+        Geometry[angstrom]        3
+ O          0.0000000000        0.0000000000       -0.0664055297
+ H          0.0000000000        0.7539116192        0.5270396210
+ H          0.0000000000       -0.7539116192        0.5270396210
+        Core     RigidRotor
+          SymmetryFactor          2
+        End
+        Frequencies[1/cm]       3
+	1668.03     3840.55     3945.14
+        ZeroEnergy[kcal/mol]              0
+        ElectronicLevels[1/cm]          1
+             0   1
+       End
+     GroundEnergy[kcal/mol]          -31.15
+   End
+
+   Barrier      B0   W0   P0    # CH2O + OH = reactant complex
+     RRHO
+	Stoichiometry  C1O2H3
+        Core     PhaseSpaceTheory
+         FragmentGeometry[angstrom]     4
+ C          0.0000000000        0.0000000000       -0.6053837058
+ O          0.0000000000        0.0000000000        0.6042162041
+ H          0.0000000000        0.9366280208       -1.1884799916
+ H          0.0000000000       -0.9366280208       -1.1884799916
+         FragmentGeometry[angstrom]     2
+ O          0.0000000000        0.0000000000       -0.0004569770
+ H          0.0000000000        0.0000000000        0.9706740510
+         SymmetryFactor     2 
+         PotentialPrefactor[au]         1.0
+         PotentialPowerExponent         6
+       End
+       Frequencies[1/cm]         7
+	1192	1275	1543	1780	2929	2995 3744
+       ZeroEnergy[kcal/mol]           0.0 
+       ElectronicLevels[1/cm]         1
+            0    2             
+     End  
+
+   Barrier      B1   W0   P1    # TS1, cho+h2o
+     RRHO
+       Geometry[angstrom]     6  ! ts
+ C         -0.5380343538        0.0000000000       -0.6928462532
+ O          0.4089706576        0.0000000000       -1.4318201782
+ H         -0.4205985622        0.0000000000        0.4527032017
+ H         -1.5844236240        0.0000000000       -1.0492003251
+ O          0.0583991309        0.0000000000        1.8864696684
+ H          0.9977146368        0.0000000000        1.6359015469
+
+       Core      RigidRotor
+         SymmetryFactor          1       
+       End
+       Rotor     Hindered     ! OH_radical
+         Group                  6
+         Axis                   3 5
+         Symmetry                1
+         Potential[kcal/mol]     4
+		0 0.54 1.19 0.54
+       End
+
+!      Core     MultiRotor
+!         QuantumLevelEnergyMax[kcal/mol]                10
+!         InterpolationEnergyMax[kcal/mol]       100
+!         InterpolationEnergyStep[1/cm]          5
+!         PotentialEnergySurface[kcal/mol]       tau.dat
+!         InternalRotation
+!	         Group                  6
+!        	 Axis                   3 5
+!                 Symmetry                        1
+!                 MassExpansionSize               5
+!                 GridSize                        100
+!        End
+!      End
+
+       Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    494
+         WellDepth[kcal/mol]         3.17 
+         WellDepth[kcal/mol]        30.41
+       End
+       Frequencies[1/cm]     10
+	92	183	709	1149	1241	1500	1717	1818	2942	3734
+!	84	! hindered
+       ZeroEnergy[kcal/mol]     -0.74
+       ElectronicLevels[1/cm]         1
+            0    2
+
+!     Variational
+!       RRHO
+!         Geometry[angstrom]       8      # r=
+!
+!       Core     MultiRotor
+!         QuantumLevelEnergyMax[kcal/mol]                10
+!         InterpolationEnergyMax[kcal/mol]       100
+!         InterpolationEnergyStep[1/cm]          1
+!         PotentialEnergySurface[kcal/mol]       vb132_b2plypd3_64e.dat
+!         InternalRotation
+!                Group                           3
+!                Axis                            1 2
+!                Symmetry                        1
+!                MassExpansionSize               5
+!                GridSize                        100
+!        End
+!      End
+
+!         Frequencies[1/cm]           10     
+
+!         ZeroEnergy[kcal/mol]        -1.409102175
+!         ElectronicLevels[1/cm]      1
+!             0    2
+!       End
+!       RRHO
+!       ...
+
+!       Tunneling      Eckart
+!         ImaginaryFrequency[1/cm]    494
+!         WellDepth[kcal/mol]         3.17 
+!         WellDepth[kcal/mol]        30.41
+!       End
+
+   End
+End
+     

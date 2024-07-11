@@ -1,0 +1,72 @@
+TemperatureList[K]                      300. 400. 500. 650. 800. 1000. 1250. 1500. 1750 2000.
+!TemperatureList[K]                      50. 70. 100. 140. 170. 200. 250. 300.
+ModelEnergyLimit[kcal/mol]              400
+RateOutput				abs.out
+LogOutput				abs.log
+Bimolecular		P1	# C2H5 + H
+  Fragment	C2H5
+    RRHO
+	Geometry[angstrom]	7
+C     -0.6678005653   0.0000000000  -0.4378498610
+C      0.6949996314   0.0000000000  -1.0275554459
+H     -0.6336313005   0.0000000000   0.6624259783
+H     -1.2324559277   0.8819665936  -0.7328927336
+H     -1.2324559277  -0.8819665936  -0.7328927336
+H      1.2284100995  -0.9227992818  -1.1870500158
+H      1.2284100995   0.9227992818  -1.1870500158
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+        Rotor                     Hindered
+          Group                         3 4 5
+          Axis                          1 2
+          Symmetry                      6
+          FourierExpansion[kcal/mol]  2
+                0       0.045
+                1       0.045
+        End
+	Frequencies[1/cm]	14
+		504	818	988	1090	1208	1404	1490	1495	1507	2968	3114	3171	3207	3318
+		! 120	! hindered
+ 	ZeroEnergy[1/cm]			0
+ 	ElectronicLevels[1/cm]			1
+		0	2
+      End             
+    Fragment    H
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+    GroundEnergy[1/cm]			0.0
+  End
+Bimolecular 	P2      # C2H4 + H2
+  Dummy
+Barrier     B2   P1   P2    # C2H5 + H = C2H4 + H2
+    RRHO # R = 2.8
+        Geometry[angstrom]                      8
+C      0.0000000000  -0.2886264497  -0.5364195564
+C      0.0000000000   0.1944883701   0.8663741260
+H      0.0000000000   0.5484034147  -1.2531390131
+H      0.8822020187  -0.8862318057  -0.7559707648
+H     -0.8822020187  -0.8862318057  -0.7559707648
+H     -0.9226664850   0.4407282325   1.3661444233
+H      0.9226664850   0.4407282325   1.3661444233
+H      0.0000000000   1.4643892285  -3.8990736285
+        Core    RigidRotor
+          SymmetryFactor 1.0
+        End
+!        Rotor                    Hindered
+!          Group                        4 5 6
+!          Axis                         1 2
+!          Symmetry                     3
+!          Potential[kcal/mol]          2
+!                  0.   2.355
+!        End
+      	Frequencies[1/cm]                         17
+		53	60	142	512	818	987	1091	1209	1402	1489	
+		1494	1508	2948	3114	3172	3206	3317
+      	ZeroEnergy[kcal/mol]                            -0.10
+        ElectronicLevels[1/cm]                  1
+                0       1
+End

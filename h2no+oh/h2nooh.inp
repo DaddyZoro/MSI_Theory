@@ -1,0 +1,771 @@
+TemperatureList[K]                     300. 350. 400. 450. 500 550. 600. 650 700. 800 900. 1000 1100. 1200 1300. 1400. 1500 1600. 1700. 1800. 1900. 2000 2125. 2250. 2375. 2500.
+PressureList[bar]                      0.1   1. 10. 100.
+EnergyStepOverTemperature             0.2         #Ratio of discretization energy step to T
+ExcessEnergyOverTemperature          30
+ModelEnergyLimit[kcal/mol]          400
+ChemicalEigenvalueMax                 0.2
+ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                     direct
+EigenvalueOutput                                    eigenvalue.out
+MicroRateOutput                         ke.out
+MicroEnerMin[kcal/mol]                 -30.
+MicroEnerMax[kcal/mol]                  20.
+MicroEnerStep[kcal/mol]                 1.0
+
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                   100
+     Power                            0.85
+     ExponentCutoff                   15
+   End
+  CollisionFrequency  
+    LennardJones                                     
+       Epsilons[1/cm]                    100.  58.   !
+       Sigmas[angstrom]                  3.7   3.74
+       Masses[amu]                       31    28
+    End
+  Well		W1v	# NH2...HO2
+    Species
+      RRHO
+	Geometry[angstrom]	6
+ N          0.0000000000        0.0576741808        1.8808334013
+ H          0.0000000000       -0.2489716633        2.8550144189
+ H          0.0000000000        1.0793032206        1.9131501806
+ O          0.0000000000        0.6058620095       -1.1641761301
+ O          0.0000000000       -0.6699135890       -0.7948239134
+ H          0.0000000000       -0.6150787709        0.1910156030
+	Core	RigidRotor
+      	  SymmetryFactor	1.0
+	End
+	Frequencies[1/cm]	12
+       76.68       81.86      255.25      283.90      319.04
+       690.91     1168.59     1535.38     1574.28     3371.27
+      3419.07     3520.47
+ 	ZeroEnergy[kcal/mol]			-7.36 
+	ElectronicLevels[1/cm]			1
+		0	4
+      End             
+  End
+  Well		W2v	# NH2O...OH
+    Species
+      RRHO
+	Geometry[angstrom]	6
+ O         -0.6790142562       -0.0029921899       -0.8476198249
+ N          0.5824738166        0.0158821901       -1.0430905641
+ O          0.0689637365       -0.0023839149        1.8336613342
+ H          1.1965587171       -0.0330063352       -0.2374564385
+ H          0.9305464264       -0.1183312682       -1.9820014855
+ H         -0.5378178071        0.0159698028        1.0628256646
+	Core	RigidRotor
+      	  SymmetryFactor	0.5
+	End
+	Frequencies[1/cm]	12
+       146.83      193.64      223.38      316.10      423.13
+       676.82     1289.06     1397.59     1652.26     3456.21
+      3550.18     3617.70
+ 	ZeroEnergy[kcal/mol]			-28.22  
+	ElectronicLevels[1/cm]			1
+		0	4
+      End             
+  End
+  Well		W1	# NH2OOH
+    Species
+      RRHO
+	Geometry[angstrom]	6
+ N         -0.0172424635        0.2318551460       -1.1770447028
+ O          0.0138952998       -0.5807339916       -0.0715951528
+ O          0.0526069196        0.2727848064        1.1474288557
+ H         -0.8380059360        0.8277000184       -1.1124822320
+ H          0.8115021917        0.8191778252       -1.1537513341
+ H         -0.7895027602        0.0193688784        1.5457723208
+	Core	RigidRotor
+      	  SymmetryFactor	1.0
+	End
+        Rotor                    Hindered
+          Group                        6
+          Axis                         2 3
+          Symmetry                     1
+          Potential[kcal/mol]          12
+           0.00  0.29 0.46 0.32 0.04 0.47 2.39 5.00 6.37 5.26 2.56 0.52 
+        End
+        Rotor                    Hindered
+          Group                        4 5
+          Axis                         1 2
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.00 2.43 7.91 9.39 7.73 5.45 3.99 4.88 6.87 8.19 6.93 2.79
+        End
+	Frequencies[1/cm]	10
+    469.54      726.98      887.38
+   1210.90     1309.76     1356.95     1681.13     3441.20
+   3542.26     3779.69
+ 	ZeroEnergy[kcal/mol]			-44.00 
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+  End
+  Well		W2	# OHNH2O
+    Species
+      RRHO
+	Geometry[angstrom]	6
+ O          0.0000000000        0.1929211860       -1.1933842748
+ N          0.0000000000       -0.4976687478        0.1236258112
+ O          0.0000000000        0.3094681673        1.1325543360
+ H          0.0000000000        1.1022857085       -0.8552838842
+ H         -0.8415630168       -1.0805550059        0.0514553006
+ H          0.8415630168       -1.0805550059        0.0514553006
+	Core	RigidRotor
+      	  SymmetryFactor	1
+	End
+        Rotor                    Hindered
+          Group                        4 
+          Axis                         1 2
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.00 0.71 2.62 5.20 7.34 8.20 8.28 8.20 7.34 5.20 2.62 0.71
+        End
+	Frequencies[1/cm]	11
+     423.20      742.87     1121.42     1143.63
+    1304.38     1395.58     1460.34     1676.46     3302.21
+    3355.02     3719.24
+ 	ZeroEnergy[kcal/mol]			-53.98 
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+  End
+  Bimolecular		P1	# NH2 + HO2
+    Fragment	NH2
+      RRHO
+	Geometry[angstrom]	3
+ N          0.0000000000        0.0000000000       -0.0802991619
+ H          0.0000000000        0.8021281161        0.5579331462
+ H          0.0000000000       -0.8021281161        0.5579331462
+	Core	RigidRotor
+	  SymmetryFactor	2 
+	End
+	Frequencies[1/cm]	3
+    1544.37     3376.17     3471.70
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	2
+      End             
+    Fragment    HO2
+      RRHO
+	Geometry[angstrom]	3
+ O          0.0000000000       -0.0662005311       -0.6338110982
+ O          0.0000000000        0.0121034460        0.6924337860
+ H          0.0000000000        0.8587028023       -0.9305393484
+	Core	RigidRotor
+	  SymmetryFactor	1 
+	End
+	Frequencies[1/cm]	3
+  1145.34     1442.25     3659.46
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	2
+      End             
+    GroundEnergy[kcal/mol]                      0.0
+  End
+  Bimolecular		P2	# H2NO + OH 
+    Fragment	H2NO
+      RRHO
+	Geometry[angstrom]	4
+ O         -0.0060266173        0.0000000000       -0.6684746460
+ N          0.0247878055        0.0000000000        0.6058605126
+ H         -0.1243988204        0.8725400995        1.0958424157
+ H         -0.1243988204       -0.8725400995        1.0958424157
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+	Frequencies[1/cm]	6
+     384.83     1279.25     1387.98     1667.41     3459.39
+    3600.24
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	2
+    End             
+    Fragment	OH
+      RRHO
+	Geometry[angstrom]	2
+ O          0.0000000000        0.0000000000       -0.0000816862
+ H          0.0000000000        0.0000000000        0.9702987602
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+	Frequencies[1/cm]	1
+    3740.38
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			2
+		0	2
+		140.	2
+    End             
+    GroundEnergy[kcal/mol]			-23.31
+  End
+  Bimolecular		P3	# HNO + H2O
+    Fragment	HNO
+      RRHO
+	Geometry[angstrom]	3
+ O          0.0000000000        0.0190797687       -0.5968358414
+ N          0.0000000000       -0.0854038561        0.6082624178
+ H          0.0000000000        0.8839428337        1.0211581576
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+	Frequencies[1/cm]	3
+    1547.45     1605.54     2957.02
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+    Fragment	H2O
+      RRHO
+	Geometry[angstrom]	3
+ O          0.0000000000        0.0000000000       -0.0657441515
+ H          0.0000000000        0.7574591482        0.5217904724
+ H          0.0000000000       -0.7574591482        0.5217904724
+	Core	RigidRotor
+	  SymmetryFactor	2
+	End
+	Frequencies[1/cm]	3
+    1650.49     3833.59     3943.55
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	1
+      End             
+    GroundEnergy[kcal/mol]			-79.75
+  End
+  Bimolecular		P4	# NH3 + O2
+    Fragment	NH3
+      RRHO
+	Geometry[angstrom]	4
+ N         -0.0000059896       -0.0680084611        0.0000000000
+ H          0.9371439962        0.3150007375        0.0000000000
+ H         -0.4685303810        0.3150347582        0.8116088522
+ H         -0.4685303810        0.3150347582       -0.8116088522
+	Core	RigidRotor
+	  SymmetryFactor	3
+	End
+	Frequencies[1/cm]	6
+    1056.94     1675.35     1675.51     3477.99     3609.65
+    3609.70
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	1
+    End             
+    Fragment	O2
+      RRHO
+	Geometry[angstrom]	2
+ O          0.0000000000        0.0000000000       -0.6033876343
+ O          0.0000000000        0.0000000000        0.6033876343
+	Core	RigidRotor
+	  SymmetryFactor	2
+	End
+	Frequencies[1/cm]	1
+    1603.50
+	ZeroEnergy[1/cm]			0
+	ElectronicLevels[1/cm]			1
+		0	3
+    End             
+    GroundEnergy[kcal/mol]			-58.08
+  End
+  Bimolecular		P5	# NH3 + 1O2
+    Dummy
+  Barrier	B1v	W1v   P1  # NH2 + HO2 = NH2...OOH
+     RRHO
+       Stoichiometry N1O2H4
+       Core Rotd
+         File ne_nh2Pho2_lr.dat
+         SymmetryFactor        2.35
+       End 
+          Frequencies[1/cm]			6
+    1544.37     3376.17     3471.70
+    1145.34     1442.25     3659.46
+          ZeroEnergy[kcal/mol]			0.
+          ElectronicLevels[1/cm]			1
+  		0	4
+    End
+  Barrier	B1   W1v   W1  # NH2...OOH = NH2OOH
+    RRHO
+       Stoichiometry N1O2H4
+       Core    Rotd
+         File ne_nh2Pho2_sr.dat
+         SymmetryFactor        2.35
+       End
+       Frequencies[1/cm]			6
+    1544.37     3376.17     3471.70
+    1145.34     1442.25     3659.46
+       ZeroEnergy[kcal/mol]			0.
+       ElectronicLevels[1/cm]			1
+	    0	1
+    End
+  Barrier	B2	W1   W2v  # NH2OOH = NH2O...OH
+    RRHO
+      Stoichiometry N1O2H4
+      Core    Rotd
+        File ne_nh2oPoh_sr.dat
+        SymmetryFactor        1.17
+      End
+      Frequencies[1/cm]			7
+     384.83     1279.25     1387.98     1667.41     3459.39  3600.24
+    3740.38
+      ZeroEnergy[kcal/mol]			-23.32
+      ElectronicLevels[1/cm]			1
+		0	    1
+    End
+  Barrier	B2v	W2v   P2  # NH2O...OH = NH2O + OH
+    RRHO
+      Stoichiometry N1O2H4
+      Core    Rotd
+        File ne_nh2oPoh_lr.dat
+        SymmetryFactor        1.17
+      End
+      Frequencies[1/cm]			7
+     384.83     1279.25     1387.98     1667.41     3459.39  3600.24
+    3740.38
+      ZeroEnergy[kcal/mol]			-23.32
+      ElectronicLevels[1/cm]			2
+		0	        4
+		140.	    4
+    End
+  Barrier	B3	W1   W2  # NH2OOH = OHNH2O
+      RRHO  
+	Geometry[angstrom]			6
+  N                   0.000000    0.972848    0.000000
+  O                   0.983518    0.229895    0.000000
+  O                  -0.710119   -1.106025    0.000000
+  H                  -0.518627    1.085767    0.871121
+  H                  -0.518627    1.085767   -0.871121
+  H                  -1.149939   -1.972441    0.000000
+ 	Core	RigidRotor
+  	  SymmetryFactor	1.0
+	End
+        Frequencies[1/cm]			11
+    63	228	324	477	709	
+    1316	1393	1696	3489	3632	
+    3705	
+      Tunneling         Eckart
+           ImaginaryFrequency[1/cm]      339
+           WellDepth[kcal/mol]           19.37
+           WellDepth[kcal/mol]           29.35
+      End
+        ZeroEnergy[kcal/mol]			-24.63
+        ElectronicLevels[1/cm]			1
+		0	1
+    End
+  Barrier	B4	W2   W2v  # OHNH2O = NH2O...OH
+    RRHO
+      Stoichiometry N1O2H4
+      Core    Rotd
+        File ne_nh2oPoh_nadd_sr.dat
+        SymmetryFactor        1.17
+      End
+      Frequencies[1/cm]			7
+     384.83     1279.25     1387.98     1667.41     3459.39  3600.24
+    3740.38
+      ZeroEnergy[kcal/mol]			-23.32
+      ElectronicLevels[1/cm]			1
+		0	    1
+    End
+  Barrier	B7	W2   P3  # OHNH2O = HNO + H2O
+    Union
+      RRHO  
+	Geometry[angstrom]			6
+ N         -0.0749847812       -0.4866092141        0.4099470433
+ O          0.0419258727        0.3426590115        1.2944693733
+ O         -0.0078835417        0.2079842157       -1.5197981268
+ H         -0.7754210160       -0.4311060313       -0.3891222255
+ H          0.7193504447       -1.1159136987        0.2422106856
+ H          0.5577199402       -0.4314432442       -1.9731356790
+ 	Core	RigidRotor
+  	  SymmetryFactor	0.5
+	End
+        Frequencies[1/cm]			11
+       240.63      309.83      523.61      728.86      796.99
+      1332.87     1516.22     1675.78     2871.36     3355.13
+      3772.08
+      Tunneling         Eckart
+           ImaginaryFrequency[1/cm]        1009.66
+           WellDepth[kcal/mol]             14.92
+           WellDepth[kcal/mol]             40.70
+      End
+        ZeroEnergy[kcal/mol]		 	-39.06  !
+        ElectronicLevels[1/cm]			1
+		0	1
+      End
+      RRHO  
+	Geometry[angstrom]			6
+ N         -0.0510007592       -0.4760001139        0.3999426996
+ O          0.0193463294        0.3310446198        1.3158100628
+ O          0.0223152931        0.1098993459       -1.5623782851
+ H         -0.7520627343       -0.4200192355       -0.4070435177
+ H          0.7847895746       -1.0314792050        0.1880839879
+ H          0.0146880572        1.0669040309       -1.4249218474
+ 	Core	RigidRotor
+  	  SymmetryFactor	0.5
+	End
+        Frequencies[1/cm]			11
+       242.32      328.43      529.42      769.19      817.37
+      1343.70     1509.73     1667.37     2802.35     3386.20
+      3773.85
+      Tunneling         Eckart
+           ImaginaryFrequency[1/cm]        1071.02
+           WellDepth[kcal/mol]             12.53
+           WellDepth[kcal/mol]             38.31
+      End
+        ZeroEnergy[kcal/mol]		 	-41.45  !
+        ElectronicLevels[1/cm]			1
+		0	1
+      End
+  End
+  Barrier	B8	W1v   P4  # NH2...HO2 = NH3 + O2
+    Variational
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.4896498682        0.0118329110       -1.2469953241
+ O          0.6295828617       -0.0246674495       -0.5758371797
+ H          0.3300684013        0.1561720503        0.4488211134
+ N         -0.1628660591        0.0710119437        1.7523221943
+ H          0.5569801666       -0.2468072005        2.4067634668
+ H         -0.8450102579       -0.6924452679        1.7279968658
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000 0.090 0.243 0.211 0.051 0.008 0.219 0.823 1.447 1.329 0.629 0.127
+        End
+        Frequencies[1/cm]			10
+    136.46      470.65      547.85      641.62
+    1158.41     1293.35     1550.31     1595.12     3418.29
+    3516.48
+        ZeroEnergy[kcal/mol]		 	-5.02 
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5452364771        0.0194464721       -1.2672310974
+ O          0.6536330606       -0.0305139594       -0.6964227597
+ H          0.4494487828        0.1077125047        0.2680489962
+ N         -0.1201099797        0.0461601005        1.8794912091
+ H          0.4260858484       -0.0133987729        2.7413069226
+ H         -0.9270613533       -0.5600929688        2.0423475576
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.053	0.143	0.125	0.030	0.005	0.129	0.486	0.855	0.785	0.372	0.075
+        End
+        Frequencies[1/cm]			10
+    240	278	386	761	1166	1548	1592	3205	3418	3512
+        ZeroEnergy[kcal/mol]		 	-6.94
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5397133547        0.0189619129       -1.2632408641
+ O          0.6526363678       -0.0308419170       -0.6796720023
+ H          0.4372793918        0.1163617044        0.2842923682
+ N         -0.1270339270        0.0507081121        1.8600177744
+ H          0.4438637933       -0.0398335604        2.7030808101
+ H         -0.9083018957       -0.5926108251        2.0057108893
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.070	0.189	0.164	0.039	0.006	0.170	0.641	1.126	1.034	0.489	0.099
+        End
+        Frequencies[1/cm]			10
+    227	288	404	779	1166	1547	1595	3133	3417	3511
+        ZeroEnergy[kcal/mol]		 	-6.54
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5340792340        0.0183693548       -1.2573191900
+ O          0.6515889976       -0.0308476003       -0.6620722970
+ H          0.4248594733        0.1241273566        0.3037683976
+ N         -0.1340507807        0.0548836043        1.8379503085
+ H          0.4615291945       -0.0650914091        2.6601182628
+ H         -0.8888458001       -0.6236466770        1.9624914679
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.102	0.277	0.241	0.058	0.009	0.249	0.939	1.649	1.515	0.717	0.145
+        End
+        Frequencies[1/cm]			10
+    207	302	428	804	1166	1546	1601	3014	3416	3510
+        ZeroEnergy[kcal/mol]		 	-6.05 
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5278842496        0.0177274080       -1.2501200815
+ O          0.6501992175       -0.0305566635       -0.6432282412
+ H          0.4117750528        0.1307188401        0.3261936288
+ N         -0.1412968143        0.0585796312        1.8136168447
+ H          0.4796087027       -0.0883867077        2.6125071520
+ H         -0.8694221395       -0.6527324833        1.9124313248
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.172	0.464	0.404	0.097	0.015	0.419	1.575	2.768	2.542	1.204	0.243
+        End
+        Frequencies[1/cm]			10
+    174	326	457	828	1167	1545	1605	2845	3414	3509
+        ZeroEnergy[kcal/mol]		 	-5.47
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5217142013        0.0171308083       -1.2431354471
+ O          0.6482967129       -0.0300686082       -0.6261626040
+ H          0.3989155126        0.1356714645        0.3505700523
+ N         -0.1476436411        0.0614321557        1.7910371006
+ H          0.4953367395       -0.1073479990        2.5679215568
+ H         -0.8518331074       -0.6766405678        1.8646580659
+
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.043	0.117	0.102	0.024	0.004	0.106	0.398	0.699	0.642	0.304	0.062
+        End
+        Frequencies[1/cm]			10
+    131	356	488	846	1169	1543	1608	2591	3413	3509
+        ZeroEnergy[kcal/mol]		 	-5.08
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5159954423        0.0166313277       -1.2371920787
+ O          0.6462110449       -0.0295209441       -0.6114905306
+ H          0.3871620895        0.1390901106        0.3740798069
+ N         -0.1528965129        0.0634767583        1.7715452501
+ H          0.5078003695       -0.1216391324        2.5296335198
+ H         -0.8372168848       -0.6949454533        1.8230657309
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.023	0.063	0.055	0.013	0.002	0.057	0.213	0.374	0.344	0.163	0.033
+        End
+        Frequencies[1/cm]			10
+    132	391	519	836	1170	1542	1607	2273	3413	3509
+        ZeroEnergy[kcal/mol]		 	-4.75
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.5096536909        0.0162325961       -1.2323644616
+ O          0.6428664736       -0.0289676610       -0.5987630517
+ H          0.3747570489        0.1414931073        0.3995172022
+ N         -0.1571930197        0.0650143961        1.7547884774
+ H          0.5193207910       -0.1330323628        2.4953561645
+ H         -0.8242017817       -0.7097760457        1.7861054327
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.054	0.146	0.127	0.031	0.005	0.132	0.496	0.872	0.801	0.379	0.077
+        End
+        Frequencies[1/cm]			10
+    135	433	548	759	1172	1537	1600	1820	3413	3510
+        ZeroEnergy[kcal/mol]		 	-4.72
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.4995991429        0.0159955776       -1.2311540764
+ O          0.6338441997       -0.0284298007       -0.5914128640
+ H          0.3563962602        0.1422567760        0.4387512310
+ N         -0.1591512090        0.0661764112        1.7461517358
+ H          0.5348467568       -0.1428303254        2.4662041773
+ H         -0.8105409150       -0.7216649073        1.7601575832
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.085	0.230	0.200	0.048	0.007	0.207	0.779	1.369	1.257	0.595	0.120
+        End
+        Frequencies[1/cm]			10
+    133	468	545	636	1158	1302	1553	1601	3419	3516
+        ZeroEnergy[kcal/mol]		 	-5.02
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.4965341537        0.0159230278       -1.2308493619
+ O          0.6309898060       -0.0282554682       -0.5894222772
+ H          0.3507784826        0.1423847951        0.4507230170
+ N         -0.1596255817        0.0664973975        1.7438132377
+ H          0.5395111392       -0.1456429243        2.4576040584
+ H         -0.8063383220       -0.7250565047        1.7528483772
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.052	0.142	0.123	0.030	0.005	0.128	0.481	0.845	0.776	0.368	0.074
+        End
+        Frequencies[1/cm]			10
+    138	459	552	645	1143	1284	1551	1593	3421	3518
+        ZeroEnergy[kcal/mol]		 	-5.08
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.4862068661        0.0156809076       -1.2300101907
+ O          0.6210237041       -0.0276400566       -0.5835391504
+ H          0.3318148510        0.1424559389        0.4911035499
+ N         -0.1608155186        0.0674744887        1.7368792065
+ H          0.5550350626       -0.1545308296        2.4295444647
+ H         -0.7920960537       -0.7357431479        1.7301797590
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.128	0.345	0.301	0.072	0.011	0.311	1.171	2.058	1.890	0.895	0.181
+        End
+        Frequencies[1/cm]			10
+    197	447	607	697	1108	1288	1552	1575	3427	3523
+        ZeroEnergy[kcal/mol]		 	-6.00
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO  
+	    Geometry[angstrom]			6
+ O         -0.4757986758        0.0157777378       -1.2324717589
+ O          0.6084738805       -0.0274144482       -0.5857140185
+ H          0.3139081253        0.1400296911        0.5297818542
+ N         -0.1587636348        0.0677605024        1.7403957871
+ H          0.5696915342       -0.1575301413        2.4167035893
+ H         -0.7833645926       -0.7394103225        1.7290704983
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.209	0.564	0.491	0.118	0.018	0.508	1.912	3.360	3.086	1.461	0.296
+        End
+        Frequencies[1/cm]			10
+    243	452	618	700	1100	1334	1567	1575	3436	3532
+        ZeroEnergy[kcal/mol]		 	-9.11
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      RRHO 
+	    Geometry[angstrom]			6
+ O         -0.4617173677        0.0161115703       -1.2389425711
+ O          0.5906844998       -0.0273369514       -0.5923564477
+ H          0.2884438540        0.1340922416        0.5879065165
+ N         -0.1546550350        0.0677661216        1.7509687148
+ H          0.5887649837       -0.1572443571        2.4073415468
+ H         -0.7752087723       -0.7403659239        1.7415339115
+ 	    Core	RigidRotor
+  	        SymmetryFactor	1.
+	    End
+        Rotor                    Hindered
+          Group                        5 6
+          Axis                         2 4
+          Symmetry                     1
+          Potential[kcal/mol]          12
+            0.000	0.111	0.300	0.261	0.062	0.010	0.270	1.016	1.785	1.639	0.776	0.157
+        End
+        Frequencies[1/cm]			10
+    254	486	611	657	1147	1451	1603	1622	3454	3551
+        ZeroEnergy[kcal/mol]		 	-17.81
+        ElectronicLevels[1/cm]			1
+		0	3
+      End
+      Tunneling         Eckart
+           ImaginaryFrequency[1/cm]      2040.19
+           WellDepth[kcal/mol]             2.34
+           WellDepth[kcal/mol]             53.06
+      End
+    End
+  Barrier	B9	W1v  P5  # NH2...HO2 = NH3 + 1O2
+      RRHO  
+    Geometry[angstrom]          6
+ N         -0.0672362947        0.1742316704       -1.6791522902
+ H          0.5363849365        0.9816842038       -1.5393843244
+ H          0.5292459008       -0.5412989574       -2.0891844771
+ H         -0.4364150012       -0.2251312170       -0.5239693829
+ O          0.0192700455       -0.5728764429        0.4407084702
+ O         -0.0000476498        0.4067843467        1.2909121982
+    Core    RigidRotor
+      SymmetryFactor    0.5
+    End
+        Frequencies[1/cm]           11
+      213.36      222.45      425.55      685.95      782.43
+      1249.17     1490.74     1582.56     1720.82     3494.05
+      3586.21
+       ZeroEnergy[kcal/mol]		 	4.45
+        ElectronicLevels[1/cm]          1
+        0   1
+      Tunneling         Eckart
+           ImaginaryFrequency[1/cm]        2967.09
+           WellDepth[kcal/mol]             10.97
+           WellDepth[kcal/mol]             61.70
+   End
+  End
+End
+
+

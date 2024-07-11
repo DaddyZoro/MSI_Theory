@@ -1,0 +1,294 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::RigidRotor::RigidRotor:  starts
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: nonlinear
+         rotational constants[1/cm]:         24.1558        1.48995        1.40339
+      Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         effective power exponent at 414.608 kcal/mol = 3.42922
+      interpolating states number/density done, cpu time[sec] = 0.05, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.06, elapsed time[sec] = 0
+   BIMOLECULAR: P0
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: linear
+            rotational constant[1/cm]:         1.92076
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::AtomicFragment::AtomicFragment:  ... done
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::RRHO::RRHO:  starts
+      Model::RigidRotor::RigidRotor:  starts
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: nonlinear
+         rotational constants[1/cm]:         8.26563        1.44468        1.22974
+      Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 2.82, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 3.50401
+      interpolating states number/density done, cpu time[sec] = 3.22, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 3.22, elapsed time[sec] = 0
+   checking input ... done
+   setting connectivity ... done
+   checking connectivity ... done
+   setting dissociation limit ... done
+   setting maximum barrier height ... done
+   partition functions (relative to the ground level, units - 1/cm3):
+     T\Q           W1           CO            H           B1
+     100  4.24178e+27  1.00726e+27  3.75851e+23  4.73136e+30
+     200  3.39451e+28  5.69791e+27  1.06307e+24  1.75852e+29
+     300   1.1508e+29  1.57021e+28  1.95298e+24  2.95596e+29
+     400  2.76739e+29  3.22457e+28  3.00681e+24  6.10057e+29
+     500  5.54927e+29   5.6419e+28  4.20214e+24  1.19274e+30
+     600  9.95602e+29  8.93203e+28  5.52386e+24  2.16502e+30
+     700  1.65725e+30  1.32131e+29  6.96086e+24  3.68218e+30
+     800  2.61333e+30  1.86135e+29  8.50454e+24  5.93565e+30
+     900  3.95482e+30  2.52717e+29   1.0148e+25  9.15675e+30
+    1000  5.79278e+30  3.33348e+29  1.18855e+25  1.36204e+31
+    1100   8.2611e+30  4.29578e+29  1.37121e+25   1.9649e+31
+    1200  1.15195e+31  5.43025e+29  1.56238e+25  2.76162e+31
+    1300  1.57563e+31  6.75367e+29   1.7617e+25  3.79508e+31
+    1400  2.11924e+31  8.28342e+29  1.96883e+25  5.11403e+31
+    1500  2.80838e+31  1.00374e+30   2.1835e+25  6.77351e+31
+    1600  3.67261e+31  1.20341e+30  2.40545e+25  8.83514e+31
+    1700  4.74576e+31  1.42925e+30  2.63445e+25  1.13676e+32
+    1800  6.06639e+31  1.68319e+30  2.87028e+25   1.4447e+32
+    1900  7.67818e+31  1.96722e+30  3.11276e+25  1.81572e+32
+    2000  9.63034e+31  2.28338e+30  3.36171e+25    2.259e+32
+   partition functions (relative to 0 kcal/mol, units - 1/cm3):
+     T\Q           W1           B1
+     100  3.60775e+59  1.04841e+22
+     200  3.13056e+44  8.27792e+24
+     300   5.0609e+39  3.85372e+26
+     400  2.65761e+37  4.18559e+27
+     500   1.3495e+36  2.21643e+28
+     600  2.08786e+35  7.81723e+28
+     700   6.0363e+34  2.13675e+29
+     800  2.56098e+34  4.91657e+29
+     900  1.39595e+34  1.00031e+30
+    1000   9.0335e+33  1.85671e+30
+    1100  6.60294e+33  3.21049e+30
+    1200   5.2752e+33  5.24758e+30
+    1300  4.50386e+33  8.19396e+30
+    1400  4.04457e+33  1.23194e+31
+    1500  3.77661e+33  1.79412e+31
+    1600  3.63563e+33  2.54279e+31
+    1700  3.58528e+33  3.52033e+31
+    1800  3.60414e+33  4.77502e+31
+    1900  3.67932e+33  6.36137e+31
+    2000    3.803e+33  8.34054e+31
+   tunneling partition function correction factors & high pressure effective energy shifts (D), kcal/mol:
+     T\B           B1            D
+     100      898.387     -1.35141
+     200      3.92095    -0.543034
+     300      1.75169    -0.334194
+     400      1.35525    -0.241634
+     500      1.20883    -0.188437
+     600      1.13748    -0.153591
+     700      1.09709    -0.128891
+     800      1.07193    -0.110424
+     900      1.05519   -0.0960772
+    1000      1.04349   -0.0845983
+    1100        1.035   -0.0752007
+    1200      1.02865   -0.0673624
+    1300      1.02378   -0.0607253
+    1400      1.01998   -0.0550296
+    1500      1.01695   -0.0500928
+    1600       1.0145   -0.0457614
+    1700      1.01249   -0.0419345
+    1800      1.01083   -0.0385391
+    1900      1.00945   -0.0354957
+    2000      1.00827   -0.0327485
+Model::init:  done, cpu time[sec] = 3.48, elapsed time[sec] = 0
+rate calculation starts
+   MasterEquation::set:  starts
+      Temperature      = 800 K
+      Collision rate   = 3.70987e-10cm^3/sec
+      Energy reference = 18066 1/cm
+      Energy step      = 56 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.06
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.13
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 1.06
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.37
+         W1 Well: minimal relaxation eigenvalue = 0.00971241
+         W1 Well: maximal relaxation eigenvalue = 0.959151
+         W1 Well:       grid size = 398
+         W1 Well:      real depth = -5109 1/cm
+         W1 Well: effective depth = -4222 1/cm
+         B1 Barrier:        grid size = 323
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -22 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 1.62, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1  -4222    -22      156 1.06e+04
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -22 2.53e+07
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P0
+         W1         1   2.9e-17
+         P0  3.45e+16         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P0
+         W1         1  1.62e-20
+         P0  6.18e+19         1
+   MasterEquation::set:  done, cpu time[sec] = 1.62, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 10 atm	 Temperature = 800 K
+      collision frequency = 3.40299e+10 1/sec
+      global relaxation matrix dimension = 398
+      setting global matrices ... done, cpu time[sec] = 0.13, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 1.07, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.0161
+      maximal relaxation eigenvalue / collision frequency = 2101.04
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P0
+            2100.35
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0   0.00228   0.00212         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0  3.67e-05   0.00212     0.999
+         *Z       ---       ---  2.99e+12
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P0
+         W1        0
+      projection error = 0.0021
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W1
+         W1         1
+      W->P/P->W rate constants ratios:
+        P\W        W1
+         P0         1
+      Hot distribution branching ratios:
+       Well  E, kcal/mol           W1           P0
+         W1      -11.911      1.00529  -0.00529443
+         W1     -11.4307      1.00521  -0.00521384
+         W1     -10.9504      1.00512  -0.00511798
+         W1       -10.47      1.00494  -0.00494197
+         W1     -9.98972      1.00467  -0.00466636
+         W1     -9.34928      1.00409  -0.00408604
+         W1     -8.86895      1.00353  -0.00353466
+         W1     -8.38862       1.0028  -0.00279643
+         W1     -7.90829      1.00191  -0.00191111
+         W1     -7.42796      1.00077 -0.000768758
+         W1     -6.94763     0.999271  0.000729247
+         W1      -6.4673     0.997503   0.00249711
+         W1     -5.98697     0.995218    0.0047823
+         W1     -5.34653     0.991389   0.00861069
+         W1      -4.8662      0.98764    0.0123604
+         W1     -4.38587     0.982971    0.0170289
+         W1     -3.90554     0.976969    0.0230311
+         W1     -3.42521      0.96985    0.0301502
+         W1     -2.94488      0.96087    0.0391296
+         W1     -2.46455     0.949779    0.0502206
+         W1     -1.98422     0.935639    0.0643612
+         W1     -1.34378     0.911335     0.088665
+         W1     -0.86345     0.887607     0.112393
+         W1     -0.38312     0.857981     0.142019
+         W1    0.0972096      0.82093      0.17907
+         W1      0.57754     0.773962     0.226038
+         W1      1.05787     0.715004     0.284996
+         W1       1.5382     0.640259     0.359741
+         W1      2.01853     0.547909     0.452091
+         W1      2.65897     0.383775     0.616225
+         W1       3.1393      0.23443      0.76557
+         W1      3.61963    0.0963428     0.903657
+         W1      4.09996    0.0252307     0.974769
+         W1      4.58029   0.00521524     0.994785
+         W1      5.06062   0.00107196     0.998928
+         W1      5.54095  0.000226312     0.999774
+         W1      6.02128  5.02368e-05      0.99995
+         W1      6.50161  1.17248e-05     0.999988
+         W1      7.14205  1.76684e-06     0.999998
+         W1      7.62238  4.49027e-07            1
+         W1      8.10271  1.14551e-07            1
+         W1      8.58304  2.93874e-08            1
+         W1      9.06337  7.20208e-09            1
+         W1       9.5437  1.63593e-09            1
+         W1       10.024  3.28203e-10            1
+         W1      10.5044  6.31756e-11            1
+         W1      11.1448  7.24002e-12            1
+         W1      11.6251  1.50292e-12            1
+         W1      12.1055  2.82674e-13            1
+         W1      12.5858  7.76611e-14            1
+         W1      13.0661  4.25713e-15            1
+         W1      13.5464  1.58614e-15            1
+         W1      14.0268  1.53569e-14            1
+         W1      14.5071 -7.54838e-15            1
+         W1      15.1475 -1.15915e-14            1
+         W1      15.6279  3.99584e-14            1
+         W1      16.1082 -5.71941e-14            1
+         W1      16.5885 -2.39899e-14            1
+         W1      17.0689  8.28137e-15            1
+         W1      17.5492  1.46162e-14            1
+         W1      18.0295  6.06399e-15            1
+         W1      18.5099 -9.15676e-14            1
+         W1      19.1503  6.92552e-14            1
+         W1      19.6306 -5.43204e-15            1
+         W1       20.111 -4.29745e-14            1
+         W1      20.5913  6.59435e-15            1
+         W1      21.0716 -1.62541e-14            1
+         W1      21.5519 -1.17743e-13            1
+         W1      22.0323  -6.9882e-14            1
+         W1      22.5126  2.77825e-14            1
+         W1       23.153 -6.81173e-14            1
+         W1      23.6334  3.90036e-14            1
+         W1      24.1137 -6.16974e-14            1
+         W1       24.594 -1.00229e-13            1
+         W1      25.0744  1.82468e-13            1
+         W1      25.5547 -1.43274e-13            1
+         W1       26.035  1.71954e-14            1
+         W1      26.5154  2.35606e-13            1
+         W1      27.1558 -1.62268e-13            1
+         W1      27.6361  1.02012e-14            1
+         W1      28.1165 -1.78763e-14            1
+         W1      28.5968  6.41724e-14            1
+         W1      29.0771 -3.97245e-13            1
+         W1      29.5574 -6.24056e-13            1
+         W1      30.0378 -8.48191e-13            1
+         W1      30.5181  8.62407e-13            1
+         W1      31.1585 -5.93437e-13            1
+         W1      31.6389 -1.41872e-12            1
+         W1      32.1192  6.22086e-14            1
+         W1      32.5995 -1.20522e-13            1
+         W1      33.0799  -1.7349e-13            1
+         W1      33.5602  9.95787e-13            1
+         W1      34.0405  3.08784e-12            1
+         W1      34.5209 -1.29445e-12            1
+         W1      35.0012  5.65509e-12            1
+         W1      35.6416 -1.61818e-12            1
+         W1       36.122 -2.11174e-12            1
+         W1      36.6023  3.08859e-13            1
+         W1      37.0826 -3.02474e-12            1
+         W1      37.5629  6.71338e-13            1
+         W1      38.0433  2.53536e-12            1
+         W1      38.5236 -6.95661e-12            1
+         W1      39.0039  3.64331e-12            1
+         W1      39.6444  1.26137e-12            1
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 1.4, elapsed time[sec] = 0
+rate calculation done, cpu time[sec] = 3.02, elapsed time[sec] = 0

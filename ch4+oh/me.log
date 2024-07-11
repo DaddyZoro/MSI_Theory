@@ -1,0 +1,1396 @@
+Model::init:  starts
+   Model::ExponentialKernel::ExponentialKernel:  ... done
+   Model::LennardJonesCollision::LennardJonesCollision:  ... done
+   WELL: W1
+   Model::RRHO::RRHO:  starts
+      Model::RigidRotor::RigidRotor:  starts
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: nonlinear
+         rotational constants[1/cm]:         5.23261       0.167626       0.167599
+      Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+         effective power exponent at 400.398 kcal/mol = 14.2728
+      interpolating states number/density done, cpu time[sec] = 0.07, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.07, elapsed time[sec] = 0
+   BIMOLECULAR: P1
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         5.29976        5.29976        5.29976
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: linear
+            rotational constant[1/cm]:         18.8541
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+   BIMOLECULAR: P2
+   Model::Bimolecular::Bimolecular:  starts
+      Model::RRHO::RRHO:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:         9.60078        9.60078        4.80039
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  starts
+         Model::RigidRotor::RigidRotor:  starts
+            molecular geometry will be used to estimate rotational constants
+            rotational configuration: nonlinear
+            rotational constants[1/cm]:          26.741        14.7148        9.49174
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+   BARRIER: B1
+   Model::RRHO::RRHO:  starts
+      Model::PhaseSpaceTheory::PhaseSpaceTheory:  starts
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: nonlinear
+         rotational constants[1/cm]:         5.29976        5.29976        5.29976
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: linear
+         rotational constant[1/cm]:         18.8541
+      Model::PhaseSpaceTheory::PhaseSpaceTheory:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0.03, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 12.1362
+      interpolating states number/density done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+   BARRIER: B2
+   Model::RRHO::RRHO:  starts
+      Model::RigidRotor::RigidRotor:  starts
+         molecular geometry will be used to estimate rotational constants
+         rotational configuration: nonlinear
+         rotational constants[1/cm]:          4.0271       0.307177       0.302311
+      Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  ... done
+      interpolating states number/density starts
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 3.41, elapsed time[sec] = 0
+         effective power exponent at 399.998 kcal/mol = 14.5216
+      interpolating states number/density done, cpu time[sec] = 3.79, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 3.79, elapsed time[sec] = 0
+   checking input ... done
+   setting connectivity ... done
+   checking connectivity ... done
+   setting dissociation limit ... done
+   setting maximum barrier height ... done
+   partition functions (relative to the ground level, units - 1/cm3):
+     T\Q           W1          CH4           OH          CH3          H2O           B1           B2
+     100  6.55056e+31  8.46179e+25    1.101e+26  1.78222e+26  1.20697e+26  1.06649e+30  2.12621e+36
+     200  4.14856e+33  6.77087e+26  7.50222e+26  1.46308e+27  9.65584e+26   2.7093e+31  8.55917e+32
+     300  6.35022e+34  2.29801e+27  2.28802e+27  5.28405e+27  3.25992e+27  1.80738e+32  4.55672e+32
+     400  4.95833e+35  5.58591e+27  4.98716e+27   1.3759e+28  7.74383e+27  7.09618e+32  8.62424e+32
+     500  2.64287e+36   1.1523e+28  9.06014e+27  3.00102e+28  1.52128e+28  2.12334e+33  2.12985e+33
+     600  1.10583e+37  2.16807e+28   1.4691e+28  5.85597e+28  2.65618e+28  5.41431e+33   5.5071e+33
+     700  3.91563e+37  3.85049e+28  2.20478e+28  1.05818e+29  4.28159e+28  1.24368e+34  1.40234e+34
+     800  1.22648e+38   6.5715e+28  3.12917e+28  1.80713e+29  6.51544e+28  2.65356e+34  3.45375e+34
+     900  3.49538e+38  1.08872e+29  4.25837e+28  2.95485e+29  9.49367e+28  5.35687e+34  8.18998e+34
+    1000  9.23735e+38  1.76172e+29  5.60894e+28  4.66694e+29  1.33729e+29  1.03537e+35   1.8704e+35
+    1100  2.29414e+39  2.79535e+29  7.19817e+28  7.16448e+29  1.83335e+29  1.93128e+35  4.12171e+35
+    1200  5.40691e+39  4.36078e+29  9.04414e+28   1.0739e+30  2.45819e+29  3.49626e+35  8.78532e+35
+    1300  1.21821e+40  6.70092e+29  1.11658e+29  1.57707e+30  3.23539e+29  6.16809e+35  1.81567e+36
+    1400  2.63877e+40  1.01565e+30   1.3583e+29  2.27498e+30  4.19172e+29  1.06371e+36  3.64683e+36
+    1500  5.52001e+40  1.52006e+30  1.63162e+29  3.23023e+30  5.35743e+29  1.79743e+36  7.13356e+36
+    1600   1.1192e+41  2.24829e+30  1.93867e+29  4.52205e+30  6.76652e+29  2.98173e+36  1.36153e+37
+    1700  2.20603e+41  3.28875e+30  2.28165e+29  6.24981e+30  8.45706e+29  4.86343e+36  2.54011e+37
+    1800  4.23769e+41  4.76064e+30  2.66282e+29  8.53718e+30  1.04715e+30  7.80973e+36  4.63878e+37
+    1900   7.9504e+41  6.82323e+30   3.0845e+29  1.15369e+31   1.2857e+30  1.23602e+37  8.30444e+37
+    2000  1.45944e+42  9.68765e+30  3.54906e+29  1.54364e+31  1.56657e+30  1.92987e+37  1.45925e+38
+   partition functions (relative to 0 kcal/mol, units - 1/cm3):
+     T\Q           W1           B1           B2
+     100  4.90304e+32  1.06649e+30  2.51342e+25
+     200  1.13499e+34   2.7093e+31   2.9428e+27
+     300  1.24218e+35  1.80738e+32  1.03802e+29
+     400  8.20129e+35  7.09618e+32  1.59914e+30
+     500  3.95288e+36  2.12334e+33  1.38957e+31
+     600  1.54663e+37  5.41431e+33  8.31189e+31
+     700  5.22018e+37  1.24368e+34  3.85304e+32
+     800  1.57737e+38  2.65356e+34  1.48721e+33
+     900  4.37146e+38  5.35687e+34  5.00189e+33
+    1000  1.12971e+39  1.03537e+35  1.51078e+34
+    1100  2.75481e+39  1.93128e+35  4.18488e+34
+    1200  6.39438e+39  3.49626e+35  1.07931e+35
+    1300  1.42222e+40  6.16809e+35  2.62103e+35
+    1400   3.0468e+40  1.06371e+36  6.04493e+35
+    1500  6.31275e+40  1.79743e+36  1.33296e+36
+    1600  1.26925e+41  2.98173e+36  2.82533e+36
+    1700  2.48332e+41  4.86343e+36  5.78187e+36
+    1800  4.73909e+41  7.80973e+36  1.14638e+37
+    1900  8.83891e+41  1.23602e+37  2.20896e+37
+    2000  1.61397e+42  1.92987e+37  4.14726e+37
+   tunneling partition function correction factors & high pressure effective energy shifts (D), kcal/mol:
+     T\B           B1            D           B2            D
+     100            1           -0  3.54749e+06     -2.99703
+     200            1           -0      83.7696     -1.75989
+     300            1           -0       6.7226     -1.13596
+     400            1           -0      2.82559    -0.825653
+     500            1           -0      1.91532    -0.645724
+     600            1           -0      1.55852    -0.529075
+     700            1           -0      1.37892    -0.446938
+     800            1           -0      1.27465    -0.385784
+     900            1           -0      1.20828     -0.33838
+    1000            1           -0      1.16325    -0.300501
+    1100            1           -0      1.13122    -0.269507
+    1200            1           -0      1.10758    -0.243653
+    1300            1           -0      1.08963    -0.221742
+    1400            1           -0      1.07568    -0.202951
+    1500            1           -0      1.06461    -0.186632
+    1600            1           -0      1.05568    -0.172285
+    1700            1           -0      1.04843    -0.159761
+    1800            1           -0      1.04237    -0.148441
+    1900            1           -0      1.03731    -0.138306
+    2000            1           -0      1.03306    -0.129274
+Model::init:  done, cpu time[sec] = 4.2, elapsed time[sec] = 0
+rate calculation starts
+   MasterEquation::set:  starts
+      Temperature      = 10 K
+      Collision rate   = 2.44082e-10cm^3/sec
+      Energy reference = 1957 1/cm
+      Energy step      = 1 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.01
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 1.56
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 1.41
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 16.42
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 51.43
+         W1 Well: minimal relaxation eigenvalue = 0.092919
+         W1 Well: maximal relaxation eigenvalue = 0.989731
+         W1 Well:       grid size = 2027
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -69 1/cm
+         B1 Barrier:        grid size = 1957
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = 0 1/cm
+         B2 Barrier:        grid size = 1957
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = 0 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 71.05, elapsed time[sec] = 22
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    -69      0 3.27e+04  1.1e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1      0  1.7e+08
+         B2      0 7.91e+05
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.45e-08         0
+         P1  6.92e+07         1         0
+         P2       inf       inf       nan
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.43e-10         0
+         P1  7.01e+09         1         0
+         P2       inf       inf       nan
+   MasterEquation::set:  done, cpu time[sec] = 71.05, elapsed time[sec] = 22
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 10 K
+      collision frequency = 1.76773e+09 1/sec
+      global relaxation matrix dimension = 2027
+      setting global matrices ... done, cpu time[sec] = 2.1, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 98.69, elapsed time[sec] = 10
+      minimal relaxation eigenvalue / collision frequency = 0.109496
+      maximal relaxation eigenvalue / collision frequency = 8.40891
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            2.63096    0.0122187
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0  9.08e-06  2.38e-06         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0  9.94e-07  2.38e-06         1
+         *Z       ---       ---  2.53e+68
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        0        0
+      projection error = 2.4e-06
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W1
+         W1         1
+      W->P/P->W rate constants ratios:
+        P\W        W1
+         P1         1
+         P2         1
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 104, elapsed time[sec] = 11
+   MasterEquation::set:  starts
+      Temperature      = 20 K
+      Collision rate   = 3.07667e-10cm^3/sec
+      Energy reference = 2166 1/cm
+      Energy step      = 3 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.02
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.18
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.38
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 4.14
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 1.86
+         W1 Well: minimal relaxation eigenvalue = 0.0696826
+         W1 Well: maximal relaxation eigenvalue = 1.00171
+         W1 Well:       grid size = 769
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -140 1/cm
+         B1 Barrier: nonpositive number of states at -6.81295e-12 1/cm => truncating
+         B1 Barrier:        grid size = 722
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = 0 1/cm
+         B2 Barrier: nonpositive number of states at -6.81295e-12 1/cm => truncating
+         B2 Barrier:        grid size = 722
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = 0 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 6.72, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -140      1 3.27e+04 1.81e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1      1 2.53e+08
+         B2      1 1.84e+06
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  9.64e-11 4.39e-120
+         P1  1.04e+10         1 4.56e-110
+         P2 2.28e+119 2.19e+109         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.33e-15 6.04e-125
+         P1  7.54e+14         1 4.56e-110
+         P2 1.65e+124 2.19e+109         1
+   MasterEquation::set:  done, cpu time[sec] = 6.72, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 20 K
+      collision frequency = 1.11412e+09 1/sec
+      global relaxation matrix dimension = 769
+      setting global matrices ... done, cpu time[sec] = 0.64, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 5.08, elapsed time[sec] = 1
+      minimal relaxation eigenvalue / collision frequency = 0.0915288
+      maximal relaxation eigenvalue / collision frequency = 12.7435
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            3.77536    0.0273958
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0   0.00034  0.000191         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0  3.11e-05  0.000191         1
+         *Z       ---       ---  4.08e+40
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        0        0
+      projection error = 0.00019
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W1
+         W1         1
+      W->P/P->W rate constants ratios:
+        P\W        W1
+         P1         1
+         P2         1
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 6.23, elapsed time[sec] = 1
+   MasterEquation::set:  starts
+      Temperature      = 35 K
+      Collision rate   = 3.54348e-10cm^3/sec
+      Energy reference = 2479 1/cm
+      Energy step      = 5 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.11
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.16
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 2.22
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.74
+         W1 Well: minimal relaxation eigenvalue = 0.0563695
+         W1 Well: maximal relaxation eigenvalue = 0.991363
+         W1 Well:       grid size = 524
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -141 1/cm
+         B1 Barrier:        grid size = 496
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -1 1/cm
+         B2 Barrier:        grid size = 496
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -1 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 3.31, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -141     -1 3.22e+04  3.6e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     -1 4.43e+08
+         B2     -1 5.59e+06
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.75e-13  6.44e-76
+         P1  3.64e+12         1  2.34e-63
+         P2  1.55e+75  4.27e+62         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  6.36e-18  1.49e-80
+         P1  1.57e+17         1  2.34e-63
+         P2  6.71e+79  4.27e+62         1
+   MasterEquation::set:  done, cpu time[sec] = 3.31, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 35 K
+      collision frequency = 7.33233e+08 1/sec
+      global relaxation matrix dimension = 524
+      setting global matrices ... done, cpu time[sec] = 0.27, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 1.97, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.150985
+      maximal relaxation eigenvalue / collision frequency = 18.8571
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            5.02025    0.0633886
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0    0.0194    0.0272         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0   0.00293    0.0272    -0.986
+         *Z       ---       ---  1.31e+28
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        0        0
+      projection error = 0.027
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W1
+         W1         1
+      W->P/P->W rate constants ratios:
+        P\W        W1
+         P1         1
+         P2         1
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 2.43, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 50 K
+      Collision rate   = 3.75912e-10cm^3/sec
+      Energy reference = 2791 1/cm
+      Energy step      = 7 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.01
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.08
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.13
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 1.23
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.41
+         W1 Well: minimal relaxation eigenvalue = 0.0493697
+         W1 Well: maximal relaxation eigenvalue = 1.0135
+         W1 Well:       grid size = 419
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -142 1/cm
+         B1 Barrier:        grid size = 399
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -2 1/cm
+         B2 Barrier:        grid size = 399
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -2 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 1.92, elapsed time[sec] = 1
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -142     -2 3.15e+04  6.8e+09
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     -2 7.33e+08
+         B2     -2 1.47e+07
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.09e-14  2.25e-58
+         P1  4.78e+13         1  1.07e-44
+         P2  4.45e+57   9.3e+43         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  6.79e-19   7.3e-63
+         P1  1.47e+18         1  1.07e-44
+         P2  1.37e+62   9.3e+43         1
+   MasterEquation::set:  done, cpu time[sec] = 1.92, elapsed time[sec] = 1
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 50 K
+      collision frequency = 5.44497e+08 1/sec
+      global relaxation matrix dimension = 419
+      setting global matrices ... done, cpu time[sec] = 0.15, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 1.2, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.253098
+      maximal relaxation eigenvalue / collision frequency = 25.0534
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            5.93609     0.118936
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0    0.0673     0.153         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0     0.017     0.153    -0.921
+         *Z       ---       ---  1.52e+23
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.15        0
+      projection error = 0.15
+      Wa->Wb/Wb->Wa rate constants ratios:
+      Wb\Wa        W1
+         W1         1
+      W->P/P->W rate constants ratios:
+        P\W        W1
+         P1       1.2
+         P2       1.2
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 1.47, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 75 K
+      Collision rate   = 3.88386e-10cm^3/sec
+      Energy reference = 3313 1/cm
+      Energy step      = 10 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.01
+         W1 Well: cannot satisfy the constant collision frequency at energy = -137 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.11
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.08
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.73
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.25
+         W1 Well: minimal relaxation eigenvalue = 0.042986
+         W1 Well: maximal relaxation eigenvalue = 1.05794
+         W1 Well:       grid size = 345
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -137 1/cm
+         B1 Barrier:        grid size = 332
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -7 1/cm
+         B2 Barrier:        grid size = 332
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -7 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 1.21, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -137     -7 2.91e+04 1.78e+10
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     -7 1.56e+09
+         B2     -7 5.94e+07
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.55e-15  8.71e-45
+         P1  3.93e+14         1  3.42e-30
+         P2  1.15e+44  2.92e+29         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.19e-19  4.07e-49
+         P1  8.39e+18         1  3.42e-30
+         P2  2.45e+48  2.92e+29         1
+   MasterEquation::set:  done, cpu time[sec] = 1.21, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 75 K
+      collision frequency = 3.75044e+08 1/sec
+      global relaxation matrix dimension = 345
+      setting global matrices ... done, cpu time[sec] = 0.12, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.78, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.452851
+      maximal relaxation eigenvalue / collision frequency = 35.9376
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            6.98947      0.26639
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.163     0.462         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0    0.0737     0.462    -0.733
+         *Z       ---       ---  2.81e+19
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.98, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 1e+02 K
+      Collision rate   = 3.9e-10cm^3/sec
+      Energy reference = 3.8e+03 1/cm
+      Energy step      = 14 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = -1.3e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.09
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.06
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.41
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.15
+         W1 Well: minimal relaxation eigenvalue = 0.039
+         W1 Well: maximal relaxation eigenvalue = 0.98
+         W1 Well:       grid size = 283
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -127 1/cm
+         B1 Barrier:        grid size = 274
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -2 1/cm
+         B2 Barrier:        grid size = 274
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -2 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.75, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -127     -2 3.15e+04 4.23e+10
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     -2 3.12e+09
+         B2     -2 1.98e+08
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  8.01e-16  4.85e-38
+         P1  1.25e+15         1  6.05e-23
+         P2  2.06e+37  1.65e+22         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  5.26e-20  3.19e-42
+         P1   1.9e+19         1  6.05e-23
+         P2  3.14e+41  1.65e+22         1
+   MasterEquation::set:  done, cpu time[sec] = 0.75, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 100 K
+      collision frequency = 2.82007e+08 1/sec
+      global relaxation matrix dimension = 283
+      setting global matrices ... done, cpu time[sec] = 0.06, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.51, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.639541
+      maximal relaxation eigenvalue / collision frequency = 47.4584
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            7.84582     0.496952
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.262     0.701         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0     0.168     0.701     0.547
+         *Z       ---       ---  4.35e+17
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.63, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 1.5e+02 K
+      Collision rate   = 3.9e-10cm^3/sec
+      Energy reference = 4.9e+03 1/cm
+      Energy step      = 21 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = -1.2e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.07
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.03
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.27
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.11
+         W1 Well: minimal relaxation eigenvalue = 0.035
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 238
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -121 1/cm
+         B1 Barrier:        grid size = 233
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -16 1/cm
+         B2 Barrier:        grid size = 233
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -16 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1   -121    -16  2.5e+04 1.94e+11
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -16 1.08e+10
+         B2    -16  1.5e+09
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.75e-16  2.89e-31
+         P1  3.64e+15         1  1.05e-15
+         P2  3.46e+30  9.51e+14         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1   2.7e-20  2.84e-35
+         P1  3.71e+19         1  1.05e-15
+         P2  3.52e+34  9.51e+14         1
+   MasterEquation::set:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 150 K
+      collision frequency = 1.8591e+08 1/sec
+      global relaxation matrix dimension = 238
+      setting global matrices ... done, cpu time[sec] = 0.04, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.35, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 0.913135
+      maximal relaxation eigenvalue / collision frequency = 71.4815
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            8.93435       1.2408
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0      0.46      0.91         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      0.42      0.91     0.299
+         *Z       ---       ---   9.1e+15
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 2e+02 K
+      Collision rate   = 3.8e-10cm^3/sec
+      Energy reference = 5.9e+03 1/cm
+      Energy step      = 28 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = -73 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.04
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.05
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.19
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.09
+         W1 Well: minimal relaxation eigenvalue = 0.031
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 214
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -73 1/cm
+         B1 Barrier:        grid size = 212
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -17 1/cm
+         B2 Barrier:        grid size = 212
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -17 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.38, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    -73    -17  2.5e+04 7.33e+11
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    -17 3.22e+10
+         B2    -17 8.05e+09
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1   1.7e-16  7.24e-28
+         P1  5.87e+15         1  4.25e-12
+         P2  1.38e+27  2.35e+11         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.23e-20   9.5e-32
+         P1  4.48e+19         1  4.25e-12
+         P2  1.05e+31  2.35e+11         1
+   MasterEquation::set:  done, cpu time[sec] = 0.38, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 200 K
+      collision frequency = 1.39116e+08 1/sec
+      global relaxation matrix dimension = 214
+      setting global matrices ... done, cpu time[sec] = 0.04, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.27, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 1.01065
+      maximal relaxation eigenvalue / collision frequency = 95.1864
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            9.45165      2.36525
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.698     0.976         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0     0.705     0.976     0.156
+         *Z       ---       ---  1.63e+15
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.35, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 2.5e+02 K
+      Collision rate   = 3.9e-10cm^3/sec
+      Energy reference = 7e+03 1/cm
+      Energy step      = 35 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = -38 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.04
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.05
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.17
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.08
+         W1 Well: minimal relaxation eigenvalue = 0.029
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 200
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = -37 1/cm
+         B1 Barrier:        grid size = 199
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -3 1/cm
+         B2 Barrier:        grid size = 199
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -3 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.35, elapsed time[sec] = 0
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    -37     -3 3.11e+04  2.4e+12
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     -3 8.57e+10
+         B2     -3 3.44e+10
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.35e-16  8.09e-26
+         P1  7.42e+15         1     6e-10
+         P2  1.24e+25  1.67e+09         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.21e-20  1.33e-29
+         P1  4.52e+19         1     6e-10
+         P2  7.54e+28  1.67e+09         1
+   MasterEquation::set:  done, cpu time[sec] = 0.35, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 250 K
+      collision frequency = 1.12433e+08 1/sec
+      global relaxation matrix dimension = 200
+      setting global matrices ... done, cpu time[sec] = 0.03, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.24, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 2.53758
+      maximal relaxation eigenvalue / collision frequency = 117.54
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            9.53922      3.83114
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.381     0.995         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0     0.967     0.995    0.0689
+         *Z       ---       ---  6.65e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.29, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 3e+02 K
+      Collision rate   = 4e-10cm^3/sec
+      Energy reference = 8e+03 1/cm
+      Energy step      = 42 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = -18 1/cm, truncating the well
+         W1 Well: cannot satisfy the constant collision frequency at energy = 24 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.08
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.03
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.15
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.06
+         W1 Well: minimal relaxation eigenvalue = 0.026
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 190
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 24 1/cm
+         B1 Barrier:        grid size = 191
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -18 1/cm
+         B2 Barrier:        grid size = 191
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -18 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.33, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 190
+      MasterEquation::Barrier::truncate: real weight = 4.6e+22
+      MasterEquation::Barrier::truncate: effective weight = 8.7e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 190
+      MasterEquation::Barrier::truncate: real weight = 2.6e+19
+      MasterEquation::Barrier::truncate: effective weight = 5.1e+15
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1     25     25 9.19e+04 7.01e+12
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     25 2.09e+11
+         B2     25 1.25e+11
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1   1.2e-16   1.9e-24
+         P1  8.34e+15         1  1.58e-08
+         P2  5.27e+23  6.31e+07         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.36e-20  3.74e-28
+         P1  4.23e+19         1  1.58e-08
+         P2  2.67e+27  6.31e+07         1
+   MasterEquation::set:  done, cpu time[sec] = 0.33, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 300 K
+      collision frequency = 9.54198e+07 1/sec
+      global relaxation matrix dimension = 190
+      setting global matrices ... done, cpu time[sec] = 0.04, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 15.1902
+      maximal relaxation eigenvalue / collision frequency = 138.318
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            9.39423      5.59047
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.829     0.996         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      12.6     0.996    0.0668
+         *Z       ---       ---  3.99e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.27, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 4e+02 K
+      Collision rate   = 4.1e-10cm^3/sec
+      Energy reference = 1e+04 1/cm
+      Energy step      = 56 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.01
+         W1 Well: cannot satisfy the constant collision frequency at energy = 65 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.04
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.02
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.13
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.05
+         W1 Well: minimal relaxation eigenvalue = 0.023
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 179
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 64 1/cm
+         B1 Barrier:        grid size = 181
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -47 1/cm
+         B2 Barrier:        grid size = 181
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -47 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.26, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 179
+      MasterEquation::Barrier::truncate: real weight = 1.4e+22
+      MasterEquation::Barrier::truncate: effective weight = 3.7e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 179
+      MasterEquation::Barrier::truncate: real weight = 3.2e+19
+      MasterEquation::Barrier::truncate: effective weight = 8.3e+15
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1     65     65 1.86e+05 4.68e+13
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1     65 1.03e+12
+         B2     65 1.15e+12
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.12e-16  1.01e-22
+         P1   8.9e+15         1  8.99e-07
+         P2   9.9e+21  1.11e+06         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  2.94e-20  2.65e-26
+         P1   3.4e+19         1  8.99e-07
+         P2  3.78e+25  1.11e+06         1
+   MasterEquation::set:  done, cpu time[sec] = 0.26, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 400 K
+      collision frequency = 7.4938e+07 1/sec
+      global relaxation matrix dimension = 179
+      setting global matrices ... done, cpu time[sec] = 0.03, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.16, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 18.8041
+      maximal relaxation eigenvalue / collision frequency = 175.655
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            8.79539      9.84028
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.994         1         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      18.7         1 -0.000174
+         *Z       ---       ---  2.51e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1        1        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.22, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 5e+02 K
+      Collision rate   = 4.3e-10cm^3/sec
+      Energy reference = 1.2e+04 1/cm
+      Energy step      = 70 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0.01
+         W1 Well: cannot satisfy the constant collision frequency at energy = 1.3e+02 1/cm, truncating the well
+         W1 Well: cannot satisfy the constant collision frequency at energy = 2e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.06
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.01
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.12
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.05
+         W1 Well: minimal relaxation eigenvalue = 0.02
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 171
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 204 1/cm
+         B1 Barrier:        grid size = 174
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -5 1/cm
+         B2 Barrier:        grid size = 174
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -5 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.26, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 171
+      MasterEquation::Barrier::truncate: real weight = 8.7e+21
+      MasterEquation::Barrier::truncate: effective weight = 2.8e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 171
+      MasterEquation::Barrier::truncate: real weight = 5.7e+19
+      MasterEquation::Barrier::truncate: effective weight = 1.8e+16
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    205    205 8.84e+05 2.44e+14
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    205 4.13e+12
+         B2    205 7.61e+12
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.15e-16  1.12e-21
+         P1  8.66e+15         1  9.73e-06
+         P2   8.9e+20  1.03e+05         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  3.79e-20  3.69e-25
+         P1  2.64e+19         1  9.73e-06
+         P2  2.71e+24  1.03e+05         1
+   MasterEquation::set:  done, cpu time[sec] = 0.26, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 500 K
+      collision frequency = 6.28761e+07 1/sec
+      global relaxation matrix dimension = 171
+      setting global matrices ... done, cpu time[sec] = 0.03, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.15, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 22.3785
+      maximal relaxation eigenvalue / collision frequency = 209.465
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            8.07718      14.8711
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.995         1         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      22.3         1   0.00275
+         *Z       ---       ---  2.22e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.99        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.21, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 6e+02 K
+      Collision rate   = 4.5e-10cm^3/sec
+      Energy reference = 1.4e+04 1/cm
+      Energy step      = 83 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = 2.3e+02 1/cm, truncating the well
+         W1 Well: cannot satisfy the constant collision frequency at energy = 3.2e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.06
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.02
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.11
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.05
+         W1 Well: minimal relaxation eigenvalue = 0.018
+         W1 Well: maximal relaxation eigenvalue = 0.99
+         W1 Well:       grid size = 168
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 316 1/cm
+         B1 Barrier:        grid size = 172
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -16 1/cm
+         B2 Barrier:        grid size = 172
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -16 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.24, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 168
+      MasterEquation::Barrier::truncate: real weight = 7.3e+21
+      MasterEquation::Barrier::truncate: effective weight = 2.7e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 168
+      MasterEquation::Barrier::truncate: real weight = 1.1e+20
+      MasterEquation::Barrier::truncate: effective weight = 4.3e+16
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    317    317 2.39e+06 1.06e+15
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    317 1.43e+13
+         B2    317 3.98e+13
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.25e-16  5.82e-21
+         P1  8.01e+15         1  4.66e-05
+         P2  1.72e+20  2.14e+04         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  4.86e-20  2.27e-24
+         P1  2.06e+19         1  4.66e-05
+         P2  4.41e+23  2.14e+04         1
+   MasterEquation::set:  done, cpu time[sec] = 0.24, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 600 K
+      collision frequency = 5.48187e+07 1/sec
+      global relaxation matrix dimension = 168
+      setting global matrices ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.16, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 25.677
+      maximal relaxation eigenvalue / collision frequency = 240.067
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            7.37719      20.5041
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.995         1         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      25.5         1   -0.0156
+         *Z       ---       ---  2.32e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.97        0
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 7e+02 K
+      Collision rate   = 4.7e-10cm^3/sec
+      Energy reference = 1.6e+04 1/cm
+      Energy step      = 97 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = 3.4e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.04
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.02
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.1
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.05
+         W1 Well: minimal relaxation eigenvalue = 0.017
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 165
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 340 1/cm
+         B1 Barrier:        grid size = 169
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -48 1/cm
+         B2 Barrier:        grid size = 169
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -48 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.22, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 165
+      MasterEquation::Barrier::truncate: real weight = 7.3e+21
+      MasterEquation::Barrier::truncate: effective weight = 3.2e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 165
+      MasterEquation::Barrier::truncate: real weight = 2.3e+20
+      MasterEquation::Barrier::truncate: effective weight = 1e+17
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    341    341 3.13e+06 3.99e+15
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    341 4.39e+13
+         B2    341 1.73e+14
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.36e-16  1.92e-20
+         P1  7.38e+15         1  0.000141
+         P2  5.22e+19  7.07e+03         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  6.15e-20   8.7e-24
+         P1  1.63e+19         1  0.000141
+         P2  1.15e+23  7.07e+03         1
+   MasterEquation::set:  done, cpu time[sec] = 0.22, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 700 K
+      collision frequency = 4.90089e+07 1/sec
+      global relaxation matrix dimension = 165
+      setting global matrices ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.16, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 28.732
+      maximal relaxation eigenvalue / collision frequency = 267.24
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            6.73612      26.5924
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.994     0.998         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      28.6     0.998    0.0493
+         *Z       ---       ---   2.6e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.95    0.054
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 8.5e+02 K
+      Collision rate   = 5e-10cm^3/sec
+      Energy reference = 1.9e+04 1/cm
+      Energy step      = 1.2e+02 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = 4.7e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.04
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.02
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.09
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.04
+         W1 Well: minimal relaxation eigenvalue = 0.015
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 161
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 473 1/cm
+         B1 Barrier:        grid size = 166
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -116 1/cm
+         B2 Barrier:        grid size = 166
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -116 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 161
+      MasterEquation::Barrier::truncate: real weight = 8.8e+21
+      MasterEquation::Barrier::truncate: effective weight = 4.7e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 161
+      MasterEquation::Barrier::truncate: real weight = 6.5e+20
+      MasterEquation::Barrier::truncate: effective weight = 3.5e+17
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    474    474 8.31e+06 2.36e+16
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    474 1.99e+14
+         B2    474 1.22e+15
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.54e-16  7.03e-20
+         P1  6.48e+15         1  0.000455
+         P2  1.42e+19   2.2e+03         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  8.52e-20  3.88e-23
+         P1  1.17e+19         1  0.000455
+         P2  2.58e+22   2.2e+03         1
+   MasterEquation::set:  done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 850 K
+      collision frequency = 4.27561e+07 1/sec
+      global relaxation matrix dimension = 161
+      setting global matrices ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.15, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 32.9532
+      maximal relaxation eigenvalue / collision frequency = 300.833
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            5.89749      36.3423
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.994     0.979         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      32.7     0.979    -0.146
+         *Z       ---       ---  3.35e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.89     0.11
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.19, elapsed time[sec] = 0
+   MasterEquation::set:  starts
+      Temperature      = 1e+03 K
+      Collision rate   = 5.3e-10cm^3/sec
+      Energy reference = 2.3e+04 1/cm
+      Energy step      = 1.4e+02 1/cm
+      setting wells, barriers, and bimolecular starts
+         W1 Well: density of states done, elapsed time[sec] = 0
+         W1 Well: cannot satisfy the constant collision frequency at energy = 5e+02 1/cm, truncating the well
+         W1 Well: cannot satisfy the constant collision frequency at energy = 6.4e+02 1/cm, truncating the well
+         W1 Well: collisional energy transfer kernel done, elapsed time[sec] = 0.05
+         W1 Well: relaxation modes basis done, elapsed time[sec] = 0.02
+         W1 Well: kernel in relaxation modes basis done, elapsed time[sec] = 0.09
+         W1 Well: relaxation eigenvalues done, elapsed time[sec] = 0.05
+         W1 Well: minimal relaxation eigenvalue = 0.014
+         W1 Well: maximal relaxation eigenvalue = 1
+         W1 Well:       grid size = 158
+         W1 Well:      real depth = -139 1/cm
+         W1 Well: effective depth = 638 1/cm
+         B1 Barrier:        grid size = 163
+         B1 Barrier:      real height = 0 1/cm
+         B1 Barrier: effective height = -57 1/cm
+         B2 Barrier:        grid size = 163
+         B2 Barrier:      real height = 0 1/cm
+         B2 Barrier: effective height = -57 1/cm
+      setting wells, barriers, and bimolecular done, cpu time[sec] = 0.21, elapsed time[sec] = 0
+      B1 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 158
+      MasterEquation::Barrier::truncate: real weight = 1.2e+22
+      MasterEquation::Barrier::truncate: effective weight = 7.6e+18
+      B2 barrier top is lower than the bottom of the well it connects => truncating
+      MasterEquation::Barrier::truncate: grid size = 158
+      MasterEquation::Barrier::truncate: real weight = 1.8e+21
+      MasterEquation::Barrier::truncate: effective weight = 1.1e+18
+      Bound Species (D1/D2 - density of states at dissociation energy (DE)/reference energy):
+       Name  Depth     DE      *D1      *D2
+              1/cm   1/cm       cm       cm
+         W1    639    639 2.19e+07 1.15e+17
+      Well-to-Bimolecular Barriers (N - number of states at the reference energy):
+       Name Height       *N
+              1/cm         
+         B1    639  7.6e+14
+         B2    639 6.82e+15
+      Effective equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.76e-16  1.82e-19
+         P1  5.68e+15         1   0.00103
+         P2   5.5e+18       968         1
+      Real equilibrium constants(bimolecular units - cm^3):
+        Q/Q        W1        P1        P2
+         W1         1  1.14e-19  1.18e-22
+         P1  8.75e+18         1   0.00103
+         P2  8.47e+21       968         1
+   MasterEquation::set:  done, cpu time[sec] = 0.21, elapsed time[sec] = 0
+   MasterEquation::direct_diagonalization_method:  starts
+      Pressure = 0.01 bar	 Temperature = 1000 K
+      collision frequency = 3.82684e+07 1/sec
+      global relaxation matrix dimension = 158
+      setting global matrices ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
+      diagonalizing global relaxation matrix ... done, cpu time[sec] = 0.16, elapsed time[sec] = 0
+      minimal relaxation eigenvalue / collision frequency = 36.8378
+      maximal relaxation eigenvalue / collision frequency = 301.096
+      microscopic rate coefficients (at reference energy) over collision frequency:
+             W1->P1       W1->P2
+            5.19585      46.6058
+      eigenvector populations normalized:
+          L        *R        *P        W1
+          0     0.993     0.925         1
+         *R - eigenvalue over the relaxation limit
+         *P - eigenvector projection squared on the relaxation subspace
+      eigenvector projections:
+          L        *Q        *P        W1
+          0      36.6     0.925     0.273
+         *Z       ---       ---  4.51e+14
+         *Q - eigenvalue over the collision frequency
+         *P - eigenvector projection squared on the relaxation subspace
+         *Z - well partition function square root
+      dimension of the chemical subspace = 0
+      isomers-to-bimolecular equilibrium coefficients (kappa matrix):
+        W\P       P1       P2
+         W1     0.82     0.18
+   MasterEquation::direct_diagonalization_method:  done, cpu time[sec] = 0.2, elapsed time[sec] = 0
+rate calculation done, cpu time[sec] = 2.1e+02, elapsed time[sec] = 35

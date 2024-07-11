@@ -1,0 +1,90 @@
+TemperatureList[K]                       1500
+PressureList[atm]                        100   
+EnergyStep[1/cm]					  	 5
+ExcessEnergyOverTemperature				 40
+ModelEnergyLimit[kcal/mol]				 500
+CalculationMethod						 direct
+EigenvectorOutput						 evec.out
+EigenvalueOutput						 eval.out
+MicroRateOutput                          rate.out
+MicroEnerMax[kcal/mol]					 450.
+MicroEnerMin[kcal/mol]					 -50.
+MicroEnerStep[kcal/mol] 				 0.0143
+
+Model
+EnergyRelaxation
+    Exponential
+      Factor[1/cm]    			100
+      Power				        0.85
+      ExponentCutoff			15
+    End
+  CollisionFrequency
+    LennardJones
+
+        Epsilons[1/cm]                  64.85  254.08  ! Ar, HO2
+        Sigmas[angstrom]                3.542  3.433   ! Ar, HO2
+        Masses[amu]                     39.944 33.006   ! Ar, HO2, ref: NIST
+    End
+	
+  Well     W1	# H2O2
+    Species
+    RRHO 
+	  Mass[amu]            34.0
+      Core                 RigidRotor
+        SymmetryFactor                          2
+		 RotationalConstants[1/cm]	 3.95882249	0.980161587	0.78564451
+      End
+      Frequencies[1/cm]			5
+	3791.75   3747.03   1403.2   1297.86   813.18	
+      ZeroEnergy[1/cm]			-19181
+      ElectronicLevels[1/cm]			1
+	0	3
+    End
+  End
+  
+  
+  Bimolecular		P1	# H + HO2
+    Fragment	HO2
+      RRHO
+	Geometry[angstrom]	3
+ O          0.00000      0.117628E-01  0.697673    
+ O          0.00000     -0.657491E-01 -0.639496    
+ H          0.00000      0.863780     -0.930845    
+	Core	RigidRotor
+	  SymmetryFactor	1
+	End
+	Frequencies[1/cm]	3
+	1108	1426	3641
+ 	ZeroEnergy[1/cm]			0
+ 	ElectronicLevels[1/cm]			1
+		0	2
+      End             
+  Fragment    H
+    Atom
+      Mass[amu]    1
+      ElectronicLevels[1/cm]          1
+                0       2
+    End
+    GroundEnergy[1/cm]			0
+  End
+  
+  
+     Barrier     B1   W1   P1    # H + HO2 = H2O2
+       RRHO
+	   Mass[amu]           34
+	    Core      Rotd
+        File                            ne.dat
+        SymmetryFactor                          1
+       End
+          Frequencies[1/cm]         5
+	332	706	1172	1387	1649
+	    Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    1880
+         WellDepth[1/cm]             597
+         WellDepth[1/cm]             19778.
+        End
+          ZeroEnergy[1/cm]           597.
+          ElectronicLevels[1/cm]         1
+               0    3
+        End
+End

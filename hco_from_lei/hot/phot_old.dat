@@ -1,0 +1,8 @@
+  460,1
+  neped,ips
+  -16.67, 0.5625
+  epshft,frac1 ! CD3OH + OH = CD2OH+OH
+  32, -14.61, 2
+  nhot,ehotshft,nhot
+  10.0, 60., 0.1
+ emin,emax,estp

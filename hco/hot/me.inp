@@ -1,0 +1,212 @@
+TemperatureList[K]                     800.
+!TemperatureList[K]                     500. 800. 1000. 1250. 1500. 1750. 2000.
+!TemperatureList[K]                     500. 700. 750. 1000. 1250. 1500. 1750. 2000.
+!PressureList[torr]                      30.
+!PressureList[atm]                      1. 
+PressureList[atm]                      10. 
+EnergyStepOverTemperature             0.1          #Ratio of discretization energy step to T 
+ExcessEnergyOverTemperature           30
+ModelEnergyLimit[kcal/mol]	      400     
+WellCutoff                            10
+ChemicalEigenvalueMax                 0.5
+ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                     direct
+!RateOutput                            me.out
+!LogOutput                             me.log
+EigenvalueOutput			            eigenvalue.out
+!EigenvectorOutput			            eigenvector_test.out
+!EigenvectorNumber                    0
+!ReductionNumber                      5
+!Reactant          #ground energy of bimolecular species will be used as a reference.
+MicroRateOutput    			ke.out
+MicroEnerMin[kcal/mol]  		-14.
+MicroEnerMax[kcal/mol]  		 60.
+MicroEnerStep[kcal/mol]  		  0.5
+HotEnergies[kcal/mol]  110
+        W1      -15.
+        W1      -14.5
+        W1      -14.
+        W1      -13.5
+        W1      -13.
+        W1      -12.5
+        W1      -12.
+        W1      -11.5
+        W1      -11.
+        W1      -10.5
+        W1      -10.
+        W1      -9.5
+        W1      -9.
+        W1      -8.5
+        W1      -8.
+        W1      -7.5
+        W1      -7.
+        W1      -6.5
+        W1      -6.
+        W1      -5.5
+        W1      -5.
+        W1      -4.5
+        W1      -4.
+        W1      -3.5
+        W1      -3.
+        W1     -2.5
+        W1     -2.
+        W1     -1.5
+        W1     -1.
+        W1     -0.5
+        W1      0.
+        W1      0.5
+        W1      1.
+        W1      1.5
+        W1      2.
+        W1      2.5
+        W1      3.
+        W1      3.5
+        W1      4.
+        W1      4.5
+        W1      5.
+        W1      5.5
+        W1      6.
+        W1      6.5
+        W1      7.
+        W1      7.5
+        W1      8.
+        W1      8.5
+        W1      9.
+        W1      9.5
+        W1     10.
+        W1     10.5
+        W1     11.
+        W1     11.5
+        W1     12.
+        W1     12.5
+        W1     13.
+        W1     13.5
+        W1     14.
+        W1     14.5
+        W1     15.
+        W1     15.5
+        W1     16.
+        W1     16.5
+        W1     17.
+        W1     17.5
+        W1     18.
+        W1     18.5
+        W1     19.
+        W1     19.5
+        W1     20.
+        W1     20.5
+        W1     21.
+        W1     21.5
+        W1     22.
+        W1     22.5
+        W1     23.
+        W1     23.5
+        W1     24.
+        W1     24.5
+        W1     25.
+        W1     25.5
+        W1     26.
+        W1     26.5
+        W1     27.
+        W1     27.5
+        W1     28.
+        W1     28.5
+        W1     29.
+        W1     29.5
+        W1     30.
+        W1     30.5
+        W1     31.
+        W1     31.5
+        W1     32.
+        W1     32.5
+        W1     33.
+        W1     33.5
+        W1     34.
+        W1     34.5
+        W1     35.
+        W1     35.5
+        W1     36.
+        W1     36.5
+        W1     37.
+        W1     37.5
+        W1     38.
+        W1     38.5
+        W1     39.
+        W1     39.5
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                     63
+!     Factor[1/cm]                     75
+     Power			      0.85
+     ExponentCutoff		      15
+   End
+  CollisionFrequency
+    LennardJones                                    !HO2, N2
+       Epsilons[1/cm]                    80.      57.          
+       Sigmas[angstrom]                  3.4      3.74
+       Masses[amu]                       29       28
+    End
+
+  Well       W1  # HCO
+  Species
+    RRHO
+    Geometry[angstrom]    3        ! cc/qz
+ C          0.0000000000       -0.1016640902       -0.6203070626
+ O          0.0000000000        0.0293570302        0.5508742746
+ H          0.0000000000        0.7454734580       -1.3524115921
+    Core   RigidRotor
+      SymmetryFactor            1.0  ! fudged to make rates agree with expt
+    End
+    Frequencies[1/cm]         3     cc/qz
+	1118.66     1894.49     2700.38
+    ZeroEnergy[kcal/mol]        -14.61
+    End
+  End
+
+  Bimolecular      P0    # CO + H
+    Fragment     CO
+      RRHO
+        Geometry[angstrom]     2
+ C          0.0000000000        0.0000000000       -0.6462644189
+ O          0.0000000000        0.0000000000        0.4851608145
+        Core     RigidRotor
+        SymmetryFactor       1
+        End
+        Frequencies[1/cm]      1   
+	2163.55
+        ZeroEnergy[kcal/mol]           0
+        ElectronicLevels[1/cm]        1
+             0   1
+      End
+    Fragment    H
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+      GroundEnergy[kcal/mol]             0.0
+    End
+   
+   Barrier      B1   W1   P0    # TS1, HCO = CO + H
+     RRHO
+       Geometry[angstrom]     3  ! ts
+ C          0.0000000000       -0.2108377387       -0.5615139601
+ O          0.0000000000        0.0842232835        0.5355114852
+ H          0.0000000000        1.1755164757       -1.8091536016
+       Core      RigidRotor
+         SymmetryFactor          3
+       End
+       Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    790.75
+         WellDepth[kcal/mol]         3.96
+         WellDepth[kcal/mol]         18.57
+       End
+       Frequencies[1/cm]     2
+       381.04     2111.61
+        ZeroEnergy[kcal/mol]     3.96
+       ElectronicLevels[1/cm]         1
+            0    2
+   End
+End
+     

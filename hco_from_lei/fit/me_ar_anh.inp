@@ -1,0 +1,100 @@
+TemperatureList[K]                     835 900 1000 1100 1200 637 667 701 737 780 298 425	
+PressureList[atm]                      0.3 0.00619 0.00653 0.00686 0.00719 0.00760 0.06842 0.13289 0.26711 0.53158 0.77763 1 0.00403 0.00417 0.00417 0.00421 0.00424 0.00424 0.00456
+EnergyStepOverTemperature             0.1          #Ratio of discretization energy step to T 
+ExcessEnergyOverTemperature           30
+ModelEnergyLimit[kcal/mol]	      400     
+WellCutoff                            10
+ChemicalEigenvalueMax                 0.2
+ChemicalEigenvalueMin                 1.e-6          #only for direct diagonalization method
+CalculationMethod                     direct
+!RateOutput                            me.out
+!LogOutput                             me.log
+EigenvalueOutput			            eigenvalue.out
+MicroRateOutput				microrate.out
+MicroEnerMax[kcal/mol]			10.
+MicroEnerMin[kcal/mol] 			-20.
+MicroEnerStep[kcal/mol]  		1.
+
+Model
+ EnergyRelaxation
+   Exponential
+     Factor[1/cm]                     40
+     Power			      0.8
+     ExponentCutoff		      15
+   End
+  CollisionFrequency
+    LennardJones                                    
+       Epsilons[1/cm]                    518.      89.
+       Sigmas[angstrom]                  3.394     3.462
+       Masses[amu]                       29        39.95
+    End
+
+  Well       W1  # HCO
+  Species
+    RRHO
+    Geometry[angstrom]    3        ! cc/qz
+ C          0.0000000000       -0.1016640902       -0.6203070626
+ O          0.0000000000        0.0293570302        0.5508742746
+ H          0.0000000000        0.7454734580       -1.3524115921
+    Core   RigidRotor
+      SymmetryFactor            1.0  
+    End
+    Frequencies[1/cm]         3     ! cc/cbs;anh
+	2470 1874 1079
+!	1118.66     1894.49     2700.38 ! cc/qz
+        ElectronicLevels[1/cm]          1
+                0       2
+    ZeroEnergy[kcal/mol]        -14.60
+    End
+  End
+
+  Bimolecular      P0    # CO + H
+    Fragment     CO
+      RRHO
+        Geometry[angstrom]     2
+ C          0.0000000000        0.0000000000       -0.6462644189
+ O          0.0000000000        0.0000000000        0.4851608145
+        Core     RigidRotor
+        SymmetryFactor       1
+        End
+        Frequencies[1/cm]      1   
+	2145
+!	2163.55
+        ZeroEnergy[kcal/mol]           0
+        ElectronicLevels[1/cm]        1
+             0   1
+      End
+    Fragment    H
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End
+      GroundEnergy[kcal/mol]             0.0
+    End
+   
+   Barrier      B1   W1   P0    # TS1, HCO = CO + H
+     RRHO
+       Geometry[angstrom]     3  ! ts
+ C          0.0000000000       -0.2108377387       -0.5615139601
+ O          0.0000000000        0.0842232835        0.5355114852
+ H          0.0000000000        1.1755164757       -1.8091536016
+       Core      RigidRotor
+         SymmetryFactor          2
+       End
+       Tunneling      Eckart
+         ImaginaryFrequency[1/cm]    550.
+!         ImaginaryFrequency[1/cm]    790.75
+         WellDepth[kcal/mol]         3.54
+         WellDepth[kcal/mol]         18.14
+       End
+       Frequencies[1/cm]     2
+	2084.  338.
+!       381.04     2111.61 ! cc/qz
+!        ZeroEnergy[kcal/mol]     3.64
+        ZeroEnergy[kcal/mol]     3.54
+       ElectronicLevels[1/cm]         1
+            0    2
+   End
+End
+     
