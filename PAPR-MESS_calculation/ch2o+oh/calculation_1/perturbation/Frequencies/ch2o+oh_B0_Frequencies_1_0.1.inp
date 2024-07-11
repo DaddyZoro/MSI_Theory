@@ -1,0 +1,163 @@
+TemperatureList[K] 				 200   210   220   230   240   250   260   270   280   290   300   310   320   330   340   350   360   370   380   390   400   410   420   430   440   450   460   470   480   490   500   510   520   530   540   550   560   570   580   590   600   610   620   630   640   650   660   670   680   690   700   800   900   1000   1100   1200   1300   1400   1500   1600   1700   1800   1900   2000   2100   2200   2300   2400   2500   2600   2700   2800   2900   3000
+PressureList[atm] 				 0.1   1   2   3   4
+EnergyStepOverTemperature 				 0.3
+ExcessEnergyOverTemperature 				 30.0
+ModelEnergyLimit[kcal/mol] 				 400
+WellCutoff 				 10.0
+ChemicalEigenvalueMax 				 0.2
+ChemicalEigenvalueMin 				 1e-06
+CalculationMethod 				   direct  
+EigenvalueOutput 				   eigenvalue.out  
+PEDOutput 				   ped.out  
+PEDSpecies 				   P0_P1  
+
+Model 				     
+EnergyRelaxation 				     
+Exponential 				     
+Factor[1/cm] 				 100
+Power 				 0.76
+ExponentCutoff 				 15.0
+End 				     
+CollisionFrequency 				     
+LennardJones 				     
+Epsilons[1/cm] 				 188.0   57.0
+Sigmas[angstrom] 				 4.78   3.74
+Masses[amu] 				 47.0   28.0
+End 				     
+
+Well 				   W0  
+Species 				     
+RRHO 				     
+Geometry[angstrom] 				 6
+C 				 -0.538137376     0.0     -1.2673601373
+O 				 0.6070026029     0.0     -0.8624549586
+H 				 -1.3909336748     0.0     -0.5721867744
+H 				 -0.7621248409     0.0     -2.3444806504
+H 				 0.3978296041     0.0     1.0835134833
+O 				 -0.092437466     0.0     1.929368205
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 12
+109.0    197.0    205.0    453.0    579.0    1205.0    1279.0    1537.0    1762.0    2963.0    3047.0    3635.0    
+ZeroEnergy[kcal/mol] 				 -6.
+End 				     
+End 				     
+
+Bimolecular 				   P0  
+Fragment 				   CH2O  
+RRHO 				     
+Geometry[angstrom] 				 4
+C 				 0.0     0.0     -0.6053837058
+O 				 0.0     0.0     0.6042162041
+H 				 0.0     0.9366280208     -1.1884799916
+H 				 0.0     -0.9366280208     -1.1884799916
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+End 				     
+Frequencies[1/cm] 				 6
+1192.0    1275.0    1543.0    1780.0    2929.0    2995.0    
+ZeroEnergy[kcal/mol] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+Fragment 				   OH  
+RRHO 				     
+Geometry[angstrom] 				 2
+O 				 0.0     0.0     -0.000456977
+H 				 0.0     0.0     0.970674051
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 1
+3743.7    
+ZeroEnergy[kcal/mol] 				 0.0
+ElectronicLevels[1/cm] 				 2
+0.0    2.0    
+140.0    2.0    
+End 				     
+GroundEnergy[kcal/mol] 				 0.0
+End 				     
+
+Bimolecular 				   P1  
+Fragment 				   CHO  
+RRHO 				     
+Geometry[angstrom] 				 3
+C 				 0.0     -0.1017851395     -0.6226017774
+O 				 0.0     0.0293082274     0.5526894063
+H 				 0.0     0.7476905944     -1.3538791388
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Frequencies[1/cm] 				 3
+1122.86    1887.71    2690.83    
+ZeroEnergy[kcal/mol] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+Fragment 				   H2O  
+RRHO 				     
+Geometry[angstrom] 				 3
+O 				 0.0     0.0     -0.0664055297
+H 				 0.0     0.7539116192     0.527039621
+H 				 0.0     -0.7539116192     0.527039621
+Core 				   RigidRotor  
+SymmetryFactor 				 2.0
+End 				     
+Frequencies[1/cm] 				 3
+1668.03    3840.55    3945.14    
+ZeroEnergy[kcal/mol] 				 0
+ElectronicLevels[1/cm] 				 1
+0.0    1.0    
+End 				     
+GroundEnergy[kcal/mol] 				 -31.15
+End 				     
+
+Barrier 				   B0       W0       P0  
+RRHO 				     
+Stoichiometry 				   C1O2H3  
+Core 				   PhaseSpaceTheory  
+FragmentGeometry[angstrom] 				 4
+C 				 0.0     0.0     -0.6053837058
+O 				 0.0     0.0     0.6042162041
+H 				 0.0     0.9366280208     -1.1884799916
+H 				 0.0     -0.9366280208     -1.1884799916
+FragmentGeometry[angstrom] 				 2
+O 				 0.0     0.0     -0.000456977
+H 				 0.0     0.0     0.970674051
+SymmetryFactor 				 2.0
+PotentialPrefactor[au] 				 1.0
+PotentialPowerExponent 				 6.0
+End 				     
+Frequencies[1/cm] 				 7
+1311.2    1402.5    1697.3    1958.0    3221.9    3294.5    4118.4    
+ZeroEnergy[kcal/mol] 				 0.0
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+
+Barrier 				   B1       W0       P1  
+RRHO 				     
+Geometry[angstrom] 				 6
+C 				 -0.5380343538     0.0     -0.6928462532
+O 				 0.4089706576     0.0     -1.4318201782
+H 				 -0.4205985622     0.0     0.4527032017
+H 				 -1.584423624     0.0     -1.0492003251
+O 				 0.0583991309     0.0     1.8864696684
+H 				 0.9977146368     0.0     1.6359015469
+Core 				   RigidRotor  
+SymmetryFactor 				 1.0
+End 				     
+Tunneling 				   Eckart  
+ImaginaryFrequency[1/cm] 				 494
+WellDepth[kcal/mol] 				 3.17
+WellDepth[kcal/mol] 				  30.41
+End 				     
+Frequencies[1/cm] 				 11
+84.0    92.0    183.0    709.0    1149.0    1241.0    1500.0    1717.0    1818.0    2942.0    3734.0    
+ZeroEnergy[kcal/mol] 				 -0.74
+ElectronicLevels[1/cm] 				 1
+0.0    2.0    
+End 				     
+End 				     
+

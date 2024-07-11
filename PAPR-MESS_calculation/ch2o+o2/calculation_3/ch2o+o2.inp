@@ -1,0 +1,106 @@
+!TemperatureList[K]                      1000.
+TemperatureList[K]                   100. 150.  200.   250.  300.  400. 500. 700. 800. 900. 1000. 1200. 1400.  1600. 1800.  2000. 2500.
+ModelEnergyLimit[kcal/mol]              400
+  Bimolecular           P1                      # CH2O+O2=CHO+HO2
+    Fragment     CH2O
+      RRHO
+        Geometry[angstrom]   4
+ C                  0.00000000    0.00000000    0.61227800
+ O                 -0.00000000   -0.00000000   -0.61032200
+ H                  0.94920000   -0.00000000    1.19798000
+ H                 -0.94920000   -0.00000000    1.19798000
+        Core    RigidRotor
+          SymmetryFactor        2.
+        End
+        Frequencies[1/cm]       6
+         3007.9   2932.3   1736.6   1515.0   1244.9   1166.1
+        ZeroEnergy[1/cm]                        0
+        ElectronicLevels[1/cm]                  1
+                0       1
+     End
+   Fragment    O2
+      RRHO
+        Geometry[angstrom]    2
+ O                  0.00000000    0.00000000    0.61020000
+ O                  0.00000000    0.00000000   -0.61020000
+        Core    RigidRotor
+          SymmetryFactor        2.
+        End
+        Frequencies[1/cm]       1
+          1566.6
+        ZeroEnergy[1/cm]                        0
+        ElectronicLevels[1/cm]                  1
+                0       3
+     End
+   GroundEnergy[kcal/mol]                      0.0
+  End
+  Bimolecular           P2                      #CHO+HO2
+     Fragment   CHO
+      RRHO
+        Geometry[angstrom]    3
+ O                  0.02975130    0.00000000    0.55792100
+ C                 -0.10341500    0.00000000   -0.62885100
+ H                  0.75916800    0.00000000   -1.36698000
+    Core    RigidRotor
+          SymmetryFactor        1
+        End
+        Frequencies[1/cm]       3
+                      2677.3   1843.3   1096.5
+   	    ZeroEnergy[1/cm]                        0
+        ElectronicLevels[1/cm]                  1
+                0       1
+     End
+	 Fragment   HO2
+      RRHO
+        Geometry[angstrom]    3
+ O                  0.06650000    0.00000000    0.64370000
+ O                 -0.01180000    0.00000000   -0.70250000
+ H                 -0.86860000    0.00000000    0.93310000
+       Core    RigidRotor
+          SymmetryFactor        1
+        End
+        Frequencies[1/cm]       3
+                     3619.5   1425.2   1077.5
+        ZeroEnergy[1/cm]                        0
+        ElectronicLevels[1/cm]                  1
+                0       2
+     End
+    GroundEnergy[1/cm]                   13000   !-14.36
+  End
+  Barrier     B1   P1   P2                      # CH2O+O2=CHO+HO2 There is one product complex thus p2 is dummy actually
+     RRHO
+        Geometry[angstrom]      6
+ H                 -0.00000000    0.55385437   -0.14869017
+ O                  0.00000000    0.68486365   -1.29205873
+ O                  0.00000000   -0.54384402   -1.74542808
+ C                 -0.00000000   -0.23481049    1.06016488
+ O                  0.00000000    0.08157957    2.21061658
+ H                 -0.00000000   -1.29081458    0.64852137
+       Core    RigidRotor
+          SymmetryFactor        1
+        End
+       Rotor     Hindered     #   
+       Group                  5 6
+       Axis                   1 4 
+       Symmetry               1
+       FourierExpansion[1/cm]    3
+		2  -314.0875
+		4  -408.25
+		6   101.7875	
+       End  
+        Frequencies[1/cm]       10
+   2706.4   1844.7   1648.9  
+   1209.9   1106.8   1029.9
+    595.8    425.3    300.4 
+    91.1   
+!   55.9  torsion
+        ZeroEnergy[1/cm]                      13201.
+        ElectronicLevels[1/cm]                  1
+                0       3
+        Tunneling         Eckart
+           ImaginaryFrequency[1/cm]        2100.
+           WellDepth[1/cm]                 1018. 
+           WellDepth[1/cm]               13203. 
+  End
+End
+
